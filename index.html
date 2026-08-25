@@ -184,6 +184,21 @@
     gap: 0.35rem;
   }
 
+  .match-meta a {
+    color: var(--navy-soft);
+    text-decoration: underline;
+    text-decoration-color: var(--border);
+  }
+
+  .match-meta a:hover {
+    color: var(--red);
+    text-decoration-color: var(--red);
+  }
+
+  .team a {
+    line-height: 0;
+  }
+
   footer {
     margin-top: 1.5rem;
     color: var(--navy-soft);
@@ -251,12 +266,26 @@ fetch(DATA_URL)
         ? `<a class="match-score" href="https://www.fcf.cat/ca/competicio/acta/${encodeURIComponent(m.CODACTA)}" target="_blank" rel="noopener">${m.PARTIDO_GOLES_CASA} - ${m.PARTIDO_GOLES_VISITANTE}</a>`
         : `<span class="badge-pending">Programado</span>`;
 
+      const equipoUrl = (codigoClub, codEquipo) =>
+        (codigoClub && codEquipo)
+          ? `https://www.fcf.cat/ca/clubs/${encodeURIComponent(codigoClub)}/categories/${encodeURIComponent(codEquipo)}`
+          : null;
+      const casaUrl = equipoUrl(m.CODIGO_CLUB, m.CODEQUIPO_CASA);
+      const fueraUrl = equipoUrl(m.CODIGO_CLUB_FUERA, m.CODEQUIPO_FUERA);
+      const crest = (src, url) => {
+        const img = `<img src="${crestUrl(src)}" alt="" loading="lazy">`;
+        return url ? `<a href="${url}" target="_blank" rel="noopener">${img}</a>` : img;
+      };
+      const mapsUrl = m.campo
+        ? `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(m.campo)}`
+        : null;
+
       const card = document.createElement('article');
       card.className = 'match-card';
       card.innerHTML = `
         <div class="match-teams">
           <div class="team">
-            <img src="${crestUrl(m.ESCUDO_CASA)}" alt="" loading="lazy">
+            ${crest(m.ESCUDO_CASA, casaUrl)}
             <span class="team-name">${m.NOMEQUIPO_CASA ?? ''}</span>
           </div>
           <div class="center-info">
@@ -264,12 +293,12 @@ fetch(DATA_URL)
             ${centro}
           </div>
           <div class="team">
-            <img src="${crestUrl(m.ESCUDO_FUERA)}" alt="" loading="lazy">
+            ${crest(m.ESCUDO_FUERA, fueraUrl)}
             <span class="team-name">${m.NOMEQUIPO_FUERA ?? ''}</span>
           </div>
         </div>
         <div class="match-meta">
-          <span>📍 ${m.campo ?? 'Campo por confirmar'}</span>
+          <span>📍 ${mapsUrl ? `<a href="${mapsUrl}" target="_blank" rel="noopener">${m.campo}</a>` : 'Campo por confirmar'}</span>
           <span>🏷️ ${m.categoria ?? ''}</span>
           ${m.arbitro ? `<span>👤 ${m.arbitro}</span>` : ''}
         </div>
