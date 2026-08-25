@@ -57,7 +57,7 @@ fetch(DATA_URL)
     for (const m of matches) {
       const jugado = !!m.CODACTA;
       const resultado = jugado
-        ? `${m.PARTIDO_GOLES_CASA} - ${m.PARTIDO_GOLES_VISITANTE}`
+        ? `<a href="https://www.fcf.cat/ca/competicio/acta/${encodeURIComponent(m.CODACTA)}" target="_blank" rel="noopener">${m.PARTIDO_GOLES_CASA} - ${m.PARTIDO_GOLES_VISITANTE}</a>`
         : 'Programado';
       const tr = document.createElement('tr');
       tr.innerHTML = `
