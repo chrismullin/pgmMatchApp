@@ -6,14 +6,12 @@
 <title>Amistosos equipo</title>
 <style>
   :root {
-    --bg: #f4f6f8;
+    --bg: #f2f4f7;
     --card-bg: #ffffff;
-    --text: #1a1f26;
-    --muted: #667085;
+    --navy: #10203f;
+    --navy-soft: #47547a;
+    --red: #c81e2c;
     --border: #e4e7ec;
-    --primary: #1e6f4c;
-    --primary-dark: #145238;
-    --accent: #0b5fff;
     --pending-bg: #fef6e7;
     --pending-text: #a15c00;
   }
@@ -23,13 +21,13 @@
   body {
     font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
     background: var(--bg);
-    color: var(--text);
+    color: var(--navy);
     margin: 0;
     padding: 0 1rem 3rem;
   }
 
   .page {
-    max-width: 780px;
+    max-width: 720px;
     margin: 0 auto;
   }
 
@@ -39,11 +37,13 @@
 
   h1 {
     font-size: 1.5rem;
+    letter-spacing: 0.01em;
     margin: 0 0 0.25rem;
+    color: var(--navy);
   }
 
   .subtitle {
-    color: var(--muted);
+    color: var(--navy-soft);
     margin: 0 0 1.25rem;
     font-size: 0.95rem;
   }
@@ -62,108 +62,131 @@
     border-radius: 999px;
     border: 1px solid var(--border);
     background: var(--card-bg);
-    color: var(--text);
+    color: var(--navy);
     text-decoration: none;
     font-size: 0.85rem;
-    font-weight: 500;
+    font-weight: 600;
     transition: border-color 0.15s ease, color 0.15s ease;
   }
 
   .links a:hover {
-    border-color: var(--accent);
-    color: var(--accent);
+    border-color: var(--red);
+    color: var(--red);
   }
 
   #status {
-    color: var(--muted);
+    color: var(--navy-soft);
     font-size: 0.85rem;
     margin: 0 0 1rem;
     white-space: pre-wrap;
   }
 
   #status.error {
-    color: #b00020;
+    color: var(--red);
     font-weight: 600;
   }
 
-  .card {
+  #matches {
+    display: flex;
+    flex-direction: column;
+    gap: 0.9rem;
+  }
+
+  .match-card {
     background: var(--card-bg);
     border: 1px solid var(--border);
-    border-radius: 12px;
-    overflow: hidden;
+    border-radius: 14px;
     box-shadow: 0 1px 2px rgba(16, 24, 40, 0.04);
-  }
-
-  table {
-    width: 100%;
-    border-collapse: collapse;
-    font-size: 0.9rem;
-  }
-
-  thead th {
-    text-align: left;
-    padding: 0.75rem 1rem;
-    background: #fafbfc;
-    color: var(--muted);
-    font-weight: 600;
-    font-size: 0.75rem;
-    text-transform: uppercase;
-    letter-spacing: 0.03em;
-    border-bottom: 1px solid var(--border);
-  }
-
-  tbody td {
-    padding: 0.8rem 1rem;
-    border-bottom: 1px solid var(--border);
-    vertical-align: middle;
-  }
-
-  tbody tr:last-child td {
-    border-bottom: none;
-  }
-
-  tbody tr:hover {
-    background: #fafbfc;
+    padding: 1.1rem 1.2rem 0.9rem;
   }
 
   .match-teams {
-    font-weight: 500;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    gap: 0.75rem;
   }
 
-  .match-category {
-    display: block;
-    color: var(--muted);
-    font-size: 0.75rem;
-    margin-top: 0.15rem;
+  .team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.4rem;
+    text-align: center;
+    min-width: 0;
   }
 
-  .result-link {
-    display: inline-flex;
+  .team img {
+    width: 48px;
+    height: 48px;
+    object-fit: contain;
+  }
+
+  .team-name {
+    font-weight: 700;
+    font-size: 0.85rem;
+    line-height: 1.15;
+  }
+
+  .center-info {
+    display: flex;
+    flex-direction: column;
     align-items: center;
     gap: 0.3rem;
-    color: var(--primary);
-    font-weight: 700;
+    min-width: 92px;
+  }
+
+  .match-date {
+    font-size: 0.75rem;
+    color: var(--navy-soft);
+    font-weight: 600;
+  }
+
+  .match-score {
+    font-size: 1.4rem;
+    font-weight: 800;
+    color: var(--red);
+  }
+
+  a.match-score {
     text-decoration: none;
   }
 
-  .result-link:hover {
-    color: var(--primary-dark);
+  a.match-score:hover {
     text-decoration: underline;
   }
 
   .badge-pending {
     display: inline-block;
-    padding: 0.2rem 0.6rem;
+    padding: 0.25rem 0.7rem;
     border-radius: 999px;
     background: var(--pending-bg);
     color: var(--pending-text);
-    font-size: 0.75rem;
-    font-weight: 600;
+    font-size: 0.72rem;
+    font-weight: 700;
+    white-space: nowrap;
+  }
+
+  .match-meta {
+    margin-top: 0.9rem;
+    padding-top: 0.7rem;
+    border-top: 1px solid var(--border);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem 1.2rem;
+    font-size: 0.78rem;
+    color: var(--navy-soft);
+  }
+
+  .match-meta span {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
   }
 
   footer {
     margin-top: 1.5rem;
-    color: var(--muted);
+    color: var(--navy-soft);
     font-size: 0.78rem;
     text-align: center;
   }
@@ -182,14 +205,7 @@
 
   <div id="status">Cargando datos…</div>
 
-  <div class="card">
-    <table id="matches" hidden>
-      <thead>
-        <tr><th>Fecha</th><th>Hora</th><th>Partido</th><th>Campo</th><th>Resultado</th></tr>
-      </thead>
-      <tbody></tbody>
-    </table>
-  </div>
+  <div id="matches"></div>
 
   <footer>Datos: Federació Catalana de Futbol (fcf.cat)</footer>
 </div>
@@ -200,14 +216,18 @@
 // envía cabeceras CORS y bloquea el fetch directo desde GitHub Pages.
 const DATA_URL = 'data/amistosos.json';
 const TEAM_CODE = '54304670';
+const CREST_BASE = 'https://files.fcf.cat/escudos/clubes/escudos/';
 
 const statusEl = document.getElementById('status');
-const tableEl = document.getElementById('matches');
-const tbodyEl = tableEl.querySelector('tbody');
+const matchesEl = document.getElementById('matches');
 
 function setError(message) {
   statusEl.textContent = message;
   statusEl.classList.add('error');
+}
+
+function crestUrl(filename) {
+  return filename ? CREST_BASE + encodeURIComponent(filename) : '';
 }
 
 fetch(DATA_URL)
@@ -227,23 +247,35 @@ fetch(DATA_URL)
 
     for (const m of matches) {
       const jugado = !!m.CODACTA;
-      const resultado = jugado
-        ? `<a class="result-link" href="https://www.fcf.cat/ca/competicio/acta/${encodeURIComponent(m.CODACTA)}" target="_blank" rel="noopener">${m.PARTIDO_GOLES_CASA} - ${m.PARTIDO_GOLES_VISITANTE}</a>`
+      const centro = jugado
+        ? `<a class="match-score" href="https://www.fcf.cat/ca/competicio/acta/${encodeURIComponent(m.CODACTA)}" target="_blank" rel="noopener">${m.PARTIDO_GOLES_CASA} - ${m.PARTIDO_GOLES_VISITANTE}</a>`
         : `<span class="badge-pending">Programado</span>`;
-      const tr = document.createElement('tr');
-      tr.innerHTML = `
-        <td>${m.FECHA_FORMATTED ?? ''}</td>
-        <td>${m.HORA_COMIENZO ?? ''}</td>
-        <td>
-          <span class="match-teams">${m.NOMEQUIPO_CASA ?? ''} vs ${m.NOMEQUIPO_FUERA ?? ''}</span>
-          <span class="match-category">${m.categoria ?? ''}</span>
-        </td>
-        <td>${m.campo ?? ''}</td>
-        <td>${resultado}</td>
+
+      const card = document.createElement('article');
+      card.className = 'match-card';
+      card.innerHTML = `
+        <div class="match-teams">
+          <div class="team">
+            <img src="${crestUrl(m.ESCUDO_CASA)}" alt="" loading="lazy">
+            <span class="team-name">${m.NOMEQUIPO_CASA ?? ''}</span>
+          </div>
+          <div class="center-info">
+            <span class="match-date">${m.FECHA_FORMATTED ?? ''} · ${m.HORA_COMIENZO ?? ''}</span>
+            ${centro}
+          </div>
+          <div class="team">
+            <img src="${crestUrl(m.ESCUDO_FUERA)}" alt="" loading="lazy">
+            <span class="team-name">${m.NOMEQUIPO_FUERA ?? ''}</span>
+          </div>
+        </div>
+        <div class="match-meta">
+          <span>📍 ${m.campo ?? 'Campo por confirmar'}</span>
+          <span>🏷️ ${m.categoria ?? ''}</span>
+          ${m.arbitro ? `<span>👤 ${m.arbitro}</span>` : ''}
+        </div>
       `;
-      tbodyEl.appendChild(tr);
+      matchesEl.appendChild(card);
     }
-    tableEl.hidden = false;
   })
   .catch(err => {
     setError(`No se pudo cargar ${DATA_URL}: ${err.message}`);
