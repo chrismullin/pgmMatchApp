@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Amistosos equipo</title>
+<style>
+  body { font-family: system-ui, sans-serif; max-width: 700px; margin: 2rem auto; padding: 0 1rem; }
+  h1 { font-size: 1.3rem; }
+  #status { color: #666; margin-bottom: 1rem; white-space: pre-wrap; }
+  #status.error { color: #b00020; font-weight: bold; }
+  table { width: 100%; border-collapse: collapse; }
+  th, td { text-align: left; padding: 0.5rem; border-bottom: 1px solid #ddd; }
+</style>
+</head>
+<body>
+<h1>PoC: partidos amistosos (equipo 54319830)</h1>
+<div id="status">Cargando datos desde la API de fcf.cat…</div>
+<table id="matches" hidden>
+  <thead>
+    <tr><th>Fecha</th><th>Hora</th><th>Partido</th><th>Campo</th><th>Resultado</th></tr>
+  </thead>
+  <tbody></tbody>
+</table>
+
+<script>
+const API_URL = 'https://www.fcf.cat/api/competition/amistosos?fecha_inicio=2026-08-22&fecha_fin=2026-09-19&club=1032';
+const TEAM_CODE = '54319830';
+
+const statusEl = document.getElementById('status');
+const tableEl = document.getElementById('matches');
+const tbodyEl = tableEl.querySelector('tbody');
+
+function setError(message) {
+  statusEl.textContent = message;
+  statusEl.classList.add('error');
+}
+
+fetch(API_URL)
+  .then(res => {
+    if (!res.ok) throw new Error(`HTTP ${res.status} ${res.statusText}`);
+    return res.json();
+  })
+  .then(data => {
+    const rows = data.processedRows || [];
+    const matches = rows.filter(r =>
+      r.CODEQUIPO_CASA === TEAM_CODE || r.CODEQUIPO_FUERA === TEAM_CODE
+    );
+
+    if (matches.length === 0) {
+      statusEl.textContent = `Fetch OK: ${rows.length} partidos recibidos, 0 coinciden con el equipo ${TEAM_CODE}.`;
+      return;
+    }
+
+    statusEl.textContent = `Fetch OK: ${matches.length} partido(s) encontrados para el equipo ${TEAM_CODE}.`;
+
+    for (const m of matches) {
+      const jugado = !!m.CODACTA;
+      const resultado = jugado
+        ? `${m.PARTIDO_GOLES_CASA} - ${m.PARTIDO_GOLES_VISITANTE}`
+        : 'Programado';
+      const tr = document.createElement('tr');
+      tr.innerHTML = `
+        <td>${m.FECHA_FORMATTED ?? ''}</td>
+        <td>${m.HORA_COMIENZO ?? ''}</td>
+        <td>${m.NOMEQUIPO_CASA ?? ''} vs ${m.NOMEQUIPO_FUERA ?? ''}</td>
+        <td>${m.campo ?? ''}</td>
+        <td>${resultado}</td>
+      `;
+      tbodyEl.appendChild(tr);
+    }
+    tableEl.hidden = false;
+  })
+  .catch(err => {
+    setError(
+      `Fetch FALLÓ: ${err.message}\n\n` +
+      `Si esto es un error de red genérico ("Failed to fetch" / "TypeError"), ` +
+      `probablemente es CORS: abre la consola del navegador (F12) para confirmarlo.`
+    );
+    console.error(err);
+  });
+</script>
+</body>
+</html>
