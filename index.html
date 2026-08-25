@@ -245,6 +245,10 @@ function crestUrl(filename) {
   return filename ? CREST_BASE + encodeURIComponent(filename) : '';
 }
 
+function formatHora(hora) {
+  return hora ? hora.slice(0, 5) : '';
+}
+
 fetch(DATA_URL)
   .then(res => {
     if (!res.ok) throw new Error(`HTTP ${res.status} ${res.statusText}`);
@@ -289,7 +293,7 @@ fetch(DATA_URL)
             <span class="team-name">${m.NOMEQUIPO_CASA ?? ''}</span>
           </div>
           <div class="center-info">
-            <span class="match-date">${m.FECHA_FORMATTED ?? ''} · ${m.HORA_COMIENZO ?? ''}</span>
+            <span class="match-date">${m.FECHA_FORMATTED ?? ''} · ${formatHora(m.HORA_COMIENZO)}</span>
             ${centro}
           </div>
           <div class="team">
