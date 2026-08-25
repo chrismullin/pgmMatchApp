@@ -1,3 +1,4 @@
 {
-  "_comment": "Mantenido a mano: NO lo toca el GitHub Action de actualización de datos. Clave = CODACTA del partido (solo existe en partidos ya jugados). Valor = URL de YouTube. Ejemplo: \"4171177\": \"https://youtu.be/XXXXXXXXXXX\""
+  "_comment": "Mantenido a mano: NO lo toca el GitHub Action de actualización de datos. Clave = CODACTA del partido (solo existe en partidos ya jugados). Valor = URL de YouTube.",
+  "4171177": "https://youtu.be/gTBkSnW0PZs?si=zSFYlyEP2dnjUf2j"
 }
