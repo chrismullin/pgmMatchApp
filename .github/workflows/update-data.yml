@@ -22,7 +22,7 @@ jobs:
       - name: Descargar y filtrar datos de la API de fcf.cat
         env:
           API_URL: "https://www.fcf.cat/api/competition/amistosos?fecha_inicio=2026-08-22&fecha_fin=2026-09-19&club=1032"
-          TEAM_CODE: "54319830"
+          TEAM_CODE: "54304670"
         run: |
           set -euo pipefail
           curl -sL --fail "$API_URL" -o /tmp/raw.json
