@@ -199,6 +199,24 @@
     line-height: 0;
   }
 
+  .youtube-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    margin-left: auto;
+    padding: 0.2rem 0.6rem;
+    border-radius: 999px;
+    background: #ff0000;
+    color: #fff !important;
+    text-decoration: none !important;
+    font-weight: 700;
+    font-size: 0.75rem;
+  }
+
+  .youtube-link:hover {
+    background: #cc0000;
+  }
+
   footer {
     margin-top: 1.5rem;
     color: var(--navy-soft);
@@ -230,6 +248,7 @@
 // (ver .github/workflows/update-data.yml) porque la API de fcf.cat no
 // envía cabeceras CORS y bloquea el fetch directo desde GitHub Pages.
 const DATA_URL = 'data/amistosos.json';
+const YOUTUBE_LINKS_URL = 'data/youtube-links.json';
 const TEAM_CODE = '54304670';
 const CREST_BASE = 'https://files.fcf.cat/escudos/clubes/escudos/';
 
@@ -249,12 +268,16 @@ function formatHora(hora) {
   return hora ? hora.slice(0, 5) : '';
 }
 
-fetch(DATA_URL)
-  .then(res => {
+Promise.all([
+  fetch(DATA_URL).then(res => {
     if (!res.ok) throw new Error(`HTTP ${res.status} ${res.statusText}`);
     return res.json();
-  })
-  .then(data => {
+  }),
+  fetch(YOUTUBE_LINKS_URL)
+    .then(res => res.ok ? res.json() : {})
+    .catch(() => ({})),
+])
+  .then(([data, youtubeLinks]) => {
     const matches = data.matches || [];
 
     if (matches.length === 0) {
@@ -283,6 +306,7 @@ fetch(DATA_URL)
       const mapsUrl = m.campo
         ? `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(m.campo)}`
         : null;
+      const youtubeUrl = m.CODACTA ? youtubeLinks[m.CODACTA] : null;
 
       const card = document.createElement('article');
       card.className = 'match-card';
@@ -304,7 +328,7 @@ fetch(DATA_URL)
         <div class="match-meta">
           <span>📍 ${mapsUrl ? `<a href="${mapsUrl}" target="_blank" rel="noopener">${m.campo}</a>` : 'Campo por confirmar'}</span>
           <span>🏷️ ${m.categoria ?? ''}</span>
-          ${m.arbitro ? `<span>👤 ${m.arbitro}</span>` : ''}
+          ${youtubeUrl ? `<a class="youtube-link" href="${youtubeUrl}" target="_blank" rel="noopener">▶️ Ver partido</a>` : ''}
         </div>
       `;
       matchesEl.appendChild(card);
