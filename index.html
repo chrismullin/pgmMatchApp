@@ -15,7 +15,7 @@
 </head>
 <body>
 <h1>PoC: partidos amistosos (equipo 54319830)</h1>
-<div id="status">Cargando datos desde la API de fcf.cat…</div>
+<div id="status">Cargando datos…</div>
 <table id="matches" hidden>
   <thead>
     <tr><th>Fecha</th><th>Hora</th><th>Partido</th><th>Campo</th><th>Resultado</th></tr>
@@ -24,7 +24,10 @@
 </table>
 
 <script>
-const API_URL = 'https://www.fcf.cat/api/competition/amistosos?fecha_inicio=2026-08-22&fecha_fin=2026-09-19&club=1032';
+// Los datos se descargan y filtran periódicamente por un GitHub Action
+// (ver .github/workflows/update-data.yml) porque la API de fcf.cat no
+// envía cabeceras CORS y bloquea el fetch directo desde GitHub Pages.
+const DATA_URL = 'data/amistosos.json';
 const TEAM_CODE = '54319830';
 
 const statusEl = document.getElementById('status');
@@ -36,23 +39,20 @@ function setError(message) {
   statusEl.classList.add('error');
 }
 
-fetch(API_URL)
+fetch(DATA_URL)
   .then(res => {
     if (!res.ok) throw new Error(`HTTP ${res.status} ${res.statusText}`);
     return res.json();
   })
   .then(data => {
-    const rows = data.processedRows || [];
-    const matches = rows.filter(r =>
-      r.CODEQUIPO_CASA === TEAM_CODE || r.CODEQUIPO_FUERA === TEAM_CODE
-    );
+    const matches = data.matches || [];
 
     if (matches.length === 0) {
-      statusEl.textContent = `Fetch OK: ${rows.length} partidos recibidos, 0 coinciden con el equipo ${TEAM_CODE}.`;
+      statusEl.textContent = `Sin partidos programados para el equipo ${TEAM_CODE} en este rango de fechas.`;
       return;
     }
 
-    statusEl.textContent = `Fetch OK: ${matches.length} partido(s) encontrados para el equipo ${TEAM_CODE}.`;
+    statusEl.textContent = `${matches.length} partido(s) para el equipo ${TEAM_CODE}. Actualizado: ${data.updatedAt ?? '?'}`;
 
     for (const m of matches) {
       const jugado = !!m.CODACTA;
@@ -72,11 +72,7 @@ fetch(API_URL)
     tableEl.hidden = false;
   })
   .catch(err => {
-    setError(
-      `Fetch FALLÓ: ${err.message}\n\n` +
-      `Si esto es un error de red genérico ("Failed to fetch" / "TypeError"), ` +
-      `probablemente es CORS: abre la consola del navegador (F12) para confirmarlo.`
-    );
+    setError(`No se pudo cargar ${DATA_URL}: ${err.message}`);
     console.error(err);
   });
 </script>

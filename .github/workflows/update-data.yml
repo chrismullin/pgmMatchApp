@@ -1,0 +1,44 @@
+name: Actualizar datos de amistosos
+
+on:
+  schedule:
+    # Cada 3 horas
+    - cron: '0 */3 * * *'
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/update-data.yml
+
+permissions:
+  contents: write
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Descargar y filtrar datos de la API de fcf.cat
+        env:
+          API_URL: "https://www.fcf.cat/api/competition/amistosos?fecha_inicio=2026-08-22&fecha_fin=2026-09-19&club=1032"
+          TEAM_CODE: "54319830"
+        run: |
+          set -euo pipefail
+          curl -sL --fail "$API_URL" -o /tmp/raw.json
+          jq --arg team "$TEAM_CODE" \
+             '{updatedAt: (now | todate), teamCode: $team, matches: (.processedRows | map(select(.CODEQUIPO_CASA == $team or .CODEQUIPO_FUERA == $team)))}' \
+             /tmp/raw.json > data/amistosos.json
+          cat data/amistosos.json
+
+      - name: Commit si hay cambios
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet -- data/amistosos.json; then
+            echo "Sin cambios en los datos."
+          else
+            git add data/amistosos.json
+            git commit -m "Actualizar datos de amistosos [skip ci]"
+            git push
+          fi
