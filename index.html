@@ -14,7 +14,7 @@
 </style>
 </head>
 <body>
-<h1>PoC: partidos amistosos (equipo 54304670)</h1>
+<h1>Partidos amistosos Martinenc S16A</h1>
 <div id="status">Cargando datos…</div>
 <table id="matches" hidden>
   <thead>
@@ -48,11 +48,11 @@ fetch(DATA_URL)
     const matches = data.matches || [];
 
     if (matches.length === 0) {
-      statusEl.textContent = `Sin partidos programados para el equipo ${TEAM_CODE} en este rango de fechas.`;
+      statusEl.textContent = `Sin partidos programados en este rango de fechas.`;
       return;
     }
 
-    statusEl.textContent = `${matches.length} partido(s) para el equipo ${TEAM_CODE}. Actualizado: ${data.updatedAt ?? '?'}`;
+    statusEl.textContent = `${matches.length} partido(s). Actualizado: ${data.updatedAt ?? '?'}`;
 
     for (const m of matches) {
       const jugado = !!m.CODACTA;

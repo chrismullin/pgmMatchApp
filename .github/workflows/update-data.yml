@@ -2,8 +2,8 @@ name: Actualizar datos de amistosos
 
 on:
   schedule:
-    # Cada 3 horas
-    - cron: '0 */3 * * *'
+    # Cada 1 horas
+    - cron: '0 */1 * * *'
   workflow_dispatch: {}
   push:
     branches: [main]
