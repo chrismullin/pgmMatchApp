@@ -40,5 +40,9 @@ jobs:
           else
             git add data/amistosos.json
             git commit -m "Actualizar datos de amistosos [skip ci]"
-            git push
+            for i in 1 2 3 4 5; do
+              git pull --rebase -X ours origin main && git push && break
+              echo "Push rechazado (intento $i), reintentando..."
+              sleep $((RANDOM % 10 + 1))
+            done
           fi
