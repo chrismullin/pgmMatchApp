@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-27T13:15:06Z",
+  "updatedAt": "2026-08-27T23:18:39Z",
   "teamCode": "54304670",
   "matches": [
     {
@@ -35,7 +35,7 @@
       "NOMBRE_COMPETICION": null,
       "categoria": "PREFERENT CADET S16",
       "competicion": null,
-      "CODDESIGNACION": null,
+      "CODDESIGNACION": "3508303",
       "CODIGO_CLUB": "1032",
       "CODEQUIPO_CASA": "54304670",
       "NOMEQUIPO_CASA": "MARTINENC, F.C. \"A\"",
@@ -46,11 +46,11 @@
       "FECHA": "2026-08-30T00:00:00.000Z",
       "FECHA_FORMATTED": "30/08/2026",
       "HORA_COMIENZO": "16:00:00",
-      "CODACTA": null,
+      "CODACTA": "4176197",
       "PARTIDO_GOLES_CASA": "0",
       "PARTIDO_GOLES_VISITANTE": "0",
       "campo": "CAMP DE FUTBOL CEM GUINARDÓ",
-      "arbitro": null,
+      "arbitro": "ROMERO MARTINEZ, GERARD",
       "ESCUDO_CASA": "00100_0000577607_martinenc-200x200.png",
       "ESCUDO_FUERA": "00100_0000764388_marcbartra2020_200x200.png",
       "goles_casa": "0",
