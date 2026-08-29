@@ -1,0 +1,67 @@
+name: Actualizar datos de rivales
+
+on:
+  schedule:
+    # Cada 1 horas
+    - cron: '0 */1 * * *'
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/update-rivales-data.yml
+
+permissions:
+  contents: write
+
+jobs:
+  update-rivales-data:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Descargar y filtrar amistosos de los 16 equipos del grupo
+        env:
+          FECHA_INICIO: "2026-08-22"
+          FECHA_FIN: "2026-09-19"
+        run: |
+          set -euo pipefail
+          > /tmp/rivales_all.jsonl
+          while IFS=$'\t' read -r nombre club codigo; do
+            curl -sL --fail \
+              "https://www.fcf.cat/api/competition/amistosos?fecha_inicio=${FECHA_INICIO}&fecha_fin=${FECHA_FIN}&club=${club}" \
+              | jq --arg team "$codigo" \
+                 '.processedRows | map(select(.CODEQUIPO_CASA == $team or .CODEQUIPO_FUERA == $team) | . + {trackedTeams: [$team]})' \
+              >> /tmp/rivales_all.jsonl
+          done < <(jq -r '.equipos[] | [.nombre, .club, .codigo] | @tsv' data/equipos.json)
+
+          jq -s 'add' /tmp/rivales_all.jsonl > /tmp/rivales_flat.json
+
+          # Deduplica partidos que aparecen en la descarga de dos equipos distintos
+          # (cuando dos equipos de la lista juegan entre sí), fusionando trackedTeams.
+          jq '
+            group_by([.FECHA, .HORA_COMIENZO, .CODEQUIPO_CASA, .CODEQUIPO_FUERA])
+            | map(reduce .[] as $m ({}; . * $m) as $merged
+                  | ($merged + {trackedTeams: (map(.trackedTeams[]) | unique)}))
+          ' /tmp/rivales_flat.json > /tmp/rivales_dedup.json
+
+          jq -n --slurpfile equipos data/equipos.json --slurpfile matches /tmp/rivales_dedup.json \
+            '{updatedAt: (now | todate), equipos: $equipos[0].equipos, matches: ($matches[0] | sort_by(.FECHA, .HORA_COMIENZO))}' \
+            > data/rivales.json
+
+          cat data/rivales.json
+
+      - name: Commit si hay cambios
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet -- data/rivales.json; then
+            echo "Sin cambios en los datos."
+          else
+            git add data/rivales.json
+            git commit -m "Actualizar datos de rivales [skip ci]"
+            for i in 1 2 3 4 5; do
+              git pull --rebase -X ours origin main && git push && break
+              echo "Push rechazado (intento $i), reintentando..."
+              sleep $((RANDOM % 10 + 1))
+            done
+          fi

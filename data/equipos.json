@@ -1,0 +1,84 @@
+{
+  "equipos": [
+    {
+      "nombre": "MARTINENC, F.C. \"A\"",
+      "club": "1032",
+      "codigo": "54304670"
+    },
+    {
+      "nombre": "SANT GABRIEL, C.D. \"A\"",
+      "club": "1241",
+      "codigo": "54306039"
+    },
+    {
+      "nombre": "VINYETS MOLI-VELL, C.F. \"A\"",
+      "club": "2925",
+      "codigo": "54310804"
+    },
+    {
+      "nombre": "CAN BUXERES, F.C. \"A\"",
+      "club": "6278",
+      "codigo": "54310809"
+    },
+    {
+      "nombre": "UNIFICACION LLEFIA,CF. \"A\"",
+      "club": "6091",
+      "codigo": "54312622"
+    },
+    {
+      "nombre": "EUROPA, C.E. \"B\"",
+      "club": "1011",
+      "codigo": "54312742"
+    },
+    {
+      "nombre": "FUNDACIÓ ACADEMIA F. L'HOSPITALET \"A\"",
+      "club": "40492704",
+      "codigo": "54313451"
+    },
+    {
+      "nombre": "ESCOLA DE FUTBOL PREMIER BARCELONA \"A\"",
+      "club": "15548283",
+      "codigo": "54313694"
+    },
+    {
+      "nombre": "Pª BARC. ANGUERA \"A\"",
+      "club": "1252",
+      "codigo": "54313841"
+    },
+    {
+      "nombre": "FUNDACIO ATLETIC SANT JUST \"A\"",
+      "club": "54296375",
+      "codigo": "54314013"
+    },
+    {
+      "nombre": "SANTS, U.E. \"A\"",
+      "club": "1051",
+      "codigo": "54316893"
+    },
+    {
+      "nombre": "SANT ANDREU, U.E \"A\"",
+      "club": "1014",
+      "codigo": "54316930"
+    },
+    {
+      "nombre": "FUNDACIÓ ESPORTIVA GRAMA \"A\"",
+      "club": "18476477",
+      "codigo": "54319559"
+    },
+    {
+      "nombre": "SANT CUGAT FUTBOL CLUB \"B\"",
+      "club": "1066",
+      "codigo": "54319616"
+    },
+    {
+      "nombre": "CONGRÉS CLUB ESP. \"A\"",
+      "club": "6399",
+      "codigo": "54319655"
+    },
+    {
+      "nombre": "PRAT, A.E. \"A\"",
+      "club": "1131",
+      "codigo": "54327910"
+    }
+  ]
+}

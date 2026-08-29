@@ -1,0 +1,540 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Amistosos de los rivales</title>
+<style>
+  :root {
+    --bg: #f2f4f7;
+    --card-bg: #ffffff;
+    --navy: #10203f;
+    --navy-soft: #47547a;
+    --red: #c81e2c;
+    --border: #e4e7ec;
+    --pending-bg: #fef6e7;
+    --pending-text: #a15c00;
+    --own-bg: #eef4ff;
+    --own-border: #b9cdfa;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    background: var(--bg);
+    color: var(--navy);
+    margin: 0;
+    padding: 0 1rem 3rem;
+  }
+
+  .page {
+    max-width: 720px;
+    margin: 0 auto;
+  }
+
+  header {
+    padding: 2rem 0 1.5rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+    letter-spacing: 0.01em;
+    margin: 0 0 0.25rem;
+    color: var(--navy);
+  }
+
+  .subtitle {
+    color: var(--navy-soft);
+    margin: 0 0 1.25rem;
+    font-size: 0.95rem;
+  }
+
+  .links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .links a {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.5rem 0.9rem;
+    border-radius: 999px;
+    border: 1px solid var(--border);
+    background: var(--card-bg);
+    color: var(--navy);
+    text-decoration: none;
+    font-size: 0.85rem;
+    font-weight: 600;
+    transition: border-color 0.15s ease, color 0.15s ease;
+  }
+
+  .links a:hover {
+    border-color: var(--red);
+    color: var(--red);
+  }
+
+  .tabs {
+    display: flex;
+    gap: 0.5rem;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 1.25rem;
+  }
+
+  .tab-btn {
+    appearance: none;
+    border: none;
+    background: none;
+    padding: 0.65rem 0.2rem;
+    margin-right: 1.25rem;
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: var(--navy-soft);
+    cursor: pointer;
+    border-bottom: 3px solid transparent;
+  }
+
+  .tab-btn.active {
+    color: var(--red);
+    border-bottom-color: var(--red);
+  }
+
+  .tab-panel { display: none; }
+  .tab-panel.active { display: block; }
+
+  .filter-row {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    margin-bottom: 1.25rem;
+    flex-wrap: wrap;
+  }
+
+  .filter-row label {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--navy-soft);
+  }
+
+  .filter-row select {
+    font: inherit;
+    padding: 0.45rem 0.7rem;
+    border-radius: 8px;
+    border: 1px solid var(--border);
+    background: var(--card-bg);
+    color: var(--navy);
+    min-width: 220px;
+  }
+
+  #status {
+    color: var(--navy-soft);
+    font-size: 0.85rem;
+    margin: 0 0 1rem;
+    white-space: pre-wrap;
+  }
+
+  #status.error {
+    color: var(--red);
+    font-weight: 600;
+  }
+
+  .date-group {
+    margin-bottom: 1.5rem;
+  }
+
+  .date-heading {
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: var(--navy-soft);
+    text-transform: capitalize;
+    margin: 0 0 0.6rem;
+    padding-bottom: 0.35rem;
+    border-bottom: 1px dashed var(--border);
+  }
+
+  .matches-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.9rem;
+  }
+
+  .match-card {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    box-shadow: 0 1px 2px rgba(16, 24, 40, 0.04);
+    padding: 1.1rem 1.2rem 0.9rem;
+  }
+
+  .match-card.own {
+    background: var(--own-bg);
+    border-color: var(--own-border);
+  }
+
+  .match-teams {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    gap: 0.75rem;
+  }
+
+  .team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.4rem;
+    text-align: center;
+    min-width: 0;
+  }
+
+  .team a { line-height: 0; }
+
+  .team img {
+    width: 48px;
+    height: 48px;
+    object-fit: contain;
+  }
+
+  .team-name {
+    font-weight: 700;
+    font-size: 0.85rem;
+    line-height: 1.15;
+  }
+
+  .center-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.3rem;
+    min-width: 92px;
+  }
+
+  .match-hora {
+    font-size: 0.75rem;
+    color: var(--navy-soft);
+    font-weight: 600;
+  }
+
+  .match-score {
+    font-size: 1.4rem;
+    font-weight: 800;
+    color: var(--red);
+  }
+
+  a.match-score { text-decoration: none; }
+  a.match-score:hover { text-decoration: underline; }
+
+  .badge-pending {
+    display: inline-block;
+    padding: 0.25rem 0.7rem;
+    border-radius: 999px;
+    background: var(--pending-bg);
+    color: var(--pending-text);
+    font-size: 0.72rem;
+    font-weight: 700;
+    white-space: nowrap;
+  }
+
+  .match-meta {
+    margin-top: 0.9rem;
+    padding-top: 0.7rem;
+    border-top: 1px solid var(--border);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem 1.2rem;
+    font-size: 0.78rem;
+    color: var(--navy-soft);
+  }
+
+  .match-meta span {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+  }
+
+  .match-meta a {
+    color: var(--navy-soft);
+    text-decoration: underline;
+    text-decoration-color: var(--border);
+  }
+
+  .match-meta a:hover {
+    color: var(--red);
+    text-decoration-color: var(--red);
+  }
+
+  table.stats {
+    width: 100%;
+    border-collapse: collapse;
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    overflow: hidden;
+    font-size: 0.85rem;
+  }
+
+  table.stats th, table.stats td {
+    padding: 0.6rem 0.7rem;
+    text-align: center;
+    border-bottom: 1px solid var(--border);
+  }
+
+  table.stats th {
+    background: var(--navy);
+    color: #fff;
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+
+  table.stats td.team-col {
+    text-align: left;
+    font-weight: 600;
+  }
+
+  table.stats tbody tr:last-child td { border-bottom: none; }
+
+  table.stats tbody tr.own td { background: var(--own-bg); }
+
+  .stats-wrap {
+    overflow-x: auto;
+  }
+
+  footer {
+    margin-top: 1.5rem;
+    color: var(--navy-soft);
+    font-size: 0.78rem;
+    text-align: center;
+  }
+</style>
+</head>
+<body>
+<div class="page">
+  <header>
+    <h1>Amistosos de los rivales</h1>
+    <p class="subtitle">Resultados y calendario de los amistosos del resto de equipos del grupo (22/08–19/09), y tabla estadística conjunta.</p>
+    <nav class="links">
+      <a href="index.html">⬅️ Volver a los amistosos del Martinenc</a>
+    </nav>
+    <div class="tabs">
+      <button class="tab-btn active" data-tab="resultados">Resultados</button>
+      <button class="tab-btn" data-tab="estadisticas">Estadísticas</button>
+    </div>
+  </header>
+
+  <div id="status">Cargando datos…</div>
+
+  <section id="panel-resultados" class="tab-panel active">
+    <div class="filter-row">
+      <label for="equipo-select">Equipo:</label>
+      <select id="equipo-select">
+        <option value="">Todos los equipos</option>
+      </select>
+    </div>
+    <div id="results"></div>
+  </section>
+
+  <section id="panel-estadisticas" class="tab-panel">
+    <div class="stats-wrap">
+      <table class="stats">
+        <thead>
+          <tr>
+            <th style="text-align:left">Equipo</th>
+            <th>PJ</th><th>PG</th><th>PE</th><th>PP</th><th>GF</th><th>GC</th>
+          </tr>
+        </thead>
+        <tbody id="stats-body"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <footer>Datos: Federació Catalana de Futbol (fcf.cat)</footer>
+</div>
+
+<script>
+// Los datos se descargan y filtran periódicamente por un GitHub Action
+// (ver .github/workflows/update-rivales-data.yml) porque la API de fcf.cat no
+// envía cabeceras CORS y bloquea el fetch directo desde GitHub Pages.
+const DATA_URL = 'data/rivales.json';
+const MARTINENC_CODE = '54304670';
+const CREST_BASE = 'https://files.fcf.cat/escudos/clubes/escudos/';
+
+const statusEl = document.getElementById('status');
+const resultsEl = document.getElementById('results');
+const statsBodyEl = document.getElementById('stats-body');
+const equipoSelect = document.getElementById('equipo-select');
+
+let DATA = null;
+
+function setError(message) {
+  statusEl.textContent = message;
+  statusEl.classList.add('error');
+}
+
+function crestUrl(filename) {
+  return filename ? CREST_BASE + encodeURIComponent(filename) : '';
+}
+
+function formatHora(hora) {
+  return hora ? hora.slice(0, 5) : '';
+}
+
+function formatFecha(iso) {
+  const d = new Date(iso);
+  if (isNaN(d)) return '';
+  return d.toLocaleDateString('es-ES', { weekday: 'long', day: '2-digit', month: '2-digit', year: 'numeric' });
+}
+
+// --- pestañas ---
+document.querySelectorAll('.tab-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+    document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
+    btn.classList.add('active');
+    document.getElementById('panel-' + btn.dataset.tab).classList.add('active');
+  });
+});
+
+function buildMatchCard(m) {
+  const jugado = !!m.CODACTA;
+  const esPropio = (m.trackedTeams || []).includes(MARTINENC_CODE);
+  const centro = jugado
+    ? `<a class="match-score" href="https://www.fcf.cat/ca/competicio/acta/${encodeURIComponent(m.CODACTA)}" target="_blank" rel="noopener">${m.PARTIDO_GOLES_CASA} - ${m.PARTIDO_GOLES_VISITANTE}</a>`
+    : `<span class="badge-pending">Programado</span>`;
+
+  const equipoUrl = (codigoClub, codEquipo) =>
+    (codigoClub && codEquipo)
+      ? `https://www.fcf.cat/ca/clubs/${encodeURIComponent(codigoClub)}/categories/${encodeURIComponent(codEquipo)}`
+      : null;
+  const casaUrl = equipoUrl(m.CODIGO_CLUB, m.CODEQUIPO_CASA);
+  const fueraUrl = equipoUrl(m.CODIGO_CLUB_FUERA, m.CODEQUIPO_FUERA);
+  const crest = (src, url) => {
+    const img = `<img src="${crestUrl(src)}" alt="" loading="lazy">`;
+    return url ? `<a href="${url}" target="_blank" rel="noopener">${img}</a>` : img;
+  };
+  const mapsUrl = m.campo
+    ? `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(m.campo)}`
+    : null;
+
+  const card = document.createElement('article');
+  card.className = 'match-card' + (esPropio ? ' own' : '');
+  card.innerHTML = `
+    <div class="match-teams">
+      <div class="team">
+        ${crest(m.ESCUDO_CASA, casaUrl)}
+        <span class="team-name">${m.NOMEQUIPO_CASA ?? ''}</span>
+      </div>
+      <div class="center-info">
+        <span class="match-hora">${formatHora(m.HORA_COMIENZO)}</span>
+        ${centro}
+      </div>
+      <div class="team">
+        ${crest(m.ESCUDO_FUERA, fueraUrl)}
+        <span class="team-name">${m.NOMEQUIPO_FUERA ?? ''}</span>
+      </div>
+    </div>
+    <div class="match-meta">
+      <span>📍 ${mapsUrl ? `<a href="${mapsUrl}" target="_blank" rel="noopener">${m.campo}</a>` : 'Campo por confirmar'}</span>
+      <span>🏷️ ${m.categoria ?? ''}</span>
+    </div>
+  `;
+  return card;
+}
+
+function renderResultados() {
+  const filtro = equipoSelect.value;
+  resultsEl.innerHTML = '';
+
+  const matches = (DATA.matches || []).filter(m => !filtro || (m.trackedTeams || []).includes(filtro));
+
+  if (matches.length === 0) {
+    resultsEl.innerHTML = '<p>No hay partidos para ese filtro.</p>';
+    return;
+  }
+
+  const groups = new Map();
+  for (const m of matches) {
+    const key = m.FECHA_FORMATTED || m.FECHA || '';
+    if (!groups.has(key)) groups.set(key, []);
+    groups.get(key).push(m);
+  }
+
+  for (const [, groupMatches] of groups) {
+    const wrap = document.createElement('div');
+    wrap.className = 'date-group';
+    const heading = document.createElement('h2');
+    heading.className = 'date-heading';
+    heading.textContent = formatFecha(groupMatches[0].FECHA) || groupMatches[0].FECHA_FORMATTED || '';
+    wrap.appendChild(heading);
+
+    const list = document.createElement('div');
+    list.className = 'matches-list';
+    for (const m of groupMatches) list.appendChild(buildMatchCard(m));
+    wrap.appendChild(list);
+
+    resultsEl.appendChild(wrap);
+  }
+}
+
+function renderEstadisticas() {
+  const equipos = [...(DATA.equipos || [])].sort((a, b) => a.nombre.localeCompare(b.nombre, 'es'));
+  statsBodyEl.innerHTML = '';
+
+  for (const eq of equipos) {
+    const stats = { pj: 0, pg: 0, pe: 0, pp: 0, gf: 0, gc: 0 };
+    for (const m of (DATA.matches || [])) {
+      if (!m.CODACTA) continue;
+      if (!(m.trackedTeams || []).includes(eq.codigo)) continue;
+      const esCasa = m.CODEQUIPO_CASA === eq.codigo;
+      const golesFavor = Number(esCasa ? m.PARTIDO_GOLES_CASA : m.PARTIDO_GOLES_VISITANTE);
+      const golesContra = Number(esCasa ? m.PARTIDO_GOLES_VISITANTE : m.PARTIDO_GOLES_CASA);
+      if (Number.isNaN(golesFavor) || Number.isNaN(golesContra)) continue;
+      stats.pj++;
+      stats.gf += golesFavor;
+      stats.gc += golesContra;
+      if (golesFavor > golesContra) stats.pg++;
+      else if (golesFavor === golesContra) stats.pe++;
+      else stats.pp++;
+    }
+
+    const row = document.createElement('tr');
+    if (eq.codigo === MARTINENC_CODE) row.className = 'own';
+    row.innerHTML = `
+      <td class="team-col">${eq.nombre}</td>
+      <td>${stats.pj}</td><td>${stats.pg}</td><td>${stats.pe}</td><td>${stats.pp}</td><td>${stats.gf}</td><td>${stats.gc}</td>
+    `;
+    statsBodyEl.appendChild(row);
+  }
+}
+
+fetch(DATA_URL)
+  .then(res => {
+    if (!res.ok) throw new Error(`HTTP ${res.status} ${res.statusText}`);
+    return res.json();
+  })
+  .then(data => {
+    DATA = data;
+    const equipos = [...(data.equipos || [])].sort((a, b) => a.nombre.localeCompare(b.nombre, 'es'));
+    for (const eq of equipos) {
+      const opt = document.createElement('option');
+      opt.value = eq.codigo;
+      opt.textContent = eq.nombre;
+      equipoSelect.appendChild(opt);
+    }
+    equipoSelect.addEventListener('change', renderResultados);
+
+    statusEl.textContent = `${(data.matches || []).length} partido(s) de ${(data.equipos || []).length} equipo(s). Actualizado: ${data.updatedAt ?? '?'}`;
+
+    renderResultados();
+    renderEstadisticas();
+  })
+  .catch(err => {
+    setError(`No se pudo cargar ${DATA_URL}: ${err.message}`);
+    console.error(err);
+  });
+</script>
+</body>
+</html>
