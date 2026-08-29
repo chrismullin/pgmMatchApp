@@ -399,6 +399,16 @@ function crestUrl(filename) {
   return filename ? CREST_BASE + encodeURIComponent(filename) : '';
 }
 
+// Algunos escudos que devuelve la API de amistosos están rotos (404 en
+// files.fcf.cat) para ciertos equipos. data/equipos.json permite informar un
+// "escudo" de recambio por código de equipo, que tiene prioridad sobre el
+// que venga en el partido.
+let escudoOverrides = {};
+
+function resolveEscudo(codigoEquipo, escudoApi) {
+  return escudoOverrides[codigoEquipo] || escudoApi;
+}
+
 function formatHora(hora) {
   return hora ? hora.slice(0, 5) : '';
 }
@@ -462,7 +472,7 @@ function buildMatchCard(m) {
   card.innerHTML = `
     <div class="match-teams">
       <div class="team">
-        ${crest(m.ESCUDO_CASA, casaUrl)}
+        ${crest(resolveEscudo(m.CODEQUIPO_CASA, m.ESCUDO_CASA), casaUrl)}
         <span class="team-name">${m.NOMEQUIPO_CASA ?? ''}</span>
       </div>
       <div class="center-info">
@@ -470,7 +480,7 @@ function buildMatchCard(m) {
         ${centro}
       </div>
       <div class="team">
-        ${crest(m.ESCUDO_FUERA, fueraUrl)}
+        ${crest(resolveEscudo(m.CODEQUIPO_FUERA, m.ESCUDO_FUERA), fueraUrl)}
         <span class="team-name">${m.NOMEQUIPO_FUERA ?? ''}</span>
       </div>
     </div>
@@ -596,6 +606,9 @@ fetch(DATA_URL)
   })
   .then(data => {
     DATA = data;
+    escudoOverrides = Object.fromEntries(
+      (data.equipos || []).filter(eq => eq.escudo).map(eq => [eq.codigo, eq.escudo])
+    );
     const equipos = [...(data.equipos || [])].sort((a, b) => a.nombre.localeCompare(b.nombre, 'es'));
     for (const eq of equipos) {
       const opt = document.createElement('option');
