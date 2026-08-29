@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-29T17:29:48Z",
+  "updatedAt": "2026-08-29T19:20:11Z",
   "equipos": [
     {
       "nombre": "MARTINENC, F.C. \"A\"",
@@ -536,8 +536,8 @@
       "FECHA": "2026-08-29T00:00:00.000Z",
       "FECHA_FORMATTED": "29/08/2026",
       "HORA_COMIENZO": "18:00:00",
-      "CODACTA": "4174275",
-      "PARTIDO_GOLES_CASA": "5",
+      "CODACTA": null,
+      "PARTIDO_GOLES_CASA": "9",
       "PARTIDO_GOLES_VISITANTE": "0",
       "campo": "CAMP DE FUTBOL MPAL. LA PARELLADA St. Boi",
       "arbitro": "SEGURA MUÑECAS, ÁLVARO",
