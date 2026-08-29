@@ -40,8 +40,7 @@ jobs:
           # (cuando dos equipos de la lista juegan entre sí), fusionando trackedTeams.
           jq '
             group_by([.FECHA, .HORA_COMIENZO, .CODEQUIPO_CASA, .CODEQUIPO_FUERA])
-            | map(reduce .[] as $m ({}; . * $m) as $merged
-                  | ($merged + {trackedTeams: (map(.trackedTeams[]) | unique)}))
+            | map(reduce .[] as $m ({}; . * $m + {trackedTeams: ((.trackedTeams // []) + $m.trackedTeams | unique)}))
           ' /tmp/rivales_flat.json > /tmp/rivales_dedup.json
 
           jq -n --slurpfile equipos data/equipos.json --slurpfile matches /tmp/rivales_dedup.json \
