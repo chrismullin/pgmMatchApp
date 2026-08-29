@@ -1,0 +1,67 @@
+name: Actualizar datos de otros equipos
+
+on:
+  schedule:
+    # Cada 1 horas
+    - cron: '0 */1 * * *'
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/update-otros-data.yml
+
+permissions:
+  contents: write
+
+jobs:
+  update-otros-data:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Descargar y filtrar amistosos de los equipos de otros.json
+        env:
+          FECHA_INICIO: "2026-08-22"
+          FECHA_FIN: "2026-09-19"
+        run: |
+          set -euo pipefail
+          cp data/otros.json /tmp/otros_equipos.json
+          > /tmp/otros_all.jsonl
+          while IFS=$'\t' read -r nombre club codigo; do
+            curl -sL --fail \
+              "https://www.fcf.cat/api/competition/amistosos?fecha_inicio=${FECHA_INICIO}&fecha_fin=${FECHA_FIN}&club=${club}" \
+              | jq --arg team "$codigo" \
+                 '.processedRows | map(select(.CODEQUIPO_CASA == $team or .CODEQUIPO_FUERA == $team) | . + {trackedTeams: [$team]})' \
+              >> /tmp/otros_all.jsonl
+          done < <(jq -r '.equipos[] | [.nombre, .club, .codigo] | @tsv' /tmp/otros_equipos.json)
+
+          jq -s 'add' /tmp/otros_all.jsonl > /tmp/otros_flat.json
+
+          # Deduplica partidos que aparecen en la descarga de dos equipos distintos
+          # (cuando dos equipos de la lista juegan entre sí), fusionando trackedTeams.
+          jq '
+            group_by([.FECHA, .HORA_COMIENZO, .CODEQUIPO_CASA, .CODEQUIPO_FUERA])
+            | map(reduce .[] as $m ({}; . * $m + {trackedTeams: ((.trackedTeams // []) + $m.trackedTeams | unique)}))
+          ' /tmp/otros_flat.json > /tmp/otros_dedup.json
+
+          jq -n --slurpfile equipos /tmp/otros_equipos.json --slurpfile matches /tmp/otros_dedup.json \
+            '{updatedAt: (now | todate), equipos: $equipos[0].equipos, matches: ($matches[0] | sort_by(.FECHA, .HORA_COMIENZO))}' \
+            > data/otros.json
+
+          cat data/otros.json
+
+      - name: Commit si hay cambios
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet -- data/otros.json; then
+            echo "Sin cambios en los datos."
+          else
+            git add data/otros.json
+            git commit -m "Actualizar datos de otros equipos [skip ci]"
+            for i in 1 2 3 4 5; do
+              git pull --rebase -X ours origin main && git push && break
+              echo "Push rechazado (intento $i), reintentando..."
+              sleep $((RANDOM % 10 + 1))
+            done
+          fi

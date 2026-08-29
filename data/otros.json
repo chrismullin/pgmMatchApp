@@ -1,0 +1,23 @@
+{
+  "updatedAt": "2026-08-29T19:20:11Z",
+  "equipos": [
+    {
+      "nombre": "MARTINENC, F.C. JUVENIL \"A\"",
+      "club": "1032",
+      "codigo": "33390"
+    },
+    { 
+      "nombre": "DAMM S16 \"A\"",
+      "club": "1207",
+      "codigo": "54306135"
+    },
+    {
+      "nombre": "MERCANTIL S16 \"A\"",
+      "club": "2731",
+      "codigo": "54311422"
+    }
+  ],
+  "matches": [
+    {}
+  ]
+}
