@@ -349,6 +349,10 @@
       <select id="equipo-select">
         <option value="">Todos los equipos</option>
       </select>
+      <label for="fecha-select">Fecha:</label>
+      <select id="fecha-select">
+        <option value="">Todas las fechas</option>
+      </select>
     </div>
     <div id="results"></div>
   </section>
@@ -387,6 +391,7 @@ const statusEl = document.getElementById('status');
 const resultsEl = document.getElementById('results');
 const statsBodyEl = document.getElementById('stats-body');
 const equipoSelect = document.getElementById('equipo-select');
+const fechaSelect = document.getElementById('fecha-select');
 
 let DATA = null;
 
@@ -493,10 +498,14 @@ function buildMatchCard(m) {
 }
 
 function renderResultados() {
-  const filtro = equipoSelect.value;
+  const filtroEquipo = equipoSelect.value;
+  const filtroFecha = fechaSelect.value;
   resultsEl.innerHTML = '';
 
-  const matches = (DATA.matches || []).filter(m => !filtro || (m.trackedTeams || []).includes(filtro));
+  const matches = (DATA.matches || []).filter(m =>
+    (!filtroEquipo || (m.trackedTeams || []).includes(filtroEquipo))
+    && (!filtroFecha || m.FECHA === filtroFecha)
+  );
 
   if (matches.length === 0) {
     resultsEl.innerHTML = '<p>No hay partidos para ese filtro.</p>';
@@ -617,6 +626,16 @@ fetch(DATA_URL)
       equipoSelect.appendChild(opt);
     }
     equipoSelect.addEventListener('change', renderResultados);
+
+    const fechasUnicas = [...new Set((data.matches || []).map(m => m.FECHA).filter(Boolean))].sort();
+    for (const fecha of fechasUnicas) {
+      const muestra = (data.matches || []).find(m => m.FECHA === fecha);
+      const opt = document.createElement('option');
+      opt.value = fecha;
+      opt.textContent = formatFecha(fecha) || muestra.FECHA_FORMATTED || fecha;
+      fechaSelect.appendChild(opt);
+    }
+    fechaSelect.addEventListener('change', renderResultados);
 
     statusEl.textContent = `${(data.matches || []).length} partido(s) de ${(data.equipos || []).length} equipo(s). Actualizado: ${data.updatedAt ?? '?'}`;
 
