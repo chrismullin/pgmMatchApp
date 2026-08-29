@@ -287,7 +287,14 @@ function formatHora(hora) {
 // (data.updatedAt): si han pasado más de 3h desde el inicio, se asume
 // finalizado. Todo el rango de fechas de esta temporada cae en horario de
 // verano (CEST, UTC+2), de ahí el offset fijo '+02:00'.
+// Además, si ya hay un resultado distinto de 0-0 informado, se considera
+// jugado de inmediato aunque no hayan pasado las 3h ni haya CODACTA, ya que
+// un marcador no nulo solo se rellena una vez el partido está en curso o
+// finalizado.
 function isJugado(m, updatedAt) {
+  const golesCasa = Number(m.PARTIDO_GOLES_CASA);
+  const golesFuera = Number(m.PARTIDO_GOLES_VISITANTE);
+  if (!Number.isNaN(golesCasa) && !Number.isNaN(golesFuera) && (golesCasa !== 0 || golesFuera !== 0)) return true;
   if (!m.FECHA || !m.HORA_COMIENZO || !updatedAt) return !!m.CODACTA;
   const kickoff = new Date(`${m.FECHA.slice(0, 10)}T${m.HORA_COMIENZO}+02:00`);
   const referencia = new Date(updatedAt);
