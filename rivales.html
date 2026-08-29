@@ -359,11 +359,11 @@
         <thead>
           <tr>
             <th class="sortable" data-sort-key="nombre" style="text-align:left">Equipo<span class="sort-icon"></span></th>
-            <th class="sortable" data-sort-key="puntos">PJ<span class="sort-icon"></span></th>
-            <th class="sortable" data-sort-key="puntos">PG<span class="sort-icon"></span></th>
-            <th class="sortable" data-sort-key="puntos">PE<span class="sort-icon"></span></th>
-            <th class="sortable" data-sort-key="puntos">PP<span class="sort-icon"></span></th>
-            <th class="sortable" data-sort-key="puntos">GF<span class="sort-icon"></span></th>
+            <th class="sortable" data-sort-key="puntos">PJ</th>
+            <th class="sortable" data-sort-key="puntos">PG</th>
+            <th class="sortable" data-sort-key="puntos">PE</th>
+            <th class="sortable" data-sort-key="puntos">PP</th>
+            <th class="sortable" data-sort-key="puntos">GF</th>
             <th class="sortable" data-sort-key="puntos">GC<span class="sort-icon"></span></th>
           </tr>
         </thead>
@@ -570,9 +570,9 @@ function renderEstadisticas() {
     statsBodyEl.appendChild(row);
   }
 
-  document.querySelectorAll('table.stats th.sortable').forEach(th => {
-    const icon = th.querySelector('.sort-icon');
-    icon.textContent = th.dataset.sortKey === statsSort.key ? (statsSort.dir === 'asc' ? '▲' : '▼') : '';
+  document.querySelectorAll('table.stats th.sortable .sort-icon').forEach(icon => {
+    const key = icon.closest('th').dataset.sortKey;
+    icon.textContent = key === statsSort.key ? (statsSort.dir === 'asc' ? '▲' : '▼') : '';
   });
 }
 
