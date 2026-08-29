@@ -299,6 +299,22 @@
 
   table.stats tbody tr.own td { background: var(--own-bg); }
 
+  table.stats th.sortable {
+    cursor: pointer;
+    user-select: none;
+  }
+
+  table.stats th.sortable:hover {
+    color: #d9e2f5;
+  }
+
+  table.stats th .sort-icon {
+    margin-left: 0.25rem;
+    font-size: 0.65rem;
+    display: inline-block;
+    width: 0.7em;
+  }
+
   .stats-wrap {
     overflow-x: auto;
   }
@@ -342,8 +358,13 @@
       <table class="stats">
         <thead>
           <tr>
-            <th style="text-align:left">Equipo</th>
-            <th>PJ</th><th>PG</th><th>PE</th><th>PP</th><th>GF</th><th>GC</th>
+            <th class="sortable" data-sort-key="nombre" style="text-align:left">Equipo<span class="sort-icon"></span></th>
+            <th class="sortable" data-sort-key="puntos">PJ<span class="sort-icon"></span></th>
+            <th class="sortable" data-sort-key="puntos">PG<span class="sort-icon"></span></th>
+            <th class="sortable" data-sort-key="puntos">PE<span class="sort-icon"></span></th>
+            <th class="sortable" data-sort-key="puntos">PP<span class="sort-icon"></span></th>
+            <th class="sortable" data-sort-key="puntos">GF<span class="sort-icon"></span></th>
+            <th class="sortable" data-sort-key="puntos">GC<span class="sort-icon"></span></th>
           </tr>
         </thead>
         <tbody id="stats-body"></tbody>
@@ -496,27 +517,50 @@ function renderResultados() {
   }
 }
 
+// Orden de la tabla de estadísticas: 'nombre' (alfabético, por defecto) al
+// pulsar la cabecera "Equipo", o 'puntos' (3 por PG, 1 por PE, 0 por PP) al
+// pulsar cualquiera de las cabeceras de datos (PJ, PG, PE, PP, GF, GC).
+const statsSort = { key: 'nombre', dir: 'asc' };
+
+function computeStats(eq) {
+  const stats = { pj: 0, pg: 0, pe: 0, pp: 0, gf: 0, gc: 0 };
+  for (const m of (DATA.matches || [])) {
+    if (!isJugado(m, DATA.updatedAt)) continue;
+    if (!(m.trackedTeams || []).includes(eq.codigo)) continue;
+    const esCasa = m.CODEQUIPO_CASA === eq.codigo;
+    const golesFavor = Number(esCasa ? m.PARTIDO_GOLES_CASA : m.PARTIDO_GOLES_VISITANTE);
+    const golesContra = Number(esCasa ? m.PARTIDO_GOLES_VISITANTE : m.PARTIDO_GOLES_CASA);
+    if (Number.isNaN(golesFavor) || Number.isNaN(golesContra)) continue;
+    stats.pj++;
+    stats.gf += golesFavor;
+    stats.gc += golesContra;
+    if (golesFavor > golesContra) stats.pg++;
+    else if (golesFavor === golesContra) stats.pe++;
+    else stats.pp++;
+  }
+  stats.puntos = stats.pg * 3 + stats.pe * 1;
+  return stats;
+}
+
 function renderEstadisticas() {
-  const equipos = [...(DATA.equipos || [])].sort((a, b) => a.nombre.localeCompare(b.nombre, 'es'));
-  statsBodyEl.innerHTML = '';
+  const filas = (DATA.equipos || []).map(eq => ({ eq, stats: computeStats(eq) }));
 
-  for (const eq of equipos) {
-    const stats = { pj: 0, pg: 0, pe: 0, pp: 0, gf: 0, gc: 0 };
-    for (const m of (DATA.matches || [])) {
-      if (!isJugado(m, DATA.updatedAt)) continue;
-      if (!(m.trackedTeams || []).includes(eq.codigo)) continue;
-      const esCasa = m.CODEQUIPO_CASA === eq.codigo;
-      const golesFavor = Number(esCasa ? m.PARTIDO_GOLES_CASA : m.PARTIDO_GOLES_VISITANTE);
-      const golesContra = Number(esCasa ? m.PARTIDO_GOLES_VISITANTE : m.PARTIDO_GOLES_CASA);
-      if (Number.isNaN(golesFavor) || Number.isNaN(golesContra)) continue;
-      stats.pj++;
-      stats.gf += golesFavor;
-      stats.gc += golesContra;
-      if (golesFavor > golesContra) stats.pg++;
-      else if (golesFavor === golesContra) stats.pe++;
-      else stats.pp++;
+  const dirMul = statsSort.dir === 'asc' ? 1 : -1;
+  filas.sort((a, b) => {
+    if (statsSort.key === 'nombre') {
+      return dirMul * a.eq.nombre.localeCompare(b.eq.nombre, 'es');
     }
+    // 'puntos': clasificación por puntos, con diferencia de goles y GF como desempate
+    const diffA = a.stats.gf - a.stats.gc;
+    const diffB = b.stats.gf - b.stats.gc;
+    return dirMul * ((b.stats.puntos - a.stats.puntos)
+      || (diffB - diffA)
+      || (b.stats.gf - a.stats.gf)
+      || a.eq.nombre.localeCompare(b.eq.nombre, 'es'));
+  });
 
+  statsBodyEl.innerHTML = '';
+  for (const { eq, stats } of filas) {
     const row = document.createElement('tr');
     if (eq.codigo === MARTINENC_CODE) row.className = 'own';
     row.innerHTML = `
@@ -525,7 +569,25 @@ function renderEstadisticas() {
     `;
     statsBodyEl.appendChild(row);
   }
+
+  document.querySelectorAll('table.stats th.sortable').forEach(th => {
+    const icon = th.querySelector('.sort-icon');
+    icon.textContent = th.dataset.sortKey === statsSort.key ? (statsSort.dir === 'asc' ? '▲' : '▼') : '';
+  });
 }
+
+document.querySelectorAll('table.stats th.sortable').forEach(th => {
+  th.addEventListener('click', () => {
+    const key = th.dataset.sortKey;
+    if (statsSort.key === key) {
+      statsSort.dir = statsSort.dir === 'asc' ? 'desc' : 'asc';
+    } else {
+      statsSort.key = key;
+      statsSort.dir = key === 'puntos' ? 'desc' : 'asc';
+    }
+    renderEstadisticas();
+  });
+});
 
 fetch(DATA_URL)
   .then(res => {
