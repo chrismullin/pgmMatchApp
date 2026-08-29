@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-29T19:20:11Z",
+  "updatedAt": "2026-08-29T20:19:45Z",
   "equipos": [
     {
       "nombre": "MARTINENC, F.C. \"A\"",
@@ -553,10 +553,10 @@
     },
     {
       "CATEGORIA_AMISTOSO": "54303464",
-      "NOMBRE_COMPETICION": null,
+      "NOMBRE_COMPETICION": "",
       "categoria": "DIVISIÓ HONOR CADET S16",
       "competicion": null,
-      "CODDESIGNACION": "3507706",
+      "CODDESIGNACION": "0",
       "CODIGO_CLUB": "1066",
       "CODEQUIPO_CASA": "35597",
       "NOMEQUIPO_CASA": "SANT CUGAT FUTBOL CLUB \"A\"",
@@ -567,15 +567,15 @@
       "FECHA": "2026-08-29T00:00:00.000Z",
       "FECHA_FORMATTED": "29/08/2026",
       "HORA_COMIENZO": "20:00:00",
-      "CODACTA": "4174014",
-      "PARTIDO_GOLES_CASA": "0",
-      "PARTIDO_GOLES_VISITANTE": "0",
+      "CODACTA": null,
+      "PARTIDO_GOLES_CASA": "1",
+      "PARTIDO_GOLES_VISITANTE": "2",
       "campo": "CAMP DE FUTBOL ZEM JAUME TUBAU",
       "arbitro": "RODRÍGUEZ ARENAS, DAVID",
       "ESCUDO_CASA": "00100_0001133648_escut_sant_cugat_nou_2024__1_.PNG",
       "ESCUDO_FUERA": "00100_0000573790_standreu_200x200.png",
-      "goles_casa": "0",
-      "goles_fuera": "0",
+      "goles_casa": "1",
+      "goles_fuera": "2",
       "logo_casa": "00100_0001133648_escut_sant_cugat_nou_2024__1_.PNG",
       "logo_fuera": "00100_0000573790_standreu_200x200.png",
       "trackedTeams": [
