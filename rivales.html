@@ -388,6 +388,21 @@ function formatFecha(iso) {
   return d.toLocaleDateString('es-ES', { weekday: 'long', day: '2-digit', month: '2-digit', year: 'numeric' });
 }
 
+// CODACTA no es fiable como señal de "partido disputado": hay partidos con
+// CODACTA ya asignado que aún no se han jugado, y partidos ya jugados sin
+// CODACTA todavía informado por la FCF. En su lugar, se compara la hora de
+// inicio teórica del partido con la hora en que el Action recogió los datos
+// (data.updatedAt): si han pasado más de 3h desde el inicio, se asume
+// finalizado. Todo el rango de fechas de esta temporada cae en horario de
+// verano (CEST, UTC+2), de ahí el offset fijo '+02:00'.
+function isJugado(m, updatedAt) {
+  if (!m.FECHA || !m.HORA_COMIENZO || !updatedAt) return !!m.CODACTA;
+  const kickoff = new Date(`${m.FECHA.slice(0, 10)}T${m.HORA_COMIENZO}+02:00`);
+  const referencia = new Date(updatedAt);
+  if (isNaN(kickoff) || isNaN(referencia)) return !!m.CODACTA;
+  return referencia.getTime() >= kickoff.getTime() + 3 * 60 * 60 * 1000;
+}
+
 // --- pestañas ---
 document.querySelectorAll('.tab-btn').forEach(btn => {
   btn.addEventListener('click', () => {
@@ -399,10 +414,12 @@ document.querySelectorAll('.tab-btn').forEach(btn => {
 });
 
 function buildMatchCard(m) {
-  const jugado = !!m.CODACTA;
+  const jugado = isJugado(m, DATA.updatedAt);
   const esPropio = (m.trackedTeams || []).includes(MARTINENC_CODE);
   const centro = jugado
-    ? `<a class="match-score" href="https://www.fcf.cat/ca/competicio/acta/${encodeURIComponent(m.CODACTA)}" target="_blank" rel="noopener">${m.PARTIDO_GOLES_CASA} - ${m.PARTIDO_GOLES_VISITANTE}</a>`
+    ? (m.CODACTA
+        ? `<a class="match-score" href="https://www.fcf.cat/ca/competicio/acta/${encodeURIComponent(m.CODACTA)}" target="_blank" rel="noopener">${m.PARTIDO_GOLES_CASA} - ${m.PARTIDO_GOLES_VISITANTE}</a>`
+        : `<span class="match-score">${m.PARTIDO_GOLES_CASA} - ${m.PARTIDO_GOLES_VISITANTE}</span>`)
     : `<span class="badge-pending">Programado</span>`;
 
   const equipoUrl = (codigoClub, codEquipo) =>
@@ -486,7 +503,7 @@ function renderEstadisticas() {
   for (const eq of equipos) {
     const stats = { pj: 0, pg: 0, pe: 0, pp: 0, gf: 0, gc: 0 };
     for (const m of (DATA.matches || [])) {
-      if (!m.CODACTA) continue;
+      if (!isJugado(m, DATA.updatedAt)) continue;
       if (!(m.trackedTeams || []).includes(eq.codigo)) continue;
       const esCasa = m.CODEQUIPO_CASA === eq.codigo;
       const golesFavor = Number(esCasa ? m.PARTIDO_GOLES_CASA : m.PARTIDO_GOLES_VISITANTE);
