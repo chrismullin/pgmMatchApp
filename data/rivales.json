@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-30T07:46:31Z",
+  "updatedAt": "2026-08-30T13:30:13Z",
   "equipos": [
     {
       "nombre": "MARTINENC, F.C. \"A\"",
@@ -584,10 +584,10 @@
     },
     {
       "CATEGORIA_AMISTOSO": "54303465",
-      "NOMBRE_COMPETICION": null,
+      "NOMBRE_COMPETICION": "",
       "categoria": "PREFERENT CADET S16",
       "competicion": null,
-      "CODDESIGNACION": "3506129",
+      "CODDESIGNACION": "0",
       "CODIGO_CLUB": "50588569",
       "CODEQUIPO_CASA": "54313189",
       "NOMEQUIPO_CASA": "FUNDACIO  F. VILANOVA I LA GELTRÚ \"A\"",
@@ -598,7 +598,7 @@
       "FECHA": "2026-08-30T00:00:00.000Z",
       "FECHA_FORMATTED": "30/08/2026",
       "HORA_COMIENZO": "10:00:00",
-      "CODACTA": "4173515",
+      "CODACTA": null,
       "PARTIDO_GOLES_CASA": "0",
       "PARTIDO_GOLES_VISITANTE": "0",
       "campo": "ESTADI MPAL. ASSOCIACIÓ ALUMNES OBRERS",
