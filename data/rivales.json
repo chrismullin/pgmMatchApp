@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-30T20:25:21Z",
+  "updatedAt": "2026-08-30T23:04:31Z",
   "equipos": [
     {
       "nombre": "MARTINENC, F.C. \"A\"",
@@ -739,10 +739,10 @@
     },
     {
       "CATEGORIA_AMISTOSO": "54303465",
-      "NOMBRE_COMPETICION": null,
+      "NOMBRE_COMPETICION": "",
       "categoria": "PREFERENT CADET S16",
       "competicion": null,
-      "CODDESIGNACION": "3506417",
+      "CODDESIGNACION": "0",
       "CODIGO_CLUB": "1375",
       "CODEQUIPO_CASA": "54311373",
       "NOMEQUIPO_CASA": "JOANENC, F.C. \"A\"",
@@ -753,7 +753,7 @@
       "FECHA": "2026-08-30T00:00:00.000Z",
       "FECHA_FORMATTED": "30/08/2026",
       "HORA_COMIENZO": "20:15:00",
-      "CODACTA": "4173906",
+      "CODACTA": null,
       "PARTIDO_GOLES_CASA": "0",
       "PARTIDO_GOLES_VISITANTE": "3",
       "campo": "CAMP DE FUTBOL ZEM DE SANT JOAN VILATORRADA",
@@ -761,7 +761,7 @@
       "ESCUDO_CASA": "00100_0000971702_Escut_Joanenc.png",
       "ESCUDO_FUERA": "00100_0001178430_6686_Sant_Just_B.png",
       "goles_casa": "0",
-      "goles_fuera": "0",
+      "goles_fuera": "3",
       "logo_casa": "00100_0000971702_Escut_Joanenc.png",
       "logo_fuera": "00100_0001178430_6686_Sant_Just_B.png",
       "trackedTeams": [
