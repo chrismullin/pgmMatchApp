@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-29T22:03:57Z",
+  "updatedAt": "2026-08-30T00:50:05Z",
   "equipos": [
     {
       "nombre": "MARTINENC, F.C. JUVENIL \"A\"",
@@ -175,10 +175,10 @@
     },
     {
       "CATEGORIA_AMISTOSO": "12",
-      "NOMBRE_COMPETICION": "",
+      "NOMBRE_COMPETICION": null,
       "categoria": "PREFERENT JUVENILS",
       "competicion": null,
-      "CODDESIGNACION": "0",
+      "CODDESIGNACION": "3507122",
       "CODIGO_CLUB": "1018",
       "CODEQUIPO_CASA": "33712",
       "NOMEQUIPO_CASA": "GRANOLLERS, E.C. \"A\"",
@@ -189,7 +189,7 @@
       "FECHA": "2026-08-29T00:00:00.000Z",
       "FECHA_FORMATTED": "29/08/2026",
       "HORA_COMIENZO": "15:00:00",
-      "CODACTA": null,
+      "CODACTA": "4171779",
       "PARTIDO_GOLES_CASA": "3",
       "PARTIDO_GOLES_VISITANTE": "2",
       "campo": "CAMP DE FUTBOL MPAL. DE GRANOLLERS",
