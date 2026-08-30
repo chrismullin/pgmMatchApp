@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-30T17:53:59Z",
+  "updatedAt": "2026-08-30T20:25:21Z",
   "equipos": [
     {
       "nombre": "MARTINENC, F.C. \"A\"",
@@ -755,7 +755,7 @@
       "HORA_COMIENZO": "20:15:00",
       "CODACTA": "4173906",
       "PARTIDO_GOLES_CASA": "0",
-      "PARTIDO_GOLES_VISITANTE": "0",
+      "PARTIDO_GOLES_VISITANTE": "3",
       "campo": "CAMP DE FUTBOL ZEM DE SANT JOAN VILATORRADA",
       "arbitro": "AZRAF AOURAGH, MOHAMED",
       "ESCUDO_CASA": "00100_0000971702_Escut_Joanenc.png",
