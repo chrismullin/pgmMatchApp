@@ -360,6 +360,37 @@
       ]
     },
     {
+      "CATEGORIA_AMISTOSO": "12",
+      "NOMBRE_COMPETICION": null,
+      "categoria": "PREFERENT JUVENILS",
+      "competicion": null,
+      "CODDESIGNACION": null,
+      "CODIGO_CLUB": "34785031",
+      "CODEQUIPO_CASA": "34789957",
+      "NOMEQUIPO_CASA": "FUNDACIÓ TERRASSA FC 1906 \"A\"",
+      "CODIGO_CLUB_FUERA": "1032",
+      "NOMEQUIPO_FUERA": "MARTINENC, F.C. \"A\"",
+      "CODEQUIPO_FUERA": "33390",
+      "CODIGO_CAMPO": "961",
+      "FECHA": "2026-09-06T00:00:00.000Z",
+      "FECHA_FORMATTED": "06/09/2026",
+      "HORA_COMIENZO": "18:00:00",
+      "CODACTA": null,
+      "PARTIDO_GOLES_CASA": "0",
+      "PARTIDO_GOLES_VISITANTE": "0",
+      "campo": "ESTADI OLÍMPIC DE TERRASSA",
+      "arbitro": null,
+      "ESCUDO_CASA": "00100_0000988633_TERRASSAFCnou.png",
+      "ESCUDO_FUERA": "00100_0000577607_martinenc-200x200.png",
+      "goles_casa": "0",
+      "goles_fuera": "0",
+      "logo_casa": "00100_0000988633_TERRASSAFCnou.png",
+      "logo_fuera": "00100_0000577607_martinenc-200x200.png",
+      "trackedTeams": [
+        "33390"
+      ]
+    },
+    {
       "CATEGORIA_AMISTOSO": "54303464",
       "NOMBRE_COMPETICION": null,
       "categoria": "DIVISIÓ HONOR CADET S16",
