@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-31T20:17:37Z",
+  "updatedAt": "2026-08-31T22:19:11Z",
   "equipos": [
     {
       "nombre": "MARTINENC, F.C. \"A\"",
@@ -770,10 +770,10 @@
     },
     {
       "CATEGORIA_AMISTOSO": "54303465",
-      "NOMBRE_COMPETICION": "",
+      "NOMBRE_COMPETICION": null,
       "categoria": "PREFERENT CADET S16",
       "competicion": null,
-      "CODDESIGNACION": "0",
+      "CODDESIGNACION": "3507857",
       "CODIGO_CLUB": "34766344",
       "CODEQUIPO_CASA": "54312945",
       "NOMEQUIPO_CASA": "FUNDACIÓ P. F.BASE REUS \"A\"",
@@ -784,7 +784,7 @@
       "FECHA": "2026-08-31T00:00:00.000Z",
       "FECHA_FORMATTED": "31/08/2026",
       "HORA_COMIENZO": "17:00:00",
-      "CODACTA": null,
+      "CODACTA": "4175650",
       "PARTIDO_GOLES_CASA": "1",
       "PARTIDO_GOLES_VISITANTE": "1",
       "campo": "ESTADI MPAL. C.F.REUS ANNEX 2",
@@ -898,6 +898,37 @@
       "categoria": "PREFERENT CADET S16",
       "competicion": null,
       "CODDESIGNACION": null,
+      "CODIGO_CLUB": "6278",
+      "CODEQUIPO_CASA": "54310809",
+      "NOMEQUIPO_CASA": "CAN BUXERES, F.C. \"A\"",
+      "CODIGO_CLUB_FUERA": "1150",
+      "NOMEQUIPO_FUERA": "CASTELLDEFELS, U.E. \"A\"",
+      "CODEQUIPO_FUERA": "54316955",
+      "CODIGO_CAMPO": "261",
+      "FECHA": "2026-09-05T00:00:00.000Z",
+      "FECHA_FORMATTED": "05/09/2026",
+      "HORA_COMIENZO": "13:10:00",
+      "CODACTA": null,
+      "PARTIDO_GOLES_CASA": "0",
+      "PARTIDO_GOLES_VISITANTE": "0",
+      "campo": "CAMP DE FUTBOL MPAL. CAN BUXERES",
+      "arbitro": null,
+      "ESCUDO_CASA": "00100_0000648509_canbuxeres_200x200.png",
+      "ESCUDO_FUERA": "00100_0000654303_castelldefels_200x200.png",
+      "goles_casa": "0",
+      "goles_fuera": "0",
+      "logo_casa": "00100_0000648509_canbuxeres_200x200.png",
+      "logo_fuera": "00100_0000654303_castelldefels_200x200.png",
+      "trackedTeams": [
+        "54310809"
+      ]
+    },
+    {
+      "CATEGORIA_AMISTOSO": "54303465",
+      "NOMBRE_COMPETICION": null,
+      "categoria": "PREFERENT CADET S16",
+      "competicion": null,
+      "CODDESIGNACION": null,
       "CODIGO_CLUB": "1014",
       "CODEQUIPO_CASA": "54316930",
       "NOMEQUIPO_CASA": "SANT ANDREU, U.E \"A\"",
@@ -921,6 +952,37 @@
       "logo_fuera": "00100_0001107681_CE_MANRESA.png",
       "trackedTeams": [
         "54316930"
+      ]
+    },
+    {
+      "CATEGORIA_AMISTOSO": "54303465",
+      "NOMBRE_COMPETICION": null,
+      "categoria": "PREFERENT CADET S16",
+      "competicion": null,
+      "CODDESIGNACION": null,
+      "CODIGO_CLUB": "1131",
+      "CODEQUIPO_CASA": "54327910",
+      "NOMEQUIPO_CASA": "PRAT, A.E. \"A\"",
+      "CODIGO_CLUB_FUERA": "1047",
+      "NOMEQUIPO_FUERA": "VILASSAR DALT-GIATSU, C.E. \"A\"",
+      "CODEQUIPO_FUERA": "54314135",
+      "CODIGO_CAMPO": "584",
+      "FECHA": "2026-09-05T00:00:00.000Z",
+      "FECHA_FORMATTED": "05/09/2026",
+      "HORA_COMIENZO": "16:15:00",
+      "CODACTA": null,
+      "PARTIDO_GOLES_CASA": "0",
+      "PARTIDO_GOLES_VISITANTE": "0",
+      "campo": "CAMP DE FUTBOL CEM SAGNIER",
+      "arbitro": null,
+      "ESCUDO_CASA": "00100_0000892062_aeprat_200.png",
+      "ESCUDO_FUERA": "00100_0000881490_vilassardalt_200.png",
+      "goles_casa": "0",
+      "goles_fuera": "0",
+      "logo_casa": "00100_0000892062_aeprat_200.png",
+      "logo_fuera": "00100_0000881490_vilassardalt_200.png",
+      "trackedTeams": [
+        "54327910"
       ]
     },
     {
@@ -983,6 +1045,37 @@
       "logo_fuera": "00100_0000879078_llefia_200.png",
       "trackedTeams": [
         "54312622"
+      ]
+    },
+    {
+      "CATEGORIA_AMISTOSO": "54303465",
+      "NOMBRE_COMPETICION": null,
+      "categoria": "PREFERENT CADET S16",
+      "competicion": null,
+      "CODDESIGNACION": null,
+      "CODIGO_CLUB": "6278",
+      "CODEQUIPO_CASA": "54310809",
+      "NOMEQUIPO_CASA": "CAN BUXERES, F.C. \"A\"",
+      "CODIGO_CLUB_FUERA": "6137",
+      "NOMEQUIPO_FUERA": "CAN RULL ROMULO TRONCHONI, CFU \"A\"",
+      "CODEQUIPO_FUERA": "54305986",
+      "CODIGO_CAMPO": "261",
+      "FECHA": "2026-09-06T00:00:00.000Z",
+      "FECHA_FORMATTED": "06/09/2026",
+      "HORA_COMIENZO": "12:15:00",
+      "CODACTA": null,
+      "PARTIDO_GOLES_CASA": "0",
+      "PARTIDO_GOLES_VISITANTE": "0",
+      "campo": "CAMP DE FUTBOL MPAL. CAN BUXERES",
+      "arbitro": null,
+      "ESCUDO_CASA": "00100_0000648509_canbuxeres_200x200.png",
+      "ESCUDO_FUERA": "00100_0000000105_ESCUDO111_edited.png",
+      "goles_casa": "0",
+      "goles_fuera": "0",
+      "logo_casa": "00100_0000648509_canbuxeres_200x200.png",
+      "logo_fuera": "00100_0000000105_ESCUDO111_edited.png",
+      "trackedTeams": [
+        "54310809"
       ]
     },
     {
