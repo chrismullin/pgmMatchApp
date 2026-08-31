@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-31T09:37:18Z",
+  "updatedAt": "2026-08-31T17:22:22Z",
   "equipos": [
     {
       "nombre": "MARTINENC, F.C. \"A\"",
@@ -770,10 +770,10 @@
     },
     {
       "CATEGORIA_AMISTOSO": "54303465",
-      "NOMBRE_COMPETICION": null,
+      "NOMBRE_COMPETICION": "",
       "categoria": "PREFERENT CADET S16",
       "competicion": null,
-      "CODDESIGNACION": "3507857",
+      "CODDESIGNACION": "0",
       "CODIGO_CLUB": "34766344",
       "CODEQUIPO_CASA": "54312945",
       "NOMEQUIPO_CASA": "FUNDACIÓ P. F.BASE REUS \"A\"",
@@ -784,15 +784,15 @@
       "FECHA": "2026-08-31T00:00:00.000Z",
       "FECHA_FORMATTED": "31/08/2026",
       "HORA_COMIENZO": "17:00:00",
-      "CODACTA": "4175650",
-      "PARTIDO_GOLES_CASA": "0",
+      "CODACTA": null,
+      "PARTIDO_GOLES_CASA": "1",
       "PARTIDO_GOLES_VISITANTE": "1",
       "campo": "ESTADI MPAL. C.F.REUS ANNEX 2",
       "arbitro": "MAGHERUSAN MAGHERUSAN, MIGUEL DANIEL",
       "ESCUDO_CASA": "00100_0000963484_00100_0000946856_ESC_F.F.B._REUS.png",
       "ESCUDO_FUERA": "00100_0000573790_standreu_200x200.png",
-      "goles_casa": "0",
-      "goles_fuera": "0",
+      "goles_casa": "1",
+      "goles_fuera": "1",
       "logo_casa": "00100_0000963484_00100_0000946856_ESC_F.F.B._REUS.png",
       "logo_fuera": "00100_0000573790_standreu_200x200.png",
       "trackedTeams": [
