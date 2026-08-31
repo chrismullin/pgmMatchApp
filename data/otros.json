@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-30T23:58:40Z",
+  "updatedAt": "2026-08-31T03:21:14Z",
   "equipos": [
     {
       "nombre": "MARTINENC, F.C. JUVENIL \"A\"",
@@ -206,10 +206,10 @@
     },
     {
       "CATEGORIA_AMISTOSO": "12",
-      "NOMBRE_COMPETICION": "",
+      "NOMBRE_COMPETICION": null,
       "categoria": "PREFERENT JUVENILS",
       "competicion": null,
-      "CODDESIGNACION": "0",
+      "CODDESIGNACION": "3506048",
       "CODIGO_CLUB": "1032",
       "CODEQUIPO_CASA": "33390",
       "NOMEQUIPO_CASA": "MARTINENC, F.C. \"A\"",
@@ -220,7 +220,7 @@
       "FECHA": "2026-08-30T00:00:00.000Z",
       "FECHA_FORMATTED": "30/08/2026",
       "HORA_COMIENZO": "18:00:00",
-      "CODACTA": null,
+      "CODACTA": "4171876",
       "PARTIDO_GOLES_CASA": "0",
       "PARTIDO_GOLES_VISITANTE": "0",
       "campo": "CAMP DE FUTBOL CEM GUINARDÓ",
@@ -312,7 +312,7 @@
       "CODIGO_CAMPO": "666",
       "FECHA": "2026-09-05T00:00:00.000Z",
       "FECHA_FORMATTED": "05/09/2026",
-      "HORA_COMIENZO": "19:15:00",
+      "HORA_COMIENZO": "19:30:00",
       "CODACTA": null,
       "PARTIDO_GOLES_CASA": "0",
       "PARTIDO_GOLES_VISITANTE": "0",
