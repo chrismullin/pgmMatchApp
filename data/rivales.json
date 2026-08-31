@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-31T03:00:55Z",
+  "updatedAt": "2026-08-31T09:37:18Z",
   "equipos": [
     {
       "nombre": "MARTINENC, F.C. \"A\"",
@@ -474,7 +474,7 @@
       "FECHA": "2026-08-29T00:00:00.000Z",
       "FECHA_FORMATTED": "29/08/2026",
       "HORA_COMIENZO": "16:00:00",
-      "CODACTA": null,
+      "CODACTA": "4174012",
       "PARTIDO_GOLES_CASA": "4",
       "PARTIDO_GOLES_VISITANTE": "2",
       "campo": "CAMP DE FUTBOL ZEM JAUME TUBAU",
@@ -867,6 +867,37 @@
       "categoria": "PREFERENT CADET S16",
       "competicion": null,
       "CODDESIGNACION": null,
+      "CODIGO_CLUB": "1014",
+      "CODEQUIPO_CASA": "54316930",
+      "NOMEQUIPO_CASA": "SANT ANDREU, U.E \"A\"",
+      "CODIGO_CLUB_FUERA": "1007",
+      "NOMEQUIPO_FUERA": "MANRESA, C.E. \"A\"",
+      "CODEQUIPO_FUERA": "54319905",
+      "CODIGO_CAMPO": "11",
+      "FECHA": "2026-09-05T00:00:00.000Z",
+      "FECHA_FORMATTED": "05/09/2026",
+      "HORA_COMIENZO": "15:00:00",
+      "CODACTA": null,
+      "PARTIDO_GOLES_CASA": "0",
+      "PARTIDO_GOLES_VISITANTE": "0",
+      "campo": "CAMP DE FUTBOL CEM BON PASTOR ",
+      "arbitro": null,
+      "ESCUDO_CASA": "00100_0000573790_standreu_200x200.png",
+      "ESCUDO_FUERA": "00100_0001107681_CE_MANRESA.png",
+      "goles_casa": "0",
+      "goles_fuera": "0",
+      "logo_casa": "00100_0000573790_standreu_200x200.png",
+      "logo_fuera": "00100_0001107681_CE_MANRESA.png",
+      "trackedTeams": [
+        "54316930"
+      ]
+    },
+    {
+      "CATEGORIA_AMISTOSO": "54303465",
+      "NOMBRE_COMPETICION": null,
+      "categoria": "PREFERENT CADET S16",
+      "competicion": null,
+      "CODDESIGNACION": null,
       "CODIGO_CLUB": "6283",
       "CODEQUIPO_CASA": "54311195",
       "NOMEQUIPO_CASA": "CERDANYOLA VALLES, F.C. \"A\"",
@@ -890,37 +921,6 @@
       "logo_fuera": "00100_0001223440_ANGUERA.png",
       "trackedTeams": [
         "54313841"
-      ]
-    },
-    {
-      "CATEGORIA_AMISTOSO": "54303465",
-      "NOMBRE_COMPETICION": null,
-      "categoria": "PREFERENT CADET S16",
-      "competicion": null,
-      "CODDESIGNACION": null,
-      "CODIGO_CLUB": "1014",
-      "CODEQUIPO_CASA": "54316930",
-      "NOMEQUIPO_CASA": "SANT ANDREU, U.E \"A\"",
-      "CODIGO_CLUB_FUERA": "1007",
-      "NOMEQUIPO_FUERA": "MANRESA, C.E. \"A\"",
-      "CODEQUIPO_FUERA": "54319905",
-      "CODIGO_CAMPO": "11",
-      "FECHA": "2026-09-05T00:00:00.000Z",
-      "FECHA_FORMATTED": "05/09/2026",
-      "HORA_COMIENZO": "18:00:00",
-      "CODACTA": null,
-      "PARTIDO_GOLES_CASA": "0",
-      "PARTIDO_GOLES_VISITANTE": "0",
-      "campo": "CAMP DE FUTBOL CEM BON PASTOR ",
-      "arbitro": null,
-      "ESCUDO_CASA": "00100_0000573790_standreu_200x200.png",
-      "ESCUDO_FUERA": "00100_0001107681_CE_MANRESA.png",
-      "goles_casa": "0",
-      "goles_fuera": "0",
-      "logo_casa": "00100_0000573790_standreu_200x200.png",
-      "logo_fuera": "00100_0001107681_CE_MANRESA.png",
-      "trackedTeams": [
-        "54316930"
       ]
     },
     {
