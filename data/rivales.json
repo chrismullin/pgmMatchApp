@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-01T13:00:55Z",
+  "updatedAt": "2026-09-01T15:50:40Z",
   "equipos": [
     {
       "nombre": "MARTINENC, F.C. \"A\"",
@@ -831,9 +831,9 @@
       ]
     },
     {
-      "CATEGORIA_AMISTOSO": "54303464",
+      "CATEGORIA_AMISTOSO": "54303465",
       "NOMBRE_COMPETICION": null,
-      "categoria": "DIVISIÓ HONOR CADET S16",
+      "categoria": "PREFERENT CADET S16",
       "competicion": null,
       "CODDESIGNACION": null,
       "CODIGO_CLUB": "1241",
@@ -845,7 +845,7 @@
       "CODIGO_CAMPO": "734",
       "FECHA": "2026-09-05T00:00:00.000Z",
       "FECHA_FORMATTED": "05/09/2026",
-      "HORA_COMIENZO": "10:00:00",
+      "HORA_COMIENZO": "10:15:00",
       "CODACTA": null,
       "PARTIDO_GOLES_CASA": "0",
       "PARTIDO_GOLES_VISITANTE": "0",
@@ -1266,6 +1266,37 @@
       ]
     },
     {
+      "CATEGORIA_AMISTOSO": "54303465",
+      "NOMBRE_COMPETICION": null,
+      "categoria": "PREFERENT CADET S16",
+      "competicion": null,
+      "CODDESIGNACION": null,
+      "CODIGO_CLUB": "1241",
+      "CODEQUIPO_CASA": "54306039",
+      "NOMEQUIPO_CASA": "SANT GABRIEL, C.D. \"A\"",
+      "CODIGO_CLUB_FUERA": "1027",
+      "NOMEQUIPO_FUERA": "SANTBOIA, F.C. \"A\"",
+      "CODEQUIPO_FUERA": "54310362",
+      "CODIGO_CAMPO": "734",
+      "FECHA": "2026-09-06T00:00:00.000Z",
+      "FECHA_FORMATTED": "06/09/2026",
+      "HORA_COMIENZO": "18:15:00",
+      "CODACTA": null,
+      "PARTIDO_GOLES_CASA": "0",
+      "PARTIDO_GOLES_VISITANTE": "0",
+      "campo": "CAMP DE FUTBOL CEM MARINA BESÒS JOSÉ LUIS RUIZ CASADO",
+      "arbitro": null,
+      "ESCUDO_CASA": "00100_0000832660_santgabriel_200.png",
+      "ESCUDO_FUERA": "00100_0000959036_1027_santboia_200.png",
+      "goles_casa": "0",
+      "goles_fuera": "0",
+      "logo_casa": "00100_0000832660_santgabriel_200.png",
+      "logo_fuera": "00100_0000959036_1027_santboia_200.png",
+      "trackedTeams": [
+        "54306039"
+      ]
+    },
+    {
       "CATEGORIA_AMISTOSO": "54303466",
       "NOMBRE_COMPETICION": null,
       "categoria": "CADET PRIMERA DIVISIÓ S16",
@@ -1364,6 +1395,38 @@
       "categoria": "PREFERENT CADET S16",
       "competicion": null,
       "CODDESIGNACION": null,
+      "CODIGO_CLUB": "1241",
+      "CODEQUIPO_CASA": "54306039",
+      "NOMEQUIPO_CASA": "SANT GABRIEL, C.D. \"A\"",
+      "CODIGO_CLUB_FUERA": "1011",
+      "NOMEQUIPO_FUERA": "EUROPA, C.E. \"B\"",
+      "CODEQUIPO_FUERA": "54312742",
+      "CODIGO_CAMPO": "734",
+      "FECHA": "2026-09-12T00:00:00.000Z",
+      "FECHA_FORMATTED": "12/09/2026",
+      "HORA_COMIENZO": "12:00:00",
+      "CODACTA": null,
+      "PARTIDO_GOLES_CASA": "0",
+      "PARTIDO_GOLES_VISITANTE": "0",
+      "campo": "CAMP DE FUTBOL CEM MARINA BESÒS JOSÉ LUIS RUIZ CASADO",
+      "arbitro": null,
+      "ESCUDO_CASA": "00100_0000832660_santgabriel_200.png",
+      "ESCUDO_FUERA": "00100_0000735880_europa_200x200.png",
+      "goles_casa": "0",
+      "goles_fuera": "0",
+      "logo_casa": "00100_0000832660_santgabriel_200.png",
+      "logo_fuera": "00100_0000735880_europa_200x200.png",
+      "trackedTeams": [
+        "54306039",
+        "54312742"
+      ]
+    },
+    {
+      "CATEGORIA_AMISTOSO": "54303465",
+      "NOMBRE_COMPETICION": null,
+      "categoria": "PREFERENT CADET S16",
+      "competicion": null,
+      "CODDESIGNACION": null,
       "CODIGO_CLUB": "1255",
       "CODEQUIPO_CASA": "54304018",
       "NOMEQUIPO_CASA": "ESCOLA F. GAVA, C. \"A\"",
@@ -1418,38 +1481,6 @@
       "logo_fuera": "00100_0000574709_fgrama_200x200.png",
       "trackedTeams": [
         "54319559"
-      ]
-    },
-    {
-      "CATEGORIA_AMISTOSO": "54303465",
-      "NOMBRE_COMPETICION": null,
-      "categoria": "PREFERENT CADET S16",
-      "competicion": null,
-      "CODDESIGNACION": null,
-      "CODIGO_CLUB": "1241",
-      "CODEQUIPO_CASA": "54306039",
-      "NOMEQUIPO_CASA": "SANT GABRIEL, C.D. \"A\"",
-      "CODIGO_CLUB_FUERA": "1011",
-      "NOMEQUIPO_FUERA": "EUROPA, C.E. \"B\"",
-      "CODEQUIPO_FUERA": "54312742",
-      "CODIGO_CAMPO": "734",
-      "FECHA": "2026-09-12T00:00:00.000Z",
-      "FECHA_FORMATTED": "12/09/2026",
-      "HORA_COMIENZO": "18:05:00",
-      "CODACTA": null,
-      "PARTIDO_GOLES_CASA": "0",
-      "PARTIDO_GOLES_VISITANTE": "0",
-      "campo": "CAMP DE FUTBOL CEM MARINA BESÒS JOSÉ LUIS RUIZ CASADO",
-      "arbitro": null,
-      "ESCUDO_CASA": "00100_0000832660_santgabriel_200.png",
-      "ESCUDO_FUERA": "00100_0000735880_europa_200x200.png",
-      "goles_casa": "0",
-      "goles_fuera": "0",
-      "logo_casa": "00100_0000832660_santgabriel_200.png",
-      "logo_fuera": "00100_0000735880_europa_200x200.png",
-      "trackedTeams": [
-        "54306039",
-        "54312742"
       ]
     },
     {
