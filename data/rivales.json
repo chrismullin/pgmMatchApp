@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-01T07:07:33Z",
+  "updatedAt": "2026-09-01T08:24:21Z",
   "equipos": [
     {
       "nombre": "MARTINENC, F.C. \"A\"",
@@ -952,6 +952,37 @@
       "logo_fuera": "00100_0001107681_CE_MANRESA.png",
       "trackedTeams": [
         "54316930"
+      ]
+    },
+    {
+      "CATEGORIA_AMISTOSO": "54303465",
+      "NOMBRE_COMPETICION": null,
+      "categoria": "PREFERENT CADET S16",
+      "competicion": null,
+      "CODDESIGNACION": null,
+      "CODIGO_CLUB": "2925",
+      "CODEQUIPO_CASA": "54310804",
+      "NOMEQUIPO_CASA": "VINYETS MOLI-VELL, C.F. \"A\"",
+      "CODIGO_CLUB_FUERA": "1004",
+      "NOMEQUIPO_FUERA": "SABADELL F.C., C.E. \"B\"",
+      "CODEQUIPO_FUERA": "54314084",
+      "CODIGO_CAMPO": "1731",
+      "FECHA": "2026-09-05T00:00:00.000Z",
+      "FECHA_FORMATTED": "05/09/2026",
+      "HORA_COMIENZO": "15:45:00",
+      "CODACTA": null,
+      "PARTIDO_GOLES_CASA": "0",
+      "PARTIDO_GOLES_VISITANTE": "0",
+      "campo": "CAMP DE FUTBOL MPAL. LA PARELLADA St. Boi",
+      "arbitro": null,
+      "ESCUDO_CASA": "00100_0000782438_vinyetsmolivell_200x200.png",
+      "ESCUDO_FUERA": "00100_0001025828_escut_CES__1_.png",
+      "goles_casa": "0",
+      "goles_fuera": "0",
+      "logo_casa": "00100_0000782438_vinyetsmolivell_200x200.png",
+      "logo_fuera": "00100_0001025828_escut_CES__1_.png",
+      "trackedTeams": [
+        "54310804"
       ]
     },
     {
