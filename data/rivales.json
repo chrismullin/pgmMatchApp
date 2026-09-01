@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-01T08:24:21Z",
+  "updatedAt": "2026-09-01T13:00:55Z",
   "equipos": [
     {
       "nombre": "MARTINENC, F.C. \"A\"",
@@ -1110,6 +1110,37 @@
       ]
     },
     {
+      "CATEGORIA_AMISTOSO": "54303466",
+      "NOMBRE_COMPETICION": null,
+      "categoria": "CADET PRIMERA DIVISIÓ S16",
+      "competicion": null,
+      "CODDESIGNACION": null,
+      "CODIGO_CLUB": "2976",
+      "CODEQUIPO_CASA": "54313902",
+      "NOMEQUIPO_CASA": "NATACIO TERRASSA, C \"A\"",
+      "CODIGO_CLUB_FUERA": "2925",
+      "NOMEQUIPO_FUERA": "VINYETS MOLI-VELL, C.F. \"A\"",
+      "CODEQUIPO_FUERA": "54310804",
+      "CODIGO_CAMPO": "746",
+      "FECHA": "2026-09-06T00:00:00.000Z",
+      "FECHA_FORMATTED": "06/09/2026",
+      "HORA_COMIENZO": "13:00:00",
+      "CODACTA": null,
+      "PARTIDO_GOLES_CASA": "0",
+      "PARTIDO_GOLES_VISITANTE": "0",
+      "campo": "CAMP DE FUTBOL CLUB NATACIÓ TERRASSA",
+      "arbitro": null,
+      "ESCUDO_CASA": "00100_0000485476_NATACIO_TERRASSA,_C.jpeg_copia.png",
+      "ESCUDO_FUERA": "00100_0000782438_vinyetsmolivell_200x200.png",
+      "goles_casa": "0",
+      "goles_fuera": "0",
+      "logo_casa": "00100_0000485476_NATACIO_TERRASSA,_C.jpeg_copia.png",
+      "logo_fuera": "00100_0000782438_vinyetsmolivell_200x200.png",
+      "trackedTeams": [
+        "54310804"
+      ]
+    },
+    {
       "CATEGORIA_AMISTOSO": "54303465",
       "NOMBRE_COMPETICION": null,
       "categoria": "PREFERENT CADET S16",
@@ -1232,6 +1263,37 @@
       "logo_fuera": "00100_0000574709_fgrama_200x200.png",
       "trackedTeams": [
         "54319559"
+      ]
+    },
+    {
+      "CATEGORIA_AMISTOSO": "54303466",
+      "NOMBRE_COMPETICION": null,
+      "categoria": "CADET PRIMERA DIVISIÓ S16",
+      "competicion": null,
+      "CODDESIGNACION": null,
+      "CODIGO_CLUB": "6178",
+      "CODEQUIPO_CASA": "54314128",
+      "NOMEQUIPO_CASA": "FUNDACIO P. CE. JUPITER \"A\"",
+      "CODIGO_CLUB_FUERA": "1051",
+      "NOMEQUIPO_FUERA": "SANTS, U.E. \"A\"",
+      "CODEQUIPO_FUERA": "54316893",
+      "CODIGO_CAMPO": "403",
+      "FECHA": "2026-09-06T00:00:00.000Z",
+      "FECHA_FORMATTED": "06/09/2026",
+      "HORA_COMIENZO": "19:30:00",
+      "CODACTA": null,
+      "PARTIDO_GOLES_CASA": "0",
+      "PARTIDO_GOLES_VISITANTE": "0",
+      "campo": "CAMP DE FUTBOL CEM JÚPITER",
+      "arbitro": null,
+      "ESCUDO_CASA": "00100_0000672019_cejupiter_200x200.png",
+      "ESCUDO_FUERA": "00100_0000959051_1051_SantUE_200.png",
+      "goles_casa": "0",
+      "goles_fuera": "0",
+      "logo_casa": "00100_0000672019_cejupiter_200x200.png",
+      "logo_fuera": "00100_0000959051_1051_SantUE_200.png",
+      "trackedTeams": [
+        "54316893"
       ]
     },
     {
