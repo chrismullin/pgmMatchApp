@@ -1,7 +1,11 @@
 {
   "updatedAt": "2026-09-02T18:10:53Z",
   "equipos": [
-    {
+     {
+      "nombre": "BUFALA, F.C. \"A\"",
+      "club": "1140",
+      "codigo": "54310378"
+    },{
       "nombre": "MARTINENC, F.C. JUVENIL \"A\"",
       "club": "1032",
       "codigo": "33390"
