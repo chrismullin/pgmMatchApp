@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-02T17:06:57Z",
+  "updatedAt": "2026-09-02T18:22:14Z",
   "equipos": [
     {
       "nombre": "MARTINENC, F.C. \"A\"",
@@ -816,8 +816,8 @@
       "FECHA_FORMATTED": "02/09/2026",
       "HORA_COMIENZO": "19:15:00",
       "CODACTA": "4191062",
-      "PARTIDO_GOLES_CASA": "0",
-      "PARTIDO_GOLES_VISITANTE": "0",
+      "PARTIDO_GOLES_CASA": "1",
+      "PARTIDO_GOLES_VISITANTE": "1",
       "campo": "CAMP DE FUTBOL CIUTAT ESPORTIVA GIMNÀSTIC DE TARRAGONA 1 2 Camps",
       "arbitro": "FERNANDEZ OLIVE, ELOY",
       "ESCUDO_CASA": "00100_0000760745_nastic_200.png",
