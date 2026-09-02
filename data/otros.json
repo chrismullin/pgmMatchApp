@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-02T10:02:03Z",
+  "updatedAt": "2026-09-02T14:46:21Z",
   "equipos": [
     {
       "nombre": "MARTINENC, F.C. JUVENIL \"A\"",
@@ -302,7 +302,7 @@
       "NOMBRE_COMPETICION": null,
       "categoria": "DIVISIÓ HONOR CADET S16",
       "competicion": null,
-      "CODDESIGNACION": null,
+      "CODDESIGNACION": "3511235",
       "CODIGO_CLUB": "6355",
       "CODEQUIPO_CASA": "54313991",
       "NOMEQUIPO_CASA": "VIC RIUPRIMER REFO FUTBOL CLUB \"A\"",
@@ -313,11 +313,11 @@
       "FECHA": "2026-09-06T00:00:00.000Z",
       "FECHA_FORMATTED": "06/09/2026",
       "HORA_COMIENZO": "15:00:00",
-      "CODACTA": null,
+      "CODACTA": "4204154",
       "PARTIDO_GOLES_CASA": "0",
       "PARTIDO_GOLES_VISITANTE": "0",
       "campo": "CAMP DE FUTBOL MPAL. DE SANTA EULÀLIA DE RIUPRIMER",
-      "arbitro": null,
+      "arbitro": "BELMAKRAN AMIMAR, ADAM",
       "ESCUDO_CASA": "00100_0000739642_riuprimer_200x200.png",
       "ESCUDO_FUERA": "00100_0001068863_mercantil.png",
       "goles_casa": "0",
