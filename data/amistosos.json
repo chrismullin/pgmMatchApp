@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-02T20:19:18Z",
+  "updatedAt": "2026-09-02T21:49:02Z",
   "teamCode": "54304670",
   "matches": [
     {
@@ -57,6 +57,34 @@
       "goles_fuera": "1",
       "logo_casa": "00100_0000577607_martinenc-200x200.png",
       "logo_fuera": "00100_0000764388_marcbartra2020_200x200.png"
+    },
+    {
+      "CATEGORIA_AMISTOSO": "54303465",
+      "NOMBRE_COMPETICION": null,
+      "categoria": "PREFERENT CADET S16",
+      "competicion": null,
+      "CODDESIGNACION": null,
+      "CODIGO_CLUB": "1032",
+      "CODEQUIPO_CASA": "54304670",
+      "NOMEQUIPO_CASA": "MARTINENC, F.C. \"A\"",
+      "CODIGO_CLUB_FUERA": "1140",
+      "NOMEQUIPO_FUERA": "BUFALA, C.F. \"A\"",
+      "CODEQUIPO_FUERA": "54310378",
+      "CODIGO_CAMPO": "383",
+      "FECHA": "2026-09-05T00:00:00.000Z",
+      "FECHA_FORMATTED": "05/09/2026",
+      "HORA_COMIENZO": "16:00:00",
+      "CODACTA": null,
+      "PARTIDO_GOLES_CASA": "0",
+      "PARTIDO_GOLES_VISITANTE": "0",
+      "campo": "CAMP DE FUTBOL CEM GUINARDÓ",
+      "arbitro": null,
+      "ESCUDO_CASA": "00100_0000577607_martinenc-200x200.png",
+      "ESCUDO_FUERA": "00100_0000894175_bufalacf_200.png",
+      "goles_casa": "0",
+      "goles_fuera": "0",
+      "logo_casa": "00100_0000577607_martinenc-200x200.png",
+      "logo_fuera": "00100_0000894175_bufalacf_200.png"
     },
     {
       "CATEGORIA_AMISTOSO": "13",
