@@ -21,7 +21,7 @@ jobs:
 
       - name: Descargar y filtrar amistosos de los equipos de otros.json
         env:
-          FECHA_INICIO: "2026-08-22"
+          FECHA_INICIO: "2026-08-17"
           FECHA_FIN: "2026-09-19"
         run: |
           set -euo pipefail
