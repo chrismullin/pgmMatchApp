@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-02T05:10:27Z",
+  "updatedAt": "2026-09-02T10:02:03Z",
   "equipos": [
     {
       "nombre": "MARTINENC, F.C. JUVENIL \"A\"",
@@ -364,7 +364,7 @@
       "NOMBRE_COMPETICION": null,
       "categoria": "DIVISIÓ HONOR CADET S16",
       "competicion": null,
-      "CODDESIGNACION": null,
+      "CODDESIGNACION": "3511071",
       "CODIGO_CLUB": "1018",
       "CODEQUIPO_CASA": "54311517",
       "NOMEQUIPO_CASA": "GRANOLLERS, E.C. \"A\"",
@@ -375,11 +375,11 @@
       "FECHA": "2026-09-06T00:00:00.000Z",
       "FECHA_FORMATTED": "06/09/2026",
       "HORA_COMIENZO": "18:15:00",
-      "CODACTA": null,
+      "CODACTA": "4203646",
       "PARTIDO_GOLES_CASA": "0",
       "PARTIDO_GOLES_VISITANTE": "0",
       "campo": "CAMP DE FUTBOL MPAL. DE GRANOLLERS",
-      "arbitro": null,
+      "arbitro": "BENÍTEZ SOLER, MARC",
       "ESCUDO_CASA": "00100_0001161476_Granollers_PNG.png",
       "ESCUDO_FUERA": "00100_0001188260_1207_DAMM.png",
       "goles_casa": "0",
