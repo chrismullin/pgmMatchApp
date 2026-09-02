@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-02T19:27:15Z",
+  "updatedAt": "2026-09-02T19:34:57Z",
   "equipos": [
     {
       "nombre": "BUFALA, F.C. \"A\"",
@@ -23,6 +23,37 @@
     }
   ],
   "matches": [
+    {
+      "CATEGORIA_AMISTOSO": "54303465",
+      "NOMBRE_COMPETICION": null,
+      "categoria": "PREFERENT CADET S16",
+      "competicion": null,
+      "CODDESIGNACION": "3504619",
+      "CODIGO_CLUB": "1140",
+      "CODEQUIPO_CASA": "54310378",
+      "NOMEQUIPO_CASA": "BUFALA, C.F. \"A\"",
+      "CODIGO_CLUB_FUERA": "31528564",
+      "NOMEQUIPO_FUERA": "FUNDACIÓ FUTBOL BADALONA \"A\"",
+      "CODEQUIPO_FUERA": "54319829",
+      "CODIGO_CAMPO": "238",
+      "FECHA": "2026-08-20T00:00:00.000Z",
+      "FECHA_FORMATTED": "20/08/2026",
+      "HORA_COMIENZO": "20:00:00",
+      "CODACTA": "4170310",
+      "PARTIDO_GOLES_CASA": "0",
+      "PARTIDO_GOLES_VISITANTE": "5",
+      "campo": "CAMP DE FUTBOL ZEM BUFALÀ",
+      "arbitro": "FISSOLO , AGUSTIN",
+      "ESCUDO_CASA": "00100_0000894175_bufalacf_200.png",
+      "ESCUDO_FUERA": "00100_0001018810_escudo_ffbadalona_1.png",
+      "goles_casa": "0",
+      "goles_fuera": "5",
+      "logo_casa": "00100_0000894175_bufalacf_200.png",
+      "logo_fuera": "00100_0001018810_escudo_ffbadalona_1.png",
+      "trackedTeams": [
+        "54310378"
+      ]
+    },
     {
       "CATEGORIA_AMISTOSO": "54303464",
       "NOMBRE_COMPETICION": null,
