@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-02T08:38:11Z",
+  "updatedAt": "2026-09-02T10:29:13Z",
   "equipos": [
     {
       "nombre": "MARTINENC, F.C. \"A\"",
@@ -1084,7 +1084,7 @@
       "NOMBRE_COMPETICION": null,
       "categoria": "JUVENIL SEGONA DIVISIÓ",
       "competicion": null,
-      "CODDESIGNACION": null,
+      "CODDESIGNACION": "3511167",
       "CODIGO_CLUB": "37857544",
       "CODEQUIPO_CASA": "37863924",
       "NOMEQUIPO_CASA": "PLANADEU, UNIÓ ESPORTIVA CLUB FUTBOL \"A\"",
@@ -1095,11 +1095,11 @@
       "FECHA": "2026-09-05T00:00:00.000Z",
       "FECHA_FORMATTED": "05/09/2026",
       "HORA_COMIENZO": "20:00:00",
-      "CODACTA": null,
+      "CODACTA": "4204066",
       "PARTIDO_GOLES_CASA": "0",
       "PARTIDO_GOLES_VISITANTE": "0",
       "campo": "CAMP DE FUTBOL MPAL. CAN DEU",
-      "arbitro": null,
+      "arbitro": "ROCA RODRIGUEZ, XAVIER ",
       "ESCUDO_CASA": "00100_0001234355_roured.png",
       "ESCUDO_FUERA": "00100_0000574709_fgrama_200x200.png",
       "goles_casa": "0",
