@@ -1,11 +1,12 @@
 {
-  "updatedAt": "2026-09-02T18:10:53Z",
+  "updatedAt": "2026-09-02T19:27:15Z",
   "equipos": [
-     {
+    {
       "nombre": "BUFALA, F.C. \"A\"",
       "club": "1140",
       "codigo": "54310378"
-    },{
+    },
+    {
       "nombre": "MARTINENC, F.C. JUVENIL \"A\"",
       "club": "1032",
       "codigo": "33390"
@@ -209,6 +210,68 @@
       ]
     },
     {
+      "CATEGORIA_AMISTOSO": "54303465",
+      "NOMBRE_COMPETICION": null,
+      "categoria": "PREFERENT CADET S16",
+      "competicion": null,
+      "CODDESIGNACION": "3506261",
+      "CODIGO_CLUB": "6218",
+      "CODEQUIPO_CASA": "54304061",
+      "NOMEQUIPO_CASA": "UNIO F. BASE JABAC I TERRASSA \"A\"",
+      "CODIGO_CLUB_FUERA": "1140",
+      "NOMEQUIPO_FUERA": "BUFALA, C.F. \"A\"",
+      "CODEQUIPO_FUERA": "54310378",
+      "CODIGO_CAMPO": "266",
+      "FECHA": "2026-08-29T00:00:00.000Z",
+      "FECHA_FORMATTED": "29/08/2026",
+      "HORA_COMIENZO": "17:30:00",
+      "CODACTA": "4173709",
+      "PARTIDO_GOLES_CASA": "1",
+      "PARTIDO_GOLES_VISITANTE": "2",
+      "campo": "CAMP DE FUTBOL ZEM CAN JOFRESA",
+      "arbitro": "CULEBRAS VILA, MARC",
+      "ESCUDO_CASA": "00100_0001021752_escut.png",
+      "ESCUDO_FUERA": "00100_0000894175_bufalacf_200.png",
+      "goles_casa": "1",
+      "goles_fuera": "2",
+      "logo_casa": "00100_0001021752_escut.png",
+      "logo_fuera": "00100_0000894175_bufalacf_200.png",
+      "trackedTeams": [
+        "54310378"
+      ]
+    },
+    {
+      "CATEGORIA_AMISTOSO": "54303465",
+      "NOMBRE_COMPETICION": null,
+      "categoria": "PREFERENT CADET S16",
+      "competicion": null,
+      "CODDESIGNACION": "3508308",
+      "CODIGO_CLUB": "1140",
+      "CODEQUIPO_CASA": "54310378",
+      "NOMEQUIPO_CASA": "BUFALA, C.F. \"A\"",
+      "CODIGO_CLUB_FUERA": "6389",
+      "NOMEQUIPO_FUERA": "BARBERÀ, C.F. \"A\"",
+      "CODEQUIPO_FUERA": "54317177",
+      "CODIGO_CAMPO": "238",
+      "FECHA": "2026-08-30T00:00:00.000Z",
+      "FECHA_FORMATTED": "30/08/2026",
+      "HORA_COMIENZO": "14:15:00",
+      "CODACTA": "4176387",
+      "PARTIDO_GOLES_CASA": "2",
+      "PARTIDO_GOLES_VISITANTE": "4",
+      "campo": "CAMP DE FUTBOL ZEM BUFALÀ",
+      "arbitro": "MONTERO MONCLUS, EMMA",
+      "ESCUDO_CASA": "00100_0000894175_bufalacf_200.png",
+      "ESCUDO_FUERA": "00100_0001107674_bar.png",
+      "goles_casa": "2",
+      "goles_fuera": "4",
+      "logo_casa": "00100_0000894175_bufalacf_200.png",
+      "logo_fuera": "00100_0001107674_bar.png",
+      "trackedTeams": [
+        "54310378"
+      ]
+    },
+    {
       "CATEGORIA_AMISTOSO": "12",
       "NOMBRE_COMPETICION": null,
       "categoria": "PREFERENT JUVENILS",
@@ -330,6 +393,37 @@
       "logo_fuera": "00100_0001068863_mercantil.png",
       "trackedTeams": [
         "54311422"
+      ]
+    },
+    {
+      "CATEGORIA_AMISTOSO": "54303465",
+      "NOMBRE_COMPETICION": null,
+      "categoria": "PREFERENT CADET S16",
+      "competicion": null,
+      "CODDESIGNACION": null,
+      "CODIGO_CLUB": "1140",
+      "CODEQUIPO_CASA": "54310378",
+      "NOMEQUIPO_CASA": "BUFALA, C.F. \"A\"",
+      "CODIGO_CLUB_FUERA": "40492704",
+      "NOMEQUIPO_FUERA": "FUNDACIÓ ACADEMIA F. L'HOSPITALET  \"A\"",
+      "CODEQUIPO_FUERA": "54313451",
+      "CODIGO_CAMPO": "238",
+      "FECHA": "2026-09-06T00:00:00.000Z",
+      "FECHA_FORMATTED": "06/09/2026",
+      "HORA_COMIENZO": "16:15:00",
+      "CODACTA": null,
+      "PARTIDO_GOLES_CASA": "0",
+      "PARTIDO_GOLES_VISITANTE": "0",
+      "campo": "CAMP DE FUTBOL ZEM BUFALÀ",
+      "arbitro": null,
+      "ESCUDO_CASA": "00100_0000894175_bufalacf_200.png",
+      "ESCUDO_FUERA": "00100_0001226166_FAF.png",
+      "goles_casa": "0",
+      "goles_fuera": "0",
+      "logo_casa": "00100_0000894175_bufalacf_200.png",
+      "logo_fuera": "00100_0001226166_FAF.png",
+      "trackedTeams": [
+        "54310378"
       ]
     },
     {
