@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-03T19:36:13Z",
+  "updatedAt": "2026-09-03T22:10:11Z",
   "equipos": [
     {
       "nombre": "MARTINENC, F.C. \"A\"",
@@ -866,7 +866,7 @@
       "NOMBRE_COMPETICION": null,
       "categoria": "PREFERENT CADET S16",
       "competicion": null,
-      "CODDESIGNACION": "3514088",
+      "CODDESIGNACION": "3514235",
       "CODIGO_CLUB": "6278",
       "CODEQUIPO_CASA": "54310809",
       "NOMEQUIPO_CASA": "CAN BUXERES, F.C. \"A\"",
@@ -1115,7 +1115,7 @@
       "NOMBRE_COMPETICION": null,
       "categoria": "JUVENIL SEGONA DIVISIÓ",
       "competicion": null,
-      "CODDESIGNACION": "3511167",
+      "CODDESIGNACION": "3514708",
       "CODIGO_CLUB": "37857544",
       "CODEQUIPO_CASA": "37863924",
       "NOMEQUIPO_CASA": "PLANADEU, UNIÓ ESPORTIVA CLUB FUTBOL \"A\"",
@@ -1130,7 +1130,7 @@
       "PARTIDO_GOLES_CASA": "0",
       "PARTIDO_GOLES_VISITANTE": "0",
       "campo": "CAMP DE FUTBOL MPAL. CAN DEU",
-      "arbitro": "ROCA RODRIGUEZ, XAVIER ",
+      "arbitro": "NALI NALI, ANAS",
       "ESCUDO_CASA": "00100_0001234355_roured.png",
       "ESCUDO_FUERA": "00100_0000574709_fgrama_200x200.png",
       "goles_casa": "0",
