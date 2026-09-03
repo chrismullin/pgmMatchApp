@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-02T23:47:46Z",
+  "updatedAt": "2026-09-03T02:34:54Z",
   "equipos": [
     {
       "nombre": "MARTINENC, F.C. \"A\"",
@@ -801,10 +801,10 @@
     },
     {
       "CATEGORIA_AMISTOSO": "54303465",
-      "NOMBRE_COMPETICION": "",
+      "NOMBRE_COMPETICION": null,
       "categoria": "PREFERENT CADET S16",
       "competicion": null,
-      "CODDESIGNACION": "0",
+      "CODDESIGNACION": "3508981",
       "CODIGO_CLUB": "3001",
       "CODEQUIPO_CASA": "54303914",
       "NOMEQUIPO_CASA": "GIMNASTIC TARRAGONA, C. \"A\"",
@@ -815,7 +815,7 @@
       "FECHA": "2026-09-02T00:00:00.000Z",
       "FECHA_FORMATTED": "02/09/2026",
       "HORA_COMIENZO": "19:15:00",
-      "CODACTA": null,
+      "CODACTA": "4191062",
       "PARTIDO_GOLES_CASA": "2",
       "PARTIDO_GOLES_VISITANTE": "1",
       "campo": "CAMP DE FUTBOL CIUTAT ESPORTIVA GIMNÀSTIC DE TARRAGONA 1 2 Camps",
