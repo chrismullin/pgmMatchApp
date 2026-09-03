@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-03T18:56:08Z",
+  "updatedAt": "2026-09-03T21:29:59Z",
   "equipos": [
     {
       "nombre": "BUFALA, F.C. \"A\"",
@@ -335,10 +335,10 @@
     },
     {
       "CATEGORIA_AMISTOSO": "12",
-      "NOMBRE_COMPETICION": null,
+      "NOMBRE_COMPETICION": "",
       "categoria": "PREFERENT JUVENILS",
       "competicion": null,
-      "CODDESIGNACION": "3508398",
+      "CODDESIGNACION": "0",
       "CODIGO_CLUB": "1551",
       "CODEQUIPO_CASA": "38975",
       "NOMEQUIPO_CASA": "MOLLETENSE, U.D. \"A\"",
@@ -349,15 +349,15 @@
       "FECHA": "2026-09-03T00:00:00.000Z",
       "FECHA_FORMATTED": "03/09/2026",
       "HORA_COMIENZO": "21:00:00",
-      "CODACTA": "4176513",
-      "PARTIDO_GOLES_CASA": "0",
-      "PARTIDO_GOLES_VISITANTE": "0",
+      "CODACTA": null,
+      "PARTIDO_GOLES_CASA": "3",
+      "PARTIDO_GOLES_VISITANTE": "2",
       "campo": "CAMP DE FUTBOL MPAL. ZONA SUD",
-      "arbitro": "FERNANDEZ ESPINAR, JORDI",
+      "arbitro": "POMBO BOHIGUES, IKER",
       "ESCUDO_CASA": "00100_0000661616_molletense_200x200.png",
       "ESCUDO_FUERA": "00100_0000577607_martinenc-200x200.png",
-      "goles_casa": "0",
-      "goles_fuera": "0",
+      "goles_casa": "3",
+      "goles_fuera": "2",
       "logo_casa": "00100_0000661616_molletense_200x200.png",
       "logo_fuera": "00100_0000577607_martinenc-200x200.png",
       "trackedTeams": [
