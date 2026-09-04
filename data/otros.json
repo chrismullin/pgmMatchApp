@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-04T11:48:36Z",
+  "updatedAt": "2026-09-04T15:14:17Z",
   "equipos": [
     {
       "nombre": "BUFALA, F.C. \"A\"",
@@ -335,10 +335,10 @@
     },
     {
       "CATEGORIA_AMISTOSO": "12",
-      "NOMBRE_COMPETICION": null,
+      "NOMBRE_COMPETICION": "",
       "categoria": "PREFERENT JUVENILS",
       "competicion": null,
-      "CODDESIGNACION": "3514237",
+      "CODDESIGNACION": "0",
       "CODIGO_CLUB": "1551",
       "CODEQUIPO_CASA": "38975",
       "NOMEQUIPO_CASA": "MOLLETENSE, U.D. \"A\"",
@@ -349,7 +349,7 @@
       "FECHA": "2026-09-03T00:00:00.000Z",
       "FECHA_FORMATTED": "03/09/2026",
       "HORA_COMIENZO": "21:00:00",
-      "CODACTA": "4176513",
+      "CODACTA": null,
       "PARTIDO_GOLES_CASA": "3",
       "PARTIDO_GOLES_VISITANTE": "2",
       "campo": "CAMP DE FUTBOL MPAL. ZONA SUD",
@@ -362,6 +362,37 @@
       "logo_fuera": "00100_0000577607_martinenc-200x200.png",
       "trackedTeams": [
         "33390"
+      ]
+    },
+    {
+      "CATEGORIA_AMISTOSO": "54303465",
+      "NOMBRE_COMPETICION": null,
+      "categoria": "PREFERENT CADET S16",
+      "competicion": null,
+      "CODDESIGNACION": "3513953",
+      "CODIGO_CLUB": "1032",
+      "CODEQUIPO_CASA": "54304670",
+      "NOMEQUIPO_CASA": "MARTINENC, F.C. \"A\"",
+      "CODIGO_CLUB_FUERA": "1140",
+      "NOMEQUIPO_FUERA": "BUFALA, C.F. \"A\"",
+      "CODEQUIPO_FUERA": "54310378",
+      "CODIGO_CAMPO": "383",
+      "FECHA": "2026-09-05T00:00:00.000Z",
+      "FECHA_FORMATTED": "05/09/2026",
+      "HORA_COMIENZO": "16:00:00",
+      "CODACTA": "4213522",
+      "PARTIDO_GOLES_CASA": "0",
+      "PARTIDO_GOLES_VISITANTE": "0",
+      "campo": "CAMP DE FUTBOL CEM GUINARDÓ",
+      "arbitro": "BLESA GARCÍA, CRISTIAN",
+      "ESCUDO_CASA": "00100_0000577607_martinenc-200x200.png",
+      "ESCUDO_FUERA": "00100_0000894175_bufalacf_200.png",
+      "goles_casa": "0",
+      "goles_fuera": "0",
+      "logo_casa": "00100_0000577607_martinenc-200x200.png",
+      "logo_fuera": "00100_0000894175_bufalacf_200.png",
+      "trackedTeams": [
+        "54310378"
       ]
     },
     {
@@ -431,7 +462,7 @@
       "NOMBRE_COMPETICION": null,
       "categoria": "PREFERENT CADET S16",
       "competicion": null,
-      "CODDESIGNACION": null,
+      "CODDESIGNACION": "3514096",
       "CODIGO_CLUB": "1140",
       "CODEQUIPO_CASA": "54310378",
       "NOMEQUIPO_CASA": "BUFALA, C.F. \"A\"",
@@ -442,11 +473,11 @@
       "FECHA": "2026-09-06T00:00:00.000Z",
       "FECHA_FORMATTED": "06/09/2026",
       "HORA_COMIENZO": "16:15:00",
-      "CODACTA": null,
+      "CODACTA": "4213538",
       "PARTIDO_GOLES_CASA": "0",
       "PARTIDO_GOLES_VISITANTE": "0",
       "campo": "CAMP DE FUTBOL ZEM BUFALÀ",
-      "arbitro": null,
+      "arbitro": "BELMONTE ALCÁZAR, MARC",
       "ESCUDO_CASA": "00100_0000894175_bufalacf_200.png",
       "ESCUDO_FUERA": "00100_0001226166_FAF.png",
       "goles_casa": "0",
