@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-03T23:36:05Z",
+  "updatedAt": "2026-09-04T01:34:21Z",
   "equipos": [
     {
       "nombre": "BUFALA, F.C. \"A\"",
@@ -335,10 +335,10 @@
     },
     {
       "CATEGORIA_AMISTOSO": "12",
-      "NOMBRE_COMPETICION": "",
+      "NOMBRE_COMPETICION": null,
       "categoria": "PREFERENT JUVENILS",
       "competicion": null,
-      "CODDESIGNACION": "0",
+      "CODDESIGNACION": "3514237",
       "CODIGO_CLUB": "1551",
       "CODEQUIPO_CASA": "38975",
       "NOMEQUIPO_CASA": "MOLLETENSE, U.D. \"A\"",
@@ -349,7 +349,7 @@
       "FECHA": "2026-09-03T00:00:00.000Z",
       "FECHA_FORMATTED": "03/09/2026",
       "HORA_COMIENZO": "21:00:00",
-      "CODACTA": null,
+      "CODACTA": "4176513",
       "PARTIDO_GOLES_CASA": "3",
       "PARTIDO_GOLES_VISITANTE": "2",
       "campo": "CAMP DE FUTBOL MPAL. ZONA SUD",
