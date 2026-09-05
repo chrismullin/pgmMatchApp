@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T09:51:40Z",
+  "updatedAt": "2026-09-05T11:48:58Z",
   "equipos": [
     {
       "nombre": "MARTINENC, F.C. \"A\"",
@@ -832,10 +832,10 @@
     },
     {
       "CATEGORIA_AMISTOSO": "54303465",
-      "NOMBRE_COMPETICION": null,
+      "NOMBRE_COMPETICION": "",
       "categoria": "PREFERENT CADET S16",
       "competicion": null,
-      "CODDESIGNACION": "3510474",
+      "CODDESIGNACION": "0",
       "CODIGO_CLUB": "54296375",
       "CODEQUIPO_CASA": "54314013",
       "NOMEQUIPO_CASA": "FUNDACIO ATLETIC SANT JUST  \"A\"",
@@ -846,15 +846,15 @@
       "FECHA": "2026-09-05T00:00:00.000Z",
       "FECHA_FORMATTED": "05/09/2026",
       "HORA_COMIENZO": "11:30:00",
-      "CODACTA": "4201922",
+      "CODACTA": null,
       "PARTIDO_GOLES_CASA": "0",
-      "PARTIDO_GOLES_VISITANTE": "0",
+      "PARTIDO_GOLES_VISITANTE": "3",
       "campo": "CAMP DE FUTBOL MPAL. DE SANT JUST DESVERN",
       "arbitro": "ABELLO LILLO, SERGI",
       "ESCUDO_CASA": "00100_0001178430_6686_Sant_Just_B.png",
       "ESCUDO_FUERA": "00100_0000852444_uecornella_200x200.png",
       "goles_casa": "0",
-      "goles_fuera": "0",
+      "goles_fuera": "3",
       "logo_casa": "00100_0001178430_6686_Sant_Just_B.png",
       "logo_fuera": "00100_0000852444_uecornella_200x200.png",
       "trackedTeams": [
