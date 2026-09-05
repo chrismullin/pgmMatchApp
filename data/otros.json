@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-04T23:28:42Z",
+  "updatedAt": "2026-09-05T01:35:56Z",
   "equipos": [
     {
       "nombre": "BUFALA, F.C. \"A\"",
@@ -400,7 +400,7 @@
       "NOMBRE_COMPETICION": null,
       "categoria": "DIVISIÓ HONOR CADET S16",
       "competicion": null,
-      "CODDESIGNACION": "3511740",
+      "CODDESIGNACION": "3515040",
       "CODIGO_CLUB": "1207",
       "CODEQUIPO_CASA": "54306135",
       "NOMEQUIPO_CASA": "DAMM, C.F. \"A\"",
@@ -411,7 +411,7 @@
       "FECHA": "2026-09-05T00:00:00.000Z",
       "FECHA_FORMATTED": "05/09/2026",
       "HORA_COMIENZO": "17:30:00",
-      "CODACTA": "4206258",
+      "CODACTA": null,
       "PARTIDO_GOLES_CASA": "0",
       "PARTIDO_GOLES_VISITANTE": "0",
       "campo": "CAMP DE FUTBOL CIUTAT ESPORTIVA C.F. DAMM (2)",
