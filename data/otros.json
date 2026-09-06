@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06T18:42:19Z",
+  "updatedAt": "2026-09-06T20:54:04Z",
   "equipos": [
     {
       "nombre": "BUFALA, F.C. \"A\"",
@@ -490,10 +490,10 @@
     },
     {
       "CATEGORIA_AMISTOSO": "12",
-      "NOMBRE_COMPETICION": null,
+      "NOMBRE_COMPETICION": "",
       "categoria": "PREFERENT JUVENILS",
       "competicion": null,
-      "CODDESIGNACION": "3509233",
+      "CODDESIGNACION": "0",
       "CODIGO_CLUB": "34785031",
       "CODEQUIPO_CASA": "34789957",
       "NOMEQUIPO_CASA": "FUNDACIÓ TERRASSA FC 1906 \"A\"",
@@ -504,15 +504,15 @@
       "FECHA": "2026-09-06T00:00:00.000Z",
       "FECHA_FORMATTED": "06/09/2026",
       "HORA_COMIENZO": "18:00:00",
-      "CODACTA": "4191390",
-      "PARTIDO_GOLES_CASA": "0",
-      "PARTIDO_GOLES_VISITANTE": "0",
+      "CODACTA": null,
+      "PARTIDO_GOLES_CASA": "1",
+      "PARTIDO_GOLES_VISITANTE": "1",
       "campo": "ESTADI OLÍMPIC DE TERRASSA",
       "arbitro": "TORRAS ROVIRA, JOSEP",
       "ESCUDO_CASA": "00100_0000988633_TERRASSAFCnou.png",
       "ESCUDO_FUERA": "00100_0000577607_martinenc-200x200.png",
-      "goles_casa": "0",
-      "goles_fuera": "0",
+      "goles_casa": "1",
+      "goles_fuera": "1",
       "logo_casa": "00100_0000988633_TERRASSAFCnou.png",
       "logo_fuera": "00100_0000577607_martinenc-200x200.png",
       "trackedTeams": [
