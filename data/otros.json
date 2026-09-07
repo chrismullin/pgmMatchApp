@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-07T05:21:08Z",
+  "updatedAt": "2026-09-07T09:48:34Z",
   "equipos": [
     {
       "nombre": "BUFALA, F.C. \"A\"",
@@ -411,7 +411,7 @@
       "FECHA": "2026-09-05T00:00:00.000Z",
       "FECHA_FORMATTED": "05/09/2026",
       "HORA_COMIENZO": "17:30:00",
-      "CODACTA": null,
+      "CODACTA": "4206258",
       "PARTIDO_GOLES_CASA": "6",
       "PARTIDO_GOLES_VISITANTE": "1",
       "campo": "CAMP DE FUTBOL CIUTAT ESPORTIVA C.F. DAMM (2)",
