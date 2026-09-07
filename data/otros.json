@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-07T20:16:28Z",
+  "updatedAt": "2026-09-07T23:05:21Z",
   "equipos": [
     {
       "nombre": "BUFALA, F.C. \"A\"",
@@ -617,7 +617,7 @@
       "NOMBRE_COMPETICION": null,
       "categoria": "PREFERENT JUVENILS",
       "competicion": null,
-      "CODDESIGNACION": null,
+      "CODDESIGNACION": "3517564",
       "CODIGO_CLUB": "6283",
       "CODEQUIPO_CASA": "34025",
       "NOMEQUIPO_CASA": "CERDANYOLA VALLES, F.C.  \"A\"",
@@ -628,11 +628,11 @@
       "FECHA": "2026-09-12T00:00:00.000Z",
       "FECHA_FORMATTED": "12/09/2026",
       "HORA_COMIENZO": "19:15:00",
-      "CODACTA": null,
+      "CODACTA": "4219149",
       "PARTIDO_GOLES_CASA": "0",
       "PARTIDO_GOLES_VISITANTE": "0",
       "campo": "CAMP DE FUTBOL ZEM LES FONTETES",
-      "arbitro": null,
+      "arbitro": "SABADELL-7, PENDENT",
       "ESCUDO_CASA": "00100_0000741456_cerdanyolafc_200x200.png",
       "ESCUDO_FUERA": "00100_0000577607_martinenc-200x200.png",
       "goles_casa": "0",
@@ -672,6 +672,37 @@
       "logo_fuera": "00100_0001106091_COLOR.png",
       "trackedTeams": [
         "54306135"
+      ]
+    },
+    {
+      "CATEGORIA_AMISTOSO": "54303465",
+      "NOMBRE_COMPETICION": null,
+      "categoria": "PREFERENT CADET S16",
+      "competicion": null,
+      "CODDESIGNACION": null,
+      "CODIGO_CLUB": "1140",
+      "CODEQUIPO_CASA": "54310378",
+      "NOMEQUIPO_CASA": "BUFALA, C.F. \"A\"",
+      "CODIGO_CLUB_FUERA": "5282",
+      "NOMEQUIPO_FUERA": "GIRONA, F.C. \"A\"",
+      "CODEQUIPO_FUERA": "54319609",
+      "CODIGO_CAMPO": "238",
+      "FECHA": "2026-09-13T00:00:00.000Z",
+      "FECHA_FORMATTED": "13/09/2026",
+      "HORA_COMIENZO": "16:00:00",
+      "CODACTA": null,
+      "PARTIDO_GOLES_CASA": "0",
+      "PARTIDO_GOLES_VISITANTE": "0",
+      "campo": "CAMP DE FUTBOL ZEM BUFALÀ",
+      "arbitro": null,
+      "ESCUDO_CASA": "00100_0000894175_bufalacf_200.png",
+      "ESCUDO_FUERA": "00100_0000956159_5282_GironaFC_200.png",
+      "goles_casa": "0",
+      "goles_fuera": "0",
+      "logo_casa": "00100_0000894175_bufalacf_200.png",
+      "logo_fuera": "00100_0000956159_5282_GironaFC_200.png",
+      "trackedTeams": [
+        "54310378"
       ]
     }
   ]
