@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-07T00:26:34Z",
+  "updatedAt": "2026-09-07T05:23:25Z",
   "teamCode": "54304670",
   "matches": [
     {
@@ -88,10 +88,10 @@
     },
     {
       "CATEGORIA_AMISTOSO": "13",
-      "NOMBRE_COMPETICION": "",
+      "NOMBRE_COMPETICION": null,
       "categoria": "JUVENIL PRIMERA DIVISIÓ",
       "competicion": null,
-      "CODDESIGNACION": "0",
+      "CODDESIGNACION": "3511426",
       "CODIGO_CLUB": "2893",
       "CODEQUIPO_CASA": "33348",
       "NOMEQUIPO_CASA": "Pª REC.SAN FELIU LLOBREGAT \"A\"",
@@ -102,7 +102,7 @@
       "FECHA": "2026-09-06T00:00:00.000Z",
       "FECHA_FORMATTED": "06/09/2026",
       "HORA_COMIENZO": "20:00:00",
-      "CODACTA": null,
+      "CODACTA": "4205198",
       "PARTIDO_GOLES_CASA": "0",
       "PARTIDO_GOLES_VISITANTE": "1",
       "campo": "CAMP DE FUTBOL MPAL. FALGUERA",
