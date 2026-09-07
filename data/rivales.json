@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-07T13:25:58Z",
+  "updatedAt": "2026-09-07T15:44:40Z",
   "equipos": [
     {
       "nombre": "MARTINENC, F.C. \"A\"",
@@ -1792,6 +1792,37 @@
       "logo_fuera": "00100_0001268552_congres.png",
       "trackedTeams": [
         "54319655"
+      ]
+    },
+    {
+      "CATEGORIA_AMISTOSO": "54303466",
+      "NOMBRE_COMPETICION": null,
+      "categoria": "CADET PRIMERA DIVISIÓ S16",
+      "competicion": null,
+      "CODDESIGNACION": null,
+      "CODIGO_CLUB": "6054",
+      "CODEQUIPO_CASA": "54304711",
+      "NOMEQUIPO_CASA": "APA POBLE SEC, CE. \"A\"",
+      "CODIGO_CLUB_FUERA": "6278",
+      "NOMEQUIPO_FUERA": "CAN BUXERES, F.C. \"A\"",
+      "CODEQUIPO_FUERA": "54310809",
+      "CODIGO_CAMPO": "447",
+      "FECHA": "2026-09-13T00:00:00.000Z",
+      "FECHA_FORMATTED": "13/09/2026",
+      "HORA_COMIENZO": "17:00:00",
+      "CODACTA": null,
+      "PARTIDO_GOLES_CASA": "0",
+      "PARTIDO_GOLES_VISITANTE": "0",
+      "campo": "CAMP DE FUTBOL MPAL. LA SATÀLIA",
+      "arbitro": null,
+      "ESCUDO_CASA": "00100_0001170981_escut_apa_net.png",
+      "ESCUDO_FUERA": "00100_0000648509_canbuxeres_200x200.png",
+      "goles_casa": "0",
+      "goles_fuera": "0",
+      "logo_casa": "00100_0001170981_escut_apa_net.png",
+      "logo_fuera": "00100_0000648509_canbuxeres_200x200.png",
+      "trackedTeams": [
+        "54310809"
       ]
     }
   ]
