@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-07T10:50:22Z",
+  "updatedAt": "2026-09-07T15:44:20Z",
   "equipos": [
     {
       "nombre": "BUFALA, F.C. \"A\"",
@@ -551,6 +551,37 @@
       ]
     },
     {
+      "CATEGORIA_AMISTOSO": "54303464",
+      "NOMBRE_COMPETICION": null,
+      "categoria": "DIVISIÓ HONOR CADET S16",
+      "competicion": null,
+      "CODDESIGNACION": null,
+      "CODIGO_CLUB": "1207",
+      "CODEQUIPO_CASA": "54306135",
+      "NOMEQUIPO_CASA": "DAMM, C.F. \"A\"",
+      "CODIGO_CLUB_FUERA": "6178",
+      "NOMEQUIPO_FUERA": "FUNDACIO P. CE. JUPITER \"A\"",
+      "CODEQUIPO_FUERA": "34271",
+      "CODIGO_CAMPO": "50639065",
+      "FECHA": "2026-09-12T00:00:00.000Z",
+      "FECHA_FORMATTED": "12/09/2026",
+      "HORA_COMIENZO": "12:15:00",
+      "CODACTA": null,
+      "PARTIDO_GOLES_CASA": "0",
+      "PARTIDO_GOLES_VISITANTE": "0",
+      "campo": "CAMP DE FUTBOL CIUTAT ESPORTIVA C.F. DAMM (2)",
+      "arbitro": null,
+      "ESCUDO_CASA": "00100_0001188260_1207_DAMM.png",
+      "ESCUDO_FUERA": "00100_0000672019_cejupiter_200x200.png",
+      "goles_casa": "0",
+      "goles_fuera": "0",
+      "logo_casa": "00100_0001188260_1207_DAMM.png",
+      "logo_fuera": "00100_0000672019_cejupiter_200x200.png",
+      "trackedTeams": [
+        "54306135"
+      ]
+    },
+    {
       "CATEGORIA_AMISTOSO": "54303465",
       "NOMBRE_COMPETICION": null,
       "categoria": "PREFERENT CADET S16",
@@ -579,37 +610,6 @@
       "logo_fuera": "00100_0000894175_bufalacf_200.png",
       "trackedTeams": [
         "54310378"
-      ]
-    },
-    {
-      "CATEGORIA_AMISTOSO": "54303464",
-      "NOMBRE_COMPETICION": null,
-      "categoria": "DIVISIÓ HONOR CADET S16",
-      "competicion": null,
-      "CODDESIGNACION": null,
-      "CODIGO_CLUB": "1207",
-      "CODEQUIPO_CASA": "54306135",
-      "NOMEQUIPO_CASA": "DAMM, C.F. \"A\"",
-      "CODIGO_CLUB_FUERA": "6178",
-      "NOMEQUIPO_FUERA": "FUNDACIO P. CE. JUPITER \"A\"",
-      "CODEQUIPO_FUERA": "34271",
-      "CODIGO_CAMPO": "50639065",
-      "FECHA": "2026-09-12T00:00:00.000Z",
-      "FECHA_FORMATTED": "12/09/2026",
-      "HORA_COMIENZO": "17:30:00",
-      "CODACTA": null,
-      "PARTIDO_GOLES_CASA": "0",
-      "PARTIDO_GOLES_VISITANTE": "0",
-      "campo": "CAMP DE FUTBOL CIUTAT ESPORTIVA C.F. DAMM (2)",
-      "arbitro": null,
-      "ESCUDO_CASA": "00100_0001188260_1207_DAMM.png",
-      "ESCUDO_FUERA": "00100_0000672019_cejupiter_200x200.png",
-      "goles_casa": "0",
-      "goles_fuera": "0",
-      "logo_casa": "00100_0001188260_1207_DAMM.png",
-      "logo_fuera": "00100_0000672019_cejupiter_200x200.png",
-      "trackedTeams": [
-        "54306135"
       ]
     },
     {
