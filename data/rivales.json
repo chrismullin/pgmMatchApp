@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-07T05:36:14Z",
+  "updatedAt": "2026-09-07T09:45:34Z",
   "equipos": [
     {
       "nombre": "MARTINENC, F.C. \"A\"",
@@ -908,7 +908,7 @@
       "FECHA": "2026-09-05T00:00:00.000Z",
       "FECHA_FORMATTED": "05/09/2026",
       "HORA_COMIENZO": "15:00:00",
-      "CODACTA": null,
+      "CODACTA": "4213520",
       "PARTIDO_GOLES_CASA": "3",
       "PARTIDO_GOLES_VISITANTE": "3",
       "campo": "CAMP DE FUTBOL MPAL. PUBILLA CASAS",
@@ -1251,7 +1251,7 @@
       "FECHA": "2026-09-06T00:00:00.000Z",
       "FECHA_FORMATTED": "06/09/2026",
       "HORA_COMIENZO": "14:00:00",
-      "CODACTA": null,
+      "CODACTA": "4213536",
       "PARTIDO_GOLES_CASA": "2",
       "PARTIDO_GOLES_VISITANTE": "0",
       "campo": "CAMP DE FUTBOL MPAL. BARÓ DE VIVER",
@@ -1313,7 +1313,7 @@
       "FECHA": "2026-09-06T00:00:00.000Z",
       "FECHA_FORMATTED": "06/09/2026",
       "HORA_COMIENZO": "16:00:00",
-      "CODACTA": null,
+      "CODACTA": "4205188",
       "PARTIDO_GOLES_CASA": "1",
       "PARTIDO_GOLES_VISITANTE": "0",
       "campo": "CAMP D´ESPORTS MPAL. ELS CANYARS",
@@ -1406,7 +1406,7 @@
       "FECHA": "2026-09-06T00:00:00.000Z",
       "FECHA_FORMATTED": "06/09/2026",
       "HORA_COMIENZO": "18:50:00",
-      "CODACTA": null,
+      "CODACTA": "4213539",
       "PARTIDO_GOLES_CASA": "4",
       "PARTIDO_GOLES_VISITANTE": "0",
       "campo": "CAMP DE FUTBOL CEM MARINA BESÒS JOSÉ LUIS RUIZ CASADO",
