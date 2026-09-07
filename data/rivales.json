@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-07T11:21:20Z",
+  "updatedAt": "2026-09-07T13:25:58Z",
   "equipos": [
     {
       "nombre": "MARTINENC, F.C. \"A\"",
@@ -1606,6 +1606,37 @@
       "logo_fuera": "00100_0000894175_bufalacf_200.png",
       "trackedTeams": [
         "54316893"
+      ]
+    },
+    {
+      "CATEGORIA_AMISTOSO": "54303465",
+      "NOMBRE_COMPETICION": null,
+      "categoria": "PREFERENT CADET S16",
+      "competicion": null,
+      "CODDESIGNACION": null,
+      "CODIGO_CLUB": "6399",
+      "CODEQUIPO_CASA": "54319655",
+      "NOMEQUIPO_CASA": "CONGRÉS CLUB ESP. \"A\"",
+      "CODIGO_CLUB_FUERA": "1225",
+      "NOMEQUIPO_FUERA": "SAN CRISTOBAL, C.P. \"A\"",
+      "CODEQUIPO_FUERA": "54303654",
+      "CODIGO_CAMPO": "65",
+      "FECHA": "2026-09-12T00:00:00.000Z",
+      "FECHA_FORMATTED": "12/09/2026",
+      "HORA_COMIENZO": "14:30:00",
+      "CODACTA": null,
+      "PARTIDO_GOLES_CASA": "0",
+      "PARTIDO_GOLES_VISITANTE": "0",
+      "campo": "CAMP DE FUTBOL CEM CAN DRAGO",
+      "arbitro": null,
+      "ESCUDO_CASA": "00100_0001268552_congres.png",
+      "ESCUDO_FUERA": "00100_0000765414_sancristobal_200x200.png",
+      "goles_casa": "0",
+      "goles_fuera": "0",
+      "logo_casa": "00100_0001268552_congres.png",
+      "logo_fuera": "00100_0000765414_sancristobal_200x200.png",
+      "trackedTeams": [
+        "54319655"
       ]
     },
     {
