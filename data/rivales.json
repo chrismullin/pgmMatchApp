@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-08T14:02:44Z",
+  "updatedAt": "2026-09-08T16:43:18Z",
   "equipos": [
     {
       "nombre": "MARTINENC, F.C. \"A\"",
@@ -1707,6 +1707,37 @@
       "categoria": "PREFERENT CADET S16",
       "competicion": null,
       "CODDESIGNACION": null,
+      "CODIGO_CLUB": "6091",
+      "CODEQUIPO_CASA": "54312622",
+      "NOMEQUIPO_CASA": "UNIFICACION LLEFIA,CF. \"A\"",
+      "CODIGO_CLUB_FUERA": "54296408",
+      "NOMEQUIPO_FUERA": "FUNDACIO  UNIÓ ESPORTIVA VILASSAR  \"B\"",
+      "CODEQUIPO_FUERA": "54317034",
+      "CODIGO_CAMPO": "476",
+      "FECHA": "2026-09-12T00:00:00.000Z",
+      "FECHA_FORMATTED": "12/09/2026",
+      "HORA_COMIENZO": "16:30:00",
+      "CODACTA": null,
+      "PARTIDO_GOLES_CASA": "0",
+      "PARTIDO_GOLES_VISITANTE": "0",
+      "campo": "CAMP DE FUTBOL MPAL. LLEFIÀ",
+      "arbitro": null,
+      "ESCUDO_CASA": "00100_0000879078_llefia_200.png",
+      "ESCUDO_FUERA": "00100_0001117654_00100_0000671279_uevilassar_200x200_2.png",
+      "goles_casa": "0",
+      "goles_fuera": "0",
+      "logo_casa": "00100_0000879078_llefia_200.png",
+      "logo_fuera": "00100_0001117654_00100_0000671279_uevilassar_200x200_2.png",
+      "trackedTeams": [
+        "54312622"
+      ]
+    },
+    {
+      "CATEGORIA_AMISTOSO": "54303465",
+      "NOMBRE_COMPETICION": null,
+      "categoria": "PREFERENT CADET S16",
+      "competicion": null,
+      "CODDESIGNACION": null,
       "CODIGO_CLUB": "1047",
       "CODEQUIPO_CASA": "54314135",
       "NOMEQUIPO_CASA": "VILASSAR DALT-GIATSU, C.E. \"A\"",
@@ -1761,6 +1792,38 @@
       "logo_fuera": "00100_0000988633_TERRASSAFCnou.png",
       "trackedTeams": [
         "54313694"
+      ]
+    },
+    {
+      "CATEGORIA_AMISTOSO": "54303465",
+      "NOMBRE_COMPETICION": null,
+      "categoria": "PREFERENT CADET S16",
+      "competicion": null,
+      "CODDESIGNACION": null,
+      "CODIGO_CLUB": "40492704",
+      "CODEQUIPO_CASA": "54313451",
+      "NOMEQUIPO_CASA": "FUNDACIÓ ACADEMIA F. L'HOSPITALET  \"A\"",
+      "CODIGO_CLUB_FUERA": "2925",
+      "NOMEQUIPO_FUERA": "VINYETS MOLI-VELL, C.F. \"A\"",
+      "CODEQUIPO_FUERA": "54310804",
+      "CODIGO_CAMPO": "564",
+      "FECHA": "2026-09-12T00:00:00.000Z",
+      "FECHA_FORMATTED": "12/09/2026",
+      "HORA_COMIENZO": "19:45:00",
+      "CODACTA": null,
+      "PARTIDO_GOLES_CASA": "0",
+      "PARTIDO_GOLES_VISITANTE": "0",
+      "campo": "CAMP DE FUTBOL MPAL. PUBILLA CASAS",
+      "arbitro": null,
+      "ESCUDO_CASA": "00100_0001226166_FAF.png",
+      "ESCUDO_FUERA": "00100_0000782438_vinyetsmolivell_200x200.png",
+      "goles_casa": "0",
+      "goles_fuera": "0",
+      "logo_casa": "00100_0001226166_FAF.png",
+      "logo_fuera": "00100_0000782438_vinyetsmolivell_200x200.png",
+      "trackedTeams": [
+        "54310804",
+        "54313451"
       ]
     },
     {
