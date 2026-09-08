@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-07T23:05:21Z",
+  "updatedAt": "2026-09-08T01:37:59Z",
   "equipos": [
     {
       "nombre": "BUFALA, F.C. \"A\"",
@@ -703,6 +703,37 @@
       "logo_fuera": "00100_0000956159_5282_GironaFC_200.png",
       "trackedTeams": [
         "54310378"
+      ]
+    },
+    {
+      "CATEGORIA_AMISTOSO": "54303464",
+      "NOMBRE_COMPETICION": null,
+      "categoria": "DIVISIÓ HONOR CADET S16",
+      "competicion": null,
+      "CODDESIGNACION": null,
+      "CODIGO_CLUB": "2731",
+      "CODEQUIPO_CASA": "54311422",
+      "NOMEQUIPO_CASA": "MERCANTIL, C.E \"A\"",
+      "CODIGO_CLUB_FUERA": "50599707",
+      "NOMEQUIPO_FUERA": "GIMNASTIC MANRESA, C.F \"A\"",
+      "CODEQUIPO_FUERA": "54305132",
+      "CODIGO_CAMPO": "883",
+      "FECHA": "2026-09-13T00:00:00.000Z",
+      "FECHA_FORMATTED": "13/09/2026",
+      "HORA_COMIENZO": "18:15:00",
+      "CODACTA": null,
+      "PARTIDO_GOLES_CASA": "0",
+      "PARTIDO_GOLES_VISITANTE": "0",
+      "campo": "CAMP DE FUTBOL MPAL. ARRAHONA-MERINAL-JOAN MURTRO",
+      "arbitro": null,
+      "ESCUDO_CASA": "00100_0001068863_mercantil.png",
+      "ESCUDO_FUERA": "00100_0001021780_Escut_Gimna__768_stic_Manresa_removebg_preview.png",
+      "goles_casa": "0",
+      "goles_fuera": "0",
+      "logo_casa": "00100_0001068863_mercantil.png",
+      "logo_fuera": "00100_0001021780_Escut_Gimna__768_stic_Manresa_removebg_preview.png",
+      "trackedTeams": [
+        "54311422"
       ]
     }
   ]
