@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-07T23:53:53Z",
+  "updatedAt": "2026-09-08T02:38:07Z",
   "equipos": [
     {
       "nombre": "MARTINENC, F.C. \"A\"",
@@ -1676,6 +1676,37 @@
       "categoria": "PREFERENT CADET S16",
       "competicion": null,
       "CODDESIGNACION": null,
+      "CODIGO_CLUB": "15548283",
+      "CODEQUIPO_CASA": "54313694",
+      "NOMEQUIPO_CASA": "ESCOLA DE FUTBOL PREMIER BARCELONA \"A\"",
+      "CODIGO_CLUB_FUERA": "34785031",
+      "NOMEQUIPO_FUERA": "FUNDACIÓ TERRASSA FC 1906 \"A\"",
+      "CODEQUIPO_FUERA": "54313024",
+      "CODIGO_CAMPO": "688",
+      "FECHA": "2026-09-12T00:00:00.000Z",
+      "FECHA_FORMATTED": "12/09/2026",
+      "HORA_COMIENZO": "16:00:00",
+      "CODACTA": null,
+      "PARTIDO_GOLES_CASA": "0",
+      "PARTIDO_GOLES_VISITANTE": "0",
+      "campo": "CAMP DE FUTBOL MPAL. VALL D´HEBRON",
+      "arbitro": null,
+      "ESCUDO_CASA": "00100_0000754057_premierbcn_200x200.png",
+      "ESCUDO_FUERA": "00100_0000988633_TERRASSAFCnou.png",
+      "goles_casa": "0",
+      "goles_fuera": "0",
+      "logo_casa": "00100_0000754057_premierbcn_200x200.png",
+      "logo_fuera": "00100_0000988633_TERRASSAFCnou.png",
+      "trackedTeams": [
+        "54313694"
+      ]
+    },
+    {
+      "CATEGORIA_AMISTOSO": "54303465",
+      "NOMBRE_COMPETICION": null,
+      "categoria": "PREFERENT CADET S16",
+      "competicion": null,
+      "CODDESIGNACION": null,
       "CODIGO_CLUB": "6137",
       "CODEQUIPO_CASA": "54305986",
       "NOMEQUIPO_CASA": "CAN RULL ROMULO TRONCHONI, CFU \"A\"",
@@ -1823,6 +1854,37 @@
       "logo_fuera": "00100_0000648509_canbuxeres_200x200.png",
       "trackedTeams": [
         "54310809"
+      ]
+    },
+    {
+      "CATEGORIA_AMISTOSO": "54303465",
+      "NOMBRE_COMPETICION": null,
+      "categoria": "PREFERENT CADET S16",
+      "competicion": null,
+      "CODDESIGNACION": null,
+      "CODIGO_CLUB": "2731",
+      "CODEQUIPO_CASA": "54311427",
+      "NOMEQUIPO_CASA": "MERCANTIL, C.E \"B\"",
+      "CODIGO_CLUB_FUERA": "1252",
+      "NOMEQUIPO_FUERA": "Pª BARC. ANGUERA \"A\"",
+      "CODEQUIPO_FUERA": "54313841",
+      "CODIGO_CAMPO": "883",
+      "FECHA": "2026-09-13T00:00:00.000Z",
+      "FECHA_FORMATTED": "13/09/2026",
+      "HORA_COMIENZO": "20:00:00",
+      "CODACTA": null,
+      "PARTIDO_GOLES_CASA": "0",
+      "PARTIDO_GOLES_VISITANTE": "0",
+      "campo": "CAMP DE FUTBOL MPAL. ARRAHONA-MERINAL-JOAN MURTRO",
+      "arbitro": null,
+      "ESCUDO_CASA": "00100_0001068863_mercantil.png",
+      "ESCUDO_FUERA": "00100_0001223440_ANGUERA.png",
+      "goles_casa": "0",
+      "goles_fuera": "0",
+      "logo_casa": "00100_0001068863_mercantil.png",
+      "logo_fuera": "00100_0001223440_ANGUERA.png",
+      "trackedTeams": [
+        "54313841"
       ]
     }
   ]
