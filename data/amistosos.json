@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-09T18:06:14Z",
+  "updatedAt": "2026-09-09T21:19:55Z",
   "teamCode": "54304670",
   "matches": [
     {
@@ -112,6 +112,34 @@
       "goles_casa": "0",
       "goles_fuera": "1",
       "logo_casa": "00100_0001223476_RECREATIVA.png",
+      "logo_fuera": "00100_0000577607_martinenc-200x200.png"
+    },
+    {
+      "CATEGORIA_AMISTOSO": "54303466",
+      "NOMBRE_COMPETICION": null,
+      "categoria": "CADET PRIMERA DIVISIÓ S16",
+      "competicion": null,
+      "CODDESIGNACION": null,
+      "CODIGO_CLUB": "1197",
+      "CODEQUIPO_CASA": "55012783",
+      "NOMEQUIPO_CASA": "MATADEPERENC, ATHLETIC \"A\"",
+      "CODIGO_CLUB_FUERA": "1032",
+      "NOMEQUIPO_FUERA": "MARTINENC, F.C. \"A\"",
+      "CODEQUIPO_FUERA": "54304670",
+      "CODIGO_CAMPO": "493",
+      "FECHA": "2026-09-13T00:00:00.000Z",
+      "FECHA_FORMATTED": "13/09/2026",
+      "HORA_COMIENZO": "15:45:00",
+      "CODACTA": null,
+      "PARTIDO_GOLES_CASA": "0",
+      "PARTIDO_GOLES_VISITANTE": "0",
+      "campo": "CAMP DE FUTBOL MPAL. DE MATADEPERA",
+      "arbitro": null,
+      "ESCUDO_CASA": "00100_0000817540_matadeperenc_200.png",
+      "ESCUDO_FUERA": "00100_0000577607_martinenc-200x200.png",
+      "goles_casa": "0",
+      "goles_fuera": "0",
+      "logo_casa": "00100_0000817540_matadeperenc_200.png",
       "logo_fuera": "00100_0000577607_martinenc-200x200.png"
     }
   ]
