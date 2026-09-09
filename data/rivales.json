@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-09T14:29:42Z",
+  "updatedAt": "2026-09-09T14:58:48Z",
   "equipos": [
     {
       "nombre": "MARTINENC, F.C. \"A\"",
@@ -1707,37 +1707,6 @@
       "categoria": "PREFERENT CADET S16",
       "competicion": null,
       "CODDESIGNACION": null,
-      "CODIGO_CLUB": "6137",
-      "CODEQUIPO_CASA": "54305986",
-      "NOMEQUIPO_CASA": "CAN RULL ROMULO TRONCHONI, CFU \"A\"",
-      "CODIGO_CLUB_FUERA": "18476477",
-      "NOMEQUIPO_FUERA": "FUNDACIÓ ESPORTIVA GRAMA \"A\"",
-      "CODEQUIPO_FUERA": "54319559",
-      "CODIGO_CAMPO": "918",
-      "FECHA": "2026-09-12T00:00:00.000Z",
-      "FECHA_FORMATTED": "12/09/2026",
-      "HORA_COMIENZO": "16:30:00",
-      "CODACTA": null,
-      "PARTIDO_GOLES_CASA": "0",
-      "PARTIDO_GOLES_VISITANTE": "0",
-      "campo": "CAMP DE FUTBOL ZEM CAN RULL-PACO HERRERA (1)",
-      "arbitro": null,
-      "ESCUDO_CASA": "00100_0000000105_ESCUDO111_edited.png",
-      "ESCUDO_FUERA": "00100_0000574709_fgrama_200x200.png",
-      "goles_casa": "0",
-      "goles_fuera": "0",
-      "logo_casa": "00100_0000000105_ESCUDO111_edited.png",
-      "logo_fuera": "00100_0000574709_fgrama_200x200.png",
-      "trackedTeams": [
-        "54319559"
-      ]
-    },
-    {
-      "CATEGORIA_AMISTOSO": "54303465",
-      "NOMBRE_COMPETICION": null,
-      "categoria": "PREFERENT CADET S16",
-      "competicion": null,
-      "CODDESIGNACION": null,
       "CODIGO_CLUB": "6091",
       "CODEQUIPO_CASA": "54312622",
       "NOMEQUIPO_CASA": "UNIFICACION LLEFIA,CF. \"A\"",
@@ -1854,6 +1823,37 @@
       "logo_fuera": "00100_0000988633_TERRASSAFCnou.png",
       "trackedTeams": [
         "54313694"
+      ]
+    },
+    {
+      "CATEGORIA_AMISTOSO": "54303465",
+      "NOMBRE_COMPETICION": null,
+      "categoria": "PREFERENT CADET S16",
+      "competicion": null,
+      "CODDESIGNACION": null,
+      "CODIGO_CLUB": "6137",
+      "CODEQUIPO_CASA": "54305986",
+      "NOMEQUIPO_CASA": "CAN RULL ROMULO TRONCHONI, CFU \"A\"",
+      "CODIGO_CLUB_FUERA": "18476477",
+      "NOMEQUIPO_FUERA": "FUNDACIÓ ESPORTIVA GRAMA \"A\"",
+      "CODEQUIPO_FUERA": "54319559",
+      "CODIGO_CAMPO": "918",
+      "FECHA": "2026-09-12T00:00:00.000Z",
+      "FECHA_FORMATTED": "12/09/2026",
+      "HORA_COMIENZO": "19:45:00",
+      "CODACTA": null,
+      "PARTIDO_GOLES_CASA": "0",
+      "PARTIDO_GOLES_VISITANTE": "0",
+      "campo": "CAMP DE FUTBOL ZEM CAN RULL-PACO HERRERA (1)",
+      "arbitro": null,
+      "ESCUDO_CASA": "00100_0000000105_ESCUDO111_edited.png",
+      "ESCUDO_FUERA": "00100_0000574709_fgrama_200x200.png",
+      "goles_casa": "0",
+      "goles_fuera": "0",
+      "logo_casa": "00100_0000000105_ESCUDO111_edited.png",
+      "logo_fuera": "00100_0000574709_fgrama_200x200.png",
+      "trackedTeams": [
+        "54319559"
       ]
     },
     {
