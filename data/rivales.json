@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-09T12:30:46Z",
+  "updatedAt": "2026-09-09T14:29:42Z",
   "equipos": [
     {
       "nombre": "MARTINENC, F.C. \"A\"",
@@ -1675,7 +1675,7 @@
       "NOMBRE_COMPETICION": null,
       "categoria": "PREFERENT CADET S16",
       "competicion": null,
-      "CODDESIGNACION": null,
+      "CODDESIGNACION": "3520229",
       "CODIGO_CLUB": "1255",
       "CODEQUIPO_CASA": "54304018",
       "NOMEQUIPO_CASA": "ESCOLA F. GAVA, C. \"A\"",
@@ -1686,11 +1686,11 @@
       "FECHA": "2026-09-12T00:00:00.000Z",
       "FECHA_FORMATTED": "12/09/2026",
       "HORA_COMIENZO": "16:00:00",
-      "CODACTA": null,
+      "CODACTA": "4228788",
       "PARTIDO_GOLES_CASA": "0",
       "PARTIDO_GOLES_VISITANTE": "0",
       "campo": "CAMP DE FUTBOL ZEM CAN TORELLÓ (Gavà)",
-      "arbitro": null,
+      "arbitro": "BERDÚN GARCÍA, JORDI",
       "ESCUDO_CASA": "00100_0001223441_EFGAVA.png",
       "ESCUDO_FUERA": "00100_0001178430_6686_Sant_Just_B.png",
       "goles_casa": "0",
