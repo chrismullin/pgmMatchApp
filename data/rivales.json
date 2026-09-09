@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-09T05:48:03Z",
+  "updatedAt": "2026-09-09T10:36:55Z",
   "equipos": [
     {
       "nombre": "MARTINENC, F.C. \"A\"",
@@ -1920,6 +1920,37 @@
       ]
     },
     {
+      "CATEGORIA_AMISTOSO": "54303464",
+      "NOMBRE_COMPETICION": null,
+      "categoria": "DIVISIÓ HONOR CADET S16",
+      "competicion": null,
+      "CODDESIGNACION": null,
+      "CODIGO_CLUB": "1056",
+      "CODEQUIPO_CASA": "54313479",
+      "NOMEQUIPO_CASA": "JUNIOR,C.F. \"A\"",
+      "CODIGO_CLUB_FUERA": "1241",
+      "NOMEQUIPO_FUERA": "SANT GABRIEL, C.D. \"A\"",
+      "CODEQUIPO_FUERA": "54306039",
+      "CODIGO_CAMPO": "134",
+      "FECHA": "2026-09-13T00:00:00.000Z",
+      "FECHA_FORMATTED": "13/09/2026",
+      "HORA_COMIENZO": "14:15:00",
+      "CODACTA": null,
+      "PARTIDO_GOLES_CASA": "0",
+      "PARTIDO_GOLES_VISITANTE": "0",
+      "campo": "CAMP DE FUTBOL CLUB JUNIOR, F.C.",
+      "arbitro": null,
+      "ESCUDO_CASA": "00100_0000808851_junior_200x200.png",
+      "ESCUDO_FUERA": "00100_0000832660_santgabriel_200.png",
+      "goles_casa": "0",
+      "goles_fuera": "0",
+      "logo_casa": "00100_0000808851_junior_200x200.png",
+      "logo_fuera": "00100_0000832660_santgabriel_200.png",
+      "trackedTeams": [
+        "54306039"
+      ]
+    },
+    {
       "CATEGORIA_AMISTOSO": "54303465",
       "NOMBRE_COMPETICION": null,
       "categoria": "PREFERENT CADET S16",
@@ -2010,6 +2041,37 @@
       "logo_fuera": "00100_0000648509_canbuxeres_200x200.png",
       "trackedTeams": [
         "54310809"
+      ]
+    },
+    {
+      "CATEGORIA_AMISTOSO": "54303465",
+      "NOMBRE_COMPETICION": null,
+      "categoria": "PREFERENT CADET S16",
+      "competicion": null,
+      "CODDESIGNACION": null,
+      "CODIGO_CLUB": "18476477",
+      "CODEQUIPO_CASA": "54319559",
+      "NOMEQUIPO_CASA": "FUNDACIÓ ESPORTIVA GRAMA \"A\"",
+      "CODIGO_CLUB_FUERA": "1014",
+      "NOMEQUIPO_FUERA": "SANT ANDREU, U.E \"B\"",
+      "CODEQUIPO_FUERA": "54316931",
+      "CODIGO_CAMPO": "756",
+      "FECHA": "2026-09-13T00:00:00.000Z",
+      "FECHA_FORMATTED": "13/09/2026",
+      "HORA_COMIENZO": "18:00:00",
+      "CODACTA": null,
+      "PARTIDO_GOLES_CASA": "0",
+      "PARTIDO_GOLES_VISITANTE": "0",
+      "campo": "ESTADI MPAL. NOU DE SANTA COLOMA DE GRAMENET CAN PEIXAUET",
+      "arbitro": null,
+      "ESCUDO_CASA": "00100_0000574709_fgrama_200x200.png",
+      "ESCUDO_FUERA": "00100_0000573790_standreu_200x200.png",
+      "goles_casa": "0",
+      "goles_fuera": "0",
+      "logo_casa": "00100_0000574709_fgrama_200x200.png",
+      "logo_fuera": "00100_0000573790_standreu_200x200.png",
+      "trackedTeams": [
+        "54319559"
       ]
     },
     {
