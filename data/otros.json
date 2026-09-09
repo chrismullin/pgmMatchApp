@@ -2,6 +2,11 @@
   "updatedAt": "2026-09-09T21:18:36Z",
   "equipos": [
     {
+      "nombre": "ATHLETIC MATADEPERENC \"A\"",
+      "club": "1197",
+      "codigo": "55012783"
+    },
+    {
       "nombre": "BUFALA, F.C. \"A\"",
       "club": "1140",
       "codigo": "54310378"
