@@ -428,6 +428,22 @@ function formatFecha(iso) {
   return d.toLocaleDateString('es-ES', { weekday: 'long', day: '2-digit', month: '2-digit', year: 'numeric' });
 }
 
+// Muestra la fecha/hora de actualización del Action en la zona horaria de
+// Madrid, con el formato "dd/mm/aaaa a las hh:mm", independientemente de la
+// zona horaria del navegador de quien visite la página.
+function formatActualizado(iso) {
+  if (!iso) return '?';
+  const fecha = new Date(iso);
+  if (isNaN(fecha)) return iso;
+  const partes = new Intl.DateTimeFormat('es-ES', {
+    timeZone: 'Europe/Madrid',
+    day: '2-digit', month: '2-digit', year: 'numeric',
+    hour: '2-digit', minute: '2-digit', hour12: false,
+  }).formatToParts(fecha);
+  const valor = tipo => partes.find(p => p.type === tipo)?.value;
+  return `${valor('day')}/${valor('month')}/${valor('year')} a las ${valor('hour')}:${valor('minute')}`;
+}
+
 // CODACTA no es fiable como señal de "partido disputado": hay partidos con
 // CODACTA ya asignado que aún no se han jugado, y partidos ya jugados sin
 // CODACTA todavía informado por la FCF. En su lugar, se compara la hora de
@@ -648,7 +664,7 @@ fetch(DATA_URL)
     }
     fechaSelect.addEventListener('change', renderResultados);
 
-    statusEl.textContent = `${(data.matches || []).length} partido(s) de ${(data.equipos || []).length} equipo(s). Actualizado: ${data.updatedAt ?? '?'}`;
+    statusEl.textContent = `${(data.matches || []).length} partido(s) de ${(data.equipos || []).length} equipo(s). Actualizado: ${formatActualizado(data.updatedAt)}`;
 
     renderResultados();
     renderEstadisticas();
