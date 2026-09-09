@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-09T05:26:34Z",
+  "updatedAt": "2026-09-09T10:12:57Z",
   "equipos": [
     {
       "nombre": "BUFALA, F.C. \"A\"",
@@ -632,7 +632,7 @@
       "PARTIDO_GOLES_CASA": "0",
       "PARTIDO_GOLES_VISITANTE": "0",
       "campo": "CAMP DE FUTBOL ZEM LES FONTETES",
-      "arbitro": "SABADELL-7, PENDENT",
+      "arbitro": "MALDONADO ARISA, ORIOL",
       "ESCUDO_CASA": "00100_0000741456_cerdanyolafc_200x200.png",
       "ESCUDO_FUERA": "00100_0000577607_martinenc-200x200.png",
       "goles_casa": "0",
@@ -710,7 +710,7 @@
       "NOMBRE_COMPETICION": null,
       "categoria": "DIVISIÓ HONOR CADET S16",
       "competicion": null,
-      "CODDESIGNACION": null,
+      "CODDESIGNACION": "3519872",
       "CODIGO_CLUB": "2731",
       "CODEQUIPO_CASA": "54311422",
       "NOMEQUIPO_CASA": "MERCANTIL, C.E \"A\"",
@@ -721,11 +721,11 @@
       "FECHA": "2026-09-13T00:00:00.000Z",
       "FECHA_FORMATTED": "13/09/2026",
       "HORA_COMIENZO": "18:15:00",
-      "CODACTA": null,
+      "CODACTA": "4227184",
       "PARTIDO_GOLES_CASA": "0",
       "PARTIDO_GOLES_VISITANTE": "0",
       "campo": "CAMP DE FUTBOL MPAL. ARRAHONA-MERINAL-JOAN MURTRO",
-      "arbitro": null,
+      "arbitro": "GAMALLO ORRUTIA, CHRISTIAN",
       "ESCUDO_CASA": "00100_0001068863_mercantil.png",
       "ESCUDO_FUERA": "00100_0001021780_Escut_Gimna__768_stic_Manresa_removebg_preview.png",
       "goles_casa": "0",
