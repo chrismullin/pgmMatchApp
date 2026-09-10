@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-09T23:35:18Z",
+  "updatedAt": "2026-09-10T01:40:35Z",
   "equipos": [
     {
       "nombre": "ATHLETIC MATADEPERENC \"A\"",
@@ -653,7 +653,7 @@
       "NOMBRE_COMPETICION": null,
       "categoria": "PREFERENT CADET S16",
       "competicion": null,
-      "CODDESIGNACION": null,
+      "CODDESIGNACION": "3522568",
       "CODIGO_CLUB": "1051",
       "CODEQUIPO_CASA": "54316893",
       "NOMEQUIPO_CASA": "SANTS, U.E. \"A\"",
@@ -668,7 +668,7 @@
       "PARTIDO_GOLES_CASA": "0",
       "PARTIDO_GOLES_VISITANTE": "0",
       "campo": "CAMP DE FUTBOL CEM LA BASCULA EMILIO FERNANDEZ F11",
-      "arbitro": null,
+      "arbitro": "ARMENGOL PEYROTON, MARC",
       "ESCUDO_CASA": "00100_0000959051_1051_SantUE_200.png",
       "ESCUDO_FUERA": "00100_0000894175_bufalacf_200.png",
       "goles_casa": "0",
@@ -808,7 +808,7 @@
       "NOMBRE_COMPETICION": null,
       "categoria": "PREFERENT CADET S16",
       "competicion": null,
-      "CODDESIGNACION": null,
+      "CODDESIGNACION": "3522555",
       "CODIGO_CLUB": "1140",
       "CODEQUIPO_CASA": "54310378",
       "NOMEQUIPO_CASA": "BUFALA, C.F. \"A\"",
@@ -823,7 +823,7 @@
       "PARTIDO_GOLES_CASA": "0",
       "PARTIDO_GOLES_VISITANTE": "0",
       "campo": "CAMP DE FUTBOL ZEM BUFALÀ",
-      "arbitro": null,
+      "arbitro": "SELFA LOPEZ, LUCAS",
       "ESCUDO_CASA": "00100_0000894175_bufalacf_200.png",
       "ESCUDO_FUERA": "00100_0000956159_5282_GironaFC_200.png",
       "goles_casa": "0",
