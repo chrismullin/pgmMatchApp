@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-10T19:26:19Z",
+  "updatedAt": "2026-09-10T22:11:54Z",
   "equipos": [
     {
       "nombre": "MARTINENC, F.C. \"A\"",
@@ -1737,7 +1737,7 @@
       "NOMBRE_COMPETICION": null,
       "categoria": "DIVISIÓ HONOR CADET S16",
       "competicion": null,
-      "CODDESIGNACION": "3520851",
+      "CODDESIGNACION": null,
       "CODIGO_CLUB": "1004",
       "CODEQUIPO_CASA": "54314083",
       "NOMEQUIPO_CASA": "SABADELL F.C., C.E. \"A\"",
@@ -1748,11 +1748,11 @@
       "FECHA": "2026-09-12T00:00:00.000Z",
       "FECHA_FORMATTED": "12/09/2026",
       "HORA_COMIENZO": "17:00:00",
-      "CODACTA": "4229746",
+      "CODACTA": null,
       "PARTIDO_GOLES_CASA": "0",
       "PARTIDO_GOLES_VISITANTE": "0",
       "campo": "CAMP DE FUTBOL MPAL. OLÍMPIA",
-      "arbitro": "VICENTE DELMAR, ADRIA",
+      "arbitro": null,
       "ESCUDO_CASA": "00100_0001025828_escut_CES__1_.png",
       "ESCUDO_FUERA": "00100_0000573790_standreu_200x200.png",
       "goles_casa": "0",
