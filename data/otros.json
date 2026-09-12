@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-12T14:28:20Z",
+  "updatedAt": "2026-09-12T17:28:53Z",
   "equipos": [
     {
       "nombre": "ATHLETIC MATADEPERENC \"A\"",
@@ -681,10 +681,10 @@
     },
     {
       "CATEGORIA_AMISTOSO": "54303466",
-      "NOMBRE_COMPETICION": null,
+      "NOMBRE_COMPETICION": "",
       "categoria": "CADET PRIMERA DIVISIÓ S16",
       "competicion": null,
-      "CODDESIGNACION": "3522798",
+      "CODDESIGNACION": "0",
       "CODIGO_CLUB": "50599707",
       "CODEQUIPO_CASA": "54305159",
       "NOMEQUIPO_CASA": "GIMNASTIC MANRESA, C.F \"B\"",
@@ -695,15 +695,15 @@
       "FECHA": "2026-09-12T00:00:00.000Z",
       "FECHA_FORMATTED": "12/09/2026",
       "HORA_COMIENZO": "15:15:00",
-      "CODACTA": "4225508",
-      "PARTIDO_GOLES_CASA": "0",
-      "PARTIDO_GOLES_VISITANTE": "0",
+      "CODACTA": null,
+      "PARTIDO_GOLES_CASA": "3",
+      "PARTIDO_GOLES_VISITANTE": "2",
       "campo": "CAMP DE FUTBOL CLUB GIMNÀSTIC PARC",
       "arbitro": "ARAGONÈS MONTARDIT, PAU",
       "ESCUDO_CASA": "00100_0001021780_Escut_Gimna__768_stic_Manresa_removebg_preview.png",
       "ESCUDO_FUERA": "00100_0000817540_matadeperenc_200.png",
-      "goles_casa": "0",
-      "goles_fuera": "0",
+      "goles_casa": "3",
+      "goles_fuera": "2",
       "logo_casa": "00100_0001021780_Escut_Gimna__768_stic_Manresa_removebg_preview.png",
       "logo_fuera": "00100_0000817540_matadeperenc_200.png",
       "trackedTeams": [
