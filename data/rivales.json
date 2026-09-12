@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-12T21:52:24Z",
+  "updatedAt": "2026-09-12T22:46:25Z",
   "equipos": [
     {
       "nombre": "MARTINENC, F.C. \"A\"",
@@ -1703,10 +1703,10 @@
     },
     {
       "CATEGORIA_AMISTOSO": "54303465",
-      "NOMBRE_COMPETICION": null,
+      "NOMBRE_COMPETICION": "",
       "categoria": "PREFERENT CADET S16",
       "competicion": null,
-      "CODDESIGNACION": "3522471",
+      "CODDESIGNACION": "0",
       "CODIGO_CLUB": "6091",
       "CODEQUIPO_CASA": "54312622",
       "NOMEQUIPO_CASA": "UNIFICACION LLEFIA,CF. \"A\"",
@@ -1717,15 +1717,15 @@
       "FECHA": "2026-09-12T00:00:00.000Z",
       "FECHA_FORMATTED": "12/09/2026",
       "HORA_COMIENZO": "16:30:00",
-      "CODACTA": "4231179",
+      "CODACTA": null,
       "PARTIDO_GOLES_CASA": "0",
-      "PARTIDO_GOLES_VISITANTE": "0",
+      "PARTIDO_GOLES_VISITANTE": "2",
       "campo": "CAMP DE FUTBOL MPAL. LLEFIÀ",
       "arbitro": "TERUEL SOLER, PAULÍ",
       "ESCUDO_CASA": "00100_0000879078_llefia_200.png",
       "ESCUDO_FUERA": "00100_0001117654_00100_0000671279_uevilassar_200x200_2.png",
       "goles_casa": "0",
-      "goles_fuera": "0",
+      "goles_fuera": "2",
       "logo_casa": "00100_0000879078_llefia_200.png",
       "logo_fuera": "00100_0001117654_00100_0000671279_uevilassar_200x200_2.png",
       "trackedTeams": [
