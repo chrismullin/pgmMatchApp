@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-12T09:26:58Z",
+  "updatedAt": "2026-09-12T10:14:18Z",
   "equipos": [
     {
       "nombre": "MARTINENC, F.C. \"A\"",
@@ -1516,10 +1516,10 @@
     },
     {
       "CATEGORIA_AMISTOSO": "54303465",
-      "NOMBRE_COMPETICION": null,
+      "NOMBRE_COMPETICION": "",
       "categoria": "PREFERENT CADET S16",
       "competicion": null,
-      "CODDESIGNACION": "3522535",
+      "CODDESIGNACION": "0",
       "CODIGO_CLUB": "1252",
       "CODEQUIPO_CASA": "54313841",
       "NOMEQUIPO_CASA": "Pª BARC. ANGUERA \"A\"",
@@ -1530,15 +1530,15 @@
       "FECHA": "2026-09-12T00:00:00.000Z",
       "FECHA_FORMATTED": "12/09/2026",
       "HORA_COMIENZO": "09:45:00",
-      "CODACTA": "4231169",
-      "PARTIDO_GOLES_CASA": "0",
-      "PARTIDO_GOLES_VISITANTE": "0",
+      "CODACTA": null,
+      "PARTIDO_GOLES_CASA": "2",
+      "PARTIDO_GOLES_VISITANTE": "1",
       "campo": "CAMP DE FUTBOL INEF BARCELONA",
       "arbitro": "BERMÚDEZ MESA, GASPAR",
       "ESCUDO_CASA": "00100_0001223440_ANGUERA.png",
       "ESCUDO_FUERA": "00100_0001025828_escut_CES__1_.png",
-      "goles_casa": "0",
-      "goles_fuera": "0",
+      "goles_casa": "2",
+      "goles_fuera": "1",
       "logo_casa": "00100_0001223440_ANGUERA.png",
       "logo_fuera": "00100_0001025828_escut_CES__1_.png",
       "trackedTeams": [
