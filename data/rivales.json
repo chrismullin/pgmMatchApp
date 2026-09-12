@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-12T17:38:23Z",
+  "updatedAt": "2026-09-12T19:20:57Z",
   "equipos": [
     {
       "nombre": "MARTINENC, F.C. \"A\"",
@@ -1796,10 +1796,10 @@
     },
     {
       "CATEGORIA_AMISTOSO": "54303465",
-      "NOMBRE_COMPETICION": null,
+      "NOMBRE_COMPETICION": "",
       "categoria": "PREFERENT CADET S16",
       "competicion": null,
-      "CODDESIGNACION": "3524745",
+      "CODDESIGNACION": "0",
       "CODIGO_CLUB": "15548283",
       "CODEQUIPO_CASA": "54313694",
       "NOMEQUIPO_CASA": "ESCOLA DE FUTBOL PREMIER BARCELONA \"A\"",
@@ -1810,15 +1810,15 @@
       "FECHA": "2026-09-12T00:00:00.000Z",
       "FECHA_FORMATTED": "12/09/2026",
       "HORA_COMIENZO": "18:00:00",
-      "CODACTA": "4231180",
-      "PARTIDO_GOLES_CASA": "0",
-      "PARTIDO_GOLES_VISITANTE": "0",
+      "CODACTA": null,
+      "PARTIDO_GOLES_CASA": "1",
+      "PARTIDO_GOLES_VISITANTE": "2",
       "campo": "CAMP DE FUTBOL MPAL. VALL D´HEBRON",
       "arbitro": "ALBA PAJARES, HÉCTOR",
       "ESCUDO_CASA": "00100_0000754057_premierbcn_200x200.png",
       "ESCUDO_FUERA": "00100_0000988633_TERRASSAFCnou.png",
-      "goles_casa": "0",
-      "goles_fuera": "0",
+      "goles_casa": "1",
+      "goles_fuera": "2",
       "logo_casa": "00100_0000754057_premierbcn_200x200.png",
       "logo_fuera": "00100_0000988633_TERRASSAFCnou.png",
       "trackedTeams": [
