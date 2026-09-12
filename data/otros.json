@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-12T17:28:53Z",
+  "updatedAt": "2026-09-12T19:44:13Z",
   "equipos": [
     {
       "nombre": "ATHLETIC MATADEPERENC \"A\"",
@@ -712,10 +712,10 @@
     },
     {
       "CATEGORIA_AMISTOSO": "12",
-      "NOMBRE_COMPETICION": null,
+      "NOMBRE_COMPETICION": "",
       "categoria": "PREFERENT JUVENILS",
       "competicion": null,
-      "CODDESIGNACION": "3517564",
+      "CODDESIGNACION": "0",
       "CODIGO_CLUB": "6283",
       "CODEQUIPO_CASA": "34025",
       "NOMEQUIPO_CASA": "CERDANYOLA VALLES, F.C.  \"A\"",
@@ -726,15 +726,15 @@
       "FECHA": "2026-09-12T00:00:00.000Z",
       "FECHA_FORMATTED": "12/09/2026",
       "HORA_COMIENZO": "19:15:00",
-      "CODACTA": "4219149",
+      "CODACTA": null,
       "PARTIDO_GOLES_CASA": "0",
-      "PARTIDO_GOLES_VISITANTE": "0",
+      "PARTIDO_GOLES_VISITANTE": "1",
       "campo": "CAMP DE FUTBOL ZEM LES FONTETES",
       "arbitro": "MALDONADO ARISA, ORIOL",
       "ESCUDO_CASA": "00100_0000741456_cerdanyolafc_200x200.png",
       "ESCUDO_FUERA": "00100_0000577607_martinenc-200x200.png",
       "goles_casa": "0",
-      "goles_fuera": "0",
+      "goles_fuera": "1",
       "logo_casa": "00100_0000741456_cerdanyolafc_200x200.png",
       "logo_fuera": "00100_0000577607_martinenc-200x200.png",
       "trackedTeams": [
