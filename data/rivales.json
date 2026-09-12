@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-12T19:20:57Z",
+  "updatedAt": "2026-09-12T20:02:27Z",
   "equipos": [
     {
       "nombre": "MARTINENC, F.C. \"A\"",
@@ -1848,8 +1848,8 @@
       "arbitro": "LUNA CASTILLO, IZAN",
       "ESCUDO_CASA": "00100_0000000105_ESCUDO111_edited.png",
       "ESCUDO_FUERA": "00100_0000574709_fgrama_200x200.png",
-      "goles_casa": "0",
-      "goles_fuera": "0",
+      "goles_casa": "4",
+      "goles_fuera": "3",
       "logo_casa": "00100_0000000105_ESCUDO111_edited.png",
       "logo_fuera": "00100_0000574709_fgrama_200x200.png",
       "trackedTeams": [
@@ -1858,10 +1858,10 @@
     },
     {
       "CATEGORIA_AMISTOSO": "54303465",
-      "NOMBRE_COMPETICION": null,
+      "NOMBRE_COMPETICION": "",
       "categoria": "PREFERENT CADET S16",
       "competicion": null,
-      "CODDESIGNACION": "3522473",
+      "CODDESIGNACION": "0",
       "CODIGO_CLUB": "40492704",
       "CODEQUIPO_CASA": "54313451",
       "NOMEQUIPO_CASA": "FUNDACIÓ ACADEMIA F. L'HOSPITALET  \"A\"",
@@ -1872,15 +1872,15 @@
       "FECHA": "2026-09-12T00:00:00.000Z",
       "FECHA_FORMATTED": "12/09/2026",
       "HORA_COMIENZO": "19:45:00",
-      "CODACTA": "4231181",
-      "PARTIDO_GOLES_CASA": "0",
-      "PARTIDO_GOLES_VISITANTE": "0",
+      "CODACTA": null,
+      "PARTIDO_GOLES_CASA": "2",
+      "PARTIDO_GOLES_VISITANTE": "1",
       "campo": "CAMP DE FUTBOL MPAL. PUBILLA CASAS",
       "arbitro": "AOULA EN NAHALI, ASHRAF",
       "ESCUDO_CASA": "00100_0001226166_FAF.png",
       "ESCUDO_FUERA": "00100_0000782438_vinyetsmolivell_200x200.png",
-      "goles_casa": "0",
-      "goles_fuera": "0",
+      "goles_casa": "2",
+      "goles_fuera": "1",
       "logo_casa": "00100_0001226166_FAF.png",
       "logo_fuera": "00100_0000782438_vinyetsmolivell_200x200.png",
       "trackedTeams": [
