@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T05:34:58Z",
+  "updatedAt": "2026-09-13T10:56:53Z",
   "equipos": [
     {
       "nombre": "MARTINENC, F.C. \"A\"",
@@ -1827,10 +1827,10 @@
     },
     {
       "CATEGORIA_AMISTOSO": "54303465",
-      "NOMBRE_COMPETICION": null,
+      "NOMBRE_COMPETICION": "",
       "categoria": "PREFERENT CADET S16",
       "competicion": null,
-      "CODDESIGNACION": "3520857",
+      "CODDESIGNACION": "0",
       "CODIGO_CLUB": "6137",
       "CODEQUIPO_CASA": "54305986",
       "NOMEQUIPO_CASA": "CAN RULL ROMULO TRONCHONI, CFU \"A\"",
@@ -1841,9 +1841,9 @@
       "FECHA": "2026-09-12T00:00:00.000Z",
       "FECHA_FORMATTED": "12/09/2026",
       "HORA_COMIENZO": "19:45:00",
-      "CODACTA": "4229989",
-      "PARTIDO_GOLES_CASA": "0",
-      "PARTIDO_GOLES_VISITANTE": "0",
+      "CODACTA": null,
+      "PARTIDO_GOLES_CASA": "4",
+      "PARTIDO_GOLES_VISITANTE": "3",
       "campo": "CAMP DE FUTBOL ZEM CAN RULL-PACO HERRERA (1)",
       "arbitro": "LUNA CASTILLO, IZAN",
       "ESCUDO_CASA": "00100_0000000105_ESCUDO111_edited.png",
