@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T06:51:31Z",
+  "updatedAt": "2026-09-13T12:22:38Z",
   "equipos": [
     {
       "nombre": "ATHLETIC MATADEPERENC \"A\"",
@@ -743,10 +743,10 @@
     },
     {
       "CATEGORIA_AMISTOSO": "54303464",
-      "NOMBRE_COMPETICION": null,
+      "NOMBRE_COMPETICION": "",
       "categoria": "DIVISIÓ HONOR CADET S16",
       "competicion": null,
-      "CODDESIGNACION": "3518697",
+      "CODDESIGNACION": "0",
       "CODIGO_CLUB": "1207",
       "CODEQUIPO_CASA": "54306135",
       "NOMEQUIPO_CASA": "DAMM, C.F. \"A\"",
@@ -757,14 +757,14 @@
       "FECHA": "2026-09-13T00:00:00.000Z",
       "FECHA_FORMATTED": "13/09/2026",
       "HORA_COMIENZO": "12:15:00",
-      "CODACTA": "4225201",
-      "PARTIDO_GOLES_CASA": "0",
+      "CODACTA": null,
+      "PARTIDO_GOLES_CASA": "1",
       "PARTIDO_GOLES_VISITANTE": "0",
       "campo": "CAMP DE FUTBOL CIUTAT ESPORTIVA C.F. DAMM (2)",
       "arbitro": "LEON PEÑA, HUGO",
       "ESCUDO_CASA": "00100_0001188260_1207_DAMM.png",
       "ESCUDO_FUERA": "00100_0001106091_COLOR.png",
-      "goles_casa": "0",
+      "goles_casa": "1",
       "goles_fuera": "0",
       "logo_casa": "00100_0001188260_1207_DAMM.png",
       "logo_fuera": "00100_0001106091_COLOR.png",
