@@ -1,0 +1,32 @@
+{
+  "matches": [
+    {
+      "CATEGORIA_AMISTOSO": "54303465",
+      "NOMBRE_COMPETICION": null,
+      "categoria": "CADET SEGONA DIVISIÓ S16",
+      "competicion": null,
+      "CODDESIGNACION": "3505235",
+      "CODIGO_CLUB": "1045",
+      "CODEQUIPO_CASA": "54317215",
+      "NOMEQUIPO_CASA": "PREMIA CLUB ESP. \"A\"",
+      "CODIGO_CLUB_FUERA": "1032",
+      "NOMEQUIPO_FUERA": "MARTINENC, F.C. \"A\"",
+      "CODEQUIPO_FUERA": "54304670",
+      "CODIGO_CAMPO": "561",
+      "FECHA": "2026-09-12T00:00:00.000Z",
+      "FECHA_FORMATTED": "12/09/2026",
+      "HORA_COMIENZO": "16:45:00",
+      "CODACTA": "",
+      "PARTIDO_GOLES_CASA": "0",
+      "PARTIDO_GOLES_VISITANTE": "4",
+      "campo": "CAMP D´ESPORTS MPAL. DE PREMIÀ DE MAR",
+      "arbitro": "MARSHALL BADANO, LIAM",
+      "ESCUDO_CASA": "00100_0000664680_cepremia_200x200.png",
+      "ESCUDO_FUERA": "00100_0000577607_martinenc-200x200.png",
+      "goles_casa": "0",
+      "goles_fuera": "4",
+      "logo_casa": "00100_0000664680_cepremia_200x200.png",
+      "logo_fuera": "00100_0000577607_martinenc-200x200.png"
+    }
+    ]
+}
