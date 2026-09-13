@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T16:23:27Z",
+  "updatedAt": "2026-09-13T17:51:29Z",
   "equipos": [
     {
       "nombre": "MARTINENC, F.C. \"A\"",
@@ -2045,10 +2045,10 @@
     },
     {
       "CATEGORIA_AMISTOSO": "54303466",
-      "NOMBRE_COMPETICION": null,
+      "NOMBRE_COMPETICION": "",
       "categoria": "CADET PRIMERA DIVISIÓ S16",
       "competicion": null,
-      "CODDESIGNACION": "3522636",
+      "CODDESIGNACION": "0",
       "CODIGO_CLUB": "6054",
       "CODEQUIPO_CASA": "54304711",
       "NOMEQUIPO_CASA": "APA POBLE SEC, CE. \"A\"",
@@ -2059,15 +2059,15 @@
       "FECHA": "2026-09-13T00:00:00.000Z",
       "FECHA_FORMATTED": "13/09/2026",
       "HORA_COMIENZO": "17:00:00",
-      "CODACTA": "4231335",
-      "PARTIDO_GOLES_CASA": "0",
+      "CODACTA": null,
+      "PARTIDO_GOLES_CASA": "1",
       "PARTIDO_GOLES_VISITANTE": "1",
       "campo": "CAMP DE FUTBOL MPAL. LA SATÀLIA",
       "arbitro": "MAS SALES, AINA",
       "ESCUDO_CASA": "00100_0001170981_escut_apa_net.png",
       "ESCUDO_FUERA": "00100_0000648509_canbuxeres_200x200.png",
-      "goles_casa": "0",
-      "goles_fuera": "0",
+      "goles_casa": "1",
+      "goles_fuera": "1",
       "logo_casa": "00100_0001170981_escut_apa_net.png",
       "logo_fuera": "00100_0000648509_canbuxeres_200x200.png",
       "trackedTeams": [
