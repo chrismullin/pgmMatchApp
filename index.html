@@ -199,24 +199,6 @@
     line-height: 0;
   }
 
-  .youtube-link {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.3rem;
-    margin-left: auto;
-    padding: 0.2rem 0.6rem;
-    border-radius: 999px;
-    background: #ff0000;
-    color: #fff !important;
-    text-decoration: none !important;
-    font-weight: 700;
-    font-size: 0.75rem;
-  }
-
-  .youtube-link:hover {
-    background: #cc0000;
-  }
-
   footer {
     margin-top: 1.5rem;
     color: var(--navy-soft);
@@ -250,7 +232,7 @@
 // (ver .github/workflows/update-data.yml) porque la API de fcf.cat no
 // envía cabeceras CORS y bloquea el fetch directo desde GitHub Pages.
 const DATA_URL = 'data/amistosos.json';
-const YOUTUBE_LINKS_URL = 'data/youtube-links.json';
+const DEFAULT_DATA_URL = 'data/default.json';
 const EQUIPOS_URL = 'data/equipos.json';
 const TEAM_CODE = '54304670';
 const CREST_BASE = 'https://files.fcf.cat/escudos/clubes/escudos/';
@@ -279,6 +261,19 @@ function resolveEscudo(codigoEquipo, escudoApi) {
 
 function formatHora(hora) {
   return hora ? hora.slice(0, 5) : '';
+}
+
+// data/default.json permite informar a mano partidos que la API de amistosos
+// no recoge (o recoge con datos incompletos). Sus entradas tienen el mismo
+// formato de fila que las de la API, y tienen prioridad sobre las
+// equivalentes descargadas automáticamente (misma fecha/hora/equipos).
+function mergeMatches(base, extra) {
+  const key = m => `${m.FECHA}|${m.HORA_COMIENZO}|${m.CODEQUIPO_CASA}|${m.CODEQUIPO_FUERA}`;
+  const map = new Map(base.map(m => [key(m), m]));
+  for (const m of extra) map.set(key(m), m);
+  return [...map.values()].sort((a, b) =>
+    `${a.FECHA}T${a.HORA_COMIENZO || ''}`.localeCompare(`${b.FECHA}T${b.HORA_COMIENZO || ''}`)
+  );
 }
 
 // Muestra la fecha/hora de actualización del Action en la zona horaria de
@@ -324,15 +319,15 @@ Promise.all([
     if (!res.ok) throw new Error(`HTTP ${res.status} ${res.statusText}`);
     return res.json();
   }),
-  fetch(YOUTUBE_LINKS_URL)
-    .then(res => res.ok ? res.json() : {})
-    .catch(() => ({})),
+  fetch(DEFAULT_DATA_URL)
+    .then(res => res.ok ? res.json() : { matches: [] })
+    .catch(() => ({ matches: [] })),
   fetch(EQUIPOS_URL)
     .then(res => res.ok ? res.json() : { equipos: [] })
     .catch(() => ({ equipos: [] })),
 ])
-  .then(([data, youtubeLinks, equiposData]) => {
-    const matches = data.matches || [];
+  .then(([data, defaultData, equiposData]) => {
+    const matches = mergeMatches(data.matches || [], defaultData.matches || []);
 
     escudoOverrides = Object.fromEntries(
       (equiposData.equipos || []).filter(eq => eq.escudo).map(eq => [eq.codigo, eq.escudo])
@@ -366,8 +361,6 @@ Promise.all([
       const mapsUrl = m.campo
         ? `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(m.campo)}`
         : null;
-      const youtubeUrl = m.CODACTA ? youtubeLinks[m.CODACTA] : null;
-
       const card = document.createElement('article');
       card.className = 'match-card';
       card.innerHTML = `
@@ -388,7 +381,6 @@ Promise.all([
         <div class="match-meta">
           <span>📍 ${mapsUrl ? `<a href="${mapsUrl}" target="_blank" rel="noopener">${m.campo}</a>` : 'Campo por confirmar'}</span>
           <span>🏷️ ${m.categoria ?? ''}</span>
-          ${youtubeUrl ? `<a class="youtube-link" href="${youtubeUrl}" target="_blank" rel="noopener">▶️ Ver partido</a>` : ''}
         </div>
       `;
       matchesEl.appendChild(card);
