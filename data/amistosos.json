@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T12:24:59Z",
+  "updatedAt": "2026-09-13T16:42:46Z",
   "teamCode": "54304670",
   "matches": [
     {
@@ -116,10 +116,10 @@
     },
     {
       "CATEGORIA_AMISTOSO": "54303466",
-      "NOMBRE_COMPETICION": null,
+      "NOMBRE_COMPETICION": "",
       "categoria": "CADET PRIMERA DIVISIÓ S16",
       "competicion": null,
-      "CODDESIGNACION": "3522984",
+      "CODDESIGNACION": "0",
       "CODIGO_CLUB": "1197",
       "CODEQUIPO_CASA": "55012783",
       "NOMEQUIPO_CASA": "MATADEPERENC, ATHLETIC \"A\"",
@@ -130,15 +130,15 @@
       "FECHA": "2026-09-13T00:00:00.000Z",
       "FECHA_FORMATTED": "13/09/2026",
       "HORA_COMIENZO": "15:45:00",
-      "CODACTA": "4231557",
-      "PARTIDO_GOLES_CASA": "0",
-      "PARTIDO_GOLES_VISITANTE": "0",
+      "CODACTA": null,
+      "PARTIDO_GOLES_CASA": "1",
+      "PARTIDO_GOLES_VISITANTE": "7",
       "campo": "CAMP DE FUTBOL MPAL. DE MATADEPERA",
       "arbitro": "PLEGUEZUELOS CASCALES, MARC",
       "ESCUDO_CASA": "00100_0000817540_matadeperenc_200.png",
       "ESCUDO_FUERA": "00100_0000577607_martinenc-200x200.png",
-      "goles_casa": "0",
-      "goles_fuera": "0",
+      "goles_casa": "1",
+      "goles_fuera": "7",
       "logo_casa": "00100_0000817540_matadeperenc_200.png",
       "logo_fuera": "00100_0000577607_martinenc-200x200.png"
     }
