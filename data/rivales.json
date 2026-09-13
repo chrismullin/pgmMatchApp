@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T20:09:03Z",
+  "updatedAt": "2026-09-13T20:49:43Z",
   "equipos": [
     {
       "nombre": "MARTINENC, F.C. \"A\"",
@@ -2107,10 +2107,10 @@
     },
     {
       "CATEGORIA_AMISTOSO": "54303465",
-      "NOMBRE_COMPETICION": null,
+      "NOMBRE_COMPETICION": "",
       "categoria": "PREFERENT CADET S16",
       "competicion": null,
-      "CODDESIGNACION": "3520850",
+      "CODDESIGNACION": "0",
       "CODIGO_CLUB": "2731",
       "CODEQUIPO_CASA": "54311427",
       "NOMEQUIPO_CASA": "MERCANTIL, C.E \"B\"",
@@ -2121,15 +2121,15 @@
       "FECHA": "2026-09-13T00:00:00.000Z",
       "FECHA_FORMATTED": "13/09/2026",
       "HORA_COMIENZO": "20:00:00",
-      "CODACTA": "4229745",
-      "PARTIDO_GOLES_CASA": "0",
-      "PARTIDO_GOLES_VISITANTE": "0",
+      "CODACTA": null,
+      "PARTIDO_GOLES_CASA": "1",
+      "PARTIDO_GOLES_VISITANTE": "2",
       "campo": "CAMP DE FUTBOL MPAL. ARRAHONA-MERINAL-JOAN MURTRO",
       "arbitro": "EL JRIFI EL BARGADI, MOHAMED",
       "ESCUDO_CASA": "00100_0001068863_mercantil.png",
       "ESCUDO_FUERA": "00100_0001223440_ANGUERA.png",
-      "goles_casa": "0",
-      "goles_fuera": "0",
+      "goles_casa": "1",
+      "goles_fuera": "2",
       "logo_casa": "00100_0001068863_mercantil.png",
       "logo_fuera": "00100_0001223440_ANGUERA.png",
       "trackedTeams": [
