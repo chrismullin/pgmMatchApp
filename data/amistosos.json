@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T23:44:09Z",
+  "updatedAt": "2026-09-14T02:05:24Z",
   "teamCode": "54304670",
   "matches": [
     {
@@ -116,10 +116,10 @@
     },
     {
       "CATEGORIA_AMISTOSO": "54303466",
-      "NOMBRE_COMPETICION": "",
+      "NOMBRE_COMPETICION": null,
       "categoria": "CADET PRIMERA DIVISIÓ S16",
       "competicion": null,
-      "CODDESIGNACION": "0",
+      "CODDESIGNACION": "3522984",
       "CODIGO_CLUB": "1197",
       "CODEQUIPO_CASA": "55012783",
       "NOMEQUIPO_CASA": "MATADEPERENC, ATHLETIC \"A\"",
@@ -130,7 +130,7 @@
       "FECHA": "2026-09-13T00:00:00.000Z",
       "FECHA_FORMATTED": "13/09/2026",
       "HORA_COMIENZO": "15:45:00",
-      "CODACTA": null,
+      "CODACTA": "4231557",
       "PARTIDO_GOLES_CASA": "1",
       "PARTIDO_GOLES_VISITANTE": "7",
       "campo": "CAMP DE FUTBOL MPAL. DE MATADEPERA",
