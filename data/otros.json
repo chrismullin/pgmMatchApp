@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-14T07:15:59Z",
+  "updatedAt": "2026-09-14T14:28:57Z",
   "equipos": [
     {
       "nombre": "ATHLETIC MATADEPERENC \"A\"",
@@ -29,6 +29,7 @@
   ],
   "matches": [
     {
+      "ESTADO": "1",
       "CATEGORIA_AMISTOSO": "54303465",
       "NOMBRE_COMPETICION": null,
       "categoria": "PREFERENT CADET S16",
@@ -47,6 +48,8 @@
       "CODACTA": "4170310",
       "PARTIDO_GOLES_CASA": "0",
       "PARTIDO_GOLES_VISITANTE": "5",
+      "acta_goles_casa": "0",
+      "acta_goles_fuera": "5",
       "campo": "CAMP DE FUTBOL ZEM BUFALÀ",
       "arbitro": "FISSOLO , AGUSTIN",
       "ESCUDO_CASA": "00100_0000894175_bufalacf_200.png",
@@ -60,6 +63,7 @@
       ]
     },
     {
+      "ESTADO": "1",
       "CATEGORIA_AMISTOSO": "54303464",
       "NOMBRE_COMPETICION": null,
       "categoria": "DIVISIÓ HONOR CADET S16",
@@ -78,6 +82,8 @@
       "CODACTA": "4170657",
       "PARTIDO_GOLES_CASA": "1",
       "PARTIDO_GOLES_VISITANTE": "1",
+      "acta_goles_casa": "1",
+      "acta_goles_fuera": "1",
       "campo": "CAMP DE FUTBOL CIUTAT ESPORTIVA C.F. DAMM (2)",
       "arbitro": "VEGA LOPEZ, DANIEL",
       "ESCUDO_CASA": "00100_0001188260_1207_DAMM.png",
@@ -91,6 +97,7 @@
       ]
     },
     {
+      "ESTADO": "1",
       "CATEGORIA_AMISTOSO": "12",
       "NOMBRE_COMPETICION": null,
       "categoria": "PREFERENT JUVENILS",
@@ -109,6 +116,8 @@
       "CODACTA": "4170381",
       "PARTIDO_GOLES_CASA": "1",
       "PARTIDO_GOLES_VISITANTE": "0",
+      "acta_goles_casa": "1",
+      "acta_goles_fuera": "0",
       "campo": "CAMP DE FUTBOL MPAL. DE TIANA",
       "arbitro": "PLANES JULIÀ, LLUIS",
       "ESCUDO_CASA": "00100_0000376407_ESCUDO_EN_COLOR.JPG",
@@ -122,6 +131,7 @@
       ]
     },
     {
+      "ESTADO": "1",
       "CATEGORIA_AMISTOSO": "12",
       "NOMBRE_COMPETICION": null,
       "categoria": "PREFERENT JUVENILS",
@@ -140,6 +150,8 @@
       "CODACTA": "4169698",
       "PARTIDO_GOLES_CASA": "3",
       "PARTIDO_GOLES_VISITANTE": "1",
+      "acta_goles_casa": "3",
+      "acta_goles_fuera": "1",
       "campo": "CAMP DE FUTBOL MPAL. ARRAHONA-MERINAL-JOAN MURTRO",
       "arbitro": "GAMALLO ORRUTIA, CHRISTIAN",
       "ESCUDO_CASA": "00100_0001068863_mercantil.png",
@@ -153,6 +165,7 @@
       ]
     },
     {
+      "ESTADO": "1",
       "CATEGORIA_AMISTOSO": "54303464",
       "NOMBRE_COMPETICION": null,
       "categoria": "DIVISIÓ HONOR CADET S16",
@@ -171,6 +184,8 @@
       "CODACTA": "4170721",
       "PARTIDO_GOLES_CASA": "3",
       "PARTIDO_GOLES_VISITANTE": "0",
+      "acta_goles_casa": "3",
+      "acta_goles_fuera": "0",
       "campo": "CAMP DE FUTBOL CIUTAT ESPORTIVA C.F. DAMM (2)",
       "arbitro": "TESSMAR VILA, PATRICK",
       "ESCUDO_CASA": "00100_0001188260_1207_DAMM.png",
@@ -184,6 +199,7 @@
       ]
     },
     {
+      "ESTADO": "1",
       "CATEGORIA_AMISTOSO": "54303464",
       "NOMBRE_COMPETICION": null,
       "categoria": "DIVISIÓ HONOR CADET S16",
@@ -202,6 +218,8 @@
       "CODACTA": "4170170",
       "PARTIDO_GOLES_CASA": "7",
       "PARTIDO_GOLES_VISITANTE": "1",
+      "acta_goles_casa": "7",
+      "acta_goles_fuera": "1",
       "campo": "CAMP DE FUTBOL MPAL. ARRAHONA-MERINAL-JOAN MURTRO",
       "arbitro": "AJEOB KHOMSI, HAMZA",
       "ESCUDO_CASA": "00100_0001068863_mercantil.png",
@@ -215,6 +233,7 @@
       ]
     },
     {
+      "ESTADO": "1",
       "CATEGORIA_AMISTOSO": "12",
       "NOMBRE_COMPETICION": null,
       "categoria": "PREFERENT JUVENILS",
@@ -233,6 +252,8 @@
       "CODACTA": "4171779",
       "PARTIDO_GOLES_CASA": "3",
       "PARTIDO_GOLES_VISITANTE": "2",
+      "acta_goles_casa": "3",
+      "acta_goles_fuera": "2",
       "campo": "CAMP DE FUTBOL MPAL. DE GRANOLLERS",
       "arbitro": "RAMÍREZ CORTÉS, ÍZAN",
       "ESCUDO_CASA": "00100_0001161476_Granollers_PNG.png",
@@ -246,6 +267,7 @@
       ]
     },
     {
+      "ESTADO": "1",
       "CATEGORIA_AMISTOSO": "54303465",
       "NOMBRE_COMPETICION": null,
       "categoria": "PREFERENT CADET S16",
@@ -264,6 +286,8 @@
       "CODACTA": "4173709",
       "PARTIDO_GOLES_CASA": "1",
       "PARTIDO_GOLES_VISITANTE": "2",
+      "acta_goles_casa": "1",
+      "acta_goles_fuera": "2",
       "campo": "CAMP DE FUTBOL ZEM CAN JOFRESA",
       "arbitro": "CULEBRAS VILA, MARC",
       "ESCUDO_CASA": "00100_0001021752_escut.png",
@@ -277,6 +301,7 @@
       ]
     },
     {
+      "ESTADO": "1",
       "CATEGORIA_AMISTOSO": "54303465",
       "NOMBRE_COMPETICION": null,
       "categoria": "PREFERENT CADET S16",
@@ -295,6 +320,8 @@
       "CODACTA": "4176387",
       "PARTIDO_GOLES_CASA": "2",
       "PARTIDO_GOLES_VISITANTE": "4",
+      "acta_goles_casa": "2",
+      "acta_goles_fuera": "4",
       "campo": "CAMP DE FUTBOL ZEM BUFALÀ",
       "arbitro": "MONTERO MONCLUS, EMMA",
       "ESCUDO_CASA": "00100_0000894175_bufalacf_200.png",
@@ -308,6 +335,7 @@
       ]
     },
     {
+      "ESTADO": "1",
       "CATEGORIA_AMISTOSO": "12",
       "NOMBRE_COMPETICION": null,
       "categoria": "PREFERENT JUVENILS",
@@ -326,6 +354,8 @@
       "CODACTA": "4171876",
       "PARTIDO_GOLES_CASA": "0",
       "PARTIDO_GOLES_VISITANTE": "0",
+      "acta_goles_casa": "0",
+      "acta_goles_fuera": "0",
       "campo": "CAMP DE FUTBOL CEM GUINARDÓ",
       "arbitro": "ARIJA ASÍN, SERGI",
       "ESCUDO_CASA": "00100_0000577607_martinenc-200x200.png",
@@ -339,6 +369,7 @@
       ]
     },
     {
+      "ESTADO": "1",
       "CATEGORIA_AMISTOSO": "12",
       "NOMBRE_COMPETICION": null,
       "categoria": "PREFERENT JUVENILS",
@@ -357,6 +388,8 @@
       "CODACTA": "4176513",
       "PARTIDO_GOLES_CASA": "3",
       "PARTIDO_GOLES_VISITANTE": "2",
+      "acta_goles_casa": "3",
+      "acta_goles_fuera": "2",
       "campo": "CAMP DE FUTBOL MPAL. ZONA SUD",
       "arbitro": "POMBO BOHIGUES, IKER",
       "ESCUDO_CASA": "00100_0000661616_molletense_200x200.png",
@@ -370,6 +403,7 @@
       ]
     },
     {
+      "ESTADO": "3",
       "CATEGORIA_AMISTOSO": "54303466",
       "NOMBRE_COMPETICION": null,
       "categoria": "CADET PRIMERA DIVISIÓ S16",
@@ -388,6 +422,8 @@
       "CODACTA": "4213132",
       "PARTIDO_GOLES_CASA": "0",
       "PARTIDO_GOLES_VISITANTE": "0",
+      "acta_goles_casa": "0",
+      "acta_goles_fuera": "0",
       "campo": "CAMP DE FUTBOL MPAL. DE MATADEPERA",
       "arbitro": "GIL OTERO, AIXEL",
       "ESCUDO_CASA": "00100_0000817540_matadeperenc_200.png",
@@ -401,6 +437,7 @@
       ]
     },
     {
+      "ESTADO": "1",
       "CATEGORIA_AMISTOSO": "54303465",
       "NOMBRE_COMPETICION": null,
       "categoria": "PREFERENT CADET S16",
@@ -419,6 +456,8 @@
       "CODACTA": "4213522",
       "PARTIDO_GOLES_CASA": "2",
       "PARTIDO_GOLES_VISITANTE": "1",
+      "acta_goles_casa": "2",
+      "acta_goles_fuera": "1",
       "campo": "CAMP DE FUTBOL CEM GUINARDÓ",
       "arbitro": "BLESA GARCÍA, CRISTIAN",
       "ESCUDO_CASA": "00100_0000577607_martinenc-200x200.png",
@@ -432,6 +471,7 @@
       ]
     },
     {
+      "ESTADO": "1",
       "CATEGORIA_AMISTOSO": "54303464",
       "NOMBRE_COMPETICION": null,
       "categoria": "DIVISIÓ HONOR CADET S16",
@@ -450,6 +490,8 @@
       "CODACTA": "4206258",
       "PARTIDO_GOLES_CASA": "6",
       "PARTIDO_GOLES_VISITANTE": "1",
+      "acta_goles_casa": "6",
+      "acta_goles_fuera": "1",
       "campo": "CAMP DE FUTBOL CIUTAT ESPORTIVA C.F. DAMM (2)",
       "arbitro": "MARIN ARAN, MARC",
       "ESCUDO_CASA": "00100_0001188260_1207_DAMM.png",
@@ -463,6 +505,7 @@
       ]
     },
     {
+      "ESTADO": "1",
       "CATEGORIA_AMISTOSO": "54303464",
       "NOMBRE_COMPETICION": null,
       "categoria": "DIVISIÓ HONOR CADET S16",
@@ -481,6 +524,8 @@
       "CODACTA": "4204154",
       "PARTIDO_GOLES_CASA": "1",
       "PARTIDO_GOLES_VISITANTE": "0",
+      "acta_goles_casa": "1",
+      "acta_goles_fuera": "0",
       "campo": "CAMP DE FUTBOL MPAL. DE SANTA EULÀLIA DE RIUPRIMER",
       "arbitro": "BELMAKRAN AMIMAR, ADAM",
       "ESCUDO_CASA": "00100_0000739642_riuprimer_200x200.png",
@@ -494,6 +539,7 @@
       ]
     },
     {
+      "ESTADO": "1",
       "CATEGORIA_AMISTOSO": "54303465",
       "NOMBRE_COMPETICION": null,
       "categoria": "PREFERENT CADET S16",
@@ -512,6 +558,8 @@
       "CODACTA": "4213538",
       "PARTIDO_GOLES_CASA": "0",
       "PARTIDO_GOLES_VISITANTE": "2",
+      "acta_goles_casa": "0",
+      "acta_goles_fuera": "2",
       "campo": "CAMP DE FUTBOL ZEM BUFALÀ",
       "arbitro": "BELMONTE ALCÁZAR, MARC",
       "ESCUDO_CASA": "00100_0000894175_bufalacf_200.png",
@@ -525,6 +573,7 @@
       ]
     },
     {
+      "ESTADO": "0",
       "CATEGORIA_AMISTOSO": "54303466",
       "NOMBRE_COMPETICION": null,
       "categoria": "CADET PRIMERA DIVISIÓ S16",
@@ -543,12 +592,14 @@
       "CODACTA": null,
       "PARTIDO_GOLES_CASA": "0",
       "PARTIDO_GOLES_VISITANTE": "0",
+      "acta_goles_casa": null,
+      "acta_goles_fuera": null,
       "campo": "CAMP DE FUTBOL MPAL. DE MATADEPERA",
       "arbitro": null,
       "ESCUDO_CASA": "00100_0000817540_matadeperenc_200.png",
       "ESCUDO_FUERA": "00100_0001031084_1181_200.png",
-      "goles_casa": "0",
-      "goles_fuera": "0",
+      "goles_casa": null,
+      "goles_fuera": null,
       "logo_casa": "00100_0000817540_matadeperenc_200.png",
       "logo_fuera": "00100_0001031084_1181_200.png",
       "trackedTeams": [
@@ -556,6 +607,7 @@
       ]
     },
     {
+      "ESTADO": "1",
       "CATEGORIA_AMISTOSO": "12",
       "NOMBRE_COMPETICION": null,
       "categoria": "PREFERENT JUVENILS",
@@ -574,6 +626,8 @@
       "CODACTA": "4191390",
       "PARTIDO_GOLES_CASA": "1",
       "PARTIDO_GOLES_VISITANTE": "1",
+      "acta_goles_casa": "1",
+      "acta_goles_fuera": "1",
       "campo": "ESTADI OLÍMPIC DE TERRASSA",
       "arbitro": "TORRAS ROVIRA, JOSEP",
       "ESCUDO_CASA": "00100_0000988633_TERRASSAFCnou.png",
@@ -587,6 +641,7 @@
       ]
     },
     {
+      "ESTADO": "1",
       "CATEGORIA_AMISTOSO": "54303464",
       "NOMBRE_COMPETICION": null,
       "categoria": "DIVISIÓ HONOR CADET S16",
@@ -605,6 +660,8 @@
       "CODACTA": "4203646",
       "PARTIDO_GOLES_CASA": "3",
       "PARTIDO_GOLES_VISITANTE": "5",
+      "acta_goles_casa": "3",
+      "acta_goles_fuera": "5",
       "campo": "CAMP DE FUTBOL MPAL. DE GRANOLLERS",
       "arbitro": "BENÍTEZ SOLER, MARC",
       "ESCUDO_CASA": "00100_0001161476_Granollers_PNG.png",
@@ -618,6 +675,7 @@
       ]
     },
     {
+      "ESTADO": "1",
       "CATEGORIA_AMISTOSO": "54303464",
       "NOMBRE_COMPETICION": null,
       "categoria": "DIVISIÓ HONOR CADET S16",
@@ -636,6 +694,8 @@
       "CODACTA": "4225181",
       "PARTIDO_GOLES_CASA": "1",
       "PARTIDO_GOLES_VISITANTE": "1",
+      "acta_goles_casa": "1",
+      "acta_goles_fuera": "1",
       "campo": "CAMP DE FUTBOL CIUTAT ESPORTIVA C.F. DAMM (2)",
       "arbitro": "SELFA LOPEZ, LUCAS",
       "ESCUDO_CASA": "00100_0001188260_1207_DAMM.png",
@@ -649,6 +709,7 @@
       ]
     },
     {
+      "ESTADO": "1",
       "CATEGORIA_AMISTOSO": "54303465",
       "NOMBRE_COMPETICION": null,
       "categoria": "PREFERENT CADET S16",
@@ -667,6 +728,8 @@
       "CODACTA": "4231176",
       "PARTIDO_GOLES_CASA": "1",
       "PARTIDO_GOLES_VISITANTE": "2",
+      "acta_goles_casa": "1",
+      "acta_goles_fuera": "2",
       "campo": "CAMP DE FUTBOL CEM LA BASCULA EMILIO FERNANDEZ F11",
       "arbitro": "ARMENGOL PEYROTON, MARC",
       "ESCUDO_CASA": "00100_0000959051_1051_SantUE_200.png",
@@ -680,6 +743,7 @@
       ]
     },
     {
+      "ESTADO": "1",
       "CATEGORIA_AMISTOSO": "54303466",
       "NOMBRE_COMPETICION": null,
       "categoria": "CADET PRIMERA DIVISIÓ S16",
@@ -698,6 +762,8 @@
       "CODACTA": "4225508",
       "PARTIDO_GOLES_CASA": "3",
       "PARTIDO_GOLES_VISITANTE": "2",
+      "acta_goles_casa": "3",
+      "acta_goles_fuera": "2",
       "campo": "CAMP DE FUTBOL CLUB GIMNÀSTIC PARC",
       "arbitro": "ARAGONÈS MONTARDIT, PAU",
       "ESCUDO_CASA": "00100_0001021780_Escut_Gimna__768_stic_Manresa_removebg_preview.png",
@@ -711,6 +777,7 @@
       ]
     },
     {
+      "ESTADO": "1",
       "CATEGORIA_AMISTOSO": "12",
       "NOMBRE_COMPETICION": null,
       "categoria": "PREFERENT JUVENILS",
@@ -729,6 +796,8 @@
       "CODACTA": "4219149",
       "PARTIDO_GOLES_CASA": "0",
       "PARTIDO_GOLES_VISITANTE": "1",
+      "acta_goles_casa": "0",
+      "acta_goles_fuera": "1",
       "campo": "CAMP DE FUTBOL ZEM LES FONTETES",
       "arbitro": "MALDONADO ARISA, ORIOL",
       "ESCUDO_CASA": "00100_0000741456_cerdanyolafc_200x200.png",
@@ -742,6 +811,7 @@
       ]
     },
     {
+      "ESTADO": "1",
       "CATEGORIA_AMISTOSO": "54303464",
       "NOMBRE_COMPETICION": null,
       "categoria": "DIVISIÓ HONOR CADET S16",
@@ -760,6 +830,8 @@
       "CODACTA": "4225201",
       "PARTIDO_GOLES_CASA": "1",
       "PARTIDO_GOLES_VISITANTE": "0",
+      "acta_goles_casa": "1",
+      "acta_goles_fuera": "0",
       "campo": "CAMP DE FUTBOL CIUTAT ESPORTIVA C.F. DAMM (2)",
       "arbitro": "LEON PEÑA, HUGO",
       "ESCUDO_CASA": "00100_0001188260_1207_DAMM.png",
@@ -773,6 +845,7 @@
       ]
     },
     {
+      "ESTADO": "1",
       "CATEGORIA_AMISTOSO": "54303466",
       "NOMBRE_COMPETICION": null,
       "categoria": "CADET PRIMERA DIVISIÓ S16",
@@ -791,6 +864,8 @@
       "CODACTA": "4231557",
       "PARTIDO_GOLES_CASA": "1",
       "PARTIDO_GOLES_VISITANTE": "7",
+      "acta_goles_casa": "1",
+      "acta_goles_fuera": "7",
       "campo": "CAMP DE FUTBOL MPAL. DE MATADEPERA",
       "arbitro": "PLEGUEZUELOS CASCALES, MARC",
       "ESCUDO_CASA": "00100_0000817540_matadeperenc_200.png",
@@ -804,6 +879,7 @@
       ]
     },
     {
+      "ESTADO": "1",
       "CATEGORIA_AMISTOSO": "54303465",
       "NOMBRE_COMPETICION": null,
       "categoria": "PREFERENT CADET S16",
@@ -822,6 +898,8 @@
       "CODACTA": "4231201",
       "PARTIDO_GOLES_CASA": "3",
       "PARTIDO_GOLES_VISITANTE": "4",
+      "acta_goles_casa": "3",
+      "acta_goles_fuera": "4",
       "campo": "CAMP DE FUTBOL ZEM BUFALÀ",
       "arbitro": "SELFA LOPEZ, LUCAS",
       "ESCUDO_CASA": "00100_0000894175_bufalacf_200.png",
@@ -835,6 +913,7 @@
       ]
     },
     {
+      "ESTADO": "1",
       "CATEGORIA_AMISTOSO": "54303464",
       "NOMBRE_COMPETICION": null,
       "categoria": "DIVISIÓ HONOR CADET S16",
@@ -853,6 +932,8 @@
       "CODACTA": "4227184",
       "PARTIDO_GOLES_CASA": "3",
       "PARTIDO_GOLES_VISITANTE": "3",
+      "acta_goles_casa": "3",
+      "acta_goles_fuera": "3",
       "campo": "CAMP DE FUTBOL MPAL. ARRAHONA-MERINAL-JOAN MURTRO",
       "arbitro": "GAMALLO ORRUTIA, CHRISTIAN",
       "ESCUDO_CASA": "00100_0001068863_mercantil.png",
