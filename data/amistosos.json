@@ -1,8 +1,9 @@
 {
-  "updatedAt": "2026-09-14T08:12:16Z",
+  "updatedAt": "2026-09-14T15:20:44Z",
   "teamCode": "54304670",
   "matches": [
     {
+      "ESTADO": "1",
       "CATEGORIA_AMISTOSO": "54303465",
       "NOMBRE_COMPETICION": null,
       "categoria": "PREFERENT CADET S16",
@@ -21,6 +22,8 @@
       "CODACTA": "4171177",
       "PARTIDO_GOLES_CASA": "2",
       "PARTIDO_GOLES_VISITANTE": "1",
+      "acta_goles_casa": "2",
+      "acta_goles_fuera": "1",
       "campo": "CAMP DE FUTBOL CEM GUINARDÓ",
       "arbitro": "MARSHALL BADANO, LIAM",
       "ESCUDO_CASA": "00100_0000577607_martinenc-200x200.png",
@@ -31,6 +34,7 @@
       "logo_fuera": "00100_0001018810_escudo_ffbadalona_1.png"
     },
     {
+      "ESTADO": "1",
       "CATEGORIA_AMISTOSO": "54303465",
       "NOMBRE_COMPETICION": null,
       "categoria": "PREFERENT CADET S16",
@@ -49,6 +53,8 @@
       "CODACTA": "4176197",
       "PARTIDO_GOLES_CASA": "0",
       "PARTIDO_GOLES_VISITANTE": "1",
+      "acta_goles_casa": "0",
+      "acta_goles_fuera": "1",
       "campo": "CAMP DE FUTBOL CEM GUINARDÓ",
       "arbitro": "ROMERO MARTINEZ, GERARD",
       "ESCUDO_CASA": "00100_0000577607_martinenc-200x200.png",
@@ -59,6 +65,7 @@
       "logo_fuera": "00100_0000764388_marcbartra2020_200x200.png"
     },
     {
+      "ESTADO": "1",
       "CATEGORIA_AMISTOSO": "54303465",
       "NOMBRE_COMPETICION": null,
       "categoria": "PREFERENT CADET S16",
@@ -77,6 +84,8 @@
       "CODACTA": "4213522",
       "PARTIDO_GOLES_CASA": "2",
       "PARTIDO_GOLES_VISITANTE": "1",
+      "acta_goles_casa": "2",
+      "acta_goles_fuera": "1",
       "campo": "CAMP DE FUTBOL CEM GUINARDÓ",
       "arbitro": "BLESA GARCÍA, CRISTIAN",
       "ESCUDO_CASA": "00100_0000577607_martinenc-200x200.png",
@@ -87,6 +96,7 @@
       "logo_fuera": "00100_0000894175_bufalacf_200.png"
     },
     {
+      "ESTADO": "1",
       "CATEGORIA_AMISTOSO": "13",
       "NOMBRE_COMPETICION": null,
       "categoria": "JUVENIL PRIMERA DIVISIÓ",
@@ -105,6 +115,8 @@
       "CODACTA": "4205198",
       "PARTIDO_GOLES_CASA": "0",
       "PARTIDO_GOLES_VISITANTE": "1",
+      "acta_goles_casa": "0",
+      "acta_goles_fuera": "1",
       "campo": "CAMP DE FUTBOL MPAL. FALGUERA",
       "arbitro": "ESCUDERO SELVA, HUGO",
       "ESCUDO_CASA": "00100_0001223476_RECREATIVA.png",
@@ -115,6 +127,7 @@
       "logo_fuera": "00100_0000577607_martinenc-200x200.png"
     },
     {
+      "ESTADO": "1",
       "CATEGORIA_AMISTOSO": "54303466",
       "NOMBRE_COMPETICION": null,
       "categoria": "CADET PRIMERA DIVISIÓ S16",
@@ -133,6 +146,8 @@
       "CODACTA": "4231557",
       "PARTIDO_GOLES_CASA": "1",
       "PARTIDO_GOLES_VISITANTE": "7",
+      "acta_goles_casa": "1",
+      "acta_goles_fuera": "7",
       "campo": "CAMP DE FUTBOL MPAL. DE MATADEPERA",
       "arbitro": "PLEGUEZUELOS CASCALES, MARC",
       "ESCUDO_CASA": "00100_0000817540_matadeperenc_200.png",
