@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-02T15:32:26Z",
+  "updatedAt": "2026-10-02T15:45:01Z",
   "equipos": [
     {
       "nombre": "ATHLETIC MATADEPERENC \"A\"",
@@ -20,7 +20,7 @@
       "nombre": "MARTINENC, F.C. JUVENIL \"D\"",
       "club": "1032",
       "codigo": "41606"
-    },    
+    },
     {
       "nombre": "MARTINENC, F.C. JUVENIL \"A\"",
       "club": "1032",
@@ -788,6 +788,40 @@
     },
     {
       "ESTADO": "1",
+      "CATEGORIA_AMISTOSO": "14",
+      "NOMBRE_COMPETICION": null,
+      "categoria": "JUVENIL SEGONA DIVISIÓ",
+      "competicion": null,
+      "CODDESIGNACION": "3520268",
+      "CODIGO_CLUB": "1032",
+      "CODEQUIPO_CASA": "41606",
+      "NOMEQUIPO_CASA": "MARTINENC, F.C. \"D\"",
+      "CODIGO_CLUB_FUERA": "1045",
+      "NOMEQUIPO_FUERA": "PREMIA CLUB ESP. \"A\"",
+      "CODEQUIPO_FUERA": "37236",
+      "CODIGO_CAMPO": "383",
+      "FECHA": "2026-09-12T00:00:00.000Z",
+      "FECHA_FORMATTED": "12/09/2026",
+      "HORA_COMIENZO": "18:00:00",
+      "CODACTA": "4228862",
+      "PARTIDO_GOLES_CASA": "10",
+      "PARTIDO_GOLES_VISITANTE": "0",
+      "acta_goles_casa": "10",
+      "acta_goles_fuera": "0",
+      "campo": "CAMP DE FUTBOL CEM GUINARDÓ",
+      "arbitro": "MARCO SEGARRA, SANDRO",
+      "ESCUDO_CASA": "00100_0000577607_martinenc-200x200.png",
+      "ESCUDO_FUERA": "00100_0000664680_cepremia_200x200.png",
+      "goles_casa": "10",
+      "goles_fuera": "0",
+      "logo_casa": "00100_0000577607_martinenc-200x200.png",
+      "logo_fuera": "00100_0000664680_cepremia_200x200.png",
+      "trackedTeams": [
+        "41606"
+      ]
+    },
+    {
+      "ESTADO": "1",
       "CATEGORIA_AMISTOSO": "12",
       "NOMBRE_COMPETICION": null,
       "categoria": "PREFERENT JUVENILS",
@@ -996,6 +1030,40 @@
       "NOMBRE_COMPETICION": null,
       "categoria": "JUVENIL SEGONA DIVISIÓ",
       "competicion": null,
+      "CODDESIGNACION": "3525929",
+      "CODIGO_CLUB": "1032",
+      "CODEQUIPO_CASA": "41606",
+      "NOMEQUIPO_CASA": "MARTINENC, F.C. \"D\"",
+      "CODIGO_CLUB_FUERA": "1398",
+      "NOMEQUIPO_FUERA": "TIANA, C.C.E. \"C\"",
+      "CODEQUIPO_FUERA": "51042000",
+      "CODIGO_CAMPO": "383",
+      "FECHA": "2026-09-20T00:00:00.000Z",
+      "FECHA_FORMATTED": "20/09/2026",
+      "HORA_COMIENZO": "20:00:00",
+      "CODACTA": "4258312",
+      "PARTIDO_GOLES_CASA": "8",
+      "PARTIDO_GOLES_VISITANTE": "0",
+      "acta_goles_casa": "8",
+      "acta_goles_fuera": "0",
+      "campo": "CAMP DE FUTBOL CEM GUINARDÓ",
+      "arbitro": "FISSOLO , AGUSTIN",
+      "ESCUDO_CASA": "00100_0000577607_martinenc-200x200.png",
+      "ESCUDO_FUERA": "00100_0000376407_ESCUDO_EN_COLOR.JPG",
+      "goles_casa": "8",
+      "goles_fuera": "0",
+      "logo_casa": "00100_0000577607_martinenc-200x200.png",
+      "logo_fuera": "00100_0000376407_ESCUDO_EN_COLOR.JPG",
+      "trackedTeams": [
+        "41606"
+      ]
+    },
+    {
+      "ESTADO": "1",
+      "CATEGORIA_AMISTOSO": "14",
+      "NOMBRE_COMPETICION": null,
+      "categoria": "JUVENIL SEGONA DIVISIÓ",
+      "competicion": null,
       "CODDESIGNACION": "3534613",
       "CODIGO_CLUB": "6199",
       "CODEQUIPO_CASA": "47428919",
@@ -1022,6 +1090,40 @@
       "logo_fuera": "00100_0000897899_arrabalcalaf_200.png",
       "trackedTeams": [
         "7009212"
+      ]
+    },
+    {
+      "ESTADO": "1",
+      "CATEGORIA_AMISTOSO": "14",
+      "NOMBRE_COMPETICION": null,
+      "categoria": "JUVENIL SEGONA DIVISIÓ",
+      "competicion": null,
+      "CODDESIGNACION": "3536075",
+      "CODIGO_CLUB": "1214",
+      "CODEQUIPO_CASA": "19638360",
+      "NOMEQUIPO_CASA": "Pª BARC. VILLAVERDE-PENITENTS \"B\"",
+      "CODIGO_CLUB_FUERA": "1032",
+      "NOMEQUIPO_FUERA": "MARTINENC, F.C. \"D\"",
+      "CODEQUIPO_FUERA": "41606",
+      "CODIGO_CAMPO": "544",
+      "FECHA": "2026-09-27T00:00:00.000Z",
+      "FECHA_FORMATTED": "27/09/2026",
+      "HORA_COMIENZO": "09:30:00",
+      "CODACTA": "4347513",
+      "PARTIDO_GOLES_CASA": "0",
+      "PARTIDO_GOLES_VISITANTE": "9",
+      "acta_goles_casa": "0",
+      "acta_goles_fuera": "9",
+      "campo": "CAMP DE FUTBOL MPAL. SANT GENÍS",
+      "arbitro": "PEDROLA MARTIN-PERO, HUGO",
+      "ESCUDO_CASA": "00100_0001223436_PENITENTS.png",
+      "ESCUDO_FUERA": "00100_0000577607_martinenc-200x200.png",
+      "goles_casa": "0",
+      "goles_fuera": "9",
+      "logo_casa": "00100_0001223436_PENITENTS.png",
+      "logo_fuera": "00100_0000577607_martinenc-200x200.png",
+      "trackedTeams": [
+        "41606"
       ]
     }
   ]
