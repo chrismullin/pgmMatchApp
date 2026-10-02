@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-14T19:39:00Z",
+  "updatedAt": "2026-10-02T15:27:39Z",
   "equipos": [
     {
       "nombre": "ATHLETIC MATADEPERENC \"A\"",
@@ -949,6 +949,40 @@
       "logo_fuera": "00100_0001021780_Escut_Gimna__768_stic_Manresa_removebg_preview.png",
       "trackedTeams": [
         "54311422"
+      ]
+    },
+    {
+      "ESTADO": "1",
+      "CATEGORIA_AMISTOSO": "54303466",
+      "NOMBRE_COMPETICION": null,
+      "categoria": "CADET PRIMERA DIVISIÓ S16",
+      "competicion": null,
+      "CODDESIGNACION": "3531643",
+      "CODIGO_CLUB": "2976",
+      "CODEQUIPO_CASA": "54313902",
+      "NOMEQUIPO_CASA": "NATACIO TERRASSA, C \"A\"",
+      "CODIGO_CLUB_FUERA": "1197",
+      "NOMEQUIPO_FUERA": "MATADEPERENC, ATHLETIC \"A\"",
+      "CODEQUIPO_FUERA": "55012783",
+      "CODIGO_CAMPO": "746",
+      "FECHA": "2026-09-19T00:00:00.000Z",
+      "FECHA_FORMATTED": "19/09/2026",
+      "HORA_COMIENZO": "09:00:00",
+      "CODACTA": "4292586",
+      "PARTIDO_GOLES_CASA": "2",
+      "PARTIDO_GOLES_VISITANTE": "2",
+      "acta_goles_casa": "2",
+      "acta_goles_fuera": "2",
+      "campo": "CAMP DE FUTBOL CLUB NATACIÓ TERRASSA",
+      "arbitro": "PEREZ REYES, REYSON",
+      "ESCUDO_CASA": "00100_0000485476_NATACIO_TERRASSA,_C.jpeg_copia.png",
+      "ESCUDO_FUERA": "00100_0000817540_matadeperenc_200.png",
+      "goles_casa": "2",
+      "goles_fuera": "2",
+      "logo_casa": "00100_0000485476_NATACIO_TERRASSA,_C.jpeg_copia.png",
+      "logo_fuera": "00100_0000817540_matadeperenc_200.png",
+      "trackedTeams": [
+        "55012783"
       ]
     }
   ]
