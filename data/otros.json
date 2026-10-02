@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-02T15:27:39Z",
+  "updatedAt": "2026-10-02T15:31:39Z",
   "equipos": [
     {
       "nombre": "ATHLETIC MATADEPERENC \"A\"",
@@ -983,6 +983,40 @@
       "logo_fuera": "00100_0000817540_matadeperenc_200.png",
       "trackedTeams": [
         "55012783"
+      ]
+    },
+    {
+      "ESTADO": "1",
+      "CATEGORIA_AMISTOSO": "14",
+      "NOMBRE_COMPETICION": null,
+      "categoria": "JUVENIL SEGONA DIVISIÓ",
+      "competicion": null,
+      "CODDESIGNACION": "3534613",
+      "CODIGO_CLUB": "6199",
+      "CODEQUIPO_CASA": "47428919",
+      "NOMEQUIPO_CASA": "SABADELL NORD,CF. \"C\"",
+      "CODIGO_CLUB_FUERA": "6280",
+      "NOMEQUIPO_FUERA": "ARRABAL-CALAF GRAMANET C.D. \"B\"",
+      "CODEQUIPO_FUERA": "7009212",
+      "CODIGO_CAMPO": "240",
+      "FECHA": "2026-09-26T00:00:00.000Z",
+      "FECHA_FORMATTED": "26/09/2026",
+      "HORA_COMIENZO": "16:00:00",
+      "CODACTA": "4337628",
+      "PARTIDO_GOLES_CASA": "4",
+      "PARTIDO_GOLES_VISITANTE": "3",
+      "acta_goles_casa": "4",
+      "acta_goles_fuera": "3",
+      "campo": "CAMP DE FUTBOL MPAL. CA N´ORIAC",
+      "arbitro": "NADAL RIERA, JAN",
+      "ESCUDO_CASA": "00100_0001163077_SabadellPNG.png",
+      "ESCUDO_FUERA": "00100_0000897899_arrabalcalaf_200.png",
+      "goles_casa": "4",
+      "goles_fuera": "3",
+      "logo_casa": "00100_0001163077_SabadellPNG.png",
+      "logo_fuera": "00100_0000897899_arrabalcalaf_200.png",
+      "trackedTeams": [
+        "7009212"
       ]
     }
   ]
