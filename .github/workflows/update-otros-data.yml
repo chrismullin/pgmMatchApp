@@ -22,7 +22,7 @@ jobs:
       - name: Descargar y filtrar amistosos de los equipos de otros.json
         env:
           FECHA_INICIO: "2026-08-17"
-          FECHA_FIN: "2026-09-19"
+          FECHA_FIN: "2026-10-02"
         run: |
           set -euo pipefail
           cp data/otros.json /tmp/otros_equipos.json
