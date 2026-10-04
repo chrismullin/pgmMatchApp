@@ -7,6 +7,8 @@
     --border: #e4e7ec;
     --pending-bg: #fef6e7;
     --pending-text: #a15c00;
+    --suspended-bg: #fdecee;
+    --suspended-text: #b42318;
     --own-bg: #eef4ff;
     --own-border: #b9cdfa;
   }
@@ -261,26 +263,24 @@
   a.match-score { text-decoration: none; }
   a.match-score:hover { text-decoration: underline; }
 
-  .badge-pending {
+  .badge-pending,
+  .badge-suspended {
     display: inline-block;
     padding: 0.25rem 0.7rem;
     border-radius: 999px;
-    background: var(--pending-bg);
-    color: var(--pending-text);
     font-size: 0.72rem;
     font-weight: 700;
     white-space: nowrap;
   }
 
+  .badge-pending {
+    background: var(--pending-bg);
+    color: var(--pending-text);
+  }
+
   .badge-suspended {
-    display: inline-block;
-    padding: 0.25rem 0.7rem;
-    border-radius: 999px;
-    background: #fdecee;
-    color: var(--red);
-    font-size: 0.72rem;
-    font-weight: 700;
-    white-space: nowrap;
+    background: var(--suspended-bg);
+    color: var(--suspended-text);
   }
 
   .badge-jornada {
