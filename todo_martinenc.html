@@ -380,15 +380,26 @@ function formatFecha(d) {
   return d.toLocaleDateString('es-ES', { weekday: 'long', day: '2-digit', month: '2-digit', year: 'numeric' });
 }
 
-// Clave de fin de semana: el lunes (ISO) de la semana que contiene la fecha
-// del partido, para agrupar sábado+domingo (y cualquier aplazamiento dentro
-// de esa misma semana) en una sola página.
+// Formatea una fecha como YYYY-MM-DD usando sus componentes LOCALES (no
+// toISOString, que convierte a UTC y puede desplazar el día en zonas con
+// offset positivo como Europe/Madrid, p.ej. medianoche local del 14/12 pasa
+// a ser las 23:00 UTC del 13/12).
+function toLocalISODate(d) {
+  const y = d.getFullYear();
+  const m = String(d.getMonth() + 1).padStart(2, '0');
+  const day = String(d.getDate()).padStart(2, '0');
+  return `${y}-${m}-${day}`;
+}
+
+// Clave de fin de semana: el lunes de la semana que contiene la fecha del
+// partido, para agrupar sábado+domingo (y cualquier aplazamiento dentro de
+// esa misma semana) en una sola página.
 function weekendKey(d) {
   const dia = (d.getDay() + 6) % 7; // 0=lunes ... 6=domingo
   const monday = new Date(d);
   monday.setDate(d.getDate() - dia);
   monday.setHours(0, 0, 0, 0);
-  return monday.toISOString().slice(0, 10);
+  return toLocalISODate(monday);
 }
 
 function formatActualizado(iso) {
@@ -524,7 +535,7 @@ function render() {
   const groups = new Map();
   for (const m of matches) {
     const d = parseComienzo(m.COMIENZO1);
-    const key = d ? d.toISOString().slice(0, 10) : '';
+    const key = d ? toLocalISODate(d) : '';
     if (!groups.has(key)) groups.set(key, []);
     groups.get(key).push(m);
   }
