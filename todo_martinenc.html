@@ -95,10 +95,17 @@ function weekendKey(d) {
   return toLocalISODate(monday);
 }
 
+// ESTADO '3' es un partido suspendido (SUSPES en la FCF): llega sin goles, y a
+// veces con CERRADA '1', por lo que no debe contarse como disputado.
+function isSuspendido(m) {
+  return m.ESTADO === '3';
+}
+
 // A diferencia de otros.json/amistosos.json, aquí la API de liga informa de
 // forma fiable si el partido se ha jugado (ESTADO/CERRADA), sin necesidad de
 // heurísticos basados en la hora.
 function isJugadoLiga(m) {
+  if (isSuspendido(m)) return false;
   if (m.ESTADO === '1' || m.CERRADA === '1') return true;
   return m.GOLES_CASA != null && m.GOLES_FUERA != null;
 }
@@ -114,7 +121,9 @@ function formatCategoria(nombreCompeticion, grupo) {
 function buildMatchCard(m) {
   const jugado = isJugadoLiga(m);
   const esPropio = (m.trackedTeams || []).includes(OWN_CODE);
-  const centro = matchCenterHtml(jugado, m.CODACTA, m.GOLES_CASA, m.GOLES_FUERA);
+  const centro = isSuspendido(m)
+    ? `<span class="badge-suspended">Suspendido</span>`
+    : matchCenterHtml(jugado, m.CODACTA, m.GOLES_CASA, m.GOLES_FUERA);
   const casaUrl = equipoUrl(m.CODCLUB_CASA, m.CODEQUIPO_CASA);
   const fueraUrl = equipoUrl(m.CODCLUB_FUERA, m.CODEQUIPO_FUERA);
   const mapsUrl = (m.LATITUD && m.LONGITUD)

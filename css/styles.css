@@ -272,6 +272,17 @@
     white-space: nowrap;
   }
 
+  .badge-suspended {
+    display: inline-block;
+    padding: 0.25rem 0.7rem;
+    border-radius: 999px;
+    background: #fdecee;
+    color: var(--red);
+    font-size: 0.72rem;
+    font-weight: 700;
+    white-space: nowrap;
+  }
+
   .badge-jornada {
     display: inline-block;
     padding: 0.2rem 0.6rem;
