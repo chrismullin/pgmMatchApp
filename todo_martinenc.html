@@ -14,6 +14,8 @@
     --border: #e4e7ec;
     --pending-bg: #fef6e7;
     --pending-text: #a15c00;
+    --own-bg: #eef4ff;
+    --own-border: #b9cdfa;
   }
 
   * { box-sizing: border-box; }
@@ -179,6 +181,11 @@
     padding: 1.1rem 1.2rem 0.9rem;
   }
 
+  .match-card.own {
+    background: var(--own-bg);
+    border-color: var(--own-border);
+  }
+
   .match-teams {
     display: grid;
     grid-template-columns: 1fr auto 1fr;
@@ -328,6 +335,8 @@
 // Pages.
 const DATA_URL = 'data/resultados_martinenc.json';
 const CREST_BASE = 'https://files.fcf.cat/escudos/clubes/escudos/';
+// Equipo a resaltar en azul claro, igual que en rivales.html: el Martinenc S16 "A".
+const OWN_CODE = '54304670';
 
 const statusEl = document.getElementById('status');
 const resultsEl = document.getElementById('results');
@@ -403,8 +412,17 @@ function isJugado(m) {
   return m.GOLES_CASA != null && m.GOLES_FUERA != null;
 }
 
+// Convierte "GRUP 2" en "G2" para mostrarlo junto al nombre de la categoría
+// (p.ej. "JUVENIL SEGONA DIVISIÓ (G8)").
+function formatCategoria(nombreCompeticion, grupo) {
+  const nombre = nombreCompeticion ?? '';
+  const g = grupo ? grupo.replace(/^GRUP\s*/i, 'G') : '';
+  return g ? `${nombre} (${g})` : nombre;
+}
+
 function buildMatchCard(m) {
   const jugado = isJugado(m);
+  const esPropio = (m.trackedTeams || []).includes(OWN_CODE);
   const centro = jugado
     ? (m.CODACTA
         ? `<a class="match-score" href="https://www.fcf.cat/ca/competicio/acta/${encodeURIComponent(m.CODACTA)}" target="_blank" rel="noopener">${m.GOLES_CASA} - ${m.GOLES_FUERA}</a>`
@@ -426,7 +444,7 @@ function buildMatchCard(m) {
     : (m.CAMPO ? `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(m.CAMPO)}` : null);
 
   const card = document.createElement('article');
-  card.className = 'match-card';
+  card.className = 'match-card' + (esPropio ? ' own' : '');
   card.innerHTML = `
     <div class="match-teams">
       <div class="team">
@@ -444,7 +462,7 @@ function buildMatchCard(m) {
     </div>
     <div class="match-meta">
       <span>📍 ${mapsUrl ? `<a href="${mapsUrl}" target="_blank" rel="noopener">${m.CAMPO}</a>` : 'Campo por confirmar'}</span>
-      <span>🏷️ ${m.NOMBRE_COMPETICION ?? ''}</span>
+      <span>🏷️ ${formatCategoria(m.NOMBRE_COMPETICION, m.GRUPO)}</span>
       <span class="badge-jornada">Jornada ${m.JORNADA}</span>
     </div>
   `;
