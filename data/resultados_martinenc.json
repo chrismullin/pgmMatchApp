@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-04T17:33:51Z",
+  "updatedAt": "2026-10-04T17:37:24Z",
   "equipos": [
     {
       "nombre": "MARTINENC, F.C. S16 \"A\"",
@@ -337,34 +337,6 @@
       ]
     },
     {
-      "CODGRUPO": "58161971",
-      "JORNADA": "2",
-      "CODACTA": "4235655",
-      "CODEQUIPO_CASA": "33391",
-      "NOMBRE_CASA": "MARTINENC, F.C. \"B\"",
-      "ESCUDO_CASA": "00100_0000577607_martinenc-200x200.png",
-      "CODEQUIPO_FUERA": "44415",
-      "NOMBRE_FUERA": "PARC, U.D. \"B\"",
-      "ESCUDO_FUERA": "00100_0000763260_udparc_200x200.png",
-      "CAMPO": "CAMP DE FUTBOL CEM GUINARDÓ",
-      "GOLES_CASA": null,
-      "GOLES_FUERA": null,
-      "COMIENZO1": "2026-10-11 20:00:00",
-      "CERRADA": "0",
-      "ESTADO": "0",
-      "GRUPO": "GRUP 11",
-      "GRUPO_CERRADO": "1",
-      "LATITUD": "41.416368",
-      "LONGITUD": "2.17287",
-      "CODIGO_CAMPO": "383",
-      "CODCLUB_CASA": "1032",
-      "CODCLUB_FUERA": "2235",
-      "NOMBRE_COMPETICION": "JUVENIL SEGONA DIVISIÓ",
-      "trackedTeams": [
-        "33391"
-      ]
-    },
-    {
       "CODGRUPO": "58161966",
       "JORNADA": "2",
       "CODACTA": "4235154",
@@ -390,6 +362,34 @@
       "NOMBRE_COMPETICION": "JUVENIL SEGONA DIVISIÓ",
       "trackedTeams": [
         "41605"
+      ]
+    },
+    {
+      "CODGRUPO": "58161971",
+      "JORNADA": "2",
+      "CODACTA": "4235655",
+      "CODEQUIPO_CASA": "33391",
+      "NOMBRE_CASA": "MARTINENC, F.C. \"B\"",
+      "ESCUDO_CASA": "00100_0000577607_martinenc-200x200.png",
+      "CODEQUIPO_FUERA": "44415",
+      "NOMBRE_FUERA": "PARC, U.D. \"B\"",
+      "ESCUDO_FUERA": "00100_0000763260_udparc_200x200.png",
+      "CAMPO": "CAMP DE FUTBOL CEM GUINARDÓ",
+      "GOLES_CASA": null,
+      "GOLES_FUERA": null,
+      "COMIENZO1": "2026-10-11 20:00:00",
+      "CERRADA": "0",
+      "ESTADO": "0",
+      "GRUPO": "GRUP 11",
+      "GRUPO_CERRADO": "1",
+      "LATITUD": "41.416368",
+      "LONGITUD": "2.17287",
+      "CODIGO_CAMPO": "383",
+      "CODCLUB_CASA": "1032",
+      "CODCLUB_FUERA": "2235",
+      "NOMBRE_COMPETICION": "JUVENIL SEGONA DIVISIÓ",
+      "trackedTeams": [
+        "33391"
       ]
     },
     {
@@ -589,34 +589,6 @@
       ]
     },
     {
-      "CODGRUPO": "58161930",
-      "JORNADA": "6",
-      "CODACTA": "4152976",
-      "CODEQUIPO_CASA": "7000861",
-      "NOMBRE_CASA": "HORTA, U.AT. \"A\"",
-      "ESCUDO_CASA": "00100_0000959029_1049_HortaUAT_200.png",
-      "CODEQUIPO_FUERA": "33390",
-      "NOMBRE_FUERA": "MARTINENC, F.C. \"A\"",
-      "ESCUDO_FUERA": "00100_0000577607_martinenc-200x200.png",
-      "CAMPO": "CAMP DE FUTBOL MPAL. HORTA",
-      "GOLES_CASA": null,
-      "GOLES_FUERA": null,
-      "COMIENZO1": "2026-10-24 18:00:00",
-      "CERRADA": "0",
-      "ESTADO": "0",
-      "GRUPO": "GRUP 2",
-      "GRUPO_CERRADO": "1",
-      "LATITUD": "41.434667",
-      "LONGITUD": "2.160872",
-      "CODIGO_CAMPO": "384",
-      "CODCLUB_CASA": "1049",
-      "CODCLUB_FUERA": "1032",
-      "NOMBRE_COMPETICION": "PREFERENT JUVENILS",
-      "trackedTeams": [
-        "33390"
-      ]
-    },
-    {
       "CODGRUPO": "58161971",
       "JORNADA": "4",
       "CODACTA": "4235670",
@@ -642,6 +614,34 @@
       "NOMBRE_COMPETICION": "JUVENIL SEGONA DIVISIÓ",
       "trackedTeams": [
         "33391"
+      ]
+    },
+    {
+      "CODGRUPO": "58161930",
+      "JORNADA": "6",
+      "CODACTA": "4152976",
+      "CODEQUIPO_CASA": "7000861",
+      "NOMBRE_CASA": "HORTA, U.AT. \"A\"",
+      "ESCUDO_CASA": "00100_0000959029_1049_HortaUAT_200.png",
+      "CODEQUIPO_FUERA": "33390",
+      "NOMBRE_FUERA": "MARTINENC, F.C. \"A\"",
+      "ESCUDO_FUERA": "00100_0000577607_martinenc-200x200.png",
+      "CAMPO": "CAMP DE FUTBOL MPAL. HORTA",
+      "GOLES_CASA": null,
+      "GOLES_FUERA": null,
+      "COMIENZO1": "2026-10-24 18:00:00",
+      "CERRADA": "0",
+      "ESTADO": "0",
+      "GRUPO": "GRUP 2",
+      "GRUPO_CERRADO": "1",
+      "LATITUD": "41.434667",
+      "LONGITUD": "2.160872",
+      "CODIGO_CAMPO": "384",
+      "CODCLUB_CASA": "1049",
+      "CODCLUB_FUERA": "1032",
+      "NOMBRE_COMPETICION": "PREFERENT JUVENILS",
+      "trackedTeams": [
+        "33390"
       ]
     },
     {
@@ -1569,34 +1569,6 @@
       ]
     },
     {
-      "CODGRUPO": "58161930",
-      "JORNADA": "13",
-      "CODACTA": "4153029",
-      "CODEQUIPO_CASA": "33733",
-      "NOMBRE_CASA": "CAN VIDALET, C.F. \"A\"",
-      "ESCUDO_CASA": "00100_0000672069_canvidalet_200x200.png",
-      "CODEQUIPO_FUERA": "33390",
-      "NOMBRE_FUERA": "MARTINENC, F.C. \"A\"",
-      "ESCUDO_FUERA": "00100_0000577607_martinenc-200x200.png",
-      "CAMPO": "CAMP D´ESPORTS MPAL. EL MOLI (ESPLUGUES)",
-      "GOLES_CASA": null,
-      "GOLES_FUERA": null,
-      "COMIENZO1": "2026-12-19 18:00:00",
-      "CERRADA": "0",
-      "ESTADO": "0",
-      "GRUPO": "GRUP 2",
-      "GRUPO_CERRADO": "1",
-      "LATITUD": "41.373235",
-      "LONGITUD": "2.097115",
-      "CODIGO_CAMPO": "347",
-      "CODCLUB_CASA": "1372",
-      "CODCLUB_FUERA": "1032",
-      "NOMBRE_COMPETICION": "PREFERENT JUVENILS",
-      "trackedTeams": [
-        "33390"
-      ]
-    },
-    {
       "CODGRUPO": "58161971",
       "JORNADA": "11",
       "CODACTA": "4235727",
@@ -1622,6 +1594,34 @@
       "NOMBRE_COMPETICION": "JUVENIL SEGONA DIVISIÓ",
       "trackedTeams": [
         "33391"
+      ]
+    },
+    {
+      "CODGRUPO": "58161930",
+      "JORNADA": "13",
+      "CODACTA": "4153029",
+      "CODEQUIPO_CASA": "33733",
+      "NOMBRE_CASA": "CAN VIDALET, C.F. \"A\"",
+      "ESCUDO_CASA": "00100_0000672069_canvidalet_200x200.png",
+      "CODEQUIPO_FUERA": "33390",
+      "NOMBRE_FUERA": "MARTINENC, F.C. \"A\"",
+      "ESCUDO_FUERA": "00100_0000577607_martinenc-200x200.png",
+      "CAMPO": "CAMP D´ESPORTS MPAL. EL MOLI (ESPLUGUES)",
+      "GOLES_CASA": null,
+      "GOLES_FUERA": null,
+      "COMIENZO1": "2026-12-19 18:00:00",
+      "CERRADA": "0",
+      "ESTADO": "0",
+      "GRUPO": "GRUP 2",
+      "GRUPO_CERRADO": "1",
+      "LATITUD": "41.373235",
+      "LONGITUD": "2.097115",
+      "CODIGO_CAMPO": "347",
+      "CODCLUB_CASA": "1372",
+      "CODCLUB_FUERA": "1032",
+      "NOMBRE_COMPETICION": "PREFERENT JUVENILS",
+      "trackedTeams": [
+        "33390"
       ]
     },
     {
@@ -2269,34 +2269,6 @@
       ]
     },
     {
-      "CODGRUPO": "58161930",
-      "JORNADA": "18",
-      "CODACTA": "4153070",
-      "CODEQUIPO_CASA": "33946",
-      "NOMBRE_CASA": "TIANA, C.C.E. \"A\"",
-      "ESCUDO_CASA": "00100_0000376407_ESCUDO_EN_COLOR.JPG",
-      "CODEQUIPO_FUERA": "33390",
-      "NOMBRE_FUERA": "MARTINENC, F.C. \"A\"",
-      "ESCUDO_FUERA": "00100_0000577607_martinenc-200x200.png",
-      "CAMPO": "CAMP DE FUTBOL MPAL. DE TIANA",
-      "GOLES_CASA": null,
-      "GOLES_FUERA": null,
-      "COMIENZO1": "2027-02-13 18:00:00",
-      "CERRADA": "0",
-      "ESTADO": "0",
-      "GRUPO": "GRUP 2",
-      "GRUPO_CERRADO": "1",
-      "LATITUD": "41.4906",
-      "LONGITUD": "2.262388",
-      "CODIGO_CAMPO": "666",
-      "CODCLUB_CASA": "1398",
-      "CODCLUB_FUERA": "1032",
-      "NOMBRE_COMPETICION": "PREFERENT JUVENILS",
-      "trackedTeams": [
-        "33390"
-      ]
-    },
-    {
       "CODGRUPO": "58161971",
       "JORNADA": "16",
       "CODACTA": "4235767",
@@ -2322,6 +2294,34 @@
       "NOMBRE_COMPETICION": "JUVENIL SEGONA DIVISIÓ",
       "trackedTeams": [
         "33391"
+      ]
+    },
+    {
+      "CODGRUPO": "58161930",
+      "JORNADA": "18",
+      "CODACTA": "4153070",
+      "CODEQUIPO_CASA": "33946",
+      "NOMBRE_CASA": "TIANA, C.C.E. \"A\"",
+      "ESCUDO_CASA": "00100_0000376407_ESCUDO_EN_COLOR.JPG",
+      "CODEQUIPO_FUERA": "33390",
+      "NOMBRE_FUERA": "MARTINENC, F.C. \"A\"",
+      "ESCUDO_FUERA": "00100_0000577607_martinenc-200x200.png",
+      "CAMPO": "CAMP DE FUTBOL MPAL. DE TIANA",
+      "GOLES_CASA": null,
+      "GOLES_FUERA": null,
+      "COMIENZO1": "2027-02-13 18:00:00",
+      "CERRADA": "0",
+      "ESTADO": "0",
+      "GRUPO": "GRUP 2",
+      "GRUPO_CERRADO": "1",
+      "LATITUD": "41.4906",
+      "LONGITUD": "2.262388",
+      "CODIGO_CAMPO": "666",
+      "CODCLUB_CASA": "1398",
+      "CODCLUB_FUERA": "1032",
+      "NOMBRE_COMPETICION": "PREFERENT JUVENILS",
+      "trackedTeams": [
+        "33390"
       ]
     },
     {
@@ -3137,34 +3137,6 @@
       ]
     },
     {
-      "CODGRUPO": "58161971",
-      "JORNADA": "22",
-      "CODACTA": "4235813",
-      "CODEQUIPO_CASA": "7000741",
-      "NOMBRE_CASA": "UNIFICACION BELLVITGE, U.D. \"C\"",
-      "ESCUDO_CASA": "00100_0000913897_UBELLVITGE100x100.png",
-      "CODEQUIPO_FUERA": "33391",
-      "NOMBRE_FUERA": "MARTINENC, F.C. \"B\"",
-      "ESCUDO_FUERA": "00100_0000577607_martinenc-200x200.png",
-      "CAMPO": "CAMP DE FUTBOL MPAL. LA FEIXA LLARGA",
-      "GOLES_CASA": null,
-      "GOLES_FUERA": null,
-      "COMIENZO1": "2027-04-03 20:00:00",
-      "CERRADA": "0",
-      "ESTADO": "0",
-      "GRUPO": "GRUP 11",
-      "GRUPO_CERRADO": "1",
-      "LATITUD": "41.348853",
-      "LONGITUD": "2.102989",
-      "CODIGO_CAMPO": "365",
-      "CODCLUB_CASA": "6046",
-      "CODCLUB_FUERA": "1032",
-      "NOMBRE_COMPETICION": "JUVENIL SEGONA DIVISIÓ",
-      "trackedTeams": [
-        "33391"
-      ]
-    },
-    {
       "CODGRUPO": "58161966",
       "JORNADA": "22",
       "CODACTA": "4235316",
@@ -3190,6 +3162,34 @@
       "NOMBRE_COMPETICION": "JUVENIL SEGONA DIVISIÓ",
       "trackedTeams": [
         "41605"
+      ]
+    },
+    {
+      "CODGRUPO": "58161971",
+      "JORNADA": "22",
+      "CODACTA": "4235813",
+      "CODEQUIPO_CASA": "7000741",
+      "NOMBRE_CASA": "UNIFICACION BELLVITGE, U.D. \"C\"",
+      "ESCUDO_CASA": "00100_0000913897_UBELLVITGE100x100.png",
+      "CODEQUIPO_FUERA": "33391",
+      "NOMBRE_FUERA": "MARTINENC, F.C. \"B\"",
+      "ESCUDO_FUERA": "00100_0000577607_martinenc-200x200.png",
+      "CAMPO": "CAMP DE FUTBOL MPAL. LA FEIXA LLARGA",
+      "GOLES_CASA": null,
+      "GOLES_FUERA": null,
+      "COMIENZO1": "2027-04-03 20:00:00",
+      "CERRADA": "0",
+      "ESTADO": "0",
+      "GRUPO": "GRUP 11",
+      "GRUPO_CERRADO": "1",
+      "LATITUD": "41.348853",
+      "LONGITUD": "2.102989",
+      "CODIGO_CAMPO": "365",
+      "CODCLUB_CASA": "6046",
+      "CODCLUB_FUERA": "1032",
+      "NOMBRE_COMPETICION": "JUVENIL SEGONA DIVISIÓ",
+      "trackedTeams": [
+        "33391"
       ]
     },
     {
@@ -3501,34 +3501,6 @@
       ]
     },
     {
-      "CODGRUPO": "58268544",
-      "JORNADA": "27",
-      "CODACTA": "4154343",
-      "CODEQUIPO_CASA": "54310804",
-      "NOMBRE_CASA": "VINYETS MOLI-VELL, C.F. \"A\"",
-      "ESCUDO_CASA": "00100_0000782438_vinyetsmolivell_200x200.png",
-      "CODEQUIPO_FUERA": "54304670",
-      "NOMBRE_FUERA": "MARTINENC, F.C. \"A\"",
-      "ESCUDO_FUERA": "00100_0000577607_martinenc-200x200.png",
-      "CAMPO": "CAMP DE FUTBOL MPAL. LA PARELLADA St. Boi",
-      "GOLES_CASA": null,
-      "GOLES_FUERA": null,
-      "COMIENZO1": "2027-04-24 18:00:00",
-      "CERRADA": "0",
-      "ESTADO": "0",
-      "GRUPO": "GRUP 2",
-      "GRUPO_CERRADO": "1",
-      "LATITUD": "41.3430245",
-      "LONGITUD": "2.0451464",
-      "CODIGO_CAMPO": "1731",
-      "CODCLUB_CASA": "2925",
-      "CODCLUB_FUERA": "1032",
-      "NOMBRE_COMPETICION": "PREFERENT CADET S16",
-      "trackedTeams": [
-        "54304670"
-      ]
-    },
-    {
       "CODGRUPO": "58161971",
       "JORNADA": "25",
       "CODACTA": "4235839",
@@ -3554,6 +3526,34 @@
       "NOMBRE_COMPETICION": "JUVENIL SEGONA DIVISIÓ",
       "trackedTeams": [
         "33391"
+      ]
+    },
+    {
+      "CODGRUPO": "58268544",
+      "JORNADA": "27",
+      "CODACTA": "4154343",
+      "CODEQUIPO_CASA": "54310804",
+      "NOMBRE_CASA": "VINYETS MOLI-VELL, C.F. \"A\"",
+      "ESCUDO_CASA": "00100_0000782438_vinyetsmolivell_200x200.png",
+      "CODEQUIPO_FUERA": "54304670",
+      "NOMBRE_FUERA": "MARTINENC, F.C. \"A\"",
+      "ESCUDO_FUERA": "00100_0000577607_martinenc-200x200.png",
+      "CAMPO": "CAMP DE FUTBOL MPAL. LA PARELLADA St. Boi",
+      "GOLES_CASA": null,
+      "GOLES_FUERA": null,
+      "COMIENZO1": "2027-04-24 18:00:00",
+      "CERRADA": "0",
+      "ESTADO": "0",
+      "GRUPO": "GRUP 2",
+      "GRUPO_CERRADO": "1",
+      "LATITUD": "41.3430245",
+      "LONGITUD": "2.0451464",
+      "CODIGO_CAMPO": "1731",
+      "CODCLUB_CASA": "2925",
+      "CODCLUB_FUERA": "1032",
+      "NOMBRE_COMPETICION": "PREFERENT CADET S16",
+      "trackedTeams": [
+        "54304670"
       ]
     },
     {
@@ -3725,34 +3725,6 @@
       ]
     },
     {
-      "CODGRUPO": "58161966",
-      "JORNADA": "26",
-      "CODACTA": "4235350",
-      "CODEQUIPO_CASA": "41605",
-      "NOMBRE_CASA": "MARTINENC, F.C. \"C\"",
-      "ESCUDO_CASA": "00100_0000577607_martinenc-200x200.png",
-      "CODEQUIPO_FUERA": "7001534",
-      "NOMBRE_FUERA": "PUJADAS, C.D. \"B\"",
-      "ESCUDO_FUERA": "00100_0000094158_Copia_de_escudo.png",
-      "CAMPO": "CAMP DE FUTBOL CEM GUINARDÓ",
-      "GOLES_CASA": null,
-      "GOLES_FUERA": null,
-      "COMIENZO1": "2027-05-02 20:00:00",
-      "CERRADA": "0",
-      "ESTADO": "0",
-      "GRUPO": "GRUP 9",
-      "GRUPO_CERRADO": "1",
-      "LATITUD": "41.416368",
-      "LONGITUD": "2.17287",
-      "CODIGO_CAMPO": "383",
-      "CODCLUB_CASA": "1032",
-      "CODCLUB_FUERA": "2769",
-      "NOMBRE_COMPETICION": "JUVENIL SEGONA DIVISIÓ",
-      "trackedTeams": [
-        "41605"
-      ]
-    },
-    {
       "CODGRUPO": "58161965",
       "JORNADA": "26",
       "CODACTA": "4235103",
@@ -3781,31 +3753,31 @@
       ]
     },
     {
-      "CODGRUPO": "58161930",
-      "JORNADA": "29",
-      "CODACTA": "4153157",
-      "CODEQUIPO_CASA": "41557",
-      "NOMBRE_CASA": "L'HOSPITALET, CENTRE ESPORTS \"A\"",
-      "ESCUDO_CASA": "00100_0001106091_COLOR.png",
-      "CODEQUIPO_FUERA": "33390",
-      "NOMBRE_FUERA": "MARTINENC, F.C. \"A\"",
-      "ESCUDO_FUERA": "00100_0000577607_martinenc-200x200.png",
-      "CAMPO": "CAMP DE FUTBOL MPAL. DE L´HOSPITALET LLOBREGAT",
+      "CODGRUPO": "58161966",
+      "JORNADA": "26",
+      "CODACTA": "4235350",
+      "CODEQUIPO_CASA": "41605",
+      "NOMBRE_CASA": "MARTINENC, F.C. \"C\"",
+      "ESCUDO_CASA": "00100_0000577607_martinenc-200x200.png",
+      "CODEQUIPO_FUERA": "7001534",
+      "NOMBRE_FUERA": "PUJADAS, C.D. \"B\"",
+      "ESCUDO_FUERA": "00100_0000094158_Copia_de_escudo.png",
+      "CAMPO": "CAMP DE FUTBOL CEM GUINARDÓ",
       "GOLES_CASA": null,
       "GOLES_FUERA": null,
-      "COMIENZO1": "2027-05-08 16:00:00",
+      "COMIENZO1": "2027-05-02 20:00:00",
       "CERRADA": "0",
       "ESTADO": "0",
-      "GRUPO": "GRUP 2",
+      "GRUPO": "GRUP 9",
       "GRUPO_CERRADO": "1",
-      "LATITUD": "41.34712",
-      "LONGITUD": "2.101855",
-      "CODIGO_CAMPO": "101",
-      "CODCLUB_CASA": "1218",
-      "CODCLUB_FUERA": "1032",
-      "NOMBRE_COMPETICION": "PREFERENT JUVENILS",
+      "LATITUD": "41.416368",
+      "LONGITUD": "2.17287",
+      "CODIGO_CAMPO": "383",
+      "CODCLUB_CASA": "1032",
+      "CODCLUB_FUERA": "2769",
+      "NOMBRE_COMPETICION": "JUVENIL SEGONA DIVISIÓ",
       "trackedTeams": [
-        "33390"
+        "41605"
       ]
     },
     {
@@ -3834,6 +3806,34 @@
       "NOMBRE_COMPETICION": "JUVENIL SEGONA DIVISIÓ",
       "trackedTeams": [
         "41605"
+      ]
+    },
+    {
+      "CODGRUPO": "58161930",
+      "JORNADA": "29",
+      "CODACTA": "4153157",
+      "CODEQUIPO_CASA": "41557",
+      "NOMBRE_CASA": "L'HOSPITALET, CENTRE ESPORTS \"A\"",
+      "ESCUDO_CASA": "00100_0001106091_COLOR.png",
+      "CODEQUIPO_FUERA": "33390",
+      "NOMBRE_FUERA": "MARTINENC, F.C. \"A\"",
+      "ESCUDO_FUERA": "00100_0000577607_martinenc-200x200.png",
+      "CAMPO": "CAMP DE FUTBOL MPAL. DE L´HOSPITALET LLOBREGAT",
+      "GOLES_CASA": null,
+      "GOLES_FUERA": null,
+      "COMIENZO1": "2027-05-08 16:00:00",
+      "CERRADA": "0",
+      "ESTADO": "0",
+      "GRUPO": "GRUP 2",
+      "GRUPO_CERRADO": "1",
+      "LATITUD": "41.34712",
+      "LONGITUD": "2.101855",
+      "CODIGO_CAMPO": "101",
+      "CODCLUB_CASA": "1218",
+      "CODCLUB_FUERA": "1032",
+      "NOMBRE_COMPETICION": "PREFERENT JUVENILS",
+      "trackedTeams": [
+        "33390"
       ]
     },
     {
