@@ -36,17 +36,16 @@
   <footer>Datos: Federació Catalana de Futbol (fcf.cat)</footer>
 </div>
 
+<script src="js/common.js"></script>
 <script>
 // Los datos se descargan y filtran periódicamente por un GitHub Action
 // (ver .github/workflows/update-resultados-martinenc.yml) porque la API de
 // fcf.cat no envía cabeceras CORS y bloquea el fetch directo desde GitHub
 // Pages.
 const DATA_URL = 'data/resultados_martinenc.json';
-const CREST_BASE = 'https://files.fcf.cat/escudos/clubes/escudos/';
 // Equipo a resaltar en azul claro, igual que en rivales.html: el Martinenc S16 "A".
 const OWN_CODE = '54304670';
 
-const statusEl = document.getElementById('status');
 const resultsEl = document.getElementById('results');
 const equipoSelect = document.getElementById('equipo-select');
 const prevBtn = document.getElementById('prev-btn');
@@ -59,16 +58,7 @@ let DATA = null;
 let weekends = [];
 let currentIndex = 0;
 
-function setError(message) {
-  statusEl.textContent = message;
-  statusEl.classList.add('error');
-}
-
-function crestUrl(filename) {
-  return filename ? CREST_BASE + encodeURIComponent(filename) : '';
-}
-
-function formatHora(comienzo) {
+function formatHoraComienzo(comienzo) {
   if (!comienzo) return '';
   const partes = comienzo.split(' ');
   return partes[1] ? partes[1].slice(0, 5) : '';
@@ -81,11 +71,6 @@ function parseComienzo(comienzo) {
   if (!comienzo) return null;
   const d = new Date(comienzo.replace(' ', 'T'));
   return isNaN(d) ? null : d;
-}
-
-function formatFecha(d) {
-  if (!d) return '';
-  return d.toLocaleDateString('es-ES', { weekday: 'long', day: '2-digit', month: '2-digit', year: 'numeric' });
 }
 
 // Formatea una fecha como YYYY-MM-DD usando sus componentes LOCALES (no
@@ -110,23 +95,10 @@ function weekendKey(d) {
   return toLocalISODate(monday);
 }
 
-function formatActualizado(iso) {
-  if (!iso) return '?';
-  const fecha = new Date(iso);
-  if (isNaN(fecha)) return iso;
-  const partes = new Intl.DateTimeFormat('es-ES', {
-    timeZone: 'Europe/Madrid',
-    day: '2-digit', month: '2-digit', year: 'numeric',
-    hour: '2-digit', minute: '2-digit', hour12: false,
-  }).formatToParts(fecha);
-  const valor = tipo => partes.find(p => p.type === tipo)?.value;
-  return `${valor('day')}/${valor('month')}/${valor('year')} a las ${valor('hour')}:${valor('minute')}`;
-}
-
 // A diferencia de otros.json/amistosos.json, aquí la API de liga informa de
 // forma fiable si el partido se ha jugado (ESTADO/CERRADA), sin necesidad de
 // heurísticos basados en la hora.
-function isJugado(m) {
+function isJugadoLiga(m) {
   if (m.ESTADO === '1' || m.CERRADA === '1') return true;
   return m.GOLES_CASA != null && m.GOLES_FUERA != null;
 }
@@ -140,42 +112,29 @@ function formatCategoria(nombreCompeticion, grupo) {
 }
 
 function buildMatchCard(m) {
-  const jugado = isJugado(m);
+  const jugado = isJugadoLiga(m);
   const esPropio = (m.trackedTeams || []).includes(OWN_CODE);
-  const centro = jugado
-    ? (m.CODACTA
-        ? `<a class="match-score" href="https://www.fcf.cat/ca/competicio/acta/${encodeURIComponent(m.CODACTA)}" target="_blank" rel="noopener">${m.GOLES_CASA} - ${m.GOLES_FUERA}</a>`
-        : `<span class="match-score">${m.GOLES_CASA} - ${m.GOLES_FUERA}</span>`)
-    : `<span class="badge-pending">Programado</span>`;
-
-  const equipoUrl = (codigoClub, codEquipo) =>
-    (codigoClub && codEquipo)
-      ? `https://www.fcf.cat/ca/clubs/${encodeURIComponent(codigoClub)}/categories/${encodeURIComponent(codEquipo)}`
-      : null;
+  const centro = matchCenterHtml(jugado, m.CODACTA, m.GOLES_CASA, m.GOLES_FUERA);
   const casaUrl = equipoUrl(m.CODCLUB_CASA, m.CODEQUIPO_CASA);
   const fueraUrl = equipoUrl(m.CODCLUB_FUERA, m.CODEQUIPO_FUERA);
-  const crest = (src, url) => {
-    const img = `<img src="${crestUrl(src)}" alt="" loading="lazy">`;
-    return url ? `<a href="${url}" target="_blank" rel="noopener">${img}</a>` : img;
-  };
   const mapsUrl = (m.LATITUD && m.LONGITUD)
-    ? `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(m.LATITUD + ',' + m.LONGITUD)}`
-    : (m.CAMPO ? `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(m.CAMPO)}` : null);
+    ? mapsSearchUrl(m.LATITUD + ',' + m.LONGITUD)
+    : (m.CAMPO ? mapsSearchUrl(m.CAMPO) : null);
 
   const card = document.createElement('article');
   card.className = 'match-card' + (esPropio ? ' own' : '');
   card.innerHTML = `
     <div class="match-teams">
       <div class="team">
-        ${crest(m.ESCUDO_CASA, casaUrl)}
+        ${crestHtml(m.ESCUDO_CASA, casaUrl)}
         <span class="team-name">${m.NOMBRE_CASA ?? ''}</span>
       </div>
       <div class="center-info">
-        <span class="match-hora">${formatHora(m.COMIENZO1)}</span>
+        <span class="match-hora">${formatHoraComienzo(m.COMIENZO1)}</span>
         ${centro}
       </div>
       <div class="team">
-        ${crest(m.ESCUDO_FUERA, fueraUrl)}
+        ${crestHtml(m.ESCUDO_FUERA, fueraUrl)}
         <span class="team-name">${m.NOMBRE_FUERA ?? ''}</span>
       </div>
     </div>
@@ -273,11 +232,7 @@ nextBtn.addEventListener('click', () => {
 });
 equipoSelect.addEventListener('change', render);
 
-fetch(DATA_URL)
-  .then(res => {
-    if (!res.ok) throw new Error(`HTTP ${res.status} ${res.statusText}`);
-    return res.json();
-  })
+fetchJson(DATA_URL)
   .then(data => {
     DATA = data;
     const equipos = [...(data.equipos || [])].sort((a, b) => a.nombre.localeCompare(b.nombre, 'es'));

@@ -61,6 +61,7 @@
   <footer>Datos: Federació Catalana de Futbol (fcf.cat)</footer>
 </div>
 
+<script src="js/common.js"></script>
 <script>
 // Los datos se descargan y filtran periódicamente por un GitHub Action
 // (ver .github/workflows/update-otros-data.yml) porque la API de fcf.cat no
@@ -68,9 +69,7 @@
 const DATA_URL = 'data/otros.json';
 // Equipo propio a resaltar dentro de otros.json: el Martinenc Juvenil "A".
 const OWN_CODE = '33390';
-const CREST_BASE = 'https://files.fcf.cat/escudos/clubes/escudos/';
 
-const statusEl = document.getElementById('status');
 const resultsEl = document.getElementById('results');
 const statsBodyEl = document.getElementById('stats-body');
 const equipoSelect = document.getElementById('equipo-select');
@@ -78,112 +77,23 @@ const fechaSelect = document.getElementById('fecha-select');
 
 let DATA = null;
 
-function setError(message) {
-  statusEl.textContent = message;
-  statusEl.classList.add('error');
-}
-
-function crestUrl(filename) {
-  return filename ? CREST_BASE + encodeURIComponent(filename) : '';
-}
-
-// Algunos escudos que devuelve la API de amistosos están rotos (404 en
-// files.fcf.cat) para ciertos equipos. data/otros.json permite informar un
-// "escudo" de recambio por código de equipo, que tiene prioridad sobre el
-// que venga en el partido.
-let escudoOverrides = {};
-
-function resolveEscudo(codigoEquipo, escudoApi) {
-  return escudoOverrides[codigoEquipo] || escudoApi;
-}
-
-function formatHora(hora) {
-  return hora ? hora.slice(0, 5) : '';
-}
-
-function formatFecha(iso) {
-  const d = new Date(iso);
-  if (isNaN(d)) return '';
-  return d.toLocaleDateString('es-ES', { weekday: 'long', day: '2-digit', month: '2-digit', year: 'numeric' });
-}
-
-// Muestra la fecha/hora de actualización del Action en la zona horaria de
-// Madrid, con el formato "dd/mm/aaaa a las hh:mm", independientemente de la
-// zona horaria del navegador de quien visite la página.
-function formatActualizado(iso) {
-  if (!iso) return '?';
-  const fecha = new Date(iso);
-  if (isNaN(fecha)) return iso;
-  const partes = new Intl.DateTimeFormat('es-ES', {
-    timeZone: 'Europe/Madrid',
-    day: '2-digit', month: '2-digit', year: 'numeric',
-    hour: '2-digit', minute: '2-digit', hour12: false,
-  }).formatToParts(fecha);
-  const valor = tipo => partes.find(p => p.type === tipo)?.value;
-  return `${valor('day')}/${valor('month')}/${valor('year')} a las ${valor('hour')}:${valor('minute')}`;
-}
-
-// CODACTA no es fiable como señal de "partido disputado": hay partidos con
-// CODACTA ya asignado que aún no se han jugado, y partidos ya jugados sin
-// CODACTA todavía informado por la FCF. En su lugar, se compara la hora de
-// inicio teórica del partido con la hora en que el Action recogió los datos
-// (data.updatedAt): si han pasado más de 3h desde el inicio, se asume
-// finalizado. Todo el rango de fechas de esta temporada cae en horario de
-// verano (CEST, UTC+2), de ahí el offset fijo '+02:00'.
-// Además, si ya hay un resultado distinto de 0-0 informado, se considera
-// jugado de inmediato aunque no hayan pasado las 3h ni haya CODACTA, ya que
-// un marcador no nulo solo se rellena una vez el partido está en curso o
-// finalizado.
-function isJugado(m, updatedAt) {
-  const golesCasa = Number(m.PARTIDO_GOLES_CASA);
-  const golesFuera = Number(m.PARTIDO_GOLES_VISITANTE);
-  if (!Number.isNaN(golesCasa) && !Number.isNaN(golesFuera) && (golesCasa !== 0 || golesFuera !== 0)) return true;
-  if (!m.FECHA || !m.HORA_COMIENZO || !updatedAt) return !!m.CODACTA;
-  const kickoff = new Date(`${m.FECHA.slice(0, 10)}T${m.HORA_COMIENZO}+02:00`);
-  const referencia = new Date(updatedAt);
-  if (isNaN(kickoff) || isNaN(referencia)) return !!m.CODACTA;
-  return referencia.getTime() >= kickoff.getTime() + 3 * 60 * 60 * 1000;
-}
-
-// --- pestañas ---
-document.querySelectorAll('.tab-btn').forEach(btn => {
-  btn.addEventListener('click', () => {
-    document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
-    document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
-    btn.classList.add('active');
-    document.getElementById('panel-' + btn.dataset.tab).classList.add('active');
-  });
-});
+initTabs();
 
 function buildMatchCard(m) {
   const jugado = isJugado(m, DATA.updatedAt);
   const esPropio = (m.trackedTeams || []).includes(OWN_CODE);
-  const centro = jugado
-    ? (m.CODACTA
-        ? `<a class="match-score" href="https://www.fcf.cat/ca/competicio/acta/${encodeURIComponent(m.CODACTA)}" target="_blank" rel="noopener">${m.PARTIDO_GOLES_CASA} - ${m.PARTIDO_GOLES_VISITANTE}</a>`
-        : `<span class="match-score">${m.PARTIDO_GOLES_CASA} - ${m.PARTIDO_GOLES_VISITANTE}</span>`)
-    : `<span class="badge-pending">Programado</span>`;
+  const centro = matchCenterHtml(jugado, m.CODACTA, m.PARTIDO_GOLES_CASA, m.PARTIDO_GOLES_VISITANTE);
 
-  const equipoUrl = (codigoClub, codEquipo) =>
-    (codigoClub && codEquipo)
-      ? `https://www.fcf.cat/ca/clubs/${encodeURIComponent(codigoClub)}/categories/${encodeURIComponent(codEquipo)}`
-      : null;
   const casaUrl = equipoUrl(m.CODIGO_CLUB, m.CODEQUIPO_CASA);
   const fueraUrl = equipoUrl(m.CODIGO_CLUB_FUERA, m.CODEQUIPO_FUERA);
-  const crest = (src, url) => {
-    const img = `<img src="${crestUrl(src)}" alt="" loading="lazy">`;
-    return url ? `<a href="${url}" target="_blank" rel="noopener">${img}</a>` : img;
-  };
-  const mapsUrl = m.campo
-    ? `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(m.campo)}`
-    : null;
+  const mapsUrl = m.campo ? mapsSearchUrl(m.campo) : null;
 
   const card = document.createElement('article');
   card.className = 'match-card' + (esPropio ? ' own' : '');
   card.innerHTML = `
     <div class="match-teams">
       <div class="team">
-        ${crest(resolveEscudo(m.CODEQUIPO_CASA, m.ESCUDO_CASA), casaUrl)}
+        ${crestHtml(resolveEscudo(m.CODEQUIPO_CASA, m.ESCUDO_CASA), casaUrl)}
         <span class="team-name">${m.NOMEQUIPO_CASA ?? ''}</span>
       </div>
       <div class="center-info">
@@ -191,7 +101,7 @@ function buildMatchCard(m) {
         ${centro}
       </div>
       <div class="team">
-        ${crest(resolveEscudo(m.CODEQUIPO_FUERA, m.ESCUDO_FUERA), fueraUrl)}
+        ${crestHtml(resolveEscudo(m.CODEQUIPO_FUERA, m.ESCUDO_FUERA), fueraUrl)}
         <span class="team-name">${m.NOMEQUIPO_FUERA ?? ''}</span>
       </div>
     </div>
@@ -314,11 +224,7 @@ document.querySelectorAll('table.stats th.sortable').forEach(th => {
   });
 });
 
-fetch(DATA_URL)
-  .then(res => {
-    if (!res.ok) throw new Error(`HTTP ${res.status} ${res.statusText}`);
-    return res.json();
-  })
+fetchJson(DATA_URL)
   .then(data => {
     DATA = data;
     escudoOverrides = Object.fromEntries(
