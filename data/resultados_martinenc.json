@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-04T17:37:24Z",
+  "updatedAt": "2026-10-04T21:13:22Z",
   "equipos": [
     {
       "nombre": "MARTINENC, F.C. S16 \"A\"",
@@ -266,8 +266,8 @@
       "GOLES_CASA": null,
       "GOLES_FUERA": null,
       "COMIENZO1": "2026-10-04 20:00:00",
-      "CERRADA": "0",
-      "ESTADO": "0",
+      "CERRADA": "1",
+      "ESTADO": "3",
       "GRUPO": "GRUP 9",
       "GRUPO_CERRADO": "1",
       "LATITUD": "41.416368",
