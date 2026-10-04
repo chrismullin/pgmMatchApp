@@ -10,6 +10,9 @@ pre-generados en formato JSON.
 - **`rivales.html`** — Resultados y tabla estadística de los 16 equipos del
   grupo.
 - **`otros.html`** — Resultados de otros equipos.
+- **`todo_martinenc.html`** — Resultados de liga (30 jornadas, grupos de 16
+  equipos a doble vuelta) del Cadet S16 "A" y los Juvenils "A", "B", "C" y
+  "D" del Martinenc, agrupados y paginados por fin de semana.
 
 ## Datos
 
@@ -22,9 +25,18 @@ cabeceras CORS y bloquea el `fetch()` directo desde el navegador:
 | `data/amistosos.json` | `.github/workflows/update-data.yml` |
 | `data/rivales.json` | `.github/workflows/update-rivales-data.yml` |
 | `data/otros.json` | `.github/workflows/update-otros-data.yml` |
+| `data/resultados_martinenc.json` | `.github/workflows/update-resultados-martinenc.yml` |
 | `data/equipos.json` | mantenido a mano (equipos del grupo, escudos de recambio) |
+| `data/martinenc.json` | mantenido a mano (equipos del Martinenc seguidos en `todo_martinenc.html`) |
 | `data/default.json` | mantenido a mano (partidos/resultados que la API no recoge o recoge incompletos; tiene prioridad sobre los datos descargados) |
 | `data/youtube-links.json` | mantenido a mano (enlaces a vídeos de partidos, usado en `otros.html`) |
+
+`data/resultados_martinenc.json` usa un endpoint distinto al de los demás
+(`https://www.fcf.cat/api/clubs/{club}/team/{codigo}`), que devuelve el
+calendario completo de un equipo (varias temporadas mezcladas, amistosos
+incluidos). El workflow filtra solo los partidos de liga de la temporada en
+curso (`JORNADA != "0"` y fecha dentro del rango configurado en el propio
+workflow).
 
 ## ⚠️ Actualización automática de datos: desactivada
 

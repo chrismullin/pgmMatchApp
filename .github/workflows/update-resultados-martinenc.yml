@@ -1,0 +1,68 @@
+name: Actualizar resultados de liga del Martinenc
+
+on:
+  schedule:
+    # Cada 1 horas
+    - cron: '0 */1 * * *'
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/update-resultados-martinenc.yml
+
+permissions:
+  contents: write
+
+jobs:
+  update-resultados-martinenc:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Descargar y filtrar los partidos de liga de los equipos de martinenc.json
+        env:
+          FECHA_INICIO_LIGA: "2026-08-15"
+          FECHA_FIN_LIGA: "2027-06-30"
+        run: |
+          set -euo pipefail
+          > /tmp/resultados_all.jsonl
+          while IFS=$'\t' read -r nombre club codigo; do
+            curl -sL --fail "https://www.fcf.cat/api/clubs/${club}/team/${codigo}" \
+              | jq --arg team "$codigo" --arg inicio "$FECHA_INICIO_LIGA" --arg fin "$FECHA_FIN_LIGA" \
+                 '.data.matches
+                  | map(select(.JORNADA != "0" and .COMIENZO1 >= $inicio and .COMIENZO1 <= $fin))
+                  | map(. + {trackedTeams: [$team]})' \
+              >> /tmp/resultados_all.jsonl
+          done < <(jq -r '.equipos[] | [.nombre, .club, .codigo] | @tsv' data/martinenc.json)
+
+          jq -s 'add' /tmp/resultados_all.jsonl > /tmp/resultados_flat.json
+
+          # Deduplica partidos que pudieran aparecer en la descarga de dos
+          # equipos distintos (si dos equipos de martinenc.json se enfrentan
+          # entre sí), fusionando trackedTeams.
+          jq '
+            group_by([.COMIENZO1, .CODEQUIPO_CASA, .CODEQUIPO_FUERA])
+            | map(reduce .[] as $m ({}; . * $m + {trackedTeams: ((.trackedTeams // []) + $m.trackedTeams | unique)}))
+          ' /tmp/resultados_flat.json > /tmp/resultados_dedup.json
+
+          jq -n --slurpfile equipos data/martinenc.json --slurpfile matches /tmp/resultados_dedup.json \
+            '{updatedAt: (now | todate), equipos: $equipos[0].equipos, matches: ($matches[0] | sort_by(.COMIENZO1))}' \
+            > data/resultados_martinenc.json
+
+          cat data/resultados_martinenc.json
+
+      - name: Commit si hay cambios
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet -- data/resultados_martinenc.json; then
+            echo "Sin cambios en los datos."
+          else
+            git add data/resultados_martinenc.json
+            git commit -m "Actualizar resultados de liga del Martinenc [skip ci]"
+            for i in 1 2 3 4 5; do
+              git pull --rebase -X ours origin main && git push && break
+              echo "Push rechazado (intento $i), reintentando..."
+              sleep $((RANDOM % 10 + 1))
+            done
+          fi

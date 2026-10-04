@@ -1,0 +1,29 @@
+{
+  "equipos": [
+    {
+      "nombre": "MARTINENC, F.C. S16 \"A\"",
+      "club": "1032",
+      "codigo": "54304670"
+    },
+    {
+      "nombre": "MARTINENC, F.C. JUVENIL\"A\"",
+      "club": "1032",
+      "codigo": "33390"
+    },
+    {
+      "nombre": "MARTINENC, F.C. JUVENIL\"B\"",
+      "club": "1032",
+      "codigo": "33391"
+    },
+    {
+      "nombre": "MARTINENC, F.C. JUVENIL\"C\"",
+      "club": "1032",
+      "codigo": "41605"
+    },
+    {
+      "nombre": "MARTINENC, F.C. JUVENIL\"D\"",
+      "club": "1032",
+      "codigo": "41606"
+    }
+  ]
+}
