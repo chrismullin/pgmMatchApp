@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-05T06:49:41Z",
+  "updatedAt": "2026-10-05T15:51:15Z",
   "equipos": [
     {
       "nombre": "MARTINENC, F.C. S16 \"A\"",
@@ -617,6 +617,34 @@
       ]
     },
     {
+      "CODGRUPO": "58268544",
+      "JORNADA": "6",
+      "CODACTA": "4154175",
+      "CODEQUIPO_CASA": "54319655",
+      "NOMBRE_CASA": "CONGRÉS CLUB ESP. \"A\"",
+      "ESCUDO_CASA": "00100_0001268552_congres.png",
+      "CODEQUIPO_FUERA": "54304670",
+      "NOMBRE_FUERA": "MARTINENC, F.C. \"A\"",
+      "ESCUDO_FUERA": "00100_0000577607_martinenc-200x200.png",
+      "CAMPO": "CAMP DE FUTBOL CEM CAN DRAGO",
+      "GOLES_CASA": null,
+      "GOLES_FUERA": null,
+      "COMIENZO1": "2026-10-24 18:00:00",
+      "CERRADA": "0",
+      "ESTADO": "0",
+      "GRUPO": "GRUP 2",
+      "GRUPO_CERRADO": "1",
+      "LATITUD": "41.432594",
+      "LONGITUD": "2.181415",
+      "CODIGO_CAMPO": "65",
+      "CODCLUB_CASA": "6399",
+      "CODCLUB_FUERA": "1032",
+      "NOMBRE_COMPETICION": "PREFERENT CADET S16",
+      "trackedTeams": [
+        "54304670"
+      ]
+    },
+    {
       "CODGRUPO": "58161930",
       "JORNADA": "6",
       "CODACTA": "4152976",
@@ -642,34 +670,6 @@
       "NOMBRE_COMPETICION": "PREFERENT JUVENILS",
       "trackedTeams": [
         "33390"
-      ]
-    },
-    {
-      "CODGRUPO": "58268544",
-      "JORNADA": "6",
-      "CODACTA": "4154175",
-      "CODEQUIPO_CASA": "54319655",
-      "NOMBRE_CASA": "CONGRÉS CLUB ESP. \"A\"",
-      "ESCUDO_CASA": "00100_0001268552_congres.png",
-      "CODEQUIPO_FUERA": "54304670",
-      "NOMBRE_FUERA": "MARTINENC, F.C. \"A\"",
-      "ESCUDO_FUERA": "00100_0000577607_martinenc-200x200.png",
-      "CAMPO": "CAMP DE FUTBOL CEM CAN DRAGO",
-      "GOLES_CASA": null,
-      "GOLES_FUERA": null,
-      "COMIENZO1": "2026-10-25 19:50:00",
-      "CERRADA": "0",
-      "ESTADO": "0",
-      "GRUPO": "GRUP 2",
-      "GRUPO_CERRADO": "1",
-      "LATITUD": "41.432594",
-      "LONGITUD": "2.181415",
-      "CODIGO_CAMPO": "65",
-      "CODCLUB_CASA": "6399",
-      "CODCLUB_FUERA": "1032",
-      "NOMBRE_COMPETICION": "PREFERENT CADET S16",
-      "trackedTeams": [
-        "54304670"
       ]
     },
     {
