@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-06T22:35:34Z",
+  "updatedAt": "2026-10-07T02:13:39Z",
   "equipos": [
     {
       "nombre": "MARTINENC, F.C. S16 \"A\"",
@@ -681,7 +681,7 @@
       "ESCUDO_CASA": "00100_0000577607_martinenc-200x200.png",
       "CODEQUIPO_FUERA": "59740793",
       "NOMBRE_FUERA": "CE SANT ADRIA 2026 \"A\"",
-      "ESCUDO_FUERA": "00100_0058901437_escudo.jpg",
+      "ESCUDO_FUERA": "00100_0001399984_tresx.png",
       "CAMPO": "CAMP DE FUTBOL CEM GUINARDÓ",
       "GOLES_CASA": null,
       "GOLES_FUERA": null,
@@ -930,7 +930,7 @@
       "CODACTA": "4235188",
       "CODEQUIPO_CASA": "59740931",
       "NOMBRE_CASA": "CE SANT ADRIA 2026 \"B\"",
-      "ESCUDO_CASA": "00100_0058901437_escudo.jpg",
+      "ESCUDO_CASA": "00100_0001399984_tresx.png",
       "CODEQUIPO_FUERA": "41605",
       "NOMBRE_FUERA": "MARTINENC, F.C. \"C\"",
       "ESCUDO_FUERA": "00100_0000577607_martinenc-200x200.png",
@@ -2722,7 +2722,7 @@
       "CODACTA": "4235048",
       "CODEQUIPO_CASA": "59740793",
       "NOMBRE_CASA": "CE SANT ADRIA 2026 \"A\"",
-      "ESCUDO_CASA": "00100_0058901437_escudo.jpg",
+      "ESCUDO_CASA": "00100_0001399984_tresx.png",
       "CODEQUIPO_FUERA": "41606",
       "NOMBRE_FUERA": "MARTINENC, F.C. \"D\"",
       "ESCUDO_FUERA": "00100_0000577607_martinenc-200x200.png",
@@ -3061,7 +3061,7 @@
       "ESCUDO_CASA": "00100_0000577607_martinenc-200x200.png",
       "CODEQUIPO_FUERA": "59740931",
       "NOMBRE_FUERA": "CE SANT ADRIA 2026 \"B\"",
-      "ESCUDO_FUERA": "00100_0058901437_escudo.jpg",
+      "ESCUDO_FUERA": "00100_0001399984_tresx.png",
       "CAMPO": "CAMP DE FUTBOL CEM GUINARDÓ",
       "GOLES_CASA": null,
       "GOLES_FUERA": null,
