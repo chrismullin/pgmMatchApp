@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-08T23:14:39Z",
+  "updatedAt": "2026-10-09T05:53:44Z",
   "equipos": [
     {
       "nombre": "MARTINENC, F.C. S16 \"A\"",
@@ -421,6 +421,34 @@
       ]
     },
     {
+      "CODGRUPO": "58161966",
+      "JORNADA": "3",
+      "CODACTA": "4235162",
+      "CODEQUIPO_CASA": "41605",
+      "NOMBRE_CASA": "MARTINENC, F.C. \"C\"",
+      "ESCUDO_CASA": "00100_0000577607_martinenc-200x200.png",
+      "CODEQUIPO_FUERA": "37247",
+      "NOMBRE_FUERA": "TURÓ PEIRA, C.C.D. \"A\"",
+      "ESCUDO_FUERA": "00100_0001162949_PeiraPNG.png",
+      "CAMPO": "CAMP DE FUTBOL CEM GUINARDÓ",
+      "GOLES_CASA": null,
+      "GOLES_FUERA": null,
+      "COMIENZO1": "2026-10-17 14:10:00",
+      "CERRADA": "0",
+      "ESTADO": "0",
+      "GRUPO": "GRUP 9",
+      "GRUPO_CERRADO": "1",
+      "LATITUD": "41.416368",
+      "LONGITUD": "2.17287",
+      "CODIGO_CAMPO": "383",
+      "CODCLUB_CASA": "1032",
+      "CODCLUB_FUERA": "1221",
+      "NOMBRE_COMPETICION": "JUVENIL SEGONA DIVISIÓ",
+      "trackedTeams": [
+        "41605"
+      ]
+    },
+    {
       "CODGRUPO": "58268544",
       "JORNADA": "5",
       "CODACTA": "4154166",
@@ -433,7 +461,7 @@
       "CAMPO": "CAMP DE FUTBOL CEM GUINARDÓ",
       "GOLES_CASA": null,
       "GOLES_FUERA": null,
-      "COMIENZO1": "2026-10-17 16:30:00",
+      "COMIENZO1": "2026-10-17 16:10:00",
       "CERRADA": "0",
       "ESTADO": "0",
       "GRUPO": "GRUP 2",
@@ -530,34 +558,6 @@
       "NOMBRE_COMPETICION": "JUVENIL SEGONA DIVISIÓ",
       "trackedTeams": [
         "33391"
-      ]
-    },
-    {
-      "CODGRUPO": "58161966",
-      "JORNADA": "3",
-      "CODACTA": "4235162",
-      "CODEQUIPO_CASA": "41605",
-      "NOMBRE_CASA": "MARTINENC, F.C. \"C\"",
-      "ESCUDO_CASA": "00100_0000577607_martinenc-200x200.png",
-      "CODEQUIPO_FUERA": "37247",
-      "NOMBRE_FUERA": "TURÓ PEIRA, C.C.D. \"A\"",
-      "ESCUDO_FUERA": "00100_0001162949_PeiraPNG.png",
-      "CAMPO": "CAMP DE FUTBOL CEM GUINARDÓ",
-      "GOLES_CASA": null,
-      "GOLES_FUERA": null,
-      "COMIENZO1": "2026-10-18 20:00:00",
-      "CERRADA": "0",
-      "ESTADO": "0",
-      "GRUPO": "GRUP 9",
-      "GRUPO_CERRADO": "1",
-      "LATITUD": "41.416368",
-      "LONGITUD": "2.17287",
-      "CODIGO_CAMPO": "383",
-      "CODCLUB_CASA": "1032",
-      "CODCLUB_FUERA": "1221",
-      "NOMBRE_COMPETICION": "JUVENIL SEGONA DIVISIÓ",
-      "trackedTeams": [
-        "41605"
       ]
     },
     {
