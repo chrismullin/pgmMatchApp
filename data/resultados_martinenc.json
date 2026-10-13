@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-13T11:38:45Z",
+  "updatedAt": "2026-10-13T19:11:21Z",
   "equipos": [
     {
       "nombre": "MARTINENC, F.C. S16 \"A\"",
@@ -239,7 +239,7 @@
       "GOLES_FUERA": null,
       "COMIENZO1": "2026-10-04 12:15:00",
       "CERRADA": "0",
-      "ESTADO": "3",
+      "ESTADO": null,
       "GRUPO": "GRUP 8",
       "GRUPO_CERRADO": "1",
       "LATITUD": "41.453799",
@@ -695,6 +695,34 @@
       "CODIGO_CAMPO": "383",
       "CODCLUB_CASA": "1032",
       "CODCLUB_FUERA": "58901437",
+      "NOMBRE_COMPETICION": "JUVENIL SEGONA DIVISIÓ",
+      "trackedTeams": [
+        "41606"
+      ]
+    },
+    {
+      "CODGRUPO": "58161965",
+      "JORNADA": "1",
+      "CODACTA": "4377912",
+      "CODEQUIPO_CASA": "7009212",
+      "NOMBRE_CASA": "ARRABAL-CALAF GRAMANET C.D. \"B\"",
+      "ESCUDO_CASA": "00100_0000897899_arrabalcalaf_200.png",
+      "CODEQUIPO_FUERA": "41606",
+      "NOMBRE_FUERA": "MARTINENC, F.C. \"D\"",
+      "ESCUDO_FUERA": "00100_0000577607_martinenc-200x200.png",
+      "CAMPO": "CAMP DE FUTBOL CEM CAN ZAM (1)",
+      "GOLES_CASA": null,
+      "GOLES_FUERA": null,
+      "COMIENZO1": "2026-10-29 20:30:00",
+      "CERRADA": "0",
+      "ESTADO": "0",
+      "GRUPO": "GRUP 8",
+      "GRUPO_CERRADO": "1",
+      "LATITUD": "41.453799",
+      "LONGITUD": "2.201631",
+      "CODIGO_CAMPO": "282",
+      "CODCLUB_CASA": "6280",
+      "CODCLUB_FUERA": "1032",
       "NOMBRE_COMPETICION": "JUVENIL SEGONA DIVISIÓ",
       "trackedTeams": [
         "41606"
