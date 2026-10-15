@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-15T09:45:04Z",
+  "updatedAt": "2026-10-15T14:50:14Z",
   "equipos": [
     {
       "nombre": "MARTINENC, F.C. S16 \"A\"",
@@ -561,6 +561,34 @@
       ]
     },
     {
+      "CODGRUPO": "58161965",
+      "JORNADA": "4",
+      "CODACTA": "4234928",
+      "CODEQUIPO_CASA": "41606",
+      "NOMBRE_CASA": "MARTINENC, F.C. \"D\"",
+      "ESCUDO_CASA": "00100_0000577607_martinenc-200x200.png",
+      "CODEQUIPO_FUERA": "59740793",
+      "NOMBRE_FUERA": "CE SANT ADRIA 2026 \"A\"",
+      "ESCUDO_FUERA": "00100_0001399984_tresx.png",
+      "CAMPO": "CAMP DE FUTBOL CEM GUINARDÓ",
+      "GOLES_CASA": null,
+      "GOLES_FUERA": null,
+      "COMIENZO1": "2026-10-24 14:10:00",
+      "CERRADA": "0",
+      "ESTADO": "0",
+      "GRUPO": "GRUP 8",
+      "GRUPO_CERRADO": "1",
+      "LATITUD": "41.416368",
+      "LONGITUD": "2.17287",
+      "CODIGO_CAMPO": "383",
+      "CODCLUB_CASA": "1032",
+      "CODCLUB_FUERA": "58901437",
+      "NOMBRE_COMPETICION": "JUVENIL SEGONA DIVISIÓ",
+      "trackedTeams": [
+        "41606"
+      ]
+    },
+    {
       "CODGRUPO": "58161971",
       "JORNADA": "4",
       "CODACTA": "4235670",
@@ -670,34 +698,6 @@
       "NOMBRE_COMPETICION": "PREFERENT CADET S16",
       "trackedTeams": [
         "54304670"
-      ]
-    },
-    {
-      "CODGRUPO": "58161965",
-      "JORNADA": "4",
-      "CODACTA": "4234928",
-      "CODEQUIPO_CASA": "41606",
-      "NOMBRE_CASA": "MARTINENC, F.C. \"D\"",
-      "ESCUDO_CASA": "00100_0000577607_martinenc-200x200.png",
-      "CODEQUIPO_FUERA": "59740793",
-      "NOMBRE_FUERA": "CE SANT ADRIA 2026 \"A\"",
-      "ESCUDO_FUERA": "00100_0001399984_tresx.png",
-      "CAMPO": "CAMP DE FUTBOL CEM GUINARDÓ",
-      "GOLES_CASA": null,
-      "GOLES_FUERA": null,
-      "COMIENZO1": "2026-10-25 20:00:00",
-      "CERRADA": "0",
-      "ESTADO": "0",
-      "GRUPO": "GRUP 8",
-      "GRUPO_CERRADO": "1",
-      "LATITUD": "41.416368",
-      "LONGITUD": "2.17287",
-      "CODIGO_CAMPO": "383",
-      "CODCLUB_CASA": "1032",
-      "CODCLUB_FUERA": "58901437",
-      "NOMBRE_COMPETICION": "JUVENIL SEGONA DIVISIÓ",
-      "trackedTeams": [
-        "41606"
       ]
     },
     {
