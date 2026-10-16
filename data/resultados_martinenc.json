@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-16T07:01:08Z",
+  "updatedAt": "2026-10-16T13:10:55Z",
   "equipos": [
     {
       "nombre": "MARTINENC, F.C. S16 \"A\"",
@@ -151,8 +151,8 @@
       "NOMBRE_FUERA": "Pª BARC. ANGUERA \"A\"",
       "ESCUDO_FUERA": "00100_0001223440_ANGUERA.png",
       "CAMPO": "CAMP DE FUTBOL CEM GUINARDÓ",
-      "GOLES_CASA": "3",
-      "GOLES_FUERA": "2",
+      "GOLES_CASA": "0",
+      "GOLES_FUERA": "3",
       "COMIENZO1": "2026-10-03 16:00:00",
       "CERRADA": "1",
       "ESTADO": "1",
@@ -263,11 +263,11 @@
       "NOMBRE_FUERA": "Pª BARC. BARCINO, CE \"C\"",
       "ESCUDO_FUERA": "00100_0000936883_2432_pe_a_barcino_ce_200x200.png",
       "CAMPO": "CAMP DE FUTBOL CEM GUINARDÓ",
-      "GOLES_CASA": null,
-      "GOLES_FUERA": null,
+      "GOLES_CASA": "3",
+      "GOLES_FUERA": "0",
       "COMIENZO1": "2026-10-04 20:00:00",
       "CERRADA": "1",
-      "ESTADO": "3",
+      "ESTADO": "1",
       "GRUPO": "GRUP 9",
       "GRUPO_CERRADO": "1",
       "LATITUD": "41.416368",
