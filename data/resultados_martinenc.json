@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-17T09:09:52Z",
+  "updatedAt": "2026-10-17T13:35:50Z",
   "equipos": [
     {
       "nombre": "MARTINENC, F.C. S16 \"A\"",
@@ -431,11 +431,11 @@
       "NOMBRE_FUERA": "TURÓ PEIRA, C.C.D. \"A\"",
       "ESCUDO_FUERA": "00100_0001162949_PeiraPNG.png",
       "CAMPO": "CAMP DE FUTBOL CEM GUINARDÓ",
-      "GOLES_CASA": null,
-      "GOLES_FUERA": null,
+      "GOLES_CASA": "0",
+      "GOLES_FUERA": "0",
       "COMIENZO1": "2026-10-17 14:10:00",
       "CERRADA": "0",
-      "ESTADO": "0",
+      "ESTADO": "6",
       "GRUPO": "GRUP 9",
       "GRUPO_CERRADO": "1",
       "LATITUD": "41.416368",
