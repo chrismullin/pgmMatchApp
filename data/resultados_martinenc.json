@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18T14:28:09Z",
+  "updatedAt": "2026-10-18T17:59:06Z",
   "equipos": [
     {
       "nombre": "MARTINENC, F.C. S16 \"A\"",
@@ -543,11 +543,11 @@
       "NOMBRE_FUERA": "MARTINENC, F.C. \"B\"",
       "ESCUDO_FUERA": "00100_0000577607_martinenc-200x200.png",
       "CAMPO": "CAMP DE FUTBOL MPAL. IBERIA",
-      "GOLES_CASA": null,
-      "GOLES_FUERA": null,
+      "GOLES_CASA": "1",
+      "GOLES_FUERA": "6",
       "COMIENZO1": "2026-10-18 16:00:00",
-      "CERRADA": "0",
-      "ESTADO": "0",
+      "CERRADA": "1",
+      "ESTADO": "1",
       "GRUPO": "GRUP 11",
       "GRUPO_CERRADO": "1",
       "LATITUD": "41.356126",
