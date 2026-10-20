@@ -27,7 +27,13 @@ jobs:
           set -euo pipefail
           > /tmp/resultados_all.jsonl
           while IFS=$'\t' read -r nombre club codigo; do
-            curl -sL --fail "https://www.fcf.cat/api/clubs/${club}/team/${codigo}" \
+            curl -sSL --fail-with-body \
+              -A "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" \
+              -H "Accept: application/json, text/plain, */*" \
+              -H "Accept-Language: es-ES,es;q=0.9,ca;q=0.8,en;q=0.7" \
+              -H "Referer: https://www.fcf.cat/" \
+              -H "Origin: https://www.fcf.cat" \
+              "https://www.fcf.cat/api/clubs/${club}/team/${codigo}" \
               | jq --arg team "$codigo" --arg inicio "$FECHA_INICIO_LIGA" --arg fin "$FECHA_FIN_LIGA" \
                  '.data.matches
                   | map(select(.JORNADA != "0" and .COMIENZO1 >= $inicio and .COMIENZO1 <= $fin))
