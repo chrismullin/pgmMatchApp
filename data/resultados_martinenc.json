@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-19T15:30:30Z",
+  "updatedAt": "2026-10-20T20:42:25Z",
   "equipos": [
     {
       "nombre": "MARTINENC, F.C. S16 \"A\"",
@@ -701,34 +701,6 @@
       ]
     },
     {
-      "CODGRUPO": "58161930",
-      "JORNADA": "3",
-      "CODACTA": "4378740",
-      "CODEQUIPO_CASA": "33390",
-      "NOMBRE_CASA": "MARTINENC, F.C. \"A\"",
-      "ESCUDO_CASA": "00100_0000577607_martinenc-200x200.png",
-      "CODEQUIPO_FUERA": "33946",
-      "NOMBRE_FUERA": "TIANA, C.C.E. \"A\"",
-      "ESCUDO_FUERA": "00100_0000376407_ESCUDO_EN_COLOR.JPG",
-      "CAMPO": "CAMP DE FUTBOL CEM GUINARDÓ",
-      "GOLES_CASA": null,
-      "GOLES_FUERA": null,
-      "COMIENZO1": "2026-10-27 20:00:00",
-      "CERRADA": "0",
-      "ESTADO": "0",
-      "GRUPO": "GRUP 2",
-      "GRUPO_CERRADO": "1",
-      "LATITUD": "41.416368",
-      "LONGITUD": "2.17287",
-      "CODIGO_CAMPO": "383",
-      "CODCLUB_CASA": "1032",
-      "CODCLUB_FUERA": "1398",
-      "NOMBRE_COMPETICION": "PREFERENT JUVENILS",
-      "trackedTeams": [
-        "33390"
-      ]
-    },
-    {
       "CODGRUPO": "58161965",
       "JORNADA": "1",
       "CODACTA": "4377912",
@@ -1034,6 +1006,34 @@
       "NOMBRE_COMPETICION": "JUVENIL SEGONA DIVISIÓ",
       "trackedTeams": [
         "41606"
+      ]
+    },
+    {
+      "CODGRUPO": "58161930",
+      "JORNADA": "3",
+      "CODACTA": "4378740",
+      "CODEQUIPO_CASA": "33390",
+      "NOMBRE_CASA": "MARTINENC, F.C. \"A\"",
+      "ESCUDO_CASA": "00100_0000577607_martinenc-200x200.png",
+      "CODEQUIPO_FUERA": "33946",
+      "NOMBRE_FUERA": "TIANA, C.C.E. \"A\"",
+      "ESCUDO_FUERA": "00100_0000376407_ESCUDO_EN_COLOR.JPG",
+      "CAMPO": "CAMP DE FUTBOL CEM GUINARDÓ",
+      "GOLES_CASA": null,
+      "GOLES_FUERA": null,
+      "COMIENZO1": "2026-11-11 20:30:00",
+      "CERRADA": "0",
+      "ESTADO": "0",
+      "GRUPO": "GRUP 2",
+      "GRUPO_CERRADO": "1",
+      "LATITUD": "41.416368",
+      "LONGITUD": "2.17287",
+      "CODIGO_CAMPO": "383",
+      "CODCLUB_CASA": "1032",
+      "CODCLUB_FUERA": "1398",
+      "NOMBRE_COMPETICION": "PREFERENT JUVENILS",
+      "trackedTeams": [
+        "33390"
       ]
     },
     {
