@@ -19,12 +19,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: DIAG temporal
-        continue-on-error: true
-        run: |
-          curl -sSL -D - -o /tmp/b.txt -A 'Mozilla/5.0 Chrome/130.0.0.0 Safari/537.36' https://www.fcf.cat/api/clubs/1032/team/33390 | head -30
-          head -c 600 /tmp/b.txt
-
       - name: Descargar y filtrar los partidos de liga de los equipos de martinenc.json
         env:
           FECHA_INICIO_LIGA: "2026-08-15"
