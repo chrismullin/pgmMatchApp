@@ -1,9 +1,11 @@
 name: Actualizar resultados de liga del Martinenc
 
 on:
-  schedule:
-    # Cada 1 horas
-    - cron: '0 */1 * * *'
+  # schedule desactivado: la FCF (CloudFront) bloquea las IPs de GitHub Actions con 403.
+  # Usar scripts/update-resultados.sh en local mientras tanto.
+  # schedule:
+  #   # Cada 1 horas
+  #   - cron: '0 */1 * * *'
   workflow_dispatch: {}
   push:
     branches: [main]
