@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-20T20:42:25Z",
+  "updatedAt": "2026-10-23T14:32:26Z",
   "equipos": [
     {
       "nombre": "MARTINENC, F.C. S16 \"A\"",
@@ -729,62 +729,6 @@
       ]
     },
     {
-      "CODGRUPO": "58161930",
-      "JORNADA": "7",
-      "CODACTA": "4152984",
-      "CODEQUIPO_CASA": "34271",
-      "NOMBRE_CASA": "FUNDACIO P. CE. JUPITER \"A\"",
-      "ESCUDO_CASA": "00100_0000672019_cejupiter_200x200.png",
-      "CODEQUIPO_FUERA": "33390",
-      "NOMBRE_FUERA": "MARTINENC, F.C. \"A\"",
-      "ESCUDO_FUERA": "00100_0000577607_martinenc-200x200.png",
-      "CAMPO": "CAMP DE FUTBOL CEM JÚPITER",
-      "GOLES_CASA": null,
-      "GOLES_FUERA": null,
-      "COMIENZO1": "2026-10-31 16:00:00",
-      "CERRADA": "0",
-      "ESTADO": "0",
-      "GRUPO": "GRUP 2",
-      "GRUPO_CERRADO": "1",
-      "LATITUD": "41.417463",
-      "LONGITUD": "2.202227",
-      "CODIGO_CAMPO": "403",
-      "CODCLUB_CASA": "6178",
-      "CODCLUB_FUERA": "1032",
-      "NOMBRE_COMPETICION": "PREFERENT JUVENILS",
-      "trackedTeams": [
-        "33390"
-      ]
-    },
-    {
-      "CODGRUPO": "58268544",
-      "JORNADA": "7",
-      "CODACTA": "4154183",
-      "CODEQUIPO_CASA": "54304670",
-      "NOMBRE_CASA": "MARTINENC, F.C. \"A\"",
-      "ESCUDO_CASA": "00100_0000577607_martinenc-200x200.png",
-      "CODEQUIPO_FUERA": "54312742",
-      "NOMBRE_FUERA": "EUROPA, C.E. \"B\"",
-      "ESCUDO_FUERA": "00100_0000735880_europa_200x200.png",
-      "CAMPO": "CAMP DE FUTBOL CEM GUINARDÓ",
-      "GOLES_CASA": null,
-      "GOLES_FUERA": null,
-      "COMIENZO1": "2026-10-31 16:30:00",
-      "CERRADA": "0",
-      "ESTADO": "0",
-      "GRUPO": "GRUP 2",
-      "GRUPO_CERRADO": "1",
-      "LATITUD": "41.416368",
-      "LONGITUD": "2.17287",
-      "CODIGO_CAMPO": "383",
-      "CODCLUB_CASA": "1032",
-      "CODCLUB_FUERA": "1011",
-      "NOMBRE_COMPETICION": "PREFERENT CADET S16",
-      "trackedTeams": [
-        "54304670"
-      ]
-    },
-    {
       "CODGRUPO": "58161971",
       "JORNADA": "5",
       "CODACTA": "4235677",
@@ -838,6 +782,62 @@
       "NOMBRE_COMPETICION": "JUVENIL SEGONA DIVISIÓ",
       "trackedTeams": [
         "41606"
+      ]
+    },
+    {
+      "CODGRUPO": "58268544",
+      "JORNADA": "7",
+      "CODACTA": "4154183",
+      "CODEQUIPO_CASA": "54304670",
+      "NOMBRE_CASA": "MARTINENC, F.C. \"A\"",
+      "ESCUDO_CASA": "00100_0000577607_martinenc-200x200.png",
+      "CODEQUIPO_FUERA": "54312742",
+      "NOMBRE_FUERA": "EUROPA, C.E. \"B\"",
+      "ESCUDO_FUERA": "00100_0000735880_europa_200x200.png",
+      "CAMPO": "CAMP DE FUTBOL CEM GUINARDÓ",
+      "GOLES_CASA": null,
+      "GOLES_FUERA": null,
+      "COMIENZO1": "2026-11-01 14:15:00",
+      "CERRADA": "0",
+      "ESTADO": "0",
+      "GRUPO": "GRUP 2",
+      "GRUPO_CERRADO": "1",
+      "LATITUD": "41.416368",
+      "LONGITUD": "2.17287",
+      "CODIGO_CAMPO": "383",
+      "CODCLUB_CASA": "1032",
+      "CODCLUB_FUERA": "1011",
+      "NOMBRE_COMPETICION": "PREFERENT CADET S16",
+      "trackedTeams": [
+        "54304670"
+      ]
+    },
+    {
+      "CODGRUPO": "58161930",
+      "JORNADA": "7",
+      "CODACTA": "4152984",
+      "CODEQUIPO_CASA": "34271",
+      "NOMBRE_CASA": "FUNDACIO P. CE. JUPITER \"A\"",
+      "ESCUDO_CASA": "00100_0000672019_cejupiter_200x200.png",
+      "CODEQUIPO_FUERA": "33390",
+      "NOMBRE_FUERA": "MARTINENC, F.C. \"A\"",
+      "ESCUDO_FUERA": "00100_0000577607_martinenc-200x200.png",
+      "CAMPO": "CAMP DE FUTBOL CEM JÚPITER",
+      "GOLES_CASA": null,
+      "GOLES_FUERA": null,
+      "COMIENZO1": "2026-11-01 16:00:00",
+      "CERRADA": "0",
+      "ESTADO": "0",
+      "GRUPO": "GRUP 2",
+      "GRUPO_CERRADO": "1",
+      "LATITUD": "41.417463",
+      "LONGITUD": "2.202227",
+      "CODIGO_CAMPO": "403",
+      "CODCLUB_CASA": "6178",
+      "CODCLUB_FUERA": "1032",
+      "NOMBRE_COMPETICION": "PREFERENT JUVENILS",
+      "trackedTeams": [
+        "33390"
       ]
     },
     {
@@ -1581,7 +1581,7 @@
       "CAMPO": "CAMP DE FUTBOL MPAL. POMAR",
       "GOLES_CASA": null,
       "GOLES_FUERA": null,
-      "COMIENZO1": "2026-12-13 18:00:00",
+      "COMIENZO1": "2026-12-13 20:00:00",
       "CERRADA": "0",
       "ESTADO": "0",
       "GRUPO": "GRUP 11",
