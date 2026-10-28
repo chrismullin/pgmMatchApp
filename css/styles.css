@@ -379,7 +379,25 @@
 
   table.clasificacion td.pos { font-weight: 700; }
   table.clasificacion td.pos.con-franja { box-shadow: inset 4px 0 0 var(--franja); }
-  table.clasificacion th, table.clasificacion td { padding: 0.5rem 0.35rem; }
+  table.clasificacion { font-size: 0.8rem; }
+  table.clasificacion th, table.clasificacion td { padding: 0.5rem 0.25rem; }
+  table.clasificacion th { font-size: 0.66rem; letter-spacing: 0; }
+  table.clasificacion th:first-child, table.clasificacion td:first-child { padding-left: 0.5rem; }
+  table.clasificacion { table-layout: fixed; }
+  table.clasificacion th:first-child { width: 2rem; }
+  table.clasificacion th:nth-child(n+3) { width: 2.1rem; }
+  table.clasificacion td.team-col { overflow-wrap: break-word; }
+  @media (max-width: 480px) {
+    table.clasificacion { font-size: 0.74rem; }
+    table.clasificacion th, table.clasificacion td { padding: 0.45rem 0.15rem; }
+    table.clasificacion th { font-size: 0.6rem; }
+    table.clasificacion th:first-child, table.clasificacion td:first-child { padding-left: 0.4rem; }
+    table.clasificacion th:first-child { width: 1.8rem; }
+    table.clasificacion th:nth-child(n+3) { width: 1.65rem; }
+    table.clasificacion th, table.clasificacion td { padding-left: 0.1rem; padding-right: 0.1rem; }
+    table.clasificacion td.team-col { padding-left: 0.3rem; }
+    table.clasificacion .clas-team { gap: 0.3rem; }
+  }
   table.clasificacion .clas-team { display: flex; align-items: center; gap: 0.4rem; }
   table.clasificacion .clas-team a { line-height: 0; flex: none; }
   table.clasificacion .clas-team img { width: 18px; height: 18px; object-fit: contain; display: block; }
