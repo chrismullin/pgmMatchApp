@@ -377,6 +377,12 @@
     overflow-x: auto;
   }
 
+  table.clasificacion td.pos { font-weight: 700; }
+  table.clasificacion td.pos.con-franja { box-shadow: inset 4px 0 0 var(--franja); }
+  table.clasificacion .clas-team { display: flex; align-items: center; gap: 0.5rem; }
+  table.clasificacion .clas-team img { width: 22px; height: 22px; object-fit: contain; flex: none; }
+  .nota { font-size: 0.78rem; color: var(--navy-soft); margin: 0.6rem 0 0; }
+
   /* Variantes por página (clase en <body>) */
   .page-index .links { margin-bottom: 0; }
   .page-liga .links { margin-bottom: 1.25rem; }

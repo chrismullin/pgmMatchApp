@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Clasificación Martinenc S16A</title>
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="page-clasificacion">
+<div class="page">
+  <header>
+    <h1>Clasificación Cadet S16 "A"</h1>
+    <p class="subtitle">Preferent Cadet S16, grupo 2.</p>
+    <nav class="links">
+      <a href="index.html">⬅️ Volver a los amistosos del Martinenc</a>
+      <a href="todo_martinenc.html">🏆 Liga de los equipos del Martinenc</a>
+    </nav>
+  </header>
+
+  <div id="status">Cargando datos…</div>
+
+  <div class="stats-wrap">
+    <table class="stats clasificacion">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th class="th-left">Equipo</th>
+          <th>PT</th>
+          <th>PJ</th>
+          <th>PG</th>
+          <th>PE</th>
+          <th>PP</th>
+          <th>GF</th>
+          <th>GC</th>
+          <th>DG</th>
+        </tr>
+      </thead>
+      <tbody id="clasificacion-body"></tbody>
+    </table>
+  </div>
+  <p id="ajustes" class="nota"></p>
+
+  <footer>Datos: Federació Catalana de Futbol (fcf.cat)</footer>
+</div>
+
+<script src="js/common.js"></script>
+<script>
+// Los datos los genera scripts/update-clasificacion.sh (la API de fcf.cat no
+// envía cabeceras CORS y bloquea las IPs de GitHub Actions).
+const DATA_URL = 'data/clasificacion_martinenc.json';
+const MARTINENC_CODE = '54304670';
+
+const bodyEl = document.getElementById('clasificacion-body');
+const ajustesEl = document.getElementById('ajustes');
+
+function renderEquipo(e) {
+  const tr = document.createElement('tr');
+  if (e.teamId === MARTINENC_CODE) tr.className = 'own';
+  if (e.promocion) tr.style.setProperty('--franja', e.promocion);
+  const dg = e.dg > 0 ? `+${e.dg}` : e.dg;
+  tr.innerHTML = `
+    <td class="pos${e.promocion ? ' con-franja' : ''}">${e.pos}</td>
+    <td class="team-col">
+      <span class="clas-team">
+        ${crestHtml(resolveEscudo(e.teamId, e.escudo), equipoUrl(e.clubId, e.teamId))}
+        <span>${e.nombre.replace(/\s+/g, ' ')}${e.ajustado ? ' <sup title="Resultado corregido">*</sup>' : ''}</span>
+      </span>
+    </td>
+    <td><strong>${e.pt}</strong></td>
+    <td>${e.pj}</td>
+    <td>${e.pg}</td>
+    <td>${e.pe}</td>
+    <td>${e.pp}</td>
+    <td>${e.gf}</td>
+    <td>${e.gc}</td>
+    <td>${dg}</td>
+  `;
+  return tr;
+}
+
+fetchJson(DATA_URL)
+  .then(data => {
+    (data.equipos || []).forEach(e => bodyEl.appendChild(renderEquipo(e)));
+    statusEl.textContent = `Actualizado: ${formatActualizado(data.updatedAt)}`;
+    if ((data.ajustes || []).length) {
+      ajustesEl.textContent = '* Resultado corregido a mano: ' + data.ajustes.join('; ') + '.';
+    }
+  })
+  .catch(err => setError(`No se han podido cargar los datos: ${err.message}`));
+</script>
+</body>
+</html>

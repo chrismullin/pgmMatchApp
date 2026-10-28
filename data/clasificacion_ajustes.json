@@ -1,0 +1,12 @@
+{
+  "grupId": "58268544",
+  "partidos": [
+    {
+      "descripcion": "Martinenc - Pª Barc. Anguera (jornada 3): la FCF lo tiene como 0-3 y el resultado real fue 3-2",
+      "casa": "54304670",
+      "fuera": "54313841",
+      "registrado": { "casa": 0, "fuera": 3 },
+      "real": { "casa": 3, "fuera": 2 }
+    }
+  ]
+}

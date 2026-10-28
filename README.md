@@ -9,6 +9,8 @@ pre-generados en formato JSON.
 - **`index.html`** — Amistosos del Martinenc S16A.
 - **`rivales.html`** — Resultados y tabla estadística de los 16 equipos del
   grupo.
+- **`clasificacion.html`** — Clasificación del grupo del Cadet S16 "A" (sin
+  forma de los últimos resultados), con el partido Martinenc–Anguera corregido.
 - **`otros.html`** — Resultados de otros equipos.
 - **`todo_martinenc.html`** — Resultados de liga (30 jornadas, grupos de 16
   equipos a doble vuelta) del Cadet S16 "A" y los Juvenils "A", "B", "C" y
@@ -26,6 +28,8 @@ cabeceras CORS y bloquea el `fetch()` directo desde el navegador:
 | `data/rivales.json` | `.github/workflows/update-rivales-data.yml` |
 | `data/otros.json` | `.github/workflows/update-otros-data.yml` |
 | `data/resultados_martinenc.json` | `.github/workflows/update-resultados-martinenc.yml` |
+| `data/clasificacion_martinenc.json` | `scripts/update-clasificacion.sh` (local: la FCF bloquea GitHub Actions), endpoint `/api/competition/classificacio?grupId=` |
+| `data/clasificacion_ajustes.json` | mantenido a mano (partidos mal registrados por la FCF; el script solo los aplica mientras la FCF siga con el resultado erróneo) |
 | `data/equipos.json` | mantenido a mano (equipos del grupo, escudos de recambio) |
 | `data/martinenc.json` | mantenido a mano (equipos del Martinenc seguidos en `todo_martinenc.html`) |
 | `data/default.json` | mantenido a mano (partidos/resultados que la API no recoge o recoge incompletos; tiene prioridad sobre los datos descargados) |
