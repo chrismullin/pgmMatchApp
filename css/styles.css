@@ -379,8 +379,10 @@
 
   table.clasificacion td.pos { font-weight: 700; }
   table.clasificacion td.pos.con-franja { box-shadow: inset 4px 0 0 var(--franja); }
-  table.clasificacion .clas-team { display: flex; align-items: center; gap: 0.5rem; }
-  table.clasificacion .clas-team img { width: 22px; height: 22px; object-fit: contain; flex: none; }
+  table.clasificacion th, table.clasificacion td { padding: 0.5rem 0.35rem; }
+  table.clasificacion .clas-team { display: flex; align-items: center; gap: 0.4rem; }
+  table.clasificacion .clas-team a { line-height: 0; flex: none; }
+  table.clasificacion .clas-team img { width: 18px; height: 18px; object-fit: contain; display: block; }
   .nota { font-size: 0.78rem; color: var(--navy-soft); margin: 0.6rem 0 0; }
 
   /* Variantes por página (clase en <body>) */
