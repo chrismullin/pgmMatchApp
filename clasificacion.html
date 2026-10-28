@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Clasificación Martinenc S16A</title>
-<link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="css/styles.css?v=20261028">
 </head>
 <body class="page-clasificacion">
 <div class="page">
@@ -38,7 +38,6 @@
       <tbody id="clasificacion-body"></tbody>
     </table>
   </div>
-  <p id="ajustes" class="nota"></p>
 
   <footer>Datos: Federació Catalana de Futbol (fcf.cat)</footer>
 </div>
@@ -51,7 +50,6 @@ const DATA_URL = 'data/clasificacion_martinenc.json';
 const MARTINENC_CODE = '54304670';
 
 const bodyEl = document.getElementById('clasificacion-body');
-const ajustesEl = document.getElementById('ajustes');
 
 function renderEquipo(e) {
   const tr = document.createElement('tr');
@@ -62,8 +60,8 @@ function renderEquipo(e) {
     <td class="pos${e.promocion ? ' con-franja' : ''}">${e.pos}</td>
     <td class="team-col">
       <span class="clas-team">
-        ${crestHtml(resolveEscudo(e.teamId, e.escudo), equipoUrl(e.clubId, e.teamId))}
-        <span>${e.nombre.replace(/\s+/g, ' ')}${e.ajustado ? ' <sup title="Resultado corregido">*</sup>' : ''}</span>
+        ${crestHtml(resolveEscudo(e.teamId, e.escudo), equipoUrl(e.clubId, e.teamId)).replace('<img ', '<img width="18" height="18" ')}
+        <span>${e.nombre.replace(/\s+/g, ' ')}</span>
       </span>
     </td>
     <td><strong>${e.pt}</strong></td>
@@ -82,9 +80,6 @@ fetchJson(DATA_URL)
   .then(data => {
     (data.equipos || []).forEach(e => bodyEl.appendChild(renderEquipo(e)));
     statusEl.textContent = `Actualizado: ${formatActualizado(data.updatedAt)}`;
-    if ((data.ajustes || []).length) {
-      ajustesEl.textContent = '* Resultado corregido a mano: ' + data.ajustes.join('; ') + '.';
-    }
   })
   .catch(err => setError(`No se han podido cargar los datos: ${err.message}`));
 </script>
