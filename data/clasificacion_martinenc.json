@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28T18:44:02Z",
+  "updatedAt": "2026-10-29T13:17:04Z",
   "grupId": "58268544",
   "ajustes": [
     "Martinenc - Pª Barc. Anguera (jornada 3): la FCF lo tiene como 0-3 y el resultado real fue 3-2"
@@ -125,6 +125,23 @@
       "promocion": null
     },
     {
+      "teamId": "54310809",
+      "clubId": "6278",
+      "nombre": "CAN BUXERES, F.C. A",
+      "escudo": "00100_0000648509_canbuxeres_200x200.png",
+      "pt": 7,
+      "pj": 6,
+      "pg": 2,
+      "pe": 1,
+      "pp": 3,
+      "gf": 14,
+      "gc": 15,
+      "ajustado": false,
+      "pos": 8,
+      "dg": -1,
+      "promocion": null
+    },
+    {
       "teamId": "54319559",
       "clubId": "18476477",
       "nombre": "FUNDACIÓ ESPORTIVA GRAMA A",
@@ -137,7 +154,7 @@
       "gf": 9,
       "gc": 16,
       "ajustado": false,
-      "pos": 8,
+      "pos": 9,
       "dg": -7,
       "promocion": null
     },
@@ -154,7 +171,7 @@
       "gf": 13,
       "gc": 10,
       "ajustado": false,
-      "pos": 9,
+      "pos": 10,
       "dg": 3,
       "promocion": null
     },
@@ -171,7 +188,7 @@
       "gf": 7,
       "gc": 11,
       "ajustado": false,
-      "pos": 10,
+      "pos": 11,
       "dg": -4,
       "promocion": null
     },
@@ -188,7 +205,7 @@
       "gf": 10,
       "gc": 10,
       "ajustado": false,
-      "pos": 11,
+      "pos": 12,
       "dg": 0,
       "promocion": null
     },
@@ -198,16 +215,16 @@
       "nombre": "ESCOLA DE FUTBOL PREMIER BARCELONA A",
       "escudo": "00100_0000754057_premierbcn_200x200.png",
       "pt": 5,
-      "pj": 5,
+      "pj": 6,
       "pg": 1,
       "pe": 2,
-      "pp": 2,
-      "gf": 7,
-      "gc": 10,
+      "pp": 3,
+      "gf": 9,
+      "gc": 14,
       "ajustado": false,
-      "pos": 12,
-      "dg": -3,
-      "promocion": null
+      "pos": 13,
+      "dg": -5,
+      "promocion": "#e5322d"
     },
     {
       "teamId": "54316893",
@@ -222,25 +239,8 @@
       "gf": 8,
       "gc": 16,
       "ajustado": false,
-      "pos": 13,
-      "dg": -8,
-      "promocion": "#e5322d"
-    },
-    {
-      "teamId": "54310809",
-      "clubId": "6278",
-      "nombre": "CAN BUXERES, F.C. A",
-      "escudo": "00100_0000648509_canbuxeres_200x200.png",
-      "pt": 4,
-      "pj": 5,
-      "pg": 1,
-      "pe": 1,
-      "pp": 3,
-      "gf": 10,
-      "gc": 13,
-      "ajustado": false,
       "pos": 14,
-      "dg": -3,
+      "dg": -8,
       "promocion": "#e5322d"
     },
     {
