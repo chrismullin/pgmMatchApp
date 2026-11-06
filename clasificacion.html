@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Clasificación Martinenc S16A</title>
-<link rel="stylesheet" href="css/styles.css?v=20261030">
+<link rel="stylesheet" href="css/styles.css?v=20261106">
 </head>
 <body class="page-clasificacion">
 <div class="page">
@@ -25,14 +25,14 @@
         <tr>
           <th>#</th>
           <th class="th-left">Equipo</th>
-          <th>PT</th>
+          <th class="sortable" data-key="pt">PT</th>
           <th>PJ</th>
           <th>PG</th>
           <th>PE</th>
           <th>PP</th>
-          <th>GF</th>
-          <th>GC</th>
-          <th>DG</th>
+          <th class="sortable" data-key="gf">GF</th>
+          <th class="sortable" data-key="gc">GC</th>
+          <th class="sortable" data-key="dg">DG</th>
         </tr>
       </thead>
       <tbody id="clasificacion-body"></tbody>
@@ -76,9 +76,35 @@ function renderEquipo(e) {
   return tr;
 }
 
+let equipos = [];
+let orden = { key: 'pt', dir: 'desc' };
+
+function render() {
+  const sign = orden.dir === 'asc' ? 1 : -1;
+  // PT mantiene el orden oficial (ya incluye los desempates); el resto desempata por posición.
+  const lista = [...equipos].sort((a, b) => orden.key === 'pt'
+    ? (orden.dir === 'desc' ? 1 : -1) * (a.pos - b.pos)
+    : (sign * (a[orden.key] - b[orden.key])) || (a.pos - b.pos));
+  bodyEl.replaceChildren(...lista.map(renderEquipo));
+  document.querySelectorAll('th.sortable').forEach(th => {
+    th.classList.toggle('asc', th.dataset.key === orden.key && orden.dir === 'asc');
+    th.classList.toggle('desc', th.dataset.key === orden.key && orden.dir === 'desc');
+  });
+}
+
+document.querySelectorAll('th.sortable').forEach(th => {
+  th.addEventListener('click', () => {
+    const key = th.dataset.key;
+    if (orden.key === key) orden.dir = orden.dir === 'desc' ? 'asc' : 'desc';
+    else orden = { key, dir: key === 'gc' ? 'asc' : 'desc' };
+    render();
+  });
+});
+
 fetchJson(DATA_URL)
   .then(data => {
-    (data.equipos || []).forEach(e => bodyEl.appendChild(renderEquipo(e)));
+    equipos = data.equipos || [];
+    render();
     statusEl.textContent = `Actualizado: ${formatActualizado(data.updatedAt)}`;
   })
   .catch(err => setError(`No se han podido cargar los datos: ${err.message}`));

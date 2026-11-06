@@ -414,3 +414,7 @@
     font-size: 0.78rem;
     text-align: center;
   }
+
+table.clasificacion th.sortable { cursor: pointer; user-select: none; }
+table.clasificacion th.sortable.asc::after { content: '▲'; font-size: 0.6em; }
+table.clasificacion th.sortable.desc::after { content: '▼'; font-size: 0.6em; }
