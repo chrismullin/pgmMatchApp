@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T18:16:51Z",
+  "updatedAt": "2026-11-06T16:26:58Z",
   "grupId": "58268544",
   "ajustes": [
     "Martinenc - Pª Barc. Anguera (jornada 3): la FCF lo tiene como 0-3 y el resultado real fue 3-2"
@@ -108,6 +108,23 @@
       "promocion": null
     },
     {
+      "teamId": "54306039",
+      "clubId": "1241",
+      "nombre": "SANT GABRIEL, C.D. A",
+      "escudo": "00100_0000832660_santgabriel_200.png",
+      "pt": 9,
+      "pj": 6,
+      "pg": 2,
+      "pe": 3,
+      "pp": 1,
+      "gf": 14,
+      "gc": 12,
+      "ajustado": false,
+      "pos": 7,
+      "dg": 2,
+      "promocion": null
+    },
+    {
       "teamId": "54314013",
       "clubId": "54296375",
       "nombre": "FUNDACIO ATLETIC SANT JUST  A",
@@ -120,7 +137,7 @@
       "gf": 9,
       "gc": 11,
       "ajustado": false,
-      "pos": 7,
+      "pos": 8,
       "dg": -2,
       "promocion": null
     },
@@ -137,25 +154,8 @@
       "gf": 10,
       "gc": 17,
       "ajustado": false,
-      "pos": 8,
-      "dg": -7,
-      "promocion": null
-    },
-    {
-      "teamId": "54312622",
-      "clubId": "6091",
-      "nombre": "UNIFICACION LLEFIA,CF. A",
-      "escudo": "00100_0000879078_llefia_200.png",
-      "pt": 7,
-      "pj": 5,
-      "pg": 2,
-      "pe": 1,
-      "pp": 2,
-      "gf": 7,
-      "gc": 7,
-      "ajustado": false,
       "pos": 9,
-      "dg": 0,
+      "dg": -7,
       "promocion": null
     },
     {
@@ -176,20 +176,20 @@
       "promocion": null
     },
     {
-      "teamId": "54306039",
-      "clubId": "1241",
-      "nombre": "SANT GABRIEL, C.D. A",
-      "escudo": "00100_0000832660_santgabriel_200.png",
-      "pt": 6,
-      "pj": 5,
-      "pg": 1,
-      "pe": 3,
-      "pp": 1,
-      "gf": 11,
-      "gc": 11,
+      "teamId": "54312622",
+      "clubId": "6091",
+      "nombre": "UNIFICACION LLEFIA,CF. A",
+      "escudo": "00100_0000879078_llefia_200.png",
+      "pt": 7,
+      "pj": 6,
+      "pg": 2,
+      "pe": 1,
+      "pp": 3,
+      "gf": 8,
+      "gc": 10,
       "ajustado": false,
       "pos": 11,
-      "dg": 0,
+      "dg": -2,
       "promocion": null
     },
     {

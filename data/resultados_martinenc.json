@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T18:16:46Z",
+  "updatedAt": "2026-11-06T16:26:52Z",
   "equipos": [
     {
       "nombre": "MARTINENC, F.C. S16 \"A\"",
@@ -1109,6 +1109,66 @@
       ]
     },
     {
+      "CODGRUPO": "58161966",
+      "JORNADA": "7",
+      "CODACTA": "4235196",
+      "CODEQUIPO_CASA": "41605",
+      "NOMBRE_CASA": "MARTINENC, F.C. \"C\"",
+      "ESCUDO_CASA": "00100_0000577607_martinenc-200x200.png",
+      "CODEQUIPO_FUERA": "19606115",
+      "NOMBRE_FUERA": "CANYELLES,C.E. \"B\"",
+      "ESCUDO_FUERA": "00100_0000741560_canyelles_200x200.png",
+      "RETIRADO_CASA": 0,
+      "RETIRADO_FUERA": 0,
+      "CAMPO": "CAMP DE FUTBOL CEM GUINARDÓ",
+      "GOLES_CASA": null,
+      "GOLES_FUERA": null,
+      "COMIENZO1": "2026-11-14 20:00:00",
+      "CERRADA": "0",
+      "ESTADO": "0",
+      "GRUPO": "GRUP 9",
+      "GRUPO_CERRADO": "1",
+      "LATITUD": "41.416368",
+      "LONGITUD": "2.17287",
+      "CODIGO_CAMPO": "383",
+      "CODCLUB_CASA": "1032",
+      "CODCLUB_FUERA": "6070",
+      "NOMBRE_COMPETICION": "JUVENIL SEGONA DIVISIÓ",
+      "trackedTeams": [
+        "41605"
+      ]
+    },
+    {
+      "CODGRUPO": "58268544",
+      "JORNADA": "9",
+      "CODACTA": "4154200",
+      "CODEQUIPO_CASA": "54314013",
+      "NOMBRE_CASA": "FUNDACIO ATLETIC SANT JUST  \"A\"",
+      "ESCUDO_CASA": "00100_0001178430_6686_Sant_Just_B.png",
+      "CODEQUIPO_FUERA": "54304670",
+      "NOMBRE_FUERA": "MARTINENC, F.C. \"A\"",
+      "ESCUDO_FUERA": "00100_0000577607_martinenc-200x200.png",
+      "RETIRADO_CASA": 0,
+      "RETIRADO_FUERA": 0,
+      "CAMPO": "CAMP DE FUTBOL MPAL. DE SANT JUST DESVERN",
+      "GOLES_CASA": null,
+      "GOLES_FUERA": null,
+      "COMIENZO1": "2026-11-15 12:15:00",
+      "CERRADA": "0",
+      "ESTADO": "0",
+      "GRUPO": "GRUP 2",
+      "GRUPO_CERRADO": "1",
+      "LATITUD": "41.382711",
+      "LONGITUD": "2.067671",
+      "CODIGO_CAMPO": "619",
+      "CODCLUB_CASA": "54296375",
+      "CODCLUB_FUERA": "1032",
+      "NOMBRE_COMPETICION": "PREFERENT CADET S16",
+      "trackedTeams": [
+        "54304670"
+      ]
+    },
+    {
       "CODGRUPO": "58161930",
       "JORNADA": "9",
       "CODACTA": "4152999",
@@ -1136,66 +1196,6 @@
       "NOMBRE_COMPETICION": "PREFERENT JUVENILS",
       "trackedTeams": [
         "33390"
-      ]
-    },
-    {
-      "CODGRUPO": "58268544",
-      "JORNADA": "9",
-      "CODACTA": "4154200",
-      "CODEQUIPO_CASA": "54314013",
-      "NOMBRE_CASA": "FUNDACIO ATLETIC SANT JUST  \"A\"",
-      "ESCUDO_CASA": "00100_0001178430_6686_Sant_Just_B.png",
-      "CODEQUIPO_FUERA": "54304670",
-      "NOMBRE_FUERA": "MARTINENC, F.C. \"A\"",
-      "ESCUDO_FUERA": "00100_0000577607_martinenc-200x200.png",
-      "RETIRADO_CASA": 0,
-      "RETIRADO_FUERA": 0,
-      "CAMPO": "CAMP DE FUTBOL MPAL. DE SANT JUST DESVERN",
-      "GOLES_CASA": null,
-      "GOLES_FUERA": null,
-      "COMIENZO1": "2026-11-15 16:15:00",
-      "CERRADA": "0",
-      "ESTADO": "0",
-      "GRUPO": "GRUP 2",
-      "GRUPO_CERRADO": "1",
-      "LATITUD": "41.382711",
-      "LONGITUD": "2.067671",
-      "CODIGO_CAMPO": "619",
-      "CODCLUB_CASA": "54296375",
-      "CODCLUB_FUERA": "1032",
-      "NOMBRE_COMPETICION": "PREFERENT CADET S16",
-      "trackedTeams": [
-        "54304670"
-      ]
-    },
-    {
-      "CODGRUPO": "58161966",
-      "JORNADA": "7",
-      "CODACTA": "4235196",
-      "CODEQUIPO_CASA": "41605",
-      "NOMBRE_CASA": "MARTINENC, F.C. \"C\"",
-      "ESCUDO_CASA": "00100_0000577607_martinenc-200x200.png",
-      "CODEQUIPO_FUERA": "19606115",
-      "NOMBRE_FUERA": "CANYELLES,C.E. \"B\"",
-      "ESCUDO_FUERA": "00100_0000741560_canyelles_200x200.png",
-      "RETIRADO_CASA": 0,
-      "RETIRADO_FUERA": 0,
-      "CAMPO": "CAMP DE FUTBOL CEM GUINARDÓ",
-      "GOLES_CASA": null,
-      "GOLES_FUERA": null,
-      "COMIENZO1": "2026-11-15 20:00:00",
-      "CERRADA": "0",
-      "ESTADO": "0",
-      "GRUPO": "GRUP 9",
-      "GRUPO_CERRADO": "1",
-      "LATITUD": "41.416368",
-      "LONGITUD": "2.17287",
-      "CODIGO_CAMPO": "383",
-      "CODCLUB_CASA": "1032",
-      "CODCLUB_FUERA": "6070",
-      "NOMBRE_COMPETICION": "JUVENIL SEGONA DIVISIÓ",
-      "trackedTeams": [
-        "41605"
       ]
     },
     {
