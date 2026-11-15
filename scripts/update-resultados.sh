@@ -17,6 +17,7 @@ while IFS=$'\t' read -r nombre club codigo; do
     -H "Accept-Language: es-ES,es;q=0.9,ca;q=0.8,en;q=0.7" \
     -H "Referer: https://www.fcf.cat/" \
     -H "Origin: https://www.fcf.cat" \
+    -H "Sec-Fetch-Site: same-origin" -H "Sec-Fetch-Mode: cors" -H "Sec-Fetch-Dest: empty" \
     "https://www.fcf.cat/api/clubs/${club}/team/${codigo}" \
     | jq --arg team "$codigo" --arg inicio "$FECHA_INICIO_LIGA" --arg fin "$FECHA_FIN_LIGA" \
        '.data.matches

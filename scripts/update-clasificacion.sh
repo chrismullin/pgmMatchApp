@@ -17,6 +17,7 @@ fetch() {
     -H "Accept-Language: es-ES,es;q=0.9,ca;q=0.8,en;q=0.7" \
     -H "Referer: https://www.fcf.cat/" \
     -H "Origin: https://www.fcf.cat" \
+    -H "Sec-Fetch-Site: same-origin" -H "Sec-Fetch-Mode: cors" -H "Sec-Fetch-Dest: empty" \
     "$1"
 }
 
