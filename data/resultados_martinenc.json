@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15T17:54:15Z",
+  "updatedAt": "2026-11-18T22:40:09Z",
   "equipos": [
     {
       "nombre": "MARTINENC, F.C. S16 \"A\"",
@@ -54,6 +54,15 @@
       "CODCLUB_CASA": "1032",
       "CODCLUB_FUERA": "1066",
       "NOMBRE_COMPETICION": "PREFERENT CADET S16",
+      "SLUG_CASA": "martinenc-fc-a-pc16",
+      "SLUG_FUERA": "sant-cugat-futbol-club-b-pc16",
+      "CLUB_SLUG_CASA": "martinenc-fc",
+      "CLUB_SLUG_FUERA": "sant-cugat-futbol-club",
+      "COMPETICIO_URL": "preferent-cadet-s16",
+      "GRUPO_URL": "grup-2",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "martinenc-fc-a-pc16-vs-sant-cugat-futbol-club-b-pc16",
+      "MATCH_URL": "/partit/2026-2027/preferent-cadet-s16/grup-2/jornada-1/martinenc-fc-a-pc16-vs-sant-cugat-futbol-club-b-pc16",
       "trackedTeams": [
         "54304670"
       ]
@@ -84,6 +93,15 @@
       "CODCLUB_CASA": "1032",
       "CODCLUB_FUERA": "1014",
       "NOMBRE_COMPETICION": "PREFERENT JUVENILS",
+      "SLUG_CASA": "martinenc-fc-a-pj",
+      "SLUG_FUERA": "sant-andreu-ue-b-pj",
+      "CLUB_SLUG_CASA": "martinenc-fc",
+      "CLUB_SLUG_FUERA": "sant-andreu-ue",
+      "COMPETICIO_URL": "preferent-juvenils",
+      "GRUPO_URL": "grup-2",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "martinenc-fc-a-pj-vs-sant-andreu-ue-b-pj",
+      "MATCH_URL": "/partit/2026-2027/preferent-juvenils/grup-2/jornada-1/martinenc-fc-a-pj-vs-sant-andreu-ue-b-pj",
       "trackedTeams": [
         "33390"
       ]
@@ -114,6 +132,15 @@
       "CODCLUB_CASA": "2930",
       "CODCLUB_FUERA": "1032",
       "NOMBRE_COMPETICION": "PREFERENT JUVENILS",
+      "SLUG_CASA": "pa-barc-cinc-copes-a-pj",
+      "SLUG_FUERA": "martinenc-fc-a-pj",
+      "CLUB_SLUG_CASA": "pa-barc-cinc-copes",
+      "CLUB_SLUG_FUERA": "martinenc-fc",
+      "COMPETICIO_URL": "preferent-juvenils",
+      "GRUPO_URL": "grup-2",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "pa-barc-cinc-copes-a-pj-vs-martinenc-fc-a-pj",
+      "MATCH_URL": "/partit/2026-2027/preferent-juvenils/grup-2/jornada-2/pa-barc-cinc-copes-a-pj-vs-martinenc-fc-a-pj",
       "trackedTeams": [
         "33390"
       ]
@@ -144,6 +171,15 @@
       "CODCLUB_CASA": "1014",
       "CODCLUB_FUERA": "1032",
       "NOMBRE_COMPETICION": "PREFERENT CADET S16",
+      "SLUG_CASA": "sant-andreu-ue-a-pc16",
+      "SLUG_FUERA": "martinenc-fc-a-pc16",
+      "CLUB_SLUG_CASA": "sant-andreu-ue",
+      "CLUB_SLUG_FUERA": "martinenc-fc",
+      "COMPETICIO_URL": "preferent-cadet-s16",
+      "GRUPO_URL": "grup-2",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "sant-andreu-ue-a-pc16-vs-martinenc-fc-a-pc16",
+      "MATCH_URL": "/partit/2026-2027/preferent-cadet-s16/grup-2/jornada-2/sant-andreu-ue-a-pc16-vs-martinenc-fc-a-pc16",
       "trackedTeams": [
         "54304670"
       ]
@@ -174,6 +210,15 @@
       "CODCLUB_CASA": "1032",
       "CODCLUB_FUERA": "1252",
       "NOMBRE_COMPETICION": "PREFERENT CADET S16",
+      "SLUG_CASA": "martinenc-fc-a-pc16",
+      "SLUG_FUERA": "pa-barc-anguera-a-pc16",
+      "CLUB_SLUG_CASA": "martinenc-fc",
+      "CLUB_SLUG_FUERA": "pa-barc-anguera",
+      "COMPETICIO_URL": "preferent-cadet-s16",
+      "GRUPO_URL": "grup-2",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "martinenc-fc-a-pc16-vs-pa-barc-anguera-a-pc16",
+      "MATCH_URL": "/partit/2026-2027/preferent-cadet-s16/grup-2/jornada-3/martinenc-fc-a-pc16-vs-pa-barc-anguera-a-pc16",
       "trackedTeams": [
         "54304670"
       ]
@@ -204,6 +249,15 @@
       "CODCLUB_CASA": "1221",
       "CODCLUB_FUERA": "1032",
       "NOMBRE_COMPETICION": "JUVENIL SEGONA DIVISIÓ",
+      "SLUG_CASA": "turo-peira-ccd-b-2j",
+      "SLUG_FUERA": "martinenc-fc-b-2j",
+      "CLUB_SLUG_CASA": "turo-peira-ccd",
+      "CLUB_SLUG_FUERA": "martinenc-fc",
+      "COMPETICIO_URL": "juvenil-segona-divisio",
+      "GRUPO_URL": "grup-11",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "turo-peira-ccd-b-2j-vs-martinenc-fc-b-2j",
+      "MATCH_URL": "/partit/2026-2027/juvenil-segona-divisio/grup-11/jornada-1/turo-peira-ccd-b-2j-vs-martinenc-fc-b-2j",
       "trackedTeams": [
         "33391"
       ]
@@ -234,6 +288,15 @@
       "CODCLUB_CASA": "1032",
       "CODCLUB_FUERA": "1398",
       "NOMBRE_COMPETICION": "PREFERENT JUVENILS",
+      "SLUG_CASA": "martinenc-fc-a-pj",
+      "SLUG_FUERA": "tiana-cce-a-pj",
+      "CLUB_SLUG_CASA": "martinenc-fc",
+      "CLUB_SLUG_FUERA": "tiana-cce",
+      "COMPETICIO_URL": "preferent-juvenils",
+      "GRUPO_URL": "grup-2",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "martinenc-fc-a-pj-vs-tiana-cce-a-pj",
+      "MATCH_URL": "/partit/2026-2027/preferent-juvenils/grup-2/jornada-3/martinenc-fc-a-pj-vs-tiana-cce-a-pj",
       "trackedTeams": [
         "33390"
       ]
@@ -264,6 +327,15 @@
       "CODCLUB_CASA": "6280",
       "CODCLUB_FUERA": "1032",
       "NOMBRE_COMPETICION": "JUVENIL SEGONA DIVISIÓ",
+      "SLUG_CASA": "arrabal-calaf-gramanet-cd-b-2j",
+      "SLUG_FUERA": "martinenc-fc-d-2j",
+      "CLUB_SLUG_CASA": "arrabal-calaf-gramanet-cd",
+      "CLUB_SLUG_FUERA": "martinenc-fc",
+      "COMPETICIO_URL": "juvenil-segona-divisio",
+      "GRUPO_URL": "grup-8",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "arrabal-calaf-gramanet-cd-b-2j-vs-martinenc-fc-d-2j",
+      "MATCH_URL": "/partit/2026-2027/juvenil-segona-divisio/grup-8/jornada-1/arrabal-calaf-gramanet-cd-b-2j-vs-martinenc-fc-d-2j",
       "trackedTeams": [
         "41606"
       ]
@@ -294,6 +366,15 @@
       "CODCLUB_CASA": "1032",
       "CODCLUB_FUERA": "2432",
       "NOMBRE_COMPETICION": "JUVENIL SEGONA DIVISIÓ",
+      "SLUG_CASA": "martinenc-fc-c-2j",
+      "SLUG_FUERA": "pa-barc-barcino-ce-c-2j",
+      "CLUB_SLUG_CASA": "martinenc-fc",
+      "CLUB_SLUG_FUERA": "pa-barc-barcino-ce",
+      "COMPETICIO_URL": "juvenil-segona-divisio",
+      "GRUPO_URL": "grup-9",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "martinenc-fc-c-2j-vs-pa-barc-barcino-ce-c-2j",
+      "MATCH_URL": "/partit/2026-2027/juvenil-segona-divisio/grup-9/jornada-1/martinenc-fc-c-2j-vs-pa-barc-barcino-ce-c-2j",
       "trackedTeams": [
         "41605"
       ]
@@ -324,6 +405,15 @@
       "CODCLUB_CASA": "6091",
       "CODCLUB_FUERA": "1032",
       "NOMBRE_COMPETICION": "PREFERENT CADET S16",
+      "SLUG_CASA": "unificacion-llefia-cf-a-pc16",
+      "SLUG_FUERA": "martinenc-fc-a-pc16",
+      "CLUB_SLUG_CASA": "unificacion-llefia-cf",
+      "CLUB_SLUG_FUERA": "martinenc-fc",
+      "COMPETICIO_URL": "preferent-cadet-s16",
+      "GRUPO_URL": "grup-2",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "unificacion-llefia-cf-a-pc16-vs-martinenc-fc-a-pc16",
+      "MATCH_URL": "/partit/2026-2027/preferent-cadet-s16/grup-2/jornada-4/unificacion-llefia-cf-a-pc16-vs-martinenc-fc-a-pc16",
       "trackedTeams": [
         "54304670"
       ]
@@ -354,6 +444,15 @@
       "CODCLUB_CASA": "31528564",
       "CODCLUB_FUERA": "1032",
       "NOMBRE_COMPETICION": "PREFERENT JUVENILS",
+      "SLUG_CASA": "fundacio-futbol-badalona-a-pj",
+      "SLUG_FUERA": "martinenc-fc-a-pj",
+      "CLUB_SLUG_CASA": "fundacio-futbol-badalona",
+      "CLUB_SLUG_FUERA": "martinenc-fc",
+      "COMPETICIO_URL": "preferent-juvenils",
+      "GRUPO_URL": "grup-2",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "fundacio-futbol-badalona-a-pj-vs-martinenc-fc-a-pj",
+      "MATCH_URL": "/partit/2026-2027/preferent-juvenils/grup-2/jornada-4/fundacio-futbol-badalona-a-pj-vs-martinenc-fc-a-pj",
       "trackedTeams": [
         "33390"
       ]
@@ -384,6 +483,15 @@
       "CODCLUB_CASA": "6280",
       "CODCLUB_FUERA": "1032",
       "NOMBRE_COMPETICION": "JUVENIL SEGONA DIVISIÓ",
+      "SLUG_CASA": "arrabal-calaf-gramanet-cd-c-2j",
+      "SLUG_FUERA": "martinenc-fc-c-2j",
+      "CLUB_SLUG_CASA": "arrabal-calaf-gramanet-cd",
+      "CLUB_SLUG_FUERA": "martinenc-fc",
+      "COMPETICIO_URL": "juvenil-segona-divisio",
+      "GRUPO_URL": "grup-9",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "arrabal-calaf-gramanet-cd-c-2j-vs-martinenc-fc-c-2j",
+      "MATCH_URL": "/partit/2026-2027/juvenil-segona-divisio/grup-9/jornada-2/arrabal-calaf-gramanet-cd-c-2j-vs-martinenc-fc-c-2j",
       "trackedTeams": [
         "41605"
       ]
@@ -414,6 +522,15 @@
       "CODCLUB_CASA": "1032",
       "CODCLUB_FUERA": "2235",
       "NOMBRE_COMPETICION": "JUVENIL SEGONA DIVISIÓ",
+      "SLUG_CASA": "martinenc-fc-b-2j",
+      "SLUG_FUERA": "parc-ud-b-2j",
+      "CLUB_SLUG_CASA": "martinenc-fc",
+      "CLUB_SLUG_FUERA": "parc-ud",
+      "COMPETICIO_URL": "juvenil-segona-divisio",
+      "GRUPO_URL": "grup-11",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "martinenc-fc-b-2j-vs-parc-ud-b-2j",
+      "MATCH_URL": "/partit/2026-2027/juvenil-segona-divisio/grup-11/jornada-2/martinenc-fc-b-2j-vs-parc-ud-b-2j",
       "trackedTeams": [
         "33391"
       ]
@@ -444,6 +561,15 @@
       "CODCLUB_CASA": "1032",
       "CODCLUB_FUERA": "1221",
       "NOMBRE_COMPETICION": "JUVENIL SEGONA DIVISIÓ",
+      "SLUG_CASA": "martinenc-fc-c-2j",
+      "SLUG_FUERA": "turo-peira-ccd-a-2j",
+      "CLUB_SLUG_CASA": "martinenc-fc",
+      "CLUB_SLUG_FUERA": "turo-peira-ccd",
+      "COMPETICIO_URL": "juvenil-segona-divisio",
+      "GRUPO_URL": "grup-9",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "martinenc-fc-c-2j-vs-turo-peira-ccd-a-2j",
+      "MATCH_URL": "/partit/2026-2027/juvenil-segona-divisio/grup-9/jornada-3/martinenc-fc-c-2j-vs-turo-peira-ccd-a-2j",
       "trackedTeams": [
         "41605"
       ]
@@ -474,6 +600,15 @@
       "CODCLUB_CASA": "1032",
       "CODCLUB_FUERA": "1131",
       "NOMBRE_COMPETICION": "PREFERENT CADET S16",
+      "SLUG_CASA": "martinenc-fc-a-pc16",
+      "SLUG_FUERA": "prat-ae-a-pc16",
+      "CLUB_SLUG_CASA": "martinenc-fc",
+      "CLUB_SLUG_FUERA": "prat-ae",
+      "COMPETICIO_URL": "preferent-cadet-s16",
+      "GRUPO_URL": "grup-2",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "martinenc-fc-a-pc16-vs-prat-ae-a-pc16",
+      "MATCH_URL": "/partit/2026-2027/preferent-cadet-s16/grup-2/jornada-5/martinenc-fc-a-pc16-vs-prat-ae-a-pc16",
       "trackedTeams": [
         "54304670"
       ]
@@ -504,6 +639,15 @@
       "CODCLUB_CASA": "1032",
       "CODCLUB_FUERA": "6054",
       "NOMBRE_COMPETICION": "PREFERENT JUVENILS",
+      "SLUG_CASA": "martinenc-fc-a-pj",
+      "SLUG_FUERA": "apa-poble-sec-ce-a-pj",
+      "CLUB_SLUG_CASA": "martinenc-fc",
+      "CLUB_SLUG_FUERA": "apa-poble-sec-ce",
+      "COMPETICIO_URL": "preferent-juvenils",
+      "GRUPO_URL": "grup-2",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "martinenc-fc-a-pj-vs-apa-poble-sec-ce-a-pj",
+      "MATCH_URL": "/partit/2026-2027/preferent-juvenils/grup-2/jornada-5/martinenc-fc-a-pj-vs-apa-poble-sec-ce-a-pj",
       "trackedTeams": [
         "33390"
       ]
@@ -534,6 +678,15 @@
       "CODCLUB_CASA": "7002081",
       "CODCLUB_FUERA": "1032",
       "NOMBRE_COMPETICION": "JUVENIL SEGONA DIVISIÓ",
+      "SLUG_CASA": "escola-f-angel-pedraza-b-2j",
+      "SLUG_FUERA": "martinenc-fc-b-2j",
+      "CLUB_SLUG_CASA": "escola-f-angel-pedraza",
+      "CLUB_SLUG_FUERA": "martinenc-fc",
+      "COMPETICIO_URL": "juvenil-segona-divisio",
+      "GRUPO_URL": "grup-11",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "escola-f-angel-pedraza-b-2j-vs-martinenc-fc-b-2j",
+      "MATCH_URL": "/partit/2026-2027/juvenil-segona-divisio/grup-11/jornada-3/escola-f-angel-pedraza-b-2j-vs-martinenc-fc-b-2j",
       "trackedTeams": [
         "33391"
       ]
@@ -564,6 +717,15 @@
       "CODCLUB_CASA": "1032",
       "CODCLUB_FUERA": "58901437",
       "NOMBRE_COMPETICION": "JUVENIL SEGONA DIVISIÓ",
+      "SLUG_CASA": "martinenc-fc-d-2j",
+      "SLUG_FUERA": "ce-sant-adria-2026-a-2j",
+      "CLUB_SLUG_CASA": "martinenc-fc",
+      "CLUB_SLUG_FUERA": "sant-adria-2026",
+      "COMPETICIO_URL": "juvenil-segona-divisio",
+      "GRUPO_URL": "grup-8",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "martinenc-fc-d-2j-vs-ce-sant-adria-2026-a-2j",
+      "MATCH_URL": "/partit/2026-2027/juvenil-segona-divisio/grup-8/jornada-4/martinenc-fc-d-2j-vs-ce-sant-adria-2026-a-2j",
       "trackedTeams": [
         "41606"
       ]
@@ -594,6 +756,15 @@
       "CODCLUB_CASA": "1032",
       "CODCLUB_FUERA": "2192",
       "NOMBRE_COMPETICION": "JUVENIL SEGONA DIVISIÓ",
+      "SLUG_CASA": "martinenc-fc-b-2j",
+      "SLUG_FUERA": "carmelo-cd-b-2j",
+      "CLUB_SLUG_CASA": "martinenc-fc",
+      "CLUB_SLUG_FUERA": "carmelo-cd",
+      "COMPETICIO_URL": "juvenil-segona-divisio",
+      "GRUPO_URL": "grup-11",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "martinenc-fc-b-2j-vs-carmelo-cd-b-2j",
+      "MATCH_URL": "/partit/2026-2027/juvenil-segona-divisio/grup-11/jornada-4/martinenc-fc-b-2j-vs-carmelo-cd-b-2j",
       "trackedTeams": [
         "33391"
       ]
@@ -624,6 +795,15 @@
       "CODCLUB_CASA": "6390",
       "CODCLUB_FUERA": "1032",
       "NOMBRE_COMPETICION": "JUVENIL SEGONA DIVISIÓ",
+      "SLUG_CASA": "escola-esportiva-guineueta-cf-d-2j",
+      "SLUG_FUERA": "martinenc-fc-c-2j",
+      "CLUB_SLUG_CASA": "escola-esportiva-guineueta-cf",
+      "CLUB_SLUG_FUERA": "martinenc-fc",
+      "COMPETICIO_URL": "juvenil-segona-divisio",
+      "GRUPO_URL": "grup-9",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "escola-esportiva-guineueta-cf-d-2j-vs-martinenc-fc-c-2j",
+      "MATCH_URL": "/partit/2026-2027/juvenil-segona-divisio/grup-9/jornada-4/escola-esportiva-guineueta-cf-d-2j-vs-martinenc-fc-c-2j",
       "trackedTeams": [
         "41605"
       ]
@@ -654,6 +834,15 @@
       "CODCLUB_CASA": "1049",
       "CODCLUB_FUERA": "1032",
       "NOMBRE_COMPETICION": "PREFERENT JUVENILS",
+      "SLUG_CASA": "horta-uat-a-pj",
+      "SLUG_FUERA": "martinenc-fc-a-pj",
+      "CLUB_SLUG_CASA": "horta-uat",
+      "CLUB_SLUG_FUERA": "martinenc-fc",
+      "COMPETICIO_URL": "preferent-juvenils",
+      "GRUPO_URL": "grup-2",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "horta-uat-a-pj-vs-martinenc-fc-a-pj",
+      "MATCH_URL": "/partit/2026-2027/preferent-juvenils/grup-2/jornada-6/horta-uat-a-pj-vs-martinenc-fc-a-pj",
       "trackedTeams": [
         "33390"
       ]
@@ -684,6 +873,15 @@
       "CODCLUB_CASA": "6399",
       "CODCLUB_FUERA": "1032",
       "NOMBRE_COMPETICION": "PREFERENT CADET S16",
+      "SLUG_CASA": "congres-club-esp-a-pc16",
+      "SLUG_FUERA": "martinenc-fc-a-pc16",
+      "CLUB_SLUG_CASA": "congres-club-esp",
+      "CLUB_SLUG_FUERA": "martinenc-fc",
+      "COMPETICIO_URL": "preferent-cadet-s16",
+      "GRUPO_URL": "grup-2",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "congres-club-esp-a-pc16-vs-martinenc-fc-a-pc16",
+      "MATCH_URL": "/partit/2026-2027/preferent-cadet-s16/grup-2/jornada-6/congres-club-esp-a-pc16-vs-martinenc-fc-a-pc16",
       "trackedTeams": [
         "54304670"
       ]
@@ -714,6 +912,15 @@
       "CODCLUB_CASA": "6280",
       "CODCLUB_FUERA": "1032",
       "NOMBRE_COMPETICION": "JUVENIL SEGONA DIVISIÓ",
+      "SLUG_CASA": "arrabal-calaf-gramanet-cd-b-2j",
+      "SLUG_FUERA": "martinenc-fc-d-2j",
+      "CLUB_SLUG_CASA": "arrabal-calaf-gramanet-cd",
+      "CLUB_SLUG_FUERA": "martinenc-fc",
+      "COMPETICIO_URL": "juvenil-segona-divisio",
+      "GRUPO_URL": "grup-8",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "arrabal-calaf-gramanet-cd-b-2j-vs-martinenc-fc-d-2j",
+      "MATCH_URL": "/partit/2026-2027/juvenil-segona-divisio/grup-8/jornada-1/arrabal-calaf-gramanet-cd-b-2j-vs-martinenc-fc-d-2j",
       "trackedTeams": [
         "41606"
       ]
@@ -744,6 +951,15 @@
       "CODCLUB_CASA": "1032",
       "CODCLUB_FUERA": "1011",
       "NOMBRE_COMPETICION": "PREFERENT CADET S16",
+      "SLUG_CASA": "martinenc-fc-a-pc16",
+      "SLUG_FUERA": "europa-ce-b-pc16",
+      "CLUB_SLUG_CASA": "martinenc-fc",
+      "CLUB_SLUG_FUERA": "europa-ce",
+      "COMPETICIO_URL": "preferent-cadet-s16",
+      "GRUPO_URL": "grup-2",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "martinenc-fc-a-pc16-vs-europa-ce-b-pc16",
+      "MATCH_URL": "/partit/2026-2027/preferent-cadet-s16/grup-2/jornada-7/martinenc-fc-a-pc16-vs-europa-ce-b-pc16",
       "trackedTeams": [
         "54304670"
       ]
@@ -774,6 +990,15 @@
       "CODCLUB_CASA": "2432",
       "CODCLUB_FUERA": "1032",
       "NOMBRE_COMPETICION": "JUVENIL SEGONA DIVISIÓ",
+      "SLUG_CASA": "pa-barc-barcino-ce-b-2j",
+      "SLUG_FUERA": "martinenc-fc-b-2j",
+      "CLUB_SLUG_CASA": "pa-barc-barcino-ce",
+      "CLUB_SLUG_FUERA": "martinenc-fc",
+      "COMPETICIO_URL": "juvenil-segona-divisio",
+      "GRUPO_URL": "grup-11",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "pa-barc-barcino-ce-b-2j-vs-martinenc-fc-b-2j",
+      "MATCH_URL": "/partit/2026-2027/juvenil-segona-divisio/grup-11/jornada-5/pa-barc-barcino-ce-b-2j-vs-martinenc-fc-b-2j",
       "trackedTeams": [
         "33391"
       ]
@@ -804,6 +1029,15 @@
       "CODCLUB_CASA": "1696",
       "CODCLUB_FUERA": "1032",
       "NOMBRE_COMPETICION": "JUVENIL SEGONA DIVISIÓ",
+      "SLUG_CASA": "alzamora-cf-b-2j",
+      "SLUG_FUERA": "martinenc-fc-d-2j",
+      "CLUB_SLUG_CASA": "alzamora-cf",
+      "CLUB_SLUG_FUERA": "martinenc-fc",
+      "COMPETICIO_URL": "juvenil-segona-divisio",
+      "GRUPO_URL": "grup-8",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "alzamora-cf-b-2j-vs-martinenc-fc-d-2j",
+      "MATCH_URL": "/partit/2026-2027/juvenil-segona-divisio/grup-8/jornada-5/alzamora-cf-b-2j-vs-martinenc-fc-d-2j",
       "trackedTeams": [
         "41606"
       ]
@@ -834,6 +1068,15 @@
       "CODCLUB_CASA": "6178",
       "CODCLUB_FUERA": "1032",
       "NOMBRE_COMPETICION": "PREFERENT JUVENILS",
+      "SLUG_CASA": "fundacio-p-ce-jupiter-a-pj",
+      "SLUG_FUERA": "martinenc-fc-a-pj",
+      "CLUB_SLUG_CASA": "fundacio-p-ce-jupiter",
+      "CLUB_SLUG_FUERA": "martinenc-fc",
+      "COMPETICIO_URL": "preferent-juvenils",
+      "GRUPO_URL": "grup-2",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "fundacio-p-ce-jupiter-a-pj-vs-martinenc-fc-a-pj",
+      "MATCH_URL": "/partit/2026-2027/preferent-juvenils/grup-2/jornada-7/fundacio-p-ce-jupiter-a-pj-vs-martinenc-fc-a-pj",
       "trackedTeams": [
         "33390"
       ]
@@ -864,6 +1107,15 @@
       "CODCLUB_CASA": "1032",
       "CODCLUB_FUERA": "1339",
       "NOMBRE_COMPETICION": "JUVENIL SEGONA DIVISIÓ",
+      "SLUG_CASA": "martinenc-fc-c-2j",
+      "SLUG_FUERA": "lloreda-cf-b-2j",
+      "CLUB_SLUG_CASA": "martinenc-fc",
+      "CLUB_SLUG_FUERA": "lloreda-cf",
+      "COMPETICIO_URL": "juvenil-segona-divisio",
+      "GRUPO_URL": "grup-9",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "martinenc-fc-c-2j-vs-lloreda-cf-b-2j",
+      "MATCH_URL": "/partit/2026-2027/juvenil-segona-divisio/grup-9/jornada-5/martinenc-fc-c-2j-vs-lloreda-cf-b-2j",
       "trackedTeams": [
         "41605"
       ]
@@ -894,6 +1146,15 @@
       "CODCLUB_CASA": "1032",
       "CODCLUB_FUERA": "6178",
       "NOMBRE_COMPETICION": "JUVENIL SEGONA DIVISIÓ",
+      "SLUG_CASA": "martinenc-fc-d-2j",
+      "SLUG_FUERA": "fundacio-p-ce-jupiter-b-2j",
+      "CLUB_SLUG_CASA": "martinenc-fc",
+      "CLUB_SLUG_FUERA": "fundacio-p-ce-jupiter",
+      "COMPETICIO_URL": "juvenil-segona-divisio",
+      "GRUPO_URL": "grup-8",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "martinenc-fc-d-2j-vs-fundacio-p-ce-jupiter-b-2j",
+      "MATCH_URL": "/partit/2026-2027/juvenil-segona-divisio/grup-8/jornada-6/martinenc-fc-d-2j-vs-fundacio-p-ce-jupiter-b-2j",
       "trackedTeams": [
         "41606"
       ]
@@ -924,6 +1185,15 @@
       "CODCLUB_CASA": "58901437",
       "CODCLUB_FUERA": "1032",
       "NOMBRE_COMPETICION": "JUVENIL SEGONA DIVISIÓ",
+      "SLUG_CASA": "ce-sant-adria-2026-b-2j",
+      "SLUG_FUERA": "martinenc-fc-c-2j",
+      "CLUB_SLUG_CASA": "sant-adria-2026",
+      "CLUB_SLUG_FUERA": "martinenc-fc",
+      "COMPETICIO_URL": "juvenil-segona-divisio",
+      "GRUPO_URL": "grup-9",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "ce-sant-adria-2026-b-2j-vs-martinenc-fc-c-2j",
+      "MATCH_URL": "/partit/2026-2027/juvenil-segona-divisio/grup-9/jornada-6/ce-sant-adria-2026-b-2j-vs-martinenc-fc-c-2j",
       "trackedTeams": [
         "41605"
       ]
@@ -954,6 +1224,15 @@
       "CODCLUB_CASA": "18476477",
       "CODCLUB_FUERA": "1032",
       "NOMBRE_COMPETICION": "PREFERENT CADET S16",
+      "SLUG_CASA": "fundacio-esportiva-grama-a-pc16",
+      "SLUG_FUERA": "martinenc-fc-a-pc16",
+      "CLUB_SLUG_CASA": "fundacio-esportiva-grama",
+      "CLUB_SLUG_FUERA": "martinenc-fc",
+      "COMPETICIO_URL": "preferent-cadet-s16",
+      "GRUPO_URL": "grup-2",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "fundacio-esportiva-grama-a-pc16-vs-martinenc-fc-a-pc16",
+      "MATCH_URL": "/partit/2026-2027/preferent-cadet-s16/grup-2/jornada-8/fundacio-esportiva-grama-a-pc16-vs-martinenc-fc-a-pc16",
       "trackedTeams": [
         "54304670"
       ]
@@ -984,6 +1263,15 @@
       "CODCLUB_CASA": "1032",
       "CODCLUB_FUERA": "1194",
       "NOMBRE_COMPETICION": "PREFERENT JUVENILS",
+      "SLUG_CASA": "martinenc-fc-a-pj",
+      "SLUG_FUERA": "sarria-cp-a-pj",
+      "CLUB_SLUG_CASA": "martinenc-fc",
+      "CLUB_SLUG_FUERA": "sarria-cp",
+      "COMPETICIO_URL": "preferent-juvenils",
+      "GRUPO_URL": "grup-2",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "martinenc-fc-a-pj-vs-sarria-cp-a-pj",
+      "MATCH_URL": "/partit/2026-2027/preferent-juvenils/grup-2/jornada-8/martinenc-fc-a-pj-vs-sarria-cp-a-pj",
       "trackedTeams": [
         "33390"
       ]
@@ -1014,6 +1302,15 @@
       "CODCLUB_CASA": "1032",
       "CODCLUB_FUERA": "1339",
       "NOMBRE_COMPETICION": "JUVENIL SEGONA DIVISIÓ",
+      "SLUG_CASA": "martinenc-fc-b-2j",
+      "SLUG_FUERA": "lloreda-cf-a-2j",
+      "CLUB_SLUG_CASA": "martinenc-fc",
+      "CLUB_SLUG_FUERA": "lloreda-cf",
+      "COMPETICIO_URL": "juvenil-segona-divisio",
+      "GRUPO_URL": "grup-11",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "martinenc-fc-b-2j-vs-lloreda-cf-a-2j",
+      "MATCH_URL": "/partit/2026-2027/juvenil-segona-divisio/grup-11/jornada-6/martinenc-fc-b-2j-vs-lloreda-cf-a-2j",
       "trackedTeams": [
         "33391"
       ]
@@ -1044,6 +1341,15 @@
       "CODCLUB_CASA": "1032",
       "CODCLUB_FUERA": "6046",
       "NOMBRE_COMPETICION": "JUVENIL SEGONA DIVISIÓ",
+      "SLUG_CASA": "martinenc-fc-b-2j",
+      "SLUG_FUERA": "unificacion-bellvitge-ud-c-2j",
+      "CLUB_SLUG_CASA": "martinenc-fc",
+      "CLUB_SLUG_FUERA": "unificacion-bellvitge-ud",
+      "COMPETICIO_URL": "juvenil-segona-divisio",
+      "GRUPO_URL": "grup-11",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "martinenc-fc-b-2j-vs-unificacion-bellvitge-ud-c-2j",
+      "MATCH_URL": "/partit/2026-2027/juvenil-segona-divisio/grup-11/jornada-7/martinenc-fc-b-2j-vs-unificacion-bellvitge-ud-c-2j",
       "trackedTeams": [
         "33391"
       ]
@@ -1074,6 +1380,15 @@
       "CODCLUB_CASA": "1093",
       "CODCLUB_FUERA": "1032",
       "NOMBRE_COMPETICION": "JUVENIL SEGONA DIVISIÓ",
+      "SLUG_CASA": "poble-nou-at-b-2j",
+      "SLUG_FUERA": "martinenc-fc-d-2j",
+      "CLUB_SLUG_CASA": "poble-nou-at",
+      "CLUB_SLUG_FUERA": "martinenc-fc",
+      "COMPETICIO_URL": "juvenil-segona-divisio",
+      "GRUPO_URL": "grup-8",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "poble-nou-at-b-2j-vs-martinenc-fc-d-2j",
+      "MATCH_URL": "/partit/2026-2027/juvenil-segona-divisio/grup-8/jornada-7/poble-nou-at-b-2j-vs-martinenc-fc-d-2j",
       "trackedTeams": [
         "41606"
       ]
@@ -1104,6 +1419,15 @@
       "CODCLUB_CASA": "1032",
       "CODCLUB_FUERA": "6070",
       "NOMBRE_COMPETICION": "JUVENIL SEGONA DIVISIÓ",
+      "SLUG_CASA": "martinenc-fc-c-2j",
+      "SLUG_FUERA": "canyelles-ce-b-2j",
+      "CLUB_SLUG_CASA": "martinenc-fc",
+      "CLUB_SLUG_FUERA": "canyelles-ce",
+      "COMPETICIO_URL": "juvenil-segona-divisio",
+      "GRUPO_URL": "grup-9",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "martinenc-fc-c-2j-vs-canyelles-ce-b-2j",
+      "MATCH_URL": "/partit/2026-2027/juvenil-segona-divisio/grup-9/jornada-7/martinenc-fc-c-2j-vs-canyelles-ce-b-2j",
       "trackedTeams": [
         "41605"
       ]
@@ -1134,6 +1458,15 @@
       "CODCLUB_CASA": "54296375",
       "CODCLUB_FUERA": "1032",
       "NOMBRE_COMPETICION": "PREFERENT CADET S16",
+      "SLUG_CASA": "fundacio-atletic-sant-just-a-pc16",
+      "SLUG_FUERA": "martinenc-fc-a-pc16",
+      "CLUB_SLUG_CASA": "fundacio-atletic-sant-just",
+      "CLUB_SLUG_FUERA": "martinenc-fc",
+      "COMPETICIO_URL": "preferent-cadet-s16",
+      "GRUPO_URL": "grup-2",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "fundacio-atletic-sant-just-a-pc16-vs-martinenc-fc-a-pc16",
+      "MATCH_URL": "/partit/2026-2027/preferent-cadet-s16/grup-2/jornada-9/fundacio-atletic-sant-just-a-pc16-vs-martinenc-fc-a-pc16",
       "trackedTeams": [
         "54304670"
       ]
@@ -1164,6 +1497,15 @@
       "CODCLUB_CASA": "1252",
       "CODCLUB_FUERA": "1032",
       "NOMBRE_COMPETICION": "PREFERENT JUVENILS",
+      "SLUG_CASA": "pa-barc-anguera-a-pj",
+      "SLUG_FUERA": "martinenc-fc-a-pj",
+      "CLUB_SLUG_CASA": "pa-barc-anguera",
+      "CLUB_SLUG_FUERA": "martinenc-fc",
+      "COMPETICIO_URL": "preferent-juvenils",
+      "GRUPO_URL": "grup-2",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "pa-barc-anguera-a-pj-vs-martinenc-fc-a-pj",
+      "MATCH_URL": "/partit/2026-2027/preferent-juvenils/grup-2/jornada-9/pa-barc-anguera-a-pj-vs-martinenc-fc-a-pj",
       "trackedTeams": [
         "33390"
       ]
@@ -1181,11 +1523,11 @@
       "RETIRADO_CASA": 0,
       "RETIRADO_FUERA": 0,
       "CAMPO": "CAMP DE FUTBOL CEM GUINARDÓ",
-      "GOLES_CASA": null,
-      "GOLES_FUERA": null,
+      "GOLES_CASA": "2",
+      "GOLES_FUERA": "1",
       "COMIENZO1": "2026-11-18 20:30:00",
-      "CERRADA": "0",
-      "ESTADO": "0",
+      "CERRADA": "1",
+      "ESTADO": "1",
       "GRUPO": "GRUP 2",
       "GRUPO_CERRADO": "1",
       "LATITUD": "41.416368",
@@ -1194,6 +1536,15 @@
       "CODCLUB_CASA": "1032",
       "CODCLUB_FUERA": "1398",
       "NOMBRE_COMPETICION": "PREFERENT JUVENILS",
+      "SLUG_CASA": "martinenc-fc-a-pj",
+      "SLUG_FUERA": "tiana-cce-a-pj",
+      "CLUB_SLUG_CASA": "martinenc-fc",
+      "CLUB_SLUG_FUERA": "tiana-cce",
+      "COMPETICIO_URL": "preferent-juvenils",
+      "GRUPO_URL": "grup-2",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "martinenc-fc-a-pj-vs-tiana-cce-a-pj",
+      "MATCH_URL": "/partit/2026-2027/preferent-juvenils/grup-2/jornada-3/martinenc-fc-a-pj-vs-tiana-cce-a-pj",
       "trackedTeams": [
         "33390"
       ]
@@ -1224,6 +1575,15 @@
       "CODCLUB_CASA": "1198",
       "CODCLUB_FUERA": "1032",
       "NOMBRE_COMPETICION": "JUVENIL SEGONA DIVISIÓ",
+      "SLUG_CASA": "singuerlin-cf-a-2j",
+      "SLUG_FUERA": "martinenc-fc-c-2j",
+      "CLUB_SLUG_CASA": "singuerlin-cf",
+      "CLUB_SLUG_FUERA": "martinenc-fc",
+      "COMPETICIO_URL": "juvenil-segona-divisio",
+      "GRUPO_URL": "grup-9",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "singuerlin-cf-a-2j-vs-martinenc-fc-c-2j",
+      "MATCH_URL": "/partit/2026-2027/juvenil-segona-divisio/grup-9/jornada-8/singuerlin-cf-a-2j-vs-martinenc-fc-c-2j",
       "trackedTeams": [
         "41605"
       ]
@@ -1254,6 +1614,15 @@
       "CODCLUB_CASA": "1032",
       "CODCLUB_FUERA": "6046",
       "NOMBRE_COMPETICION": "PREFERENT JUVENILS",
+      "SLUG_CASA": "martinenc-fc-a-pj",
+      "SLUG_FUERA": "unificacion-bellvitge-ud-a-pj",
+      "CLUB_SLUG_CASA": "martinenc-fc",
+      "CLUB_SLUG_FUERA": "unificacion-bellvitge-ud",
+      "COMPETICIO_URL": "preferent-juvenils",
+      "GRUPO_URL": "grup-2",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "martinenc-fc-a-pj-vs-unificacion-bellvitge-ud-a-pj",
+      "MATCH_URL": "/partit/2026-2027/preferent-juvenils/grup-2/jornada-10/martinenc-fc-a-pj-vs-unificacion-bellvitge-ud-a-pj",
       "trackedTeams": [
         "33390"
       ]
@@ -1284,6 +1653,15 @@
       "CODCLUB_CASA": "1032",
       "CODCLUB_FUERA": "1140",
       "NOMBRE_COMPETICION": "JUVENIL SEGONA DIVISIÓ",
+      "SLUG_CASA": "martinenc-fc-d-2j",
+      "SLUG_FUERA": "bufala-cf-e-2j",
+      "CLUB_SLUG_CASA": "martinenc-fc",
+      "CLUB_SLUG_FUERA": "bufala-cf",
+      "COMPETICIO_URL": "juvenil-segona-divisio",
+      "GRUPO_URL": "grup-8",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "martinenc-fc-d-2j-vs-bufala-cf-e-2j",
+      "MATCH_URL": "/partit/2026-2027/juvenil-segona-divisio/grup-8/jornada-8/martinenc-fc-d-2j-vs-bufala-cf-e-2j",
       "trackedTeams": [
         "41606"
       ]
@@ -1314,6 +1692,15 @@
       "CODCLUB_CASA": "1011",
       "CODCLUB_FUERA": "1032",
       "NOMBRE_COMPETICION": "JUVENIL SEGONA DIVISIÓ",
+      "SLUG_CASA": "europa-ce-d-2j",
+      "SLUG_FUERA": "martinenc-fc-b-2j",
+      "CLUB_SLUG_CASA": "europa-ce",
+      "CLUB_SLUG_FUERA": "martinenc-fc",
+      "COMPETICIO_URL": "juvenil-segona-divisio",
+      "GRUPO_URL": "grup-11",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "europa-ce-d-2j-vs-martinenc-fc-b-2j",
+      "MATCH_URL": "/partit/2026-2027/juvenil-segona-divisio/grup-11/jornada-8/europa-ce-d-2j-vs-martinenc-fc-b-2j",
       "trackedTeams": [
         "33391"
       ]
@@ -1344,6 +1731,15 @@
       "CODCLUB_CASA": "1032",
       "CODCLUB_FUERA": "1241",
       "NOMBRE_COMPETICION": "PREFERENT CADET S16",
+      "SLUG_CASA": "martinenc-fc-a-pc16",
+      "SLUG_FUERA": "sant-gabriel-cd-a-pc16",
+      "CLUB_SLUG_CASA": "martinenc-fc",
+      "CLUB_SLUG_FUERA": "sant-gabriel-cd",
+      "COMPETICIO_URL": "preferent-cadet-s16",
+      "GRUPO_URL": "grup-2",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "martinenc-fc-a-pc16-vs-sant-gabriel-cd-a-pc16",
+      "MATCH_URL": "/partit/2026-2027/preferent-cadet-s16/grup-2/jornada-10/martinenc-fc-a-pc16-vs-sant-gabriel-cd-a-pc16",
       "trackedTeams": [
         "54304670"
       ]
@@ -1374,6 +1770,15 @@
       "CODCLUB_CASA": "1051",
       "CODCLUB_FUERA": "1032",
       "NOMBRE_COMPETICION": "PREFERENT CADET S16",
+      "SLUG_CASA": "sants-ue-a-pc16",
+      "SLUG_FUERA": "martinenc-fc-a-pc16",
+      "CLUB_SLUG_CASA": "sants-ue",
+      "CLUB_SLUG_FUERA": "martinenc-fc",
+      "COMPETICIO_URL": "preferent-cadet-s16",
+      "GRUPO_URL": "grup-2",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "sants-ue-a-pc16-vs-martinenc-fc-a-pc16",
+      "MATCH_URL": "/partit/2026-2027/preferent-cadet-s16/grup-2/jornada-11/sants-ue-a-pc16-vs-martinenc-fc-a-pc16",
       "trackedTeams": [
         "54304670"
       ]
@@ -1404,6 +1809,15 @@
       "CODCLUB_CASA": "1032",
       "CODCLUB_FUERA": "1198",
       "NOMBRE_COMPETICION": "JUVENIL SEGONA DIVISIÓ",
+      "SLUG_CASA": "martinenc-fc-b-2j",
+      "SLUG_FUERA": "singuerlin-cf-c-2j",
+      "CLUB_SLUG_CASA": "martinenc-fc",
+      "CLUB_SLUG_FUERA": "singuerlin-cf",
+      "COMPETICIO_URL": "juvenil-segona-divisio",
+      "GRUPO_URL": "grup-11",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "martinenc-fc-b-2j-vs-singuerlin-cf-c-2j",
+      "MATCH_URL": "/partit/2026-2027/juvenil-segona-divisio/grup-11/jornada-9/martinenc-fc-b-2j-vs-singuerlin-cf-c-2j",
       "trackedTeams": [
         "33391"
       ]
@@ -1434,6 +1848,15 @@
       "CODCLUB_CASA": "1207",
       "CODCLUB_FUERA": "1032",
       "NOMBRE_COMPETICION": "PREFERENT JUVENILS",
+      "SLUG_CASA": "damm-cf-c-pj",
+      "SLUG_FUERA": "martinenc-fc-a-pj",
+      "CLUB_SLUG_CASA": "damm-cf",
+      "CLUB_SLUG_FUERA": "martinenc-fc",
+      "COMPETICIO_URL": "preferent-juvenils",
+      "GRUPO_URL": "grup-2",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "damm-cf-c-pj-vs-martinenc-fc-a-pj",
+      "MATCH_URL": "/partit/2026-2027/preferent-juvenils/grup-2/jornada-11/damm-cf-c-pj-vs-martinenc-fc-a-pj",
       "trackedTeams": [
         "33390"
       ]
@@ -1464,6 +1887,15 @@
       "CODCLUB_CASA": "1032",
       "CODCLUB_FUERA": "28484246",
       "NOMBRE_COMPETICION": "JUVENIL SEGONA DIVISIÓ",
+      "SLUG_CASA": "martinenc-fc-c-2j",
+      "SLUG_FUERA": "hailukong-barcelona-club-futbol-a-2j",
+      "CLUB_SLUG_CASA": "martinenc-fc",
+      "CLUB_SLUG_FUERA": "hailukong-barcelona-club-futbol",
+      "COMPETICIO_URL": "juvenil-segona-divisio",
+      "GRUPO_URL": "grup-9",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "martinenc-fc-c-2j-vs-hailukong-barcelona-club-futbol-a-2j",
+      "MATCH_URL": "/partit/2026-2027/juvenil-segona-divisio/grup-9/jornada-9/martinenc-fc-c-2j-vs-hailukong-barcelona-club-futbol-a-2j",
       "trackedTeams": [
         "41605"
       ]
@@ -1494,6 +1926,15 @@
       "CODCLUB_CASA": "1032",
       "CODCLUB_FUERA": "6390",
       "NOMBRE_COMPETICION": "JUVENIL SEGONA DIVISIÓ",
+      "SLUG_CASA": "martinenc-fc-d-2j",
+      "SLUG_FUERA": "escola-esportiva-guineueta-cf-c-2j",
+      "CLUB_SLUG_CASA": "martinenc-fc",
+      "CLUB_SLUG_FUERA": "escola-esportiva-guineueta-cf",
+      "COMPETICIO_URL": "juvenil-segona-divisio",
+      "GRUPO_URL": "grup-8",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "martinenc-fc-d-2j-vs-escola-esportiva-guineueta-cf-c-2j",
+      "MATCH_URL": "/partit/2026-2027/juvenil-segona-divisio/grup-8/jornada-9/martinenc-fc-d-2j-vs-escola-esportiva-guineueta-cf-c-2j",
       "trackedTeams": [
         "41606"
       ]
@@ -1524,6 +1965,15 @@
       "CODCLUB_CASA": "1032",
       "CODCLUB_FUERA": "2925",
       "NOMBRE_COMPETICION": "PREFERENT CADET S16",
+      "SLUG_CASA": "martinenc-fc-a-pc16",
+      "SLUG_FUERA": "vinyets-moli-vell-cf-a-pc16",
+      "CLUB_SLUG_CASA": "martinenc-fc",
+      "CLUB_SLUG_FUERA": "vinyets-moli-vell-cf",
+      "COMPETICIO_URL": "preferent-cadet-s16",
+      "GRUPO_URL": "grup-2",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "martinenc-fc-a-pc16-vs-vinyets-moli-vell-cf-a-pc16",
+      "MATCH_URL": "/partit/2026-2027/preferent-cadet-s16/grup-2/jornada-12/martinenc-fc-a-pc16-vs-vinyets-moli-vell-cf-a-pc16",
       "trackedTeams": [
         "54304670"
       ]
@@ -1554,6 +2004,15 @@
       "CODCLUB_CASA": "1032",
       "CODCLUB_FUERA": "1189",
       "NOMBRE_COMPETICION": "PREFERENT JUVENILS",
+      "SLUG_CASA": "martinenc-fc-a-pj",
+      "SLUG_FUERA": "cornella-ue-sad-b-pj",
+      "CLUB_SLUG_CASA": "martinenc-fc",
+      "CLUB_SLUG_FUERA": "cornella-ue-sad",
+      "COMPETICIO_URL": "preferent-juvenils",
+      "GRUPO_URL": "grup-2",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "martinenc-fc-a-pj-vs-cornella-ue-sad-b-pj",
+      "MATCH_URL": "/partit/2026-2027/preferent-juvenils/grup-2/jornada-12/martinenc-fc-a-pj-vs-cornella-ue-sad-b-pj",
       "trackedTeams": [
         "33390"
       ]
@@ -1584,6 +2043,15 @@
       "CODCLUB_CASA": "6091",
       "CODCLUB_FUERA": "1032",
       "NOMBRE_COMPETICION": "JUVENIL SEGONA DIVISIÓ",
+      "SLUG_CASA": "unificacion-llefia-cf-a-2j",
+      "SLUG_FUERA": "martinenc-fc-d-2j",
+      "CLUB_SLUG_CASA": "unificacion-llefia-cf",
+      "CLUB_SLUG_FUERA": "martinenc-fc",
+      "COMPETICIO_URL": "juvenil-segona-divisio",
+      "GRUPO_URL": "grup-8",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "unificacion-llefia-cf-a-2j-vs-martinenc-fc-d-2j",
+      "MATCH_URL": "/partit/2026-2027/juvenil-segona-divisio/grup-8/jornada-10/unificacion-llefia-cf-a-2j-vs-martinenc-fc-d-2j",
       "trackedTeams": [
         "41606"
       ]
@@ -1614,6 +2082,15 @@
       "CODCLUB_CASA": "1321",
       "CODCLUB_FUERA": "1032",
       "NOMBRE_COMPETICION": "JUVENIL SEGONA DIVISIÓ",
+      "SLUG_CASA": "pomar-cd-c-2j",
+      "SLUG_FUERA": "martinenc-fc-b-2j",
+      "CLUB_SLUG_CASA": "pomar-cd",
+      "CLUB_SLUG_FUERA": "martinenc-fc",
+      "COMPETICIO_URL": "juvenil-segona-divisio",
+      "GRUPO_URL": "grup-11",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "pomar-cd-c-2j-vs-martinenc-fc-b-2j",
+      "MATCH_URL": "/partit/2026-2027/juvenil-segona-divisio/grup-11/jornada-10/pomar-cd-c-2j-vs-martinenc-fc-b-2j",
       "trackedTeams": [
         "33391"
       ]
@@ -1644,6 +2121,15 @@
       "CODCLUB_CASA": "6278",
       "CODCLUB_FUERA": "1032",
       "NOMBRE_COMPETICION": "PREFERENT CADET S16",
+      "SLUG_CASA": "can-buxeres-fc-a-pc16",
+      "SLUG_FUERA": "martinenc-fc-a-pc16",
+      "CLUB_SLUG_CASA": "can-buxeres-fc",
+      "CLUB_SLUG_FUERA": "martinenc-fc",
+      "COMPETICIO_URL": "preferent-cadet-s16",
+      "GRUPO_URL": "grup-2",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "can-buxeres-fc-a-pc16-vs-martinenc-fc-a-pc16",
+      "MATCH_URL": "/partit/2026-2027/preferent-cadet-s16/grup-2/jornada-13/can-buxeres-fc-a-pc16-vs-martinenc-fc-a-pc16",
       "trackedTeams": [
         "54304670"
       ]
@@ -1674,6 +2160,15 @@
       "CODCLUB_CASA": "1032",
       "CODCLUB_FUERA": "1014",
       "NOMBRE_COMPETICION": "JUVENIL SEGONA DIVISIÓ",
+      "SLUG_CASA": "martinenc-fc-b-2j",
+      "SLUG_FUERA": "sant-andreu-ue-e-2j",
+      "CLUB_SLUG_CASA": "martinenc-fc",
+      "CLUB_SLUG_FUERA": "sant-andreu-ue",
+      "COMPETICIO_URL": "juvenil-segona-divisio",
+      "GRUPO_URL": "grup-11",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "martinenc-fc-b-2j-vs-sant-andreu-ue-e-2j",
+      "MATCH_URL": "/partit/2026-2027/juvenil-segona-divisio/grup-11/jornada-11/martinenc-fc-b-2j-vs-sant-andreu-ue-e-2j",
       "trackedTeams": [
         "33391"
       ]
@@ -1704,6 +2199,15 @@
       "CODCLUB_CASA": "1372",
       "CODCLUB_FUERA": "1032",
       "NOMBRE_COMPETICION": "PREFERENT JUVENILS",
+      "SLUG_CASA": "can-vidalet-cf-a-pj",
+      "SLUG_FUERA": "martinenc-fc-a-pj",
+      "CLUB_SLUG_CASA": "can-vidalet-cf",
+      "CLUB_SLUG_FUERA": "martinenc-fc",
+      "COMPETICIO_URL": "preferent-juvenils",
+      "GRUPO_URL": "grup-2",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "can-vidalet-cf-a-pj-vs-martinenc-fc-a-pj",
+      "MATCH_URL": "/partit/2026-2027/preferent-juvenils/grup-2/jornada-13/can-vidalet-cf-a-pj-vs-martinenc-fc-a-pj",
       "trackedTeams": [
         "33390"
       ]
@@ -1734,6 +2238,15 @@
       "CODCLUB_CASA": "2769",
       "CODCLUB_FUERA": "1032",
       "NOMBRE_COMPETICION": "JUVENIL SEGONA DIVISIÓ",
+      "SLUG_CASA": "pujadas-cd-b-2j",
+      "SLUG_FUERA": "martinenc-fc-c-2j",
+      "CLUB_SLUG_CASA": "pujadas-cd",
+      "CLUB_SLUG_FUERA": "martinenc-fc",
+      "COMPETICIO_URL": "juvenil-segona-divisio",
+      "GRUPO_URL": "grup-9",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "pujadas-cd-b-2j-vs-martinenc-fc-c-2j",
+      "MATCH_URL": "/partit/2026-2027/juvenil-segona-divisio/grup-9/jornada-11/pujadas-cd-b-2j-vs-martinenc-fc-c-2j",
       "trackedTeams": [
         "41605"
       ]
@@ -1764,6 +2277,15 @@
       "CODCLUB_CASA": "1032",
       "CODCLUB_FUERA": "31528564",
       "NOMBRE_COMPETICION": "JUVENIL SEGONA DIVISIÓ",
+      "SLUG_CASA": "martinenc-fc-d-2j",
+      "SLUG_FUERA": "fundacio-futbol-badalona-b-2j",
+      "CLUB_SLUG_CASA": "martinenc-fc",
+      "CLUB_SLUG_FUERA": "fundacio-futbol-badalona",
+      "COMPETICIO_URL": "juvenil-segona-divisio",
+      "GRUPO_URL": "grup-8",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "martinenc-fc-d-2j-vs-fundacio-futbol-badalona-b-2j",
+      "MATCH_URL": "/partit/2026-2027/juvenil-segona-divisio/grup-8/jornada-11/martinenc-fc-d-2j-vs-fundacio-futbol-badalona-b-2j",
       "trackedTeams": [
         "41606"
       ]
@@ -1794,6 +2316,15 @@
       "CODCLUB_CASA": "1032",
       "CODCLUB_FUERA": "15548283",
       "NOMBRE_COMPETICION": "PREFERENT CADET S16",
+      "SLUG_CASA": "martinenc-fc-a-pc16",
+      "SLUG_FUERA": "escola-de-futbol-premier-barcelona-a-pc16",
+      "CLUB_SLUG_CASA": "martinenc-fc",
+      "CLUB_SLUG_FUERA": "escola-de-futbol-premier-barcelona",
+      "COMPETICIO_URL": "preferent-cadet-s16",
+      "GRUPO_URL": "grup-2",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "martinenc-fc-a-pc16-vs-escola-de-futbol-premier-barcelona-a-pc16",
+      "MATCH_URL": "/partit/2026-2027/preferent-cadet-s16/grup-2/jornada-14/martinenc-fc-a-pc16-vs-escola-de-futbol-premier-barcelona-a-pc16",
       "trackedTeams": [
         "54304670"
       ]
@@ -1824,6 +2355,15 @@
       "CODCLUB_CASA": "1032",
       "CODCLUB_FUERA": "1218",
       "NOMBRE_COMPETICION": "PREFERENT JUVENILS",
+      "SLUG_CASA": "martinenc-fc-a-pj",
+      "SLUG_FUERA": "lhospitalet-centre-esports-a-pj",
+      "CLUB_SLUG_CASA": "martinenc-fc",
+      "CLUB_SLUG_FUERA": "lhospitalet-centre-esports",
+      "COMPETICIO_URL": "preferent-juvenils",
+      "GRUPO_URL": "grup-2",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "martinenc-fc-a-pj-vs-lhospitalet-centre-esports-a-pj",
+      "MATCH_URL": "/partit/2026-2027/preferent-juvenils/grup-2/jornada-14/martinenc-fc-a-pj-vs-lhospitalet-centre-esports-a-pj",
       "trackedTeams": [
         "33390"
       ]
@@ -1854,6 +2394,15 @@
       "CODCLUB_CASA": "1049",
       "CODCLUB_FUERA": "1032",
       "NOMBRE_COMPETICION": "JUVENIL SEGONA DIVISIÓ",
+      "SLUG_CASA": "horta-uat-b-2j",
+      "SLUG_FUERA": "martinenc-fc-d-2j",
+      "CLUB_SLUG_CASA": "horta-uat",
+      "CLUB_SLUG_FUERA": "martinenc-fc",
+      "COMPETICIO_URL": "juvenil-segona-divisio",
+      "GRUPO_URL": "grup-8",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "horta-uat-b-2j-vs-martinenc-fc-d-2j",
+      "MATCH_URL": "/partit/2026-2027/juvenil-segona-divisio/grup-8/jornada-12/horta-uat-b-2j-vs-martinenc-fc-d-2j",
       "trackedTeams": [
         "41606"
       ]
@@ -1884,6 +2433,15 @@
       "CODCLUB_CASA": "6399",
       "CODCLUB_FUERA": "1032",
       "NOMBRE_COMPETICION": "JUVENIL SEGONA DIVISIÓ",
+      "SLUG_CASA": "congres-club-esp-b-2j",
+      "SLUG_FUERA": "martinenc-fc-b-2j",
+      "CLUB_SLUG_CASA": "congres-club-esp",
+      "CLUB_SLUG_FUERA": "martinenc-fc",
+      "COMPETICIO_URL": "juvenil-segona-divisio",
+      "GRUPO_URL": "grup-11",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "congres-club-esp-b-2j-vs-martinenc-fc-b-2j",
+      "MATCH_URL": "/partit/2026-2027/juvenil-segona-divisio/grup-11/jornada-12/congres-club-esp-b-2j-vs-martinenc-fc-b-2j",
       "trackedTeams": [
         "33391"
       ]
@@ -1914,6 +2472,15 @@
       "CODCLUB_CASA": "1032",
       "CODCLUB_FUERA": "2192",
       "NOMBRE_COMPETICION": "JUVENIL SEGONA DIVISIÓ",
+      "SLUG_CASA": "martinenc-fc-c-2j",
+      "SLUG_FUERA": "carmelo-cd-a-2j",
+      "CLUB_SLUG_CASA": "martinenc-fc",
+      "CLUB_SLUG_FUERA": "carmelo-cd",
+      "COMPETICIO_URL": "juvenil-segona-divisio",
+      "GRUPO_URL": "grup-9",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "martinenc-fc-c-2j-vs-carmelo-cd-a-2j",
+      "MATCH_URL": "/partit/2026-2027/juvenil-segona-divisio/grup-9/jornada-12/martinenc-fc-c-2j-vs-carmelo-cd-a-2j",
       "trackedTeams": [
         "41605"
       ]
@@ -1944,6 +2511,15 @@
       "CODCLUB_CASA": "1084",
       "CODCLUB_FUERA": "1032",
       "NOMBRE_COMPETICION": "PREFERENT JUVENILS",
+      "SLUG_CASA": "montanesa-cf-a-pj",
+      "SLUG_FUERA": "martinenc-fc-a-pj",
+      "CLUB_SLUG_CASA": "montanesa-cf",
+      "CLUB_SLUG_FUERA": "martinenc-fc",
+      "COMPETICIO_URL": "preferent-juvenils",
+      "GRUPO_URL": "grup-2",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "montanesa-cf-a-pj-vs-martinenc-fc-a-pj",
+      "MATCH_URL": "/partit/2026-2027/preferent-juvenils/grup-2/jornada-15/montanesa-cf-a-pj-vs-martinenc-fc-a-pj",
       "trackedTeams": [
         "33390"
       ]
@@ -1974,6 +2550,15 @@
       "CODCLUB_CASA": "15545459",
       "CODCLUB_FUERA": "1032",
       "NOMBRE_COMPETICION": "JUVENIL SEGONA DIVISIÓ",
+      "SLUG_CASA": "besos-baron-de-viver-club-futbol-a-2j",
+      "SLUG_FUERA": "martinenc-fc-c-2j",
+      "CLUB_SLUG_CASA": "besos-baron-de-viver-club-futbol",
+      "CLUB_SLUG_FUERA": "martinenc-fc",
+      "COMPETICIO_URL": "juvenil-segona-divisio",
+      "GRUPO_URL": "grup-9",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "besos-baron-de-viver-club-futbol-a-2j-vs-martinenc-fc-c-2j",
+      "MATCH_URL": "/partit/2026-2027/juvenil-segona-divisio/grup-9/jornada-13/besos-baron-de-viver-club-futbol-a-2j-vs-martinenc-fc-c-2j",
       "trackedTeams": [
         "41605"
       ]
@@ -2004,6 +2589,15 @@
       "CODCLUB_CASA": "1032",
       "CODCLUB_FUERA": "1252",
       "NOMBRE_COMPETICION": "JUVENIL SEGONA DIVISIÓ",
+      "SLUG_CASA": "martinenc-fc-b-2j",
+      "SLUG_FUERA": "pa-barc-anguera-c-2j",
+      "CLUB_SLUG_CASA": "martinenc-fc",
+      "CLUB_SLUG_FUERA": "pa-barc-anguera",
+      "COMPETICIO_URL": "juvenil-segona-divisio",
+      "GRUPO_URL": "grup-11",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "martinenc-fc-b-2j-vs-pa-barc-anguera-c-2j",
+      "MATCH_URL": "/partit/2026-2027/juvenil-segona-divisio/grup-11/jornada-13/martinenc-fc-b-2j-vs-pa-barc-anguera-c-2j",
       "trackedTeams": [
         "33391"
       ]
@@ -2034,6 +2628,15 @@
       "CODCLUB_CASA": "40492704",
       "CODCLUB_FUERA": "1032",
       "NOMBRE_COMPETICION": "PREFERENT CADET S16",
+      "SLUG_CASA": "fundacio-academia-f-lhospitalet-a-pc16",
+      "SLUG_FUERA": "martinenc-fc-a-pc16",
+      "CLUB_SLUG_CASA": "fundacio-academia-f-lhospitalet",
+      "CLUB_SLUG_FUERA": "martinenc-fc",
+      "COMPETICIO_URL": "preferent-cadet-s16",
+      "GRUPO_URL": "grup-2",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "fundacio-academia-f-lhospitalet-a-pc16-vs-martinenc-fc-a-pc16",
+      "MATCH_URL": "/partit/2026-2027/preferent-cadet-s16/grup-2/jornada-15/fundacio-academia-f-lhospitalet-a-pc16-vs-martinenc-fc-a-pc16",
       "trackedTeams": [
         "54304670"
       ]
@@ -2064,6 +2667,15 @@
       "CODCLUB_CASA": "1032",
       "CODCLUB_FUERA": "7000679",
       "NOMBRE_COMPETICION": "JUVENIL SEGONA DIVISIÓ",
+      "SLUG_CASA": "martinenc-fc-d-2j",
+      "SLUG_FUERA": "bon-pastor-agrupacio-esportiva-a-2j",
+      "CLUB_SLUG_CASA": "martinenc-fc",
+      "CLUB_SLUG_FUERA": "bon-pastor-agrupacio-esportiva",
+      "COMPETICIO_URL": "juvenil-segona-divisio",
+      "GRUPO_URL": "grup-8",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "martinenc-fc-d-2j-vs-bon-pastor-agrupacio-esportiva-a-2j",
+      "MATCH_URL": "/partit/2026-2027/juvenil-segona-divisio/grup-8/jornada-13/martinenc-fc-d-2j-vs-bon-pastor-agrupacio-esportiva-a-2j",
       "trackedTeams": [
         "41606"
       ]
@@ -2094,6 +2706,15 @@
       "CODCLUB_CASA": "1014",
       "CODCLUB_FUERA": "1032",
       "NOMBRE_COMPETICION": "PREFERENT JUVENILS",
+      "SLUG_CASA": "sant-andreu-ue-b-pj",
+      "SLUG_FUERA": "martinenc-fc-a-pj",
+      "CLUB_SLUG_CASA": "sant-andreu-ue",
+      "CLUB_SLUG_FUERA": "martinenc-fc",
+      "COMPETICIO_URL": "preferent-juvenils",
+      "GRUPO_URL": "grup-2",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "sant-andreu-ue-b-pj-vs-martinenc-fc-a-pj",
+      "MATCH_URL": "/partit/2026-2027/preferent-juvenils/grup-2/jornada-16/sant-andreu-ue-b-pj-vs-martinenc-fc-a-pj",
       "trackedTeams": [
         "33390"
       ]
@@ -2124,6 +2745,15 @@
       "CODCLUB_CASA": "6390",
       "CODCLUB_FUERA": "1032",
       "NOMBRE_COMPETICION": "JUVENIL SEGONA DIVISIÓ",
+      "SLUG_CASA": "escola-esportiva-guineueta-cf-b-2j",
+      "SLUG_FUERA": "martinenc-fc-b-2j",
+      "CLUB_SLUG_CASA": "escola-esportiva-guineueta-cf",
+      "CLUB_SLUG_FUERA": "martinenc-fc",
+      "COMPETICIO_URL": "juvenil-segona-divisio",
+      "GRUPO_URL": "grup-11",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "escola-esportiva-guineueta-cf-b-2j-vs-martinenc-fc-b-2j",
+      "MATCH_URL": "/partit/2026-2027/juvenil-segona-divisio/grup-11/jornada-14/escola-esportiva-guineueta-cf-b-2j-vs-martinenc-fc-b-2j",
       "trackedTeams": [
         "33391"
       ]
@@ -2154,6 +2784,15 @@
       "CODCLUB_CASA": "1066",
       "CODCLUB_FUERA": "1032",
       "NOMBRE_COMPETICION": "PREFERENT CADET S16",
+      "SLUG_CASA": "sant-cugat-futbol-club-b-pc16",
+      "SLUG_FUERA": "martinenc-fc-a-pc16",
+      "CLUB_SLUG_CASA": "sant-cugat-futbol-club",
+      "CLUB_SLUG_FUERA": "martinenc-fc",
+      "COMPETICIO_URL": "preferent-cadet-s16",
+      "GRUPO_URL": "grup-2",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "sant-cugat-futbol-club-b-pc16-vs-martinenc-fc-a-pc16",
+      "MATCH_URL": "/partit/2026-2027/preferent-cadet-s16/grup-2/jornada-16/sant-cugat-futbol-club-b-pc16-vs-martinenc-fc-a-pc16",
       "trackedTeams": [
         "54304670"
       ]
@@ -2184,6 +2823,15 @@
       "CODCLUB_CASA": "46882328",
       "CODCLUB_FUERA": "1032",
       "NOMBRE_COMPETICION": "JUVENIL SEGONA DIVISIÓ",
+      "SLUG_CASA": "inter-barcelona-a-2j",
+      "SLUG_FUERA": "martinenc-fc-d-2j",
+      "CLUB_SLUG_CASA": "inter-barcelona",
+      "CLUB_SLUG_FUERA": "martinenc-fc",
+      "COMPETICIO_URL": "juvenil-segona-divisio",
+      "GRUPO_URL": "grup-8",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "inter-barcelona-a-2j-vs-martinenc-fc-d-2j",
+      "MATCH_URL": "/partit/2026-2027/juvenil-segona-divisio/grup-8/jornada-14/inter-barcelona-a-2j-vs-martinenc-fc-d-2j",
       "trackedTeams": [
         "41606"
       ]
@@ -2214,6 +2862,15 @@
       "CODCLUB_CASA": "1032",
       "CODCLUB_FUERA": "1400",
       "NOMBRE_COMPETICION": "JUVENIL SEGONA DIVISIÓ",
+      "SLUG_CASA": "martinenc-fc-c-2j",
+      "SLUG_FUERA": "trinidad-cd-a-2j",
+      "CLUB_SLUG_CASA": "martinenc-fc",
+      "CLUB_SLUG_FUERA": "trinidad-cd",
+      "COMPETICIO_URL": "juvenil-segona-divisio",
+      "GRUPO_URL": "grup-9",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "martinenc-fc-c-2j-vs-trinidad-cd-a-2j",
+      "MATCH_URL": "/partit/2026-2027/juvenil-segona-divisio/grup-9/jornada-14/martinenc-fc-c-2j-vs-trinidad-cd-a-2j",
       "trackedTeams": [
         "41605"
       ]
@@ -2244,6 +2901,15 @@
       "CODCLUB_CASA": "1032",
       "CODCLUB_FUERA": "1014",
       "NOMBRE_COMPETICION": "PREFERENT CADET S16",
+      "SLUG_CASA": "martinenc-fc-a-pc16",
+      "SLUG_FUERA": "sant-andreu-ue-a-pc16",
+      "CLUB_SLUG_CASA": "martinenc-fc",
+      "CLUB_SLUG_FUERA": "sant-andreu-ue",
+      "COMPETICIO_URL": "preferent-cadet-s16",
+      "GRUPO_URL": "grup-2",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "martinenc-fc-a-pc16-vs-sant-andreu-ue-a-pc16",
+      "MATCH_URL": "/partit/2026-2027/preferent-cadet-s16/grup-2/jornada-17/martinenc-fc-a-pc16-vs-sant-andreu-ue-a-pc16",
       "trackedTeams": [
         "54304670"
       ]
@@ -2274,6 +2940,15 @@
       "CODCLUB_CASA": "1032",
       "CODCLUB_FUERA": "2930",
       "NOMBRE_COMPETICION": "PREFERENT JUVENILS",
+      "SLUG_CASA": "martinenc-fc-a-pj",
+      "SLUG_FUERA": "pa-barc-cinc-copes-a-pj",
+      "CLUB_SLUG_CASA": "martinenc-fc",
+      "CLUB_SLUG_FUERA": "pa-barc-cinc-copes",
+      "COMPETICIO_URL": "preferent-juvenils",
+      "GRUPO_URL": "grup-2",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "martinenc-fc-a-pj-vs-pa-barc-cinc-copes-a-pj",
+      "MATCH_URL": "/partit/2026-2027/preferent-juvenils/grup-2/jornada-17/martinenc-fc-a-pj-vs-pa-barc-cinc-copes-a-pj",
       "trackedTeams": [
         "33390"
       ]
@@ -2304,6 +2979,15 @@
       "CODCLUB_CASA": "1032",
       "CODCLUB_FUERA": "6215",
       "NOMBRE_COMPETICION": "JUVENIL SEGONA DIVISIÓ",
+      "SLUG_CASA": "martinenc-fc-b-2j",
+      "SLUG_FUERA": "fundacio-esport-hospitalet-at-a-2j",
+      "CLUB_SLUG_CASA": "martinenc-fc",
+      "CLUB_SLUG_FUERA": "fundacio-esporthospitalet-at",
+      "COMPETICIO_URL": "juvenil-segona-divisio",
+      "GRUPO_URL": "grup-11",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "martinenc-fc-b-2j-vs-fundacio-esport-hospitalet-at-a-2j",
+      "MATCH_URL": "/partit/2026-2027/juvenil-segona-divisio/grup-11/jornada-15/martinenc-fc-b-2j-vs-fundacio-esport-hospitalet-at-a-2j",
       "trackedTeams": [
         "33391"
       ]
@@ -2334,6 +3018,15 @@
       "CODCLUB_CASA": "1696",
       "CODCLUB_FUERA": "1032",
       "NOMBRE_COMPETICION": "JUVENIL SEGONA DIVISIÓ",
+      "SLUG_CASA": "alzamora-cf-c-2j",
+      "SLUG_FUERA": "martinenc-fc-c-2j",
+      "CLUB_SLUG_CASA": "alzamora-cf",
+      "CLUB_SLUG_FUERA": "martinenc-fc",
+      "COMPETICIO_URL": "juvenil-segona-divisio",
+      "GRUPO_URL": "grup-9",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "alzamora-cf-c-2j-vs-martinenc-fc-c-2j",
+      "MATCH_URL": "/partit/2026-2027/juvenil-segona-divisio/grup-9/jornada-15/alzamora-cf-c-2j-vs-martinenc-fc-c-2j",
       "trackedTeams": [
         "41605"
       ]
@@ -2364,6 +3057,15 @@
       "CODCLUB_CASA": "1032",
       "CODCLUB_FUERA": "1214",
       "NOMBRE_COMPETICION": "JUVENIL SEGONA DIVISIÓ",
+      "SLUG_CASA": "martinenc-fc-d-2j",
+      "SLUG_FUERA": "pa-barc-villaverde-penitents-a-2j",
+      "CLUB_SLUG_CASA": "martinenc-fc",
+      "CLUB_SLUG_FUERA": "pa-barc-villaverde-penitents",
+      "COMPETICIO_URL": "juvenil-segona-divisio",
+      "GRUPO_URL": "grup-8",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "martinenc-fc-d-2j-vs-pa-barc-villaverde-penitents-a-2j",
+      "MATCH_URL": "/partit/2026-2027/juvenil-segona-divisio/grup-8/jornada-15/martinenc-fc-d-2j-vs-pa-barc-villaverde-penitents-a-2j",
       "trackedTeams": [
         "41606"
       ]
@@ -2394,6 +3096,15 @@
       "CODCLUB_CASA": "1252",
       "CODCLUB_FUERA": "1032",
       "NOMBRE_COMPETICION": "PREFERENT CADET S16",
+      "SLUG_CASA": "pa-barc-anguera-a-pc16",
+      "SLUG_FUERA": "martinenc-fc-a-pc16",
+      "CLUB_SLUG_CASA": "pa-barc-anguera",
+      "CLUB_SLUG_FUERA": "martinenc-fc",
+      "COMPETICIO_URL": "preferent-cadet-s16",
+      "GRUPO_URL": "grup-2",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "pa-barc-anguera-a-pc16-vs-martinenc-fc-a-pc16",
+      "MATCH_URL": "/partit/2026-2027/preferent-cadet-s16/grup-2/jornada-18/pa-barc-anguera-a-pc16-vs-martinenc-fc-a-pc16",
       "trackedTeams": [
         "54304670"
       ]
@@ -2424,6 +3135,15 @@
       "CODCLUB_CASA": "1032",
       "CODCLUB_FUERA": "1221",
       "NOMBRE_COMPETICION": "JUVENIL SEGONA DIVISIÓ",
+      "SLUG_CASA": "martinenc-fc-b-2j",
+      "SLUG_FUERA": "turo-peira-ccd-b-2j",
+      "CLUB_SLUG_CASA": "martinenc-fc",
+      "CLUB_SLUG_FUERA": "turo-peira-ccd",
+      "COMPETICIO_URL": "juvenil-segona-divisio",
+      "GRUPO_URL": "grup-11",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "martinenc-fc-b-2j-vs-turo-peira-ccd-b-2j",
+      "MATCH_URL": "/partit/2026-2027/juvenil-segona-divisio/grup-11/jornada-16/martinenc-fc-b-2j-vs-turo-peira-ccd-b-2j",
       "trackedTeams": [
         "33391"
       ]
@@ -2454,6 +3174,15 @@
       "CODCLUB_CASA": "1398",
       "CODCLUB_FUERA": "1032",
       "NOMBRE_COMPETICION": "PREFERENT JUVENILS",
+      "SLUG_CASA": "tiana-cce-a-pj",
+      "SLUG_FUERA": "martinenc-fc-a-pj",
+      "CLUB_SLUG_CASA": "tiana-cce",
+      "CLUB_SLUG_FUERA": "martinenc-fc",
+      "COMPETICIO_URL": "preferent-juvenils",
+      "GRUPO_URL": "grup-2",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "tiana-cce-a-pj-vs-martinenc-fc-a-pj",
+      "MATCH_URL": "/partit/2026-2027/preferent-juvenils/grup-2/jornada-18/tiana-cce-a-pj-vs-martinenc-fc-a-pj",
       "trackedTeams": [
         "33390"
       ]
@@ -2484,6 +3213,15 @@
       "CODCLUB_CASA": "2432",
       "CODCLUB_FUERA": "1032",
       "NOMBRE_COMPETICION": "JUVENIL SEGONA DIVISIÓ",
+      "SLUG_CASA": "pa-barc-barcino-ce-c-2j",
+      "SLUG_FUERA": "martinenc-fc-c-2j",
+      "CLUB_SLUG_CASA": "pa-barc-barcino-ce",
+      "CLUB_SLUG_FUERA": "martinenc-fc",
+      "COMPETICIO_URL": "juvenil-segona-divisio",
+      "GRUPO_URL": "grup-9",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "pa-barc-barcino-ce-c-2j-vs-martinenc-fc-c-2j",
+      "MATCH_URL": "/partit/2026-2027/juvenil-segona-divisio/grup-9/jornada-16/pa-barc-barcino-ce-c-2j-vs-martinenc-fc-c-2j",
       "trackedTeams": [
         "41605"
       ]
@@ -2514,6 +3252,15 @@
       "CODCLUB_CASA": "1032",
       "CODCLUB_FUERA": "6280",
       "NOMBRE_COMPETICION": "JUVENIL SEGONA DIVISIÓ",
+      "SLUG_CASA": "martinenc-fc-d-2j",
+      "SLUG_FUERA": "arrabal-calaf-gramanet-cd-b-2j",
+      "CLUB_SLUG_CASA": "martinenc-fc",
+      "CLUB_SLUG_FUERA": "arrabal-calaf-gramanet-cd",
+      "COMPETICIO_URL": "juvenil-segona-divisio",
+      "GRUPO_URL": "grup-8",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "martinenc-fc-d-2j-vs-arrabal-calaf-gramanet-cd-b-2j",
+      "MATCH_URL": "/partit/2026-2027/juvenil-segona-divisio/grup-8/jornada-16/martinenc-fc-d-2j-vs-arrabal-calaf-gramanet-cd-b-2j",
       "trackedTeams": [
         "41606"
       ]
@@ -2544,6 +3291,15 @@
       "CODCLUB_CASA": "1032",
       "CODCLUB_FUERA": "6091",
       "NOMBRE_COMPETICION": "PREFERENT CADET S16",
+      "SLUG_CASA": "martinenc-fc-a-pc16",
+      "SLUG_FUERA": "unificacion-llefia-cf-a-pc16",
+      "CLUB_SLUG_CASA": "martinenc-fc",
+      "CLUB_SLUG_FUERA": "unificacion-llefia-cf",
+      "COMPETICIO_URL": "preferent-cadet-s16",
+      "GRUPO_URL": "grup-2",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "martinenc-fc-a-pc16-vs-unificacion-llefia-cf-a-pc16",
+      "MATCH_URL": "/partit/2026-2027/preferent-cadet-s16/grup-2/jornada-19/martinenc-fc-a-pc16-vs-unificacion-llefia-cf-a-pc16",
       "trackedTeams": [
         "54304670"
       ]
@@ -2574,6 +3330,15 @@
       "CODCLUB_CASA": "1032",
       "CODCLUB_FUERA": "31528564",
       "NOMBRE_COMPETICION": "PREFERENT JUVENILS",
+      "SLUG_CASA": "martinenc-fc-a-pj",
+      "SLUG_FUERA": "fundacio-futbol-badalona-a-pj",
+      "CLUB_SLUG_CASA": "martinenc-fc",
+      "CLUB_SLUG_FUERA": "fundacio-futbol-badalona",
+      "COMPETICIO_URL": "preferent-juvenils",
+      "GRUPO_URL": "grup-2",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "martinenc-fc-a-pj-vs-fundacio-futbol-badalona-a-pj",
+      "MATCH_URL": "/partit/2026-2027/preferent-juvenils/grup-2/jornada-19/martinenc-fc-a-pj-vs-fundacio-futbol-badalona-a-pj",
       "trackedTeams": [
         "33390"
       ]
@@ -2604,6 +3369,15 @@
       "CODCLUB_CASA": "2235",
       "CODCLUB_FUERA": "1032",
       "NOMBRE_COMPETICION": "JUVENIL SEGONA DIVISIÓ",
+      "SLUG_CASA": "parc-ud-b-2j",
+      "SLUG_FUERA": "martinenc-fc-b-2j",
+      "CLUB_SLUG_CASA": "parc-ud",
+      "CLUB_SLUG_FUERA": "martinenc-fc",
+      "COMPETICIO_URL": "juvenil-segona-divisio",
+      "GRUPO_URL": "grup-11",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "parc-ud-b-2j-vs-martinenc-fc-b-2j",
+      "MATCH_URL": "/partit/2026-2027/juvenil-segona-divisio/grup-11/jornada-17/parc-ud-b-2j-vs-martinenc-fc-b-2j",
       "trackedTeams": [
         "33391"
       ]
@@ -2634,6 +3408,15 @@
       "CODCLUB_CASA": "1032",
       "CODCLUB_FUERA": "6280",
       "NOMBRE_COMPETICION": "JUVENIL SEGONA DIVISIÓ",
+      "SLUG_CASA": "martinenc-fc-c-2j",
+      "SLUG_FUERA": "arrabal-calaf-gramanet-cd-c-2j",
+      "CLUB_SLUG_CASA": "martinenc-fc",
+      "CLUB_SLUG_FUERA": "arrabal-calaf-gramanet-cd",
+      "COMPETICIO_URL": "juvenil-segona-divisio",
+      "GRUPO_URL": "grup-9",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "martinenc-fc-c-2j-vs-arrabal-calaf-gramanet-cd-c-2j",
+      "MATCH_URL": "/partit/2026-2027/juvenil-segona-divisio/grup-9/jornada-17/martinenc-fc-c-2j-vs-arrabal-calaf-gramanet-cd-c-2j",
       "trackedTeams": [
         "41605"
       ]
@@ -2664,6 +3447,15 @@
       "CODCLUB_CASA": "1131",
       "CODCLUB_FUERA": "1032",
       "NOMBRE_COMPETICION": "PREFERENT CADET S16",
+      "SLUG_CASA": "prat-ae-a-pc16",
+      "SLUG_FUERA": "martinenc-fc-a-pc16",
+      "CLUB_SLUG_CASA": "prat-ae",
+      "CLUB_SLUG_FUERA": "martinenc-fc",
+      "COMPETICIO_URL": "preferent-cadet-s16",
+      "GRUPO_URL": "grup-2",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "prat-ae-a-pc16-vs-martinenc-fc-a-pc16",
+      "MATCH_URL": "/partit/2026-2027/preferent-cadet-s16/grup-2/jornada-20/prat-ae-a-pc16-vs-martinenc-fc-a-pc16",
       "trackedTeams": [
         "54304670"
       ]
@@ -2694,6 +3486,15 @@
       "CODCLUB_CASA": "1221",
       "CODCLUB_FUERA": "1032",
       "NOMBRE_COMPETICION": "JUVENIL SEGONA DIVISIÓ",
+      "SLUG_CASA": "turo-peira-ccd-a-2j",
+      "SLUG_FUERA": "martinenc-fc-c-2j",
+      "CLUB_SLUG_CASA": "turo-peira-ccd",
+      "CLUB_SLUG_FUERA": "martinenc-fc",
+      "COMPETICIO_URL": "juvenil-segona-divisio",
+      "GRUPO_URL": "grup-9",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "turo-peira-ccd-a-2j-vs-martinenc-fc-c-2j",
+      "MATCH_URL": "/partit/2026-2027/juvenil-segona-divisio/grup-9/jornada-18/turo-peira-ccd-a-2j-vs-martinenc-fc-c-2j",
       "trackedTeams": [
         "41605"
       ]
@@ -2724,6 +3525,15 @@
       "CODCLUB_CASA": "6054",
       "CODCLUB_FUERA": "1032",
       "NOMBRE_COMPETICION": "PREFERENT JUVENILS",
+      "SLUG_CASA": "apa-poble-sec-ce-a-pj",
+      "SLUG_FUERA": "martinenc-fc-a-pj",
+      "CLUB_SLUG_CASA": "apa-poble-sec-ce",
+      "CLUB_SLUG_FUERA": "martinenc-fc",
+      "COMPETICIO_URL": "preferent-juvenils",
+      "GRUPO_URL": "grup-2",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "apa-poble-sec-ce-a-pj-vs-martinenc-fc-a-pj",
+      "MATCH_URL": "/partit/2026-2027/preferent-juvenils/grup-2/jornada-20/apa-poble-sec-ce-a-pj-vs-martinenc-fc-a-pj",
       "trackedTeams": [
         "33390"
       ]
@@ -2754,6 +3564,15 @@
       "CODCLUB_CASA": "1032",
       "CODCLUB_FUERA": "7002081",
       "NOMBRE_COMPETICION": "JUVENIL SEGONA DIVISIÓ",
+      "SLUG_CASA": "martinenc-fc-b-2j",
+      "SLUG_FUERA": "escola-f-angel-pedraza-b-2j",
+      "CLUB_SLUG_CASA": "martinenc-fc",
+      "CLUB_SLUG_FUERA": "escola-f-angel-pedraza",
+      "COMPETICIO_URL": "juvenil-segona-divisio",
+      "GRUPO_URL": "grup-11",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "martinenc-fc-b-2j-vs-escola-f-angel-pedraza-b-2j",
+      "MATCH_URL": "/partit/2026-2027/juvenil-segona-divisio/grup-11/jornada-18/martinenc-fc-b-2j-vs-escola-f-angel-pedraza-b-2j",
       "trackedTeams": [
         "33391"
       ]
@@ -2784,6 +3603,15 @@
       "CODCLUB_CASA": "1032",
       "CODCLUB_FUERA": "6399",
       "NOMBRE_COMPETICION": "PREFERENT CADET S16",
+      "SLUG_CASA": "martinenc-fc-a-pc16",
+      "SLUG_FUERA": "congres-club-esp-a-pc16",
+      "CLUB_SLUG_CASA": "martinenc-fc",
+      "CLUB_SLUG_FUERA": "congres-club-esp",
+      "COMPETICIO_URL": "preferent-cadet-s16",
+      "GRUPO_URL": "grup-2",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "martinenc-fc-a-pc16-vs-congres-club-esp-a-pc16",
+      "MATCH_URL": "/partit/2026-2027/preferent-cadet-s16/grup-2/jornada-21/martinenc-fc-a-pc16-vs-congres-club-esp-a-pc16",
       "trackedTeams": [
         "54304670"
       ]
@@ -2814,6 +3642,15 @@
       "CODCLUB_CASA": "1032",
       "CODCLUB_FUERA": "1049",
       "NOMBRE_COMPETICION": "PREFERENT JUVENILS",
+      "SLUG_CASA": "martinenc-fc-a-pj",
+      "SLUG_FUERA": "horta-uat-a-pj",
+      "CLUB_SLUG_CASA": "martinenc-fc",
+      "CLUB_SLUG_FUERA": "horta-uat",
+      "COMPETICIO_URL": "preferent-juvenils",
+      "GRUPO_URL": "grup-2",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "martinenc-fc-a-pj-vs-horta-uat-a-pj",
+      "MATCH_URL": "/partit/2026-2027/preferent-juvenils/grup-2/jornada-21/martinenc-fc-a-pj-vs-horta-uat-a-pj",
       "trackedTeams": [
         "33390"
       ]
@@ -2844,6 +3681,15 @@
       "CODCLUB_CASA": "58901437",
       "CODCLUB_FUERA": "1032",
       "NOMBRE_COMPETICION": "JUVENIL SEGONA DIVISIÓ",
+      "SLUG_CASA": "ce-sant-adria-2026-a-2j",
+      "SLUG_FUERA": "martinenc-fc-d-2j",
+      "CLUB_SLUG_CASA": "sant-adria-2026",
+      "CLUB_SLUG_FUERA": "martinenc-fc",
+      "COMPETICIO_URL": "juvenil-segona-divisio",
+      "GRUPO_URL": "grup-8",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "ce-sant-adria-2026-a-2j-vs-martinenc-fc-d-2j",
+      "MATCH_URL": "/partit/2026-2027/juvenil-segona-divisio/grup-8/jornada-19/ce-sant-adria-2026-a-2j-vs-martinenc-fc-d-2j",
       "trackedTeams": [
         "41606"
       ]
@@ -2874,6 +3720,15 @@
       "CODCLUB_CASA": "2192",
       "CODCLUB_FUERA": "1032",
       "NOMBRE_COMPETICION": "JUVENIL SEGONA DIVISIÓ",
+      "SLUG_CASA": "carmelo-cd-b-2j",
+      "SLUG_FUERA": "martinenc-fc-b-2j",
+      "CLUB_SLUG_CASA": "carmelo-cd",
+      "CLUB_SLUG_FUERA": "martinenc-fc",
+      "COMPETICIO_URL": "juvenil-segona-divisio",
+      "GRUPO_URL": "grup-11",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "carmelo-cd-b-2j-vs-martinenc-fc-b-2j",
+      "MATCH_URL": "/partit/2026-2027/juvenil-segona-divisio/grup-11/jornada-19/carmelo-cd-b-2j-vs-martinenc-fc-b-2j",
       "trackedTeams": [
         "33391"
       ]
@@ -2904,6 +3759,15 @@
       "CODCLUB_CASA": "1032",
       "CODCLUB_FUERA": "6390",
       "NOMBRE_COMPETICION": "JUVENIL SEGONA DIVISIÓ",
+      "SLUG_CASA": "martinenc-fc-c-2j",
+      "SLUG_FUERA": "escola-esportiva-guineueta-cf-d-2j",
+      "CLUB_SLUG_CASA": "martinenc-fc",
+      "CLUB_SLUG_FUERA": "escola-esportiva-guineueta-cf",
+      "COMPETICIO_URL": "juvenil-segona-divisio",
+      "GRUPO_URL": "grup-9",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "martinenc-fc-c-2j-vs-escola-esportiva-guineueta-cf-d-2j",
+      "MATCH_URL": "/partit/2026-2027/juvenil-segona-divisio/grup-9/jornada-19/martinenc-fc-c-2j-vs-escola-esportiva-guineueta-cf-d-2j",
       "trackedTeams": [
         "41605"
       ]
@@ -2934,6 +3798,15 @@
       "CODCLUB_CASA": "1032",
       "CODCLUB_FUERA": "6178",
       "NOMBRE_COMPETICION": "PREFERENT JUVENILS",
+      "SLUG_CASA": "martinenc-fc-a-pj",
+      "SLUG_FUERA": "fundacio-p-ce-jupiter-a-pj",
+      "CLUB_SLUG_CASA": "martinenc-fc",
+      "CLUB_SLUG_FUERA": "fundacio-p-ce-jupiter",
+      "COMPETICIO_URL": "preferent-juvenils",
+      "GRUPO_URL": "grup-2",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "martinenc-fc-a-pj-vs-fundacio-p-ce-jupiter-a-pj",
+      "MATCH_URL": "/partit/2026-2027/preferent-juvenils/grup-2/jornada-22/martinenc-fc-a-pj-vs-fundacio-p-ce-jupiter-a-pj",
       "trackedTeams": [
         "33390"
       ]
@@ -2964,6 +3837,15 @@
       "CODCLUB_CASA": "1032",
       "CODCLUB_FUERA": "2432",
       "NOMBRE_COMPETICION": "JUVENIL SEGONA DIVISIÓ",
+      "SLUG_CASA": "martinenc-fc-b-2j",
+      "SLUG_FUERA": "pa-barc-barcino-ce-b-2j",
+      "CLUB_SLUG_CASA": "martinenc-fc",
+      "CLUB_SLUG_FUERA": "pa-barc-barcino-ce",
+      "COMPETICIO_URL": "juvenil-segona-divisio",
+      "GRUPO_URL": "grup-11",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "martinenc-fc-b-2j-vs-pa-barc-barcino-ce-b-2j",
+      "MATCH_URL": "/partit/2026-2027/juvenil-segona-divisio/grup-11/jornada-20/martinenc-fc-b-2j-vs-pa-barc-barcino-ce-b-2j",
       "trackedTeams": [
         "33391"
       ]
@@ -2994,6 +3876,15 @@
       "CODCLUB_CASA": "1339",
       "CODCLUB_FUERA": "1032",
       "NOMBRE_COMPETICION": "JUVENIL SEGONA DIVISIÓ",
+      "SLUG_CASA": "lloreda-cf-b-2j",
+      "SLUG_FUERA": "martinenc-fc-c-2j",
+      "CLUB_SLUG_CASA": "lloreda-cf",
+      "CLUB_SLUG_FUERA": "martinenc-fc",
+      "COMPETICIO_URL": "juvenil-segona-divisio",
+      "GRUPO_URL": "grup-9",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "lloreda-cf-b-2j-vs-martinenc-fc-c-2j",
+      "MATCH_URL": "/partit/2026-2027/juvenil-segona-divisio/grup-9/jornada-20/lloreda-cf-b-2j-vs-martinenc-fc-c-2j",
       "trackedTeams": [
         "41605"
       ]
@@ -3024,6 +3915,15 @@
       "CODCLUB_CASA": "1011",
       "CODCLUB_FUERA": "1032",
       "NOMBRE_COMPETICION": "PREFERENT CADET S16",
+      "SLUG_CASA": "europa-ce-b-pc16",
+      "SLUG_FUERA": "martinenc-fc-a-pc16",
+      "CLUB_SLUG_CASA": "europa-ce",
+      "CLUB_SLUG_FUERA": "martinenc-fc",
+      "COMPETICIO_URL": "preferent-cadet-s16",
+      "GRUPO_URL": "grup-2",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "europa-ce-b-pc16-vs-martinenc-fc-a-pc16",
+      "MATCH_URL": "/partit/2026-2027/preferent-cadet-s16/grup-2/jornada-22/europa-ce-b-pc16-vs-martinenc-fc-a-pc16",
       "trackedTeams": [
         "54304670"
       ]
@@ -3054,6 +3954,15 @@
       "CODCLUB_CASA": "1032",
       "CODCLUB_FUERA": "1696",
       "NOMBRE_COMPETICION": "JUVENIL SEGONA DIVISIÓ",
+      "SLUG_CASA": "martinenc-fc-d-2j",
+      "SLUG_FUERA": "alzamora-cf-b-2j",
+      "CLUB_SLUG_CASA": "martinenc-fc",
+      "CLUB_SLUG_FUERA": "alzamora-cf",
+      "COMPETICIO_URL": "juvenil-segona-divisio",
+      "GRUPO_URL": "grup-8",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "martinenc-fc-d-2j-vs-alzamora-cf-b-2j",
+      "MATCH_URL": "/partit/2026-2027/juvenil-segona-divisio/grup-8/jornada-20/martinenc-fc-d-2j-vs-alzamora-cf-b-2j",
       "trackedTeams": [
         "41606"
       ]
@@ -3084,6 +3993,15 @@
       "CODCLUB_CASA": "1032",
       "CODCLUB_FUERA": "18476477",
       "NOMBRE_COMPETICION": "PREFERENT CADET S16",
+      "SLUG_CASA": "martinenc-fc-a-pc16",
+      "SLUG_FUERA": "fundacio-esportiva-grama-a-pc16",
+      "CLUB_SLUG_CASA": "martinenc-fc",
+      "CLUB_SLUG_FUERA": "fundacio-esportiva-grama",
+      "COMPETICIO_URL": "preferent-cadet-s16",
+      "GRUPO_URL": "grup-2",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "martinenc-fc-a-pc16-vs-fundacio-esportiva-grama-a-pc16",
+      "MATCH_URL": "/partit/2026-2027/preferent-cadet-s16/grup-2/jornada-23/martinenc-fc-a-pc16-vs-fundacio-esportiva-grama-a-pc16",
       "trackedTeams": [
         "54304670"
       ]
@@ -3114,6 +4032,15 @@
       "CODCLUB_CASA": "1339",
       "CODCLUB_FUERA": "1032",
       "NOMBRE_COMPETICION": "JUVENIL SEGONA DIVISIÓ",
+      "SLUG_CASA": "lloreda-cf-a-2j",
+      "SLUG_FUERA": "martinenc-fc-b-2j",
+      "CLUB_SLUG_CASA": "lloreda-cf",
+      "CLUB_SLUG_FUERA": "martinenc-fc",
+      "COMPETICIO_URL": "juvenil-segona-divisio",
+      "GRUPO_URL": "grup-11",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "lloreda-cf-a-2j-vs-martinenc-fc-b-2j",
+      "MATCH_URL": "/partit/2026-2027/juvenil-segona-divisio/grup-11/jornada-21/lloreda-cf-a-2j-vs-martinenc-fc-b-2j",
       "trackedTeams": [
         "33391"
       ]
@@ -3144,6 +4071,15 @@
       "CODCLUB_CASA": "1194",
       "CODCLUB_FUERA": "1032",
       "NOMBRE_COMPETICION": "PREFERENT JUVENILS",
+      "SLUG_CASA": "sarria-cp-a-pj",
+      "SLUG_FUERA": "martinenc-fc-a-pj",
+      "CLUB_SLUG_CASA": "sarria-cp",
+      "CLUB_SLUG_FUERA": "martinenc-fc",
+      "COMPETICIO_URL": "preferent-juvenils",
+      "GRUPO_URL": "grup-2",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "sarria-cp-a-pj-vs-martinenc-fc-a-pj",
+      "MATCH_URL": "/partit/2026-2027/preferent-juvenils/grup-2/jornada-23/sarria-cp-a-pj-vs-martinenc-fc-a-pj",
       "trackedTeams": [
         "33390"
       ]
@@ -3174,6 +4110,15 @@
       "CODCLUB_CASA": "6178",
       "CODCLUB_FUERA": "1032",
       "NOMBRE_COMPETICION": "JUVENIL SEGONA DIVISIÓ",
+      "SLUG_CASA": "fundacio-p-ce-jupiter-b-2j",
+      "SLUG_FUERA": "martinenc-fc-d-2j",
+      "CLUB_SLUG_CASA": "fundacio-p-ce-jupiter",
+      "CLUB_SLUG_FUERA": "martinenc-fc",
+      "COMPETICIO_URL": "juvenil-segona-divisio",
+      "GRUPO_URL": "grup-8",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "fundacio-p-ce-jupiter-b-2j-vs-martinenc-fc-d-2j",
+      "MATCH_URL": "/partit/2026-2027/juvenil-segona-divisio/grup-8/jornada-21/fundacio-p-ce-jupiter-b-2j-vs-martinenc-fc-d-2j",
       "trackedTeams": [
         "41606"
       ]
@@ -3204,6 +4149,15 @@
       "CODCLUB_CASA": "1032",
       "CODCLUB_FUERA": "58901437",
       "NOMBRE_COMPETICION": "JUVENIL SEGONA DIVISIÓ",
+      "SLUG_CASA": "martinenc-fc-c-2j",
+      "SLUG_FUERA": "ce-sant-adria-2026-b-2j",
+      "CLUB_SLUG_CASA": "martinenc-fc",
+      "CLUB_SLUG_FUERA": "sant-adria-2026",
+      "COMPETICIO_URL": "juvenil-segona-divisio",
+      "GRUPO_URL": "grup-9",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "martinenc-fc-c-2j-vs-ce-sant-adria-2026-b-2j",
+      "MATCH_URL": "/partit/2026-2027/juvenil-segona-divisio/grup-9/jornada-21/martinenc-fc-c-2j-vs-ce-sant-adria-2026-b-2j",
       "trackedTeams": [
         "41605"
       ]
@@ -3234,6 +4188,15 @@
       "CODCLUB_CASA": "1032",
       "CODCLUB_FUERA": "54296375",
       "NOMBRE_COMPETICION": "PREFERENT CADET S16",
+      "SLUG_CASA": "martinenc-fc-a-pc16",
+      "SLUG_FUERA": "fundacio-atletic-sant-just-a-pc16",
+      "CLUB_SLUG_CASA": "martinenc-fc",
+      "CLUB_SLUG_FUERA": "fundacio-atletic-sant-just",
+      "COMPETICIO_URL": "preferent-cadet-s16",
+      "GRUPO_URL": "grup-2",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "martinenc-fc-a-pc16-vs-fundacio-atletic-sant-just-a-pc16",
+      "MATCH_URL": "/partit/2026-2027/preferent-cadet-s16/grup-2/jornada-24/martinenc-fc-a-pc16-vs-fundacio-atletic-sant-just-a-pc16",
       "trackedTeams": [
         "54304670"
       ]
@@ -3264,6 +4227,15 @@
       "CODCLUB_CASA": "1032",
       "CODCLUB_FUERA": "1252",
       "NOMBRE_COMPETICION": "PREFERENT JUVENILS",
+      "SLUG_CASA": "martinenc-fc-a-pj",
+      "SLUG_FUERA": "pa-barc-anguera-a-pj",
+      "CLUB_SLUG_CASA": "martinenc-fc",
+      "CLUB_SLUG_FUERA": "pa-barc-anguera",
+      "COMPETICIO_URL": "preferent-juvenils",
+      "GRUPO_URL": "grup-2",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "martinenc-fc-a-pj-vs-pa-barc-anguera-a-pj",
+      "MATCH_URL": "/partit/2026-2027/preferent-juvenils/grup-2/jornada-24/martinenc-fc-a-pj-vs-pa-barc-anguera-a-pj",
       "trackedTeams": [
         "33390"
       ]
@@ -3294,6 +4266,15 @@
       "CODCLUB_CASA": "6070",
       "CODCLUB_FUERA": "1032",
       "NOMBRE_COMPETICION": "JUVENIL SEGONA DIVISIÓ",
+      "SLUG_CASA": "canyelles-ce-b-2j",
+      "SLUG_FUERA": "martinenc-fc-c-2j",
+      "CLUB_SLUG_CASA": "canyelles-ce",
+      "CLUB_SLUG_FUERA": "martinenc-fc",
+      "COMPETICIO_URL": "juvenil-segona-divisio",
+      "GRUPO_URL": "grup-9",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "canyelles-ce-b-2j-vs-martinenc-fc-c-2j",
+      "MATCH_URL": "/partit/2026-2027/juvenil-segona-divisio/grup-9/jornada-22/canyelles-ce-b-2j-vs-martinenc-fc-c-2j",
       "trackedTeams": [
         "41605"
       ]
@@ -3324,6 +4305,15 @@
       "CODCLUB_CASA": "6046",
       "CODCLUB_FUERA": "1032",
       "NOMBRE_COMPETICION": "JUVENIL SEGONA DIVISIÓ",
+      "SLUG_CASA": "unificacion-bellvitge-ud-c-2j",
+      "SLUG_FUERA": "martinenc-fc-b-2j",
+      "CLUB_SLUG_CASA": "unificacion-bellvitge-ud",
+      "CLUB_SLUG_FUERA": "martinenc-fc",
+      "COMPETICIO_URL": "juvenil-segona-divisio",
+      "GRUPO_URL": "grup-11",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "unificacion-bellvitge-ud-c-2j-vs-martinenc-fc-b-2j",
+      "MATCH_URL": "/partit/2026-2027/juvenil-segona-divisio/grup-11/jornada-22/unificacion-bellvitge-ud-c-2j-vs-martinenc-fc-b-2j",
       "trackedTeams": [
         "33391"
       ]
@@ -3354,6 +4344,15 @@
       "CODCLUB_CASA": "1032",
       "CODCLUB_FUERA": "1093",
       "NOMBRE_COMPETICION": "JUVENIL SEGONA DIVISIÓ",
+      "SLUG_CASA": "martinenc-fc-d-2j",
+      "SLUG_FUERA": "poble-nou-at-b-2j",
+      "CLUB_SLUG_CASA": "martinenc-fc",
+      "CLUB_SLUG_FUERA": "poble-nou-at",
+      "COMPETICIO_URL": "juvenil-segona-divisio",
+      "GRUPO_URL": "grup-8",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "martinenc-fc-d-2j-vs-poble-nou-at-b-2j",
+      "MATCH_URL": "/partit/2026-2027/juvenil-segona-divisio/grup-8/jornada-22/martinenc-fc-d-2j-vs-poble-nou-at-b-2j",
       "trackedTeams": [
         "41606"
       ]
@@ -3384,6 +4383,15 @@
       "CODCLUB_CASA": "1032",
       "CODCLUB_FUERA": "1011",
       "NOMBRE_COMPETICION": "JUVENIL SEGONA DIVISIÓ",
+      "SLUG_CASA": "martinenc-fc-b-2j",
+      "SLUG_FUERA": "europa-ce-d-2j",
+      "CLUB_SLUG_CASA": "martinenc-fc",
+      "CLUB_SLUG_FUERA": "europa-ce",
+      "COMPETICIO_URL": "juvenil-segona-divisio",
+      "GRUPO_URL": "grup-11",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "martinenc-fc-b-2j-vs-europa-ce-d-2j",
+      "MATCH_URL": "/partit/2026-2027/juvenil-segona-divisio/grup-11/jornada-23/martinenc-fc-b-2j-vs-europa-ce-d-2j",
       "trackedTeams": [
         "33391"
       ]
@@ -3414,6 +4422,15 @@
       "CODCLUB_CASA": "1241",
       "CODCLUB_FUERA": "1032",
       "NOMBRE_COMPETICION": "PREFERENT CADET S16",
+      "SLUG_CASA": "sant-gabriel-cd-a-pc16",
+      "SLUG_FUERA": "martinenc-fc-a-pc16",
+      "CLUB_SLUG_CASA": "sant-gabriel-cd",
+      "CLUB_SLUG_FUERA": "martinenc-fc",
+      "COMPETICIO_URL": "preferent-cadet-s16",
+      "GRUPO_URL": "grup-2",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "sant-gabriel-cd-a-pc16-vs-martinenc-fc-a-pc16",
+      "MATCH_URL": "/partit/2026-2027/preferent-cadet-s16/grup-2/jornada-25/sant-gabriel-cd-a-pc16-vs-martinenc-fc-a-pc16",
       "trackedTeams": [
         "54304670"
       ]
@@ -3444,6 +4461,15 @@
       "CODCLUB_CASA": "6046",
       "CODCLUB_FUERA": "1032",
       "NOMBRE_COMPETICION": "PREFERENT JUVENILS",
+      "SLUG_CASA": "unificacion-bellvitge-ud-a-pj",
+      "SLUG_FUERA": "martinenc-fc-a-pj",
+      "CLUB_SLUG_CASA": "unificacion-bellvitge-ud",
+      "CLUB_SLUG_FUERA": "martinenc-fc",
+      "COMPETICIO_URL": "preferent-juvenils",
+      "GRUPO_URL": "grup-2",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "unificacion-bellvitge-ud-a-pj-vs-martinenc-fc-a-pj",
+      "MATCH_URL": "/partit/2026-2027/preferent-juvenils/grup-2/jornada-25/unificacion-bellvitge-ud-a-pj-vs-martinenc-fc-a-pj",
       "trackedTeams": [
         "33390"
       ]
@@ -3474,6 +4500,15 @@
       "CODCLUB_CASA": "1032",
       "CODCLUB_FUERA": "1198",
       "NOMBRE_COMPETICION": "JUVENIL SEGONA DIVISIÓ",
+      "SLUG_CASA": "martinenc-fc-c-2j",
+      "SLUG_FUERA": "singuerlin-cf-a-2j",
+      "CLUB_SLUG_CASA": "martinenc-fc",
+      "CLUB_SLUG_FUERA": "singuerlin-cf",
+      "COMPETICIO_URL": "juvenil-segona-divisio",
+      "GRUPO_URL": "grup-9",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "martinenc-fc-c-2j-vs-singuerlin-cf-a-2j",
+      "MATCH_URL": "/partit/2026-2027/juvenil-segona-divisio/grup-9/jornada-23/martinenc-fc-c-2j-vs-singuerlin-cf-a-2j",
       "trackedTeams": [
         "41605"
       ]
@@ -3504,6 +4539,15 @@
       "CODCLUB_CASA": "1140",
       "CODCLUB_FUERA": "1032",
       "NOMBRE_COMPETICION": "JUVENIL SEGONA DIVISIÓ",
+      "SLUG_CASA": "bufala-cf-e-2j",
+      "SLUG_FUERA": "martinenc-fc-d-2j",
+      "CLUB_SLUG_CASA": "bufala-cf",
+      "CLUB_SLUG_FUERA": "martinenc-fc",
+      "COMPETICIO_URL": "juvenil-segona-divisio",
+      "GRUPO_URL": "grup-8",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "bufala-cf-e-2j-vs-martinenc-fc-d-2j",
+      "MATCH_URL": "/partit/2026-2027/juvenil-segona-divisio/grup-8/jornada-23/bufala-cf-e-2j-vs-martinenc-fc-d-2j",
       "trackedTeams": [
         "41606"
       ]
@@ -3534,6 +4578,15 @@
       "CODCLUB_CASA": "1032",
       "CODCLUB_FUERA": "1051",
       "NOMBRE_COMPETICION": "PREFERENT CADET S16",
+      "SLUG_CASA": "martinenc-fc-a-pc16",
+      "SLUG_FUERA": "sants-ue-a-pc16",
+      "CLUB_SLUG_CASA": "martinenc-fc",
+      "CLUB_SLUG_FUERA": "sants-ue",
+      "COMPETICIO_URL": "preferent-cadet-s16",
+      "GRUPO_URL": "grup-2",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "martinenc-fc-a-pc16-vs-sants-ue-a-pc16",
+      "MATCH_URL": "/partit/2026-2027/preferent-cadet-s16/grup-2/jornada-26/martinenc-fc-a-pc16-vs-sants-ue-a-pc16",
       "trackedTeams": [
         "54304670"
       ]
@@ -3564,6 +4617,15 @@
       "CODCLUB_CASA": "1032",
       "CODCLUB_FUERA": "1207",
       "NOMBRE_COMPETICION": "PREFERENT JUVENILS",
+      "SLUG_CASA": "martinenc-fc-a-pj",
+      "SLUG_FUERA": "damm-cf-c-pj",
+      "CLUB_SLUG_CASA": "martinenc-fc",
+      "CLUB_SLUG_FUERA": "damm-cf",
+      "COMPETICIO_URL": "preferent-juvenils",
+      "GRUPO_URL": "grup-2",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "martinenc-fc-a-pj-vs-damm-cf-c-pj",
+      "MATCH_URL": "/partit/2026-2027/preferent-juvenils/grup-2/jornada-26/martinenc-fc-a-pj-vs-damm-cf-c-pj",
       "trackedTeams": [
         "33390"
       ]
@@ -3594,6 +4656,15 @@
       "CODCLUB_CASA": "28484246",
       "CODCLUB_FUERA": "1032",
       "NOMBRE_COMPETICION": "JUVENIL SEGONA DIVISIÓ",
+      "SLUG_CASA": "hailukong-barcelona-club-futbol-a-2j",
+      "SLUG_FUERA": "martinenc-fc-c-2j",
+      "CLUB_SLUG_CASA": "hailukong-barcelona-club-futbol",
+      "CLUB_SLUG_FUERA": "martinenc-fc",
+      "COMPETICIO_URL": "juvenil-segona-divisio",
+      "GRUPO_URL": "grup-9",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "hailukong-barcelona-club-futbol-a-2j-vs-martinenc-fc-c-2j",
+      "MATCH_URL": "/partit/2026-2027/juvenil-segona-divisio/grup-9/jornada-24/hailukong-barcelona-club-futbol-a-2j-vs-martinenc-fc-c-2j",
       "trackedTeams": [
         "41605"
       ]
@@ -3624,6 +4695,15 @@
       "CODCLUB_CASA": "1198",
       "CODCLUB_FUERA": "1032",
       "NOMBRE_COMPETICION": "JUVENIL SEGONA DIVISIÓ",
+      "SLUG_CASA": "singuerlin-cf-c-2j",
+      "SLUG_FUERA": "martinenc-fc-b-2j",
+      "CLUB_SLUG_CASA": "singuerlin-cf",
+      "CLUB_SLUG_FUERA": "martinenc-fc",
+      "COMPETICIO_URL": "juvenil-segona-divisio",
+      "GRUPO_URL": "grup-11",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "singuerlin-cf-c-2j-vs-martinenc-fc-b-2j",
+      "MATCH_URL": "/partit/2026-2027/juvenil-segona-divisio/grup-11/jornada-24/singuerlin-cf-c-2j-vs-martinenc-fc-b-2j",
       "trackedTeams": [
         "33391"
       ]
@@ -3654,6 +4734,15 @@
       "CODCLUB_CASA": "6390",
       "CODCLUB_FUERA": "1032",
       "NOMBRE_COMPETICION": "JUVENIL SEGONA DIVISIÓ",
+      "SLUG_CASA": "escola-esportiva-guineueta-cf-c-2j",
+      "SLUG_FUERA": "martinenc-fc-d-2j",
+      "CLUB_SLUG_CASA": "escola-esportiva-guineueta-cf",
+      "CLUB_SLUG_FUERA": "martinenc-fc",
+      "COMPETICIO_URL": "juvenil-segona-divisio",
+      "GRUPO_URL": "grup-8",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "escola-esportiva-guineueta-cf-c-2j-vs-martinenc-fc-d-2j",
+      "MATCH_URL": "/partit/2026-2027/juvenil-segona-divisio/grup-8/jornada-24/escola-esportiva-guineueta-cf-c-2j-vs-martinenc-fc-d-2j",
       "trackedTeams": [
         "41606"
       ]
@@ -3684,6 +4773,15 @@
       "CODCLUB_CASA": "1032",
       "CODCLUB_FUERA": "1321",
       "NOMBRE_COMPETICION": "JUVENIL SEGONA DIVISIÓ",
+      "SLUG_CASA": "martinenc-fc-b-2j",
+      "SLUG_FUERA": "pomar-cd-c-2j",
+      "CLUB_SLUG_CASA": "martinenc-fc",
+      "CLUB_SLUG_FUERA": "pomar-cd",
+      "COMPETICIO_URL": "juvenil-segona-divisio",
+      "GRUPO_URL": "grup-11",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "martinenc-fc-b-2j-vs-pomar-cd-c-2j",
+      "MATCH_URL": "/partit/2026-2027/juvenil-segona-divisio/grup-11/jornada-25/martinenc-fc-b-2j-vs-pomar-cd-c-2j",
       "trackedTeams": [
         "33391"
       ]
@@ -3714,6 +4812,15 @@
       "CODCLUB_CASA": "2925",
       "CODCLUB_FUERA": "1032",
       "NOMBRE_COMPETICION": "PREFERENT CADET S16",
+      "SLUG_CASA": "vinyets-moli-vell-cf-a-pc16",
+      "SLUG_FUERA": "martinenc-fc-a-pc16",
+      "CLUB_SLUG_CASA": "vinyets-moli-vell-cf",
+      "CLUB_SLUG_FUERA": "martinenc-fc",
+      "COMPETICIO_URL": "preferent-cadet-s16",
+      "GRUPO_URL": "grup-2",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "vinyets-moli-vell-cf-a-pc16-vs-martinenc-fc-a-pc16",
+      "MATCH_URL": "/partit/2026-2027/preferent-cadet-s16/grup-2/jornada-27/vinyets-moli-vell-cf-a-pc16-vs-martinenc-fc-a-pc16",
       "trackedTeams": [
         "54304670"
       ]
@@ -3744,6 +4851,15 @@
       "CODCLUB_CASA": "1189",
       "CODCLUB_FUERA": "1032",
       "NOMBRE_COMPETICION": "PREFERENT JUVENILS",
+      "SLUG_CASA": "cornella-ue-sad-b-pj",
+      "SLUG_FUERA": "martinenc-fc-a-pj",
+      "CLUB_SLUG_CASA": "cornella-ue-sad",
+      "CLUB_SLUG_FUERA": "martinenc-fc",
+      "COMPETICIO_URL": "preferent-juvenils",
+      "GRUPO_URL": "grup-2",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "cornella-ue-sad-b-pj-vs-martinenc-fc-a-pj",
+      "MATCH_URL": "/partit/2026-2027/preferent-juvenils/grup-2/jornada-27/cornella-ue-sad-b-pj-vs-martinenc-fc-a-pj",
       "trackedTeams": [
         "33390"
       ]
@@ -3774,6 +4890,15 @@
       "CODCLUB_CASA": "1032",
       "CODCLUB_FUERA": "6091",
       "NOMBRE_COMPETICION": "JUVENIL SEGONA DIVISIÓ",
+      "SLUG_CASA": "martinenc-fc-d-2j",
+      "SLUG_FUERA": "unificacion-llefia-cf-a-2j",
+      "CLUB_SLUG_CASA": "martinenc-fc",
+      "CLUB_SLUG_FUERA": "unificacion-llefia-cf",
+      "COMPETICIO_URL": "juvenil-segona-divisio",
+      "GRUPO_URL": "grup-8",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "martinenc-fc-d-2j-vs-unificacion-llefia-cf-a-2j",
+      "MATCH_URL": "/partit/2026-2027/juvenil-segona-divisio/grup-8/jornada-25/martinenc-fc-d-2j-vs-unificacion-llefia-cf-a-2j",
       "trackedTeams": [
         "41606"
       ]
@@ -3804,6 +4929,15 @@
       "CODCLUB_CASA": "1032",
       "CODCLUB_FUERA": "6278",
       "NOMBRE_COMPETICION": "PREFERENT CADET S16",
+      "SLUG_CASA": "martinenc-fc-a-pc16",
+      "SLUG_FUERA": "can-buxeres-fc-a-pc16",
+      "CLUB_SLUG_CASA": "martinenc-fc",
+      "CLUB_SLUG_FUERA": "can-buxeres-fc",
+      "COMPETICIO_URL": "preferent-cadet-s16",
+      "GRUPO_URL": "grup-2",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "martinenc-fc-a-pc16-vs-can-buxeres-fc-a-pc16",
+      "MATCH_URL": "/partit/2026-2027/preferent-cadet-s16/grup-2/jornada-28/martinenc-fc-a-pc16-vs-can-buxeres-fc-a-pc16",
       "trackedTeams": [
         "54304670"
       ]
@@ -3834,6 +4968,15 @@
       "CODCLUB_CASA": "1032",
       "CODCLUB_FUERA": "1372",
       "NOMBRE_COMPETICION": "PREFERENT JUVENILS",
+      "SLUG_CASA": "martinenc-fc-a-pj",
+      "SLUG_FUERA": "can-vidalet-cf-a-pj",
+      "CLUB_SLUG_CASA": "martinenc-fc",
+      "CLUB_SLUG_FUERA": "can-vidalet-cf",
+      "COMPETICIO_URL": "preferent-juvenils",
+      "GRUPO_URL": "grup-2",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "martinenc-fc-a-pj-vs-can-vidalet-cf-a-pj",
+      "MATCH_URL": "/partit/2026-2027/preferent-juvenils/grup-2/jornada-28/martinenc-fc-a-pj-vs-can-vidalet-cf-a-pj",
       "trackedTeams": [
         "33390"
       ]
@@ -3864,6 +5007,15 @@
       "CODCLUB_CASA": "1014",
       "CODCLUB_FUERA": "1032",
       "NOMBRE_COMPETICION": "JUVENIL SEGONA DIVISIÓ",
+      "SLUG_CASA": "sant-andreu-ue-e-2j",
+      "SLUG_FUERA": "martinenc-fc-b-2j",
+      "CLUB_SLUG_CASA": "sant-andreu-ue",
+      "CLUB_SLUG_FUERA": "martinenc-fc",
+      "COMPETICIO_URL": "juvenil-segona-divisio",
+      "GRUPO_URL": "grup-11",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "sant-andreu-ue-e-2j-vs-martinenc-fc-b-2j",
+      "MATCH_URL": "/partit/2026-2027/juvenil-segona-divisio/grup-11/jornada-26/sant-andreu-ue-e-2j-vs-martinenc-fc-b-2j",
       "trackedTeams": [
         "33391"
       ]
@@ -3894,6 +5046,15 @@
       "CODCLUB_CASA": "31528564",
       "CODCLUB_FUERA": "1032",
       "NOMBRE_COMPETICION": "JUVENIL SEGONA DIVISIÓ",
+      "SLUG_CASA": "fundacio-futbol-badalona-b-2j",
+      "SLUG_FUERA": "martinenc-fc-d-2j",
+      "CLUB_SLUG_CASA": "fundacio-futbol-badalona",
+      "CLUB_SLUG_FUERA": "martinenc-fc",
+      "COMPETICIO_URL": "juvenil-segona-divisio",
+      "GRUPO_URL": "grup-8",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "fundacio-futbol-badalona-b-2j-vs-martinenc-fc-d-2j",
+      "MATCH_URL": "/partit/2026-2027/juvenil-segona-divisio/grup-8/jornada-26/fundacio-futbol-badalona-b-2j-vs-martinenc-fc-d-2j",
       "trackedTeams": [
         "41606"
       ]
@@ -3924,6 +5085,15 @@
       "CODCLUB_CASA": "1032",
       "CODCLUB_FUERA": "2769",
       "NOMBRE_COMPETICION": "JUVENIL SEGONA DIVISIÓ",
+      "SLUG_CASA": "martinenc-fc-c-2j",
+      "SLUG_FUERA": "pujadas-cd-b-2j",
+      "CLUB_SLUG_CASA": "martinenc-fc",
+      "CLUB_SLUG_FUERA": "pujadas-cd",
+      "COMPETICIO_URL": "juvenil-segona-divisio",
+      "GRUPO_URL": "grup-9",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "martinenc-fc-c-2j-vs-pujadas-cd-b-2j",
+      "MATCH_URL": "/partit/2026-2027/juvenil-segona-divisio/grup-9/jornada-26/martinenc-fc-c-2j-vs-pujadas-cd-b-2j",
       "trackedTeams": [
         "41605"
       ]
@@ -3954,6 +5124,15 @@
       "CODCLUB_CASA": "2192",
       "CODCLUB_FUERA": "1032",
       "NOMBRE_COMPETICION": "JUVENIL SEGONA DIVISIÓ",
+      "SLUG_CASA": "carmelo-cd-a-2j",
+      "SLUG_FUERA": "martinenc-fc-c-2j",
+      "CLUB_SLUG_CASA": "carmelo-cd",
+      "CLUB_SLUG_FUERA": "martinenc-fc",
+      "COMPETICIO_URL": "juvenil-segona-divisio",
+      "GRUPO_URL": "grup-9",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "carmelo-cd-a-2j-vs-martinenc-fc-c-2j",
+      "MATCH_URL": "/partit/2026-2027/juvenil-segona-divisio/grup-9/jornada-27/carmelo-cd-a-2j-vs-martinenc-fc-c-2j",
       "trackedTeams": [
         "41605"
       ]
@@ -3984,6 +5163,15 @@
       "CODCLUB_CASA": "1218",
       "CODCLUB_FUERA": "1032",
       "NOMBRE_COMPETICION": "PREFERENT JUVENILS",
+      "SLUG_CASA": "lhospitalet-centre-esports-a-pj",
+      "SLUG_FUERA": "martinenc-fc-a-pj",
+      "CLUB_SLUG_CASA": "lhospitalet-centre-esports",
+      "CLUB_SLUG_FUERA": "martinenc-fc",
+      "COMPETICIO_URL": "preferent-juvenils",
+      "GRUPO_URL": "grup-2",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "lhospitalet-centre-esports-a-pj-vs-martinenc-fc-a-pj",
+      "MATCH_URL": "/partit/2026-2027/preferent-juvenils/grup-2/jornada-29/lhospitalet-centre-esports-a-pj-vs-martinenc-fc-a-pj",
       "trackedTeams": [
         "33390"
       ]
@@ -4014,6 +5202,15 @@
       "CODCLUB_CASA": "1032",
       "CODCLUB_FUERA": "6399",
       "NOMBRE_COMPETICION": "JUVENIL SEGONA DIVISIÓ",
+      "SLUG_CASA": "martinenc-fc-b-2j",
+      "SLUG_FUERA": "congres-club-esp-b-2j",
+      "CLUB_SLUG_CASA": "martinenc-fc",
+      "CLUB_SLUG_FUERA": "congres-club-esp",
+      "COMPETICIO_URL": "juvenil-segona-divisio",
+      "GRUPO_URL": "grup-11",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "martinenc-fc-b-2j-vs-congres-club-esp-b-2j",
+      "MATCH_URL": "/partit/2026-2027/juvenil-segona-divisio/grup-11/jornada-27/martinenc-fc-b-2j-vs-congres-club-esp-b-2j",
       "trackedTeams": [
         "33391"
       ]
@@ -4044,6 +5241,15 @@
       "CODCLUB_CASA": "15548283",
       "CODCLUB_FUERA": "1032",
       "NOMBRE_COMPETICION": "PREFERENT CADET S16",
+      "SLUG_CASA": "escola-de-futbol-premier-barcelona-a-pc16",
+      "SLUG_FUERA": "martinenc-fc-a-pc16",
+      "CLUB_SLUG_CASA": "escola-de-futbol-premier-barcelona",
+      "CLUB_SLUG_FUERA": "martinenc-fc",
+      "COMPETICIO_URL": "preferent-cadet-s16",
+      "GRUPO_URL": "grup-2",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "escola-de-futbol-premier-barcelona-a-pc16-vs-martinenc-fc-a-pc16",
+      "MATCH_URL": "/partit/2026-2027/preferent-cadet-s16/grup-2/jornada-29/escola-de-futbol-premier-barcelona-a-pc16-vs-martinenc-fc-a-pc16",
       "trackedTeams": [
         "54304670"
       ]
@@ -4074,6 +5280,15 @@
       "CODCLUB_CASA": "1032",
       "CODCLUB_FUERA": "1049",
       "NOMBRE_COMPETICION": "JUVENIL SEGONA DIVISIÓ",
+      "SLUG_CASA": "martinenc-fc-d-2j",
+      "SLUG_FUERA": "horta-uat-b-2j",
+      "CLUB_SLUG_CASA": "martinenc-fc",
+      "CLUB_SLUG_FUERA": "horta-uat",
+      "COMPETICIO_URL": "juvenil-segona-divisio",
+      "GRUPO_URL": "grup-8",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "martinenc-fc-d-2j-vs-horta-uat-b-2j",
+      "MATCH_URL": "/partit/2026-2027/juvenil-segona-divisio/grup-8/jornada-27/martinenc-fc-d-2j-vs-horta-uat-b-2j",
       "trackedTeams": [
         "41606"
       ]
@@ -4104,6 +5319,15 @@
       "CODCLUB_CASA": "1032",
       "CODCLUB_FUERA": "40492704",
       "NOMBRE_COMPETICION": "PREFERENT CADET S16",
+      "SLUG_CASA": "martinenc-fc-a-pc16",
+      "SLUG_FUERA": "fundacio-academia-f-lhospitalet-a-pc16",
+      "CLUB_SLUG_CASA": "martinenc-fc",
+      "CLUB_SLUG_FUERA": "fundacio-academia-f-lhospitalet",
+      "COMPETICIO_URL": "preferent-cadet-s16",
+      "GRUPO_URL": "grup-2",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "martinenc-fc-a-pc16-vs-fundacio-academia-f-lhospitalet-a-pc16",
+      "MATCH_URL": "/partit/2026-2027/preferent-cadet-s16/grup-2/jornada-30/martinenc-fc-a-pc16-vs-fundacio-academia-f-lhospitalet-a-pc16",
       "trackedTeams": [
         "54304670"
       ]
@@ -4134,6 +5358,15 @@
       "CODCLUB_CASA": "1032",
       "CODCLUB_FUERA": "1084",
       "NOMBRE_COMPETICION": "PREFERENT JUVENILS",
+      "SLUG_CASA": "martinenc-fc-a-pj",
+      "SLUG_FUERA": "montanesa-cf-a-pj",
+      "CLUB_SLUG_CASA": "martinenc-fc",
+      "CLUB_SLUG_FUERA": "montanesa-cf",
+      "COMPETICIO_URL": "preferent-juvenils",
+      "GRUPO_URL": "grup-2",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "martinenc-fc-a-pj-vs-montanesa-cf-a-pj",
+      "MATCH_URL": "/partit/2026-2027/preferent-juvenils/grup-2/jornada-30/martinenc-fc-a-pj-vs-montanesa-cf-a-pj",
       "trackedTeams": [
         "33390"
       ]
@@ -4164,6 +5397,15 @@
       "CODCLUB_CASA": "7000679",
       "CODCLUB_FUERA": "1032",
       "NOMBRE_COMPETICION": "JUVENIL SEGONA DIVISIÓ",
+      "SLUG_CASA": "bon-pastor-agrupacio-esportiva-a-2j",
+      "SLUG_FUERA": "martinenc-fc-d-2j",
+      "CLUB_SLUG_CASA": "bon-pastor-agrupacio-esportiva",
+      "CLUB_SLUG_FUERA": "martinenc-fc",
+      "COMPETICIO_URL": "juvenil-segona-divisio",
+      "GRUPO_URL": "grup-8",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "bon-pastor-agrupacio-esportiva-a-2j-vs-martinenc-fc-d-2j",
+      "MATCH_URL": "/partit/2026-2027/juvenil-segona-divisio/grup-8/jornada-28/bon-pastor-agrupacio-esportiva-a-2j-vs-martinenc-fc-d-2j",
       "trackedTeams": [
         "41606"
       ]
@@ -4194,6 +5436,15 @@
       "CODCLUB_CASA": "1252",
       "CODCLUB_FUERA": "1032",
       "NOMBRE_COMPETICION": "JUVENIL SEGONA DIVISIÓ",
+      "SLUG_CASA": "pa-barc-anguera-c-2j",
+      "SLUG_FUERA": "martinenc-fc-b-2j",
+      "CLUB_SLUG_CASA": "pa-barc-anguera",
+      "CLUB_SLUG_FUERA": "martinenc-fc",
+      "COMPETICIO_URL": "juvenil-segona-divisio",
+      "GRUPO_URL": "grup-11",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "pa-barc-anguera-c-2j-vs-martinenc-fc-b-2j",
+      "MATCH_URL": "/partit/2026-2027/juvenil-segona-divisio/grup-11/jornada-28/pa-barc-anguera-c-2j-vs-martinenc-fc-b-2j",
       "trackedTeams": [
         "33391"
       ]
@@ -4224,6 +5475,15 @@
       "CODCLUB_CASA": "1032",
       "CODCLUB_FUERA": "15545459",
       "NOMBRE_COMPETICION": "JUVENIL SEGONA DIVISIÓ",
+      "SLUG_CASA": "martinenc-fc-c-2j",
+      "SLUG_FUERA": "besos-baron-de-viver-club-futbol-a-2j",
+      "CLUB_SLUG_CASA": "martinenc-fc",
+      "CLUB_SLUG_FUERA": "besos-baron-de-viver-club-futbol",
+      "COMPETICIO_URL": "juvenil-segona-divisio",
+      "GRUPO_URL": "grup-9",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "martinenc-fc-c-2j-vs-besos-baron-de-viver-club-futbol-a-2j",
+      "MATCH_URL": "/partit/2026-2027/juvenil-segona-divisio/grup-9/jornada-28/martinenc-fc-c-2j-vs-besos-baron-de-viver-club-futbol-a-2j",
       "trackedTeams": [
         "41605"
       ]
@@ -4254,6 +5514,15 @@
       "CODCLUB_CASA": "1032",
       "CODCLUB_FUERA": "6390",
       "NOMBRE_COMPETICION": "JUVENIL SEGONA DIVISIÓ",
+      "SLUG_CASA": "martinenc-fc-b-2j",
+      "SLUG_FUERA": "escola-esportiva-guineueta-cf-b-2j",
+      "CLUB_SLUG_CASA": "martinenc-fc",
+      "CLUB_SLUG_FUERA": "escola-esportiva-guineueta-cf",
+      "COMPETICIO_URL": "juvenil-segona-divisio",
+      "GRUPO_URL": "grup-11",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "martinenc-fc-b-2j-vs-escola-esportiva-guineueta-cf-b-2j",
+      "MATCH_URL": "/partit/2026-2027/juvenil-segona-divisio/grup-11/jornada-29/martinenc-fc-b-2j-vs-escola-esportiva-guineueta-cf-b-2j",
       "trackedTeams": [
         "33391"
       ]
@@ -4284,6 +5553,15 @@
       "CODCLUB_CASA": "1400",
       "CODCLUB_FUERA": "1032",
       "NOMBRE_COMPETICION": "JUVENIL SEGONA DIVISIÓ",
+      "SLUG_CASA": "trinidad-cd-a-2j",
+      "SLUG_FUERA": "martinenc-fc-c-2j",
+      "CLUB_SLUG_CASA": "trinidad-cd",
+      "CLUB_SLUG_FUERA": "martinenc-fc",
+      "COMPETICIO_URL": "juvenil-segona-divisio",
+      "GRUPO_URL": "grup-9",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "trinidad-cd-a-2j-vs-martinenc-fc-c-2j",
+      "MATCH_URL": "/partit/2026-2027/juvenil-segona-divisio/grup-9/jornada-29/trinidad-cd-a-2j-vs-martinenc-fc-c-2j",
       "trackedTeams": [
         "41605"
       ]
@@ -4314,6 +5592,15 @@
       "CODCLUB_CASA": "1032",
       "CODCLUB_FUERA": "46882328",
       "NOMBRE_COMPETICION": "JUVENIL SEGONA DIVISIÓ",
+      "SLUG_CASA": "martinenc-fc-d-2j",
+      "SLUG_FUERA": "inter-barcelona-a-2j",
+      "CLUB_SLUG_CASA": "martinenc-fc",
+      "CLUB_SLUG_FUERA": "inter-barcelona",
+      "COMPETICIO_URL": "juvenil-segona-divisio",
+      "GRUPO_URL": "grup-8",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "martinenc-fc-d-2j-vs-inter-barcelona-a-2j",
+      "MATCH_URL": "/partit/2026-2027/juvenil-segona-divisio/grup-8/jornada-29/martinenc-fc-d-2j-vs-inter-barcelona-a-2j",
       "trackedTeams": [
         "41606"
       ]
@@ -4344,6 +5631,15 @@
       "CODCLUB_CASA": "6215",
       "CODCLUB_FUERA": "1032",
       "NOMBRE_COMPETICION": "JUVENIL SEGONA DIVISIÓ",
+      "SLUG_CASA": "fundacio-esport-hospitalet-at-a-2j",
+      "SLUG_FUERA": "martinenc-fc-b-2j",
+      "CLUB_SLUG_CASA": "fundacio-esporthospitalet-at",
+      "CLUB_SLUG_FUERA": "martinenc-fc",
+      "COMPETICIO_URL": "juvenil-segona-divisio",
+      "GRUPO_URL": "grup-11",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "fundacio-esport-hospitalet-at-a-2j-vs-martinenc-fc-b-2j",
+      "MATCH_URL": "/partit/2026-2027/juvenil-segona-divisio/grup-11/jornada-30/fundacio-esport-hospitalet-at-a-2j-vs-martinenc-fc-b-2j",
       "trackedTeams": [
         "33391"
       ]
@@ -4374,6 +5670,15 @@
       "CODCLUB_CASA": "1214",
       "CODCLUB_FUERA": "1032",
       "NOMBRE_COMPETICION": "JUVENIL SEGONA DIVISIÓ",
+      "SLUG_CASA": "pa-barc-villaverde-penitents-a-2j",
+      "SLUG_FUERA": "martinenc-fc-d-2j",
+      "CLUB_SLUG_CASA": "pa-barc-villaverde-penitents",
+      "CLUB_SLUG_FUERA": "martinenc-fc",
+      "COMPETICIO_URL": "juvenil-segona-divisio",
+      "GRUPO_URL": "grup-8",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "pa-barc-villaverde-penitents-a-2j-vs-martinenc-fc-d-2j",
+      "MATCH_URL": "/partit/2026-2027/juvenil-segona-divisio/grup-8/jornada-30/pa-barc-villaverde-penitents-a-2j-vs-martinenc-fc-d-2j",
       "trackedTeams": [
         "41606"
       ]
@@ -4404,6 +5709,15 @@
       "CODCLUB_CASA": "1032",
       "CODCLUB_FUERA": "1696",
       "NOMBRE_COMPETICION": "JUVENIL SEGONA DIVISIÓ",
+      "SLUG_CASA": "martinenc-fc-c-2j",
+      "SLUG_FUERA": "alzamora-cf-c-2j",
+      "CLUB_SLUG_CASA": "martinenc-fc",
+      "CLUB_SLUG_FUERA": "alzamora-cf",
+      "COMPETICIO_URL": "juvenil-segona-divisio",
+      "GRUPO_URL": "grup-9",
+      "TEMPORADA_SLUG": "2026-2027",
+      "MATCH_SLUG": "martinenc-fc-c-2j-vs-alzamora-cf-c-2j",
+      "MATCH_URL": "/partit/2026-2027/juvenil-segona-divisio/grup-9/jornada-30/martinenc-fc-c-2j-vs-alzamora-cf-c-2j",
       "trackedTeams": [
         "41605"
       ]

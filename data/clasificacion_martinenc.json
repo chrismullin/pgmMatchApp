@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15T17:54:15Z",
+  "updatedAt": "2026-11-18T22:40:03Z",
   "grupId": "58268544",
   "ajustes": [
     "Martinenc - Pª Barc. Anguera (jornada 3): la FCF lo tiene como 0-3 y el resultado real fue 3-2"
@@ -10,16 +10,16 @@
       "clubId": "1014",
       "nombre": "SANT ANDREU, U.E A",
       "escudo": "00100_0000573790_standreu_200x200.png",
-      "pt": 24,
-      "pj": 8,
-      "pg": 8,
+      "pt": 27,
+      "pj": 9,
+      "pg": 9,
       "pe": 0,
       "pp": 0,
-      "gf": 28,
-      "gc": 1,
+      "gf": 34,
+      "gc": 2,
       "ajustado": false,
       "pos": 1,
-      "dg": 27,
+      "dg": 32,
       "promocion": "#5fcb5b"
     },
     {
@@ -125,23 +125,6 @@
       "promocion": null
     },
     {
-      "teamId": "54306039",
-      "clubId": "1241",
-      "nombre": "SANT GABRIEL, C.D. A",
-      "escudo": "00100_0000832660_santgabriel_200.png",
-      "pt": 13,
-      "pj": 8,
-      "pg": 3,
-      "pe": 4,
-      "pp": 1,
-      "gf": 18,
-      "gc": 14,
-      "ajustado": false,
-      "pos": 8,
-      "dg": 4,
-      "promocion": null
-    },
-    {
       "teamId": "54314013",
       "clubId": "54296375",
       "nombre": "FUNDACIO ATLETIC SANT JUST  A",
@@ -154,8 +137,25 @@
       "gf": 15,
       "gc": 12,
       "ajustado": false,
-      "pos": 9,
+      "pos": 8,
       "dg": 3,
+      "promocion": null
+    },
+    {
+      "teamId": "54306039",
+      "clubId": "1241",
+      "nombre": "SANT GABRIEL, C.D. A",
+      "escudo": "00100_0000832660_santgabriel_200.png",
+      "pt": 13,
+      "pj": 9,
+      "pg": 3,
+      "pe": 4,
+      "pp": 2,
+      "gf": 19,
+      "gc": 17,
+      "ajustado": false,
+      "pos": 9,
+      "dg": 2,
       "promocion": null
     },
     {
@@ -271,10 +271,10 @@
       "pe": 2,
       "pp": 7,
       "gf": 7,
-      "gc": 29,
+      "gc": 32,
       "ajustado": false,
       "pos": 16,
-      "dg": -22,
+      "dg": -25,
       "promocion": "#e5322d"
     }
   ]
